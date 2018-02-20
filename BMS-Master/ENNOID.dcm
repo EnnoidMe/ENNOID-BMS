@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP ACT45B-510-2P
-D EMI 2-inductor-filter
-K EMI filter
-$ENDCMP
-#
-#End Doc Library
