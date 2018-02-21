@@ -8,4 +8,9 @@ It includes the development of the following components:
 - Three-Phase Electric Motor (Testing in progress with ENNOID's design)
 
 
-#ENNOID - BMS
+# ENNOID - BMS
+
+20/02/2018:
+The idea behind this project has been started on this thread:
+
+https://endless-sphere.com/forums/viewtopic.php?f=14&t=92952
