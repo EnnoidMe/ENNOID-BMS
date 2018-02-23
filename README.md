@@ -18,7 +18,7 @@ The idea behind this project has been started on this thread:
 https://endless-sphere.com/forums/viewtopic.php?f=14&t=92952
 
 
-This project aims to create a scalable open source BMS for lithium-ion battery packs of up to 400V.
+This project aims to create a scalable & modular open source BMS for up to 1000V lithium-ion battery packs .
 
 ## Features
 - Master board with STM32f3 MCU
