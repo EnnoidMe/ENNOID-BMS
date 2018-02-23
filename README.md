@@ -22,7 +22,7 @@ This project aims to create a scalable open source BMS for lithium-ion battery p
 
 ## Features
 - Master board with STM32f3 MCU
-- Slaves boards equiped with 16 cells Texas Instrument bq76PL455
+- Slaves boards equiped with Texas Instrument bq76PL455 16-cells battery monitor IC
 - Isolated CAN bus interface for cell voltage monitoring and charger detection, status monitoring + much more with future updates (like state of charge / state of health).
 - USB interface for serial communication and firmware upgrades (no need for a programmer -> HW serial bootloader is used).
 - SD Card  for data storage
