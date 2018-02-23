@@ -1,6 +1,4 @@
-This repository is part of the open-source project: EVGE - Electric Vehicle Global Equipment.
-
-It includes the following equipments:
+This repository is part of the open-source project: EVGE - Electric Vehicle Global Equipment:
 
 - EVSE - Electric Vehicle Supply Equipment 
 - EVCE - Electric Vehicle Charge Equipment
