@@ -20,8 +20,10 @@ https://endless-sphere.com/forums/viewtopic.php?f=14&t=92952
 
 This project aims to create a scalable & modular open source BMS for up to 1000V lithium-ion battery packs .
 
+See another similar project at www.foxbms.org/
+
 ## Features
-- Master board with STM32f3 MCU
+- Master board with STM32 MCU
 - Slaves boards equiped with Texas Instrument bq76PL455 16-cells battery monitor IC
 - Isolated CAN bus interface for cell voltage monitoring and charger detection, status monitoring + much more with future updates (like state of charge / state of health).
 - USB interface for serial communication and firmware upgrades (no need for a programmer -> HW serial bootloader is used).
