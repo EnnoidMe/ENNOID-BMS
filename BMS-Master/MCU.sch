@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
-Sheet 5 7
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -14,9 +14,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 700  550  0    50   Input ~ 0
+Text HLabel 8900 10300 0    50   Input ~ 0
 TX
-Text HLabel 700  650  0    50   Input ~ 0
+Text HLabel 8900 10400 0    50   Input ~ 0
 RX
 Text HLabel 900  750  0    50   Input ~ 0
 FAULT_N
@@ -34,17 +34,6 @@ Text HLabel 850  1450 0    50   Input ~ 0
 GPIO5
 Text HLabel 900  850  0    50   Input ~ 0
 WAKEUP
-$Comp
-L MCU_ST_STM32:STM32F303CCTx U?
-U 1 1 5A92186F
-P 16500 9800
-F 0 "U?" H 17300 11700 50  0000 C CNN
-F 1 "STM32F303CCTx" H 17350 11600 50  0000 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 23700 11475 50  0001 R TNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00058181.pdf" H 16500 9800 50  0001 C CNN
-	1    16500 9800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	16300 11600 16300 11900
 Wire Wire Line
@@ -152,10 +141,6 @@ Wire Wire Line
 	7000 9550 7000 9600
 Wire Wire Line
 	6000 9550 6000 9600
-Text HLabel 9100 9500 0    50   BiDi ~ 0
-Wireless
-Wire Wire Line
-	9100 9500 9200 9500
 Text HLabel 9100 9300 0    50   BiDi ~ 0
 Safety
 Wire Wire Line
@@ -328,7 +313,7 @@ Text Label 6500 11800 2    50   ~ 0
 SDCardDetect
 Wire Wire Line
 	5700 11800 6500 11800
-Text Label 8950 10600 2    50   ~ 0
+Text Label 9000 12000 2    50   ~ 0
 SDCardDetect
 Wire Wire Line
 	8950 10600 9200 10600
@@ -385,16 +370,6 @@ Wire Wire Line
 	8200 9900 9200 9900
 Wire Wire Line
 	8200 10250 8200 10300
-Text HLabel 8950 10300 0    50   Input ~ 0
-OLED_SCL
-Wire Wire Line
-	8950 10300 9200 10300
-Text HLabel 8950 10400 0    50   Input ~ 0
-OLED_SDA
-Text HLabel 8950 10500 0    50   Input ~ 0
-OLED_RST
-Wire Wire Line
-	8950 10400 9200 10400
 Wire Wire Line
 	9200 10500 8950 10500
 $Comp
@@ -422,33 +397,6 @@ $EndComp
 Wire Wire Line
 	7050 8500 7050 8550
 $Comp
-L Device:R R?
-U 1 1 5A960DDF
-P 7050 7950
-F 0 "R?" H 7120 7996 50  0000 L CNN
-F 1 "10k" H 7120 7905 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6980 7950 50  0001 C CNN
-F 3 "~" H 7050 7950 50  0001 C CNN
-	1    7050 7950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7050 8100 7050 8200
-Connection ~ 7050 8200
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5A9625A1
-P 7050 7700
-F 0 "#PWR?" H 7050 7550 50  0001 C CNN
-F 1 "+3.3V" H 7065 7873 50  0000 C CNN
-F 2 "" H 7050 7700 50  0001 C CNN
-F 3 "" H 7050 7700 50  0001 C CNN
-	1    7050 7700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7050 7700 7050 7800
-$Comp
 L power:+3.3V #PWR?
 U 1 1 5A964008
 P 16450 7650
@@ -464,20 +412,10 @@ Wire Wire Line
 Wire Wire Line
 	16500 8000 16500 7650
 Wire Wire Line
-	16450 7650 16500 7650
-Wire Wire Line
-	16500 7650 16600 7650
-Wire Wire Line
-	16600 7650 16600 8000
-Connection ~ 16500 7650
-Connection ~ 16450 7650
-Wire Wire Line
 	16300 7650 16400 7650
 Wire Wire Line
 	16400 8000 16400 7650
 Connection ~ 16400 7650
-Wire Wire Line
-	16400 7650 16450 7650
 Wire Wire Line
 	26400 9000 26150 9000
 Wire Wire Line
@@ -491,46 +429,10 @@ Wire Wire Line
 Wire Wire Line
 	24850 9800 23800 9800
 Wire Wire Line
-	25500 9250 24950 9250
-Wire Wire Line
-	24950 9250 24950 9900
-Wire Wire Line
-	24950 9900 23800 9900
-Wire Wire Line
-	25500 9350 25050 9350
-Wire Wire Line
-	25050 9350 25050 10000
-Wire Wire Line
-	25050 10000 23800 10000
-Wire Wire Line
-	26000 9500 25150 9500
-Wire Wire Line
-	23800 10200 25250 10200
-Wire Wire Line
-	25250 10200 25250 9600
-Wire Wire Line
-	25250 9600 26000 9600
-Wire Wire Line
-	26000 9700 25350 9700
-Wire Wire Line
-	25350 9700 25350 10300
-Wire Wire Line
 	25350 10300 23800 10300
-Wire Wire Line
-	25450 9800 25450 10400
-Wire Wire Line
-	25450 10400 23800 10400
-Wire Wire Line
-	25450 9800 26000 9800
-Wire Wire Line
-	25450 10400 26000 10400
-Connection ~ 25450 10400
 Wire Wire Line
 	25350 10300 26000 10300
 Connection ~ 25350 10300
-Wire Wire Line
-	25250 10200 26000 10200
-Connection ~ 25250 10200
 Wire Wire Line
 	25400 11400 24450 11400
 Wire Wire Line
@@ -538,23 +440,11 @@ Wire Wire Line
 Wire Wire Line
 	24450 11200 23800 11200
 Wire Wire Line
-	25900 11300 25250 11300
+	24500 11100 23800 11100
 Wire Wire Line
-	25250 11300 25250 11100
-Wire Wire Line
-	25250 11100 23800 11100
-Wire Wire Line
-	25900 11200 25350 11200
-Wire Wire Line
-	25350 11200 25350 11000
-Wire Wire Line
-	25350 11000 23800 11000
+	24500 11000 23800 11000
 Wire Wire Line
 	23800 10100 26000 10100
-Wire Wire Line
-	25150 9500 25150 10500
-Wire Wire Line
-	25150 10500 23800 10500
 Wire Wire Line
 	23800 10800 25500 10800
 Wire Wire Line
@@ -574,9 +464,6 @@ F 3 "~" H 25350 8700 50  0001 C CNN
 	1    25350 8700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	25350 9700 25350 8850
-Connection ~ 25350 9700
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5AA36E44
@@ -805,34 +692,22 @@ Text HLabel 26400 9000 2    50   BiDi ~ 0
 NTC_Switch
 Text HLabel 25900 9100 2    50   BiDi ~ 0
 VoutSense
-Text HLabel 25500 9250 2    50   Output ~ 0
-USB_TX
-Text HLabel 25500 9350 2    50   Input ~ 0
-USB_RX
-Text HLabel 26000 9500 2    50   Output ~ 0
-~SS~
+Text HLabel 25500 10800 2    50   Output ~ 0
+USB_DM
+Text HLabel 25500 10900 2    50   Input ~ 0
+USB_DP
 Text HLabel 26000 10100 2    50   Output ~ 0
 ~SPI_WT_SS~
 Text HLabel 25900 10600 2    50   Input ~ 0
 SCL
 Text HLabel 25900 10700 2    50   Input ~ 0
 SDA
-Text HLabel 25500 10800 2    50   Input ~ 0
+Text HLabel 8950 10500 0    50   Input ~ 0
 CAN_RX
-Text HLabel 25500 10900 2    50   Input ~ 0
+Text HLabel 8950 10600 0    50   Input ~ 0
 CAN_TX
-Text HLabel 25900 11200 2    50   Input ~ 0
-SWDIO
-Text HLabel 25900 11300 2    50   Input ~ 0
-SWCLK
 Text HLabel 25400 11400 2    50   Input ~ 0
 BUZZER
-Text HLabel 26000 9600 2    50   Output ~ 0
-SCK
-Text HLabel 26000 9700 2    50   Output ~ 0
-MISO
-Text HLabel 26000 9800 2    50   Output ~ 0
-MOSI
 Text HLabel 26000 10200 2    50   Output ~ 0
 SPI_WT_SCK
 Text HLabel 26000 10300 2    50   Output ~ 0
@@ -909,29 +784,97 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_MEC_5G SW?
-U 1 1 5A8F6B37
-P 6300 8500
-F 0 "SW?" V 6346 8648 50  0000 L CNN
-F 1 "B3U-1000P" V 6255 8648 50  0000 L CNN
-F 2 "" H 6300 8700 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 6300 8700 50  0001 C CNN
-	1    6300 8500
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	6300 8300 6300 8200
-Wire Wire Line
-	6300 8200 7050 8200
-$Comp
-L power:GND #PWR?
-U 1 1 5A8FC2D9
-P 6350 8700
-F 0 "#PWR?" H 6350 8450 50  0001 C CNN
-F 1 "GND" H 6355 8527 50  0000 C CNN
-F 2 "" H 6350 8700 50  0001 C CNN
-F 3 "" H 6350 8700 50  0001 C CNN
-	1    6350 8700
+L Connector_Generic:Conn_01x05 J?
+U 1 1 5A92BF2C
+P 27400 11350
+F 0 "J?" H 27480 11392 50  0000 L CNN
+F 1 "SWD" H 27480 11301 50  0000 L CNN
+F 2 "" H 27400 11350 50  0001 C CNN
+F 3 "~" H 27400 11350 50  0001 C CNN
+	1    27400 11350
 	1    0    0    -1  
 $EndComp
+Text Label 7500 8200 0    50   ~ 0
+NRST
+Text Label 24500 11100 2    50   ~ 0
+SWCLK
+Text Label 24500 11000 2    50   ~ 0
+SWDIO
+Text Label 27000 11450 2    50   ~ 0
+SWDIO
+Wire Wire Line
+	27000 11450 27200 11450
+Text Label 27000 11250 2    50   ~ 0
+SWCLK
+Wire Wire Line
+	27200 11250 27000 11250
+Text Label 27000 11550 2    50   ~ 0
+NRST
+Wire Wire Line
+	27000 11550 27200 11550
+$Comp
+L power:GND #PWR?
+U 1 1 5A959924
+P 26600 11400
+F 0 "#PWR?" H 26600 11150 50  0001 C CNN
+F 1 "GND" H 26605 11227 50  0000 C CNN
+F 2 "" H 26600 11400 50  0001 C CNN
+F 3 "" H 26600 11400 50  0001 C CNN
+	1    26600 11400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	26600 11400 26600 11350
+Wire Wire Line
+	26600 11350 27200 11350
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5A95ED28
+P 26600 11150
+F 0 "#PWR?" H 26600 11000 50  0001 C CNN
+F 1 "+3.3V" H 26615 11323 50  0000 C CNN
+F 2 "" H 26600 11150 50  0001 C CNN
+F 3 "" H 26600 11150 50  0001 C CNN
+	1    26600 11150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	26600 11150 27200 11150
+Wire Wire Line
+	8900 10300 9200 10300
+Wire Wire Line
+	8900 10400 9200 10400
+$Comp
+L MCU_ST_STM32:STM32F303CCTx U?
+U 1 1 5A92186F
+P 16500 9800
+F 0 "U?" H 17300 11700 50  0000 C CNN
+F 1 "STM32F303CCTx" H 17350 11600 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 23700 11475 50  0001 R TNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00058181.pdf" H 16500 9800 50  0001 C CNN
+	1    16500 9800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16450 7650 16500 7650
+Connection ~ 16450 7650
+Wire Wire Line
+	16400 7650 16450 7650
+Wire Wire Line
+	16600 7650 16600 8000
+Connection ~ 16500 7650
+Wire Wire Line
+	16500 7650 16600 7650
+Wire Wire Line
+	25350 8850 25350 10300
+Wire Wire Line
+	23800 10200 26000 10200
+Wire Wire Line
+	23800 10400 26000 10400
+Text Notes 25950 10550 0    50   ~ 0
+i2C to current sensor ISL28022
+Text Notes 26100 10050 0    50   ~ 0
+Wireless\n
+Text Notes 27350 11050 0    50   ~ 0
+DEBUG\n
 $EndSCHEMATC
