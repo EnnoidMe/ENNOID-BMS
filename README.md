@@ -17,3 +17,13 @@ It includes the following equipments:
 The idea behind this project has been started on this thread:
 
 https://endless-sphere.com/forums/viewtopic.php?f=14&t=92952
+
+
+This project aims to create a scalable open source BMS for lithium-ion battery packs of up to 400V.
+
+## Features
+- Master board with STM32f3 MCU
+- Slaves boards equiped with 16 cells Texas Instrument bq76PL455
+- Isolated CAN bus interface for cell voltage monitoring and charger detection, status monitoring + much more with future updates (like state of charge / state of health).
+- USB interface for serial communication and firmware upgrades (no need for a programmer -> HW serial bootloader is used).
+- SD Card  for data storage
