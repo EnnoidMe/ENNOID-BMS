@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
-Sheet 5 6
+Sheet 6 6
 Title ""
 Date ""
 Rev ""
@@ -18,21 +18,21 @@ Text HLabel 8900 10300 0    50   Input ~ 0
 TX
 Text HLabel 8900 10400 0    50   Input ~ 0
 RX
-Text HLabel 900  750  0    50   Input ~ 0
+Text HLabel 9100 9300 0    50   Input ~ 0
 FAULT_N
-Text HLabel 850  950  0    50   Input ~ 0
+Text HLabel 25300 10200 2    50   Input ~ 0
 GPIO0
-Text HLabel 850  1050 0    50   Input ~ 0
+Text HLabel 25300 10300 2    50   Input ~ 0
 GPIO1
-Text HLabel 850  1150 0    50   Input ~ 0
+Text HLabel 25300 10400 2    50   Input ~ 0
 GPIO2
-Text HLabel 850  1250 0    50   Input ~ 0
+Text HLabel 25300 10500 2    50   Input ~ 0
 GPIO3
-Text HLabel 850  1350 0    50   Input ~ 0
+Text HLabel 25300 10600 2    50   Input ~ 0
 GPIO4
-Text HLabel 850  1450 0    50   Input ~ 0
+Text HLabel 25300 10700 2    50   Input ~ 0
 GPIO5
-Text HLabel 900  850  0    50   Input ~ 0
+Text HLabel 25300 10100 2    50   Input ~ 0
 WAKEUP
 Wire Wire Line
 	16300 11600 16300 11900
@@ -141,8 +141,6 @@ Wire Wire Line
 	7000 9550 7000 9600
 Wire Wire Line
 	6000 9550 6000 9600
-Text HLabel 9100 9300 0    50   BiDi ~ 0
-Safety
 Wire Wire Line
 	9100 9300 9200 9300
 Text HLabel 7750 9650 0    50   BiDi ~ 0
@@ -164,17 +162,6 @@ F 1 "GND" H 8155 9477 50  0000 C CNN
 F 2 "" H 8150 9650 50  0001 C CNN
 F 3 "" H 8150 9650 50  0001 C CNN
 	1    8150 9650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NMOS_GSD Q?
-U 1 1 5A925D92
-P 8050 9450
-F 0 "Q?" H 8255 9496 50  0000 L CNN
-F 1 "BSS123" H 8255 9405 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 8250 9550 50  0001 C CNN
-F 3 "~" H 8050 9450 50  0001 C CNN
-	1    8050 9450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -313,7 +300,7 @@ Text Label 6500 11800 2    50   ~ 0
 SDCardDetect
 Wire Wire Line
 	5700 11800 6500 11800
-Text Label 9000 12000 2    50   ~ 0
+Text Label 8900 9900 2    50   ~ 0
 SDCardDetect
 Wire Wire Line
 	8950 10600 9200 10600
@@ -329,8 +316,6 @@ Text HLabel 8950 10000 0    50   Input ~ 0
 PowerLED
 Wire Wire Line
 	8950 10000 9200 10000
-Text HLabel 8050 9900 0    50   Input ~ 0
-SwitchEnable
 Text HLabel 8950 9800 0    50   Input ~ 0
 LED0
 Wire Wire Line
@@ -339,37 +324,6 @@ Text HLabel 8950 9700 0    50   Input ~ 0
 ChargeEnable
 Wire Wire Line
 	8950 9700 9200 9700
-$Comp
-L power:GND #PWR?
-U 1 1 5A953C90
-P 8200 10300
-F 0 "#PWR?" H 8200 10050 50  0001 C CNN
-F 1 "GND" H 8205 10127 50  0000 C CNN
-F 2 "" H 8200 10300 50  0001 C CNN
-F 3 "" H 8200 10300 50  0001 C CNN
-	1    8200 10300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8050 9900 8200 9900
-$Comp
-L Device:R R?
-U 1 1 5A95782C
-P 8200 10100
-F 0 "R?" H 8270 10146 50  0000 L CNN
-F 1 "10k" H 8270 10055 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8130 10100 50  0001 C CNN
-F 3 "~" H 8200 10100 50  0001 C CNN
-	1    8200 10100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8200 9950 8200 9900
-Connection ~ 8200 9900
-Wire Wire Line
-	8200 9900 9200 9900
-Wire Wire Line
-	8200 10250 8200 10300
 Wire Wire Line
 	9200 10500 8950 10500
 $Comp
@@ -423,16 +377,11 @@ Wire Wire Line
 Wire Wire Line
 	24750 9700 23800 9700
 Wire Wire Line
-	25900 9100 24850 9100
+	26400 9100 24850 9100
 Wire Wire Line
 	24850 9100 24850 9800
 Wire Wire Line
 	24850 9800 23800 9800
-Wire Wire Line
-	25350 10300 23800 10300
-Wire Wire Line
-	25350 10300 26000 10300
-Connection ~ 25350 10300
 Wire Wire Line
 	25400 11400 24450 11400
 Wire Wire Line
@@ -444,39 +393,9 @@ Wire Wire Line
 Wire Wire Line
 	24500 11000 23800 11000
 Wire Wire Line
-	23800 10100 26000 10100
-Wire Wire Line
 	23800 10800 25500 10800
 Wire Wire Line
 	25500 10900 23800 10900
-Wire Wire Line
-	23800 10600 25900 10600
-Wire Wire Line
-	25900 10700 23800 10700
-$Comp
-L Device:R R?
-U 1 1 5AA2F9F1
-P 25350 8700
-F 0 "R?" H 25420 8746 50  0000 L CNN
-F 1 "1.5k" H 25420 8655 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 25280 8700 50  0001 C CNN
-F 3 "~" H 25350 8700 50  0001 C CNN
-	1    25350 8700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5AA36E44
-P 25350 8450
-F 0 "#PWR?" H 25350 8300 50  0001 C CNN
-F 1 "+3.3V" H 25365 8623 50  0000 C CNN
-F 2 "" H 25350 8450 50  0001 C CNN
-F 3 "" H 25350 8450 50  0001 C CNN
-	1    25350 8450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	25350 8550 25350 8450
 $Comp
 L Device:R R?
 U 1 1 5AA3A7EA
@@ -690,30 +609,22 @@ Wire Wire Line
 	22400 7600 22400 7500
 Text HLabel 26400 9000 2    50   BiDi ~ 0
 NTC_Switch
-Text HLabel 25900 9100 2    50   BiDi ~ 0
+Text HLabel 26400 9100 2    50   BiDi ~ 0
 VoutSense
 Text HLabel 25500 10800 2    50   Output ~ 0
 USB_DM
 Text HLabel 25500 10900 2    50   Input ~ 0
 USB_DP
-Text HLabel 26000 10100 2    50   Output ~ 0
-~SPI_WT_SS~
-Text HLabel 25900 10600 2    50   Input ~ 0
-SCL
-Text HLabel 25900 10700 2    50   Input ~ 0
-SDA
+Text HLabel 26400 9200 2    50   Input ~ 0
+I+
+Text HLabel 26400 9300 2    50   Input ~ 0
+I-
 Text HLabel 8950 10500 0    50   Input ~ 0
 CAN_RX
 Text HLabel 8950 10600 0    50   Input ~ 0
 CAN_TX
 Text HLabel 25400 11400 2    50   Input ~ 0
 BUZZER
-Text HLabel 26000 10200 2    50   Output ~ 0
-SPI_WT_SCK
-Text HLabel 26000 10300 2    50   Output ~ 0
-SPI_WT_MISO
-Text HLabel 26000 10400 2    50   Output ~ 0
-SPI_WT_MOSI
 Wire Wire Line
 	9200 8200 9200 8400
 Wire Wire Line
@@ -844,6 +755,43 @@ Wire Wire Line
 	8900 10300 9200 10300
 Wire Wire Line
 	8900 10400 9200 10400
+Wire Wire Line
+	16450 7650 16500 7650
+Connection ~ 16450 7650
+Wire Wire Line
+	16400 7650 16450 7650
+Wire Wire Line
+	16600 7650 16600 8000
+Connection ~ 16500 7650
+Wire Wire Line
+	16500 7650 16600 7650
+Text Notes 27350 11050 0    50   ~ 0
+DEBUG\n
+Wire Wire Line
+	23800 9900 24950 9900
+Wire Wire Line
+	24950 9900 24950 9200
+Wire Wire Line
+	24950 9200 26400 9200
+Wire Wire Line
+	25050 10000 25050 9300
+Wire Wire Line
+	25050 9300 26400 9300
+Wire Wire Line
+	23800 10000 25050 10000
+Text Notes 26600 9250 0    50   ~ 0
+current sensor
+$Comp
+L Transistor_FET:BSS138 Q?
+U 1 1 5ABE0CA0
+P 8050 9450
+F 0 "Q?" H 8255 9496 50  0000 L CNN
+F 1 "BSS138" H 8255 9405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8250 9375 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 8050 9450 50  0001 L CNN
+	1    8050 9450
+	1    0    0    -1  
+$EndComp
 $Comp
 L MCU_ST_STM32:STM32F303CCTx U?
 U 1 1 5A92186F
@@ -856,25 +804,19 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	16450 7650 16500 7650
-Connection ~ 16450 7650
+	8900 9900 9200 9900
 Wire Wire Line
-	16400 7650 16450 7650
+	23800 10700 25300 10700
 Wire Wire Line
-	16600 7650 16600 8000
-Connection ~ 16500 7650
+	25300 10600 23800 10600
 Wire Wire Line
-	16500 7650 16600 7650
+	23800 10500 25300 10500
 Wire Wire Line
-	25350 8850 25350 10300
+	25300 10400 23800 10400
 Wire Wire Line
-	23800 10200 26000 10200
+	23800 10300 25300 10300
 Wire Wire Line
-	23800 10400 26000 10400
-Text Notes 25950 10550 0    50   ~ 0
-i2C to current sensor ISL28022
-Text Notes 26100 10050 0    50   ~ 0
-Wireless\n
-Text Notes 27350 11050 0    50   ~ 0
-DEBUG\n
+	25300 10200 23800 10200
+Wire Wire Line
+	25300 10100 23800 10100
 $EndSCHEMATC
