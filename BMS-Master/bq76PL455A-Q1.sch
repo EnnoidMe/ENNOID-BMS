@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 6
+Sheet 3 8
 Title "BMS-Master"
 Date ""
 Rev "V0.1"
@@ -1353,7 +1353,7 @@ Text HLabel 3250 7050 0    50   BiDi ~ 0
 VDIG
 Text HLabel 6150 5900 2    50   BiDi ~ 0
 VIO
-Text HLabel 6300 6450 2    50   Input ~ 0
+Text HLabel 6300 6450 2    50   Output ~ 0
 FAULT_N
 Text HLabel 6300 6600 2    50   Input ~ 0
 RX

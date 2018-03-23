@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
-Sheet 6 6
+Sheet 6 8
 Title ""
 Date ""
 Rev ""
@@ -371,12 +371,6 @@ Wire Wire Line
 	16400 8000 16400 7650
 Connection ~ 16400 7650
 Wire Wire Line
-	26400 9000 26150 9000
-Wire Wire Line
-	24750 9000 24750 9700
-Wire Wire Line
-	24750 9700 23800 9700
-Wire Wire Line
 	26400 9100 24850 9100
 Wire Wire Line
 	24850 9100 24850 9800
@@ -396,65 +390,6 @@ Wire Wire Line
 	23800 10800 25500 10800
 Wire Wire Line
 	25500 10900 23800 10900
-$Comp
-L Device:R R?
-U 1 1 5AA3A7EA
-P 25750 8700
-F 0 "R?" H 25820 8746 50  0000 L CNN
-F 1 "130k" H 25820 8655 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 25680 8700 50  0001 C CNN
-F 3 "~" H 25750 8700 50  0001 C CNN
-	1    25750 8700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	25750 9000 25750 8850
-Connection ~ 25750 9000
-Wire Wire Line
-	25750 9000 24750 9000
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5AA41C82
-P 25750 8450
-F 0 "#PWR?" H 25750 8300 50  0001 C CNN
-F 1 "+3.3V" H 25765 8623 50  0000 C CNN
-F 2 "" H 25750 8450 50  0001 C CNN
-F 3 "" H 25750 8450 50  0001 C CNN
-	1    25750 8450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	25750 8550 25750 8450
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5AA457F5
-P 26150 8450
-F 0 "#PWR?" H 26150 8300 50  0001 C CNN
-F 1 "+3.3V" H 26165 8623 50  0000 C CNN
-F 2 "" H 26150 8450 50  0001 C CNN
-F 3 "" H 26150 8450 50  0001 C CNN
-	1    26150 8450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5AA4584C
-P 26150 8650
-F 0 "C?" H 26265 8741 50  0000 L CNN
-F 1 "100n" H 26265 8650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 26188 8500 50  0001 C CNN
-F 3 "~" H 26150 8650 50  0001 C CNN
-F 4 "25V" H 26265 8559 50  0000 L CNN "Voltage"
-	1    26150 8650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	26150 8500 26150 8450
-Wire Wire Line
-	26150 8800 26150 9000
-Connection ~ 26150 9000
-Wire Wire Line
-	26150 9000 25750 9000
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5AA4D323
@@ -607,10 +542,8 @@ F 3 "" H 22400 7600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	22400 7600 22400 7500
-Text HLabel 26400 9000 2    50   BiDi ~ 0
-NTC_Switch
 Text HLabel 26400 9100 2    50   BiDi ~ 0
-VoutSense
+V+
 Text HLabel 25500 10800 2    50   Output ~ 0
 USB_DM
 Text HLabel 25500 10900 2    50   Input ~ 0
@@ -779,8 +712,6 @@ Wire Wire Line
 	25050 9300 26400 9300
 Wire Wire Line
 	23800 10000 25050 10000
-Text Notes 26600 9250 0    50   ~ 0
-current sensor
 $Comp
 L Transistor_FET:BSS138 Q?
 U 1 1 5ABE0CA0

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 2 6
+Sheet 2 8
 Title "BMS-Master"
 Date ""
 Rev "V0.1"
@@ -14,9 +14,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 5850 1500 2    50   Input ~ 0
+Text HLabel 5850 1500 2    50   Output ~ 0
 VSENSE16
-Text HLabel 5850 2850 2    50   Input ~ 0
+Text HLabel 5850 2850 2    50   Output ~ 0
 VSENSE15
 $Comp
 L Device:D_Zener D?
@@ -54,7 +54,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 1500 5750 1500
 Connection ~ 5750 1500
-Text HLabel 5200 2000 2    50   Input ~ 0
+Text HLabel 5200 2000 2    50   BiDi ~ 0
 BAT0
 Wire Wire Line
 	5050 1850 5050 2000
@@ -179,7 +179,7 @@ F 3 "~" H 1050 3000 50  0001 C CNN
 	1    1050 3000
 	-1   0    0    1   
 $EndComp
-Text HLabel 5850 4200 2    50   Input ~ 0
+Text HLabel 5850 4200 2    50   Output ~ 0
 VSENSE14
 $Comp
 L Device:D_Zener D?
@@ -212,7 +212,7 @@ Wire Wire Line
 	5750 4200 5850 4200
 Wire Wire Line
 	5050 2900 5050 2850
-Text HLabel 5200 3350 2    50   Input ~ 0
+Text HLabel 5200 3350 2    50   BiDi ~ 0
 BAT0
 Wire Wire Line
 	5050 3200 5050 3350
@@ -308,7 +308,7 @@ BAT14
 Connection ~ 5050 2850
 Wire Wire Line
 	5050 2850 5750 2850
-Text HLabel 5850 5550 2    50   Input ~ 0
+Text HLabel 5850 5550 2    50   Output ~ 0
 VSENSE13
 $Comp
 L Device:D_Zener D?
@@ -341,7 +341,7 @@ Wire Wire Line
 	5750 5550 5850 5550
 Wire Wire Line
 	5050 4250 5050 4200
-Text HLabel 5200 4700 2    50   Input ~ 0
+Text HLabel 5200 4700 2    50   BiDi ~ 0
 BAT0
 Wire Wire Line
 	5050 4550 5050 4700
@@ -434,7 +434,7 @@ Wire Wire Line
 Connection ~ 3900 5550
 Text Label 3300 5550 0    50   ~ 0
 BAT13
-Text HLabel 5850 6900 2    50   Input ~ 0
+Text HLabel 5850 6900 2    50   Output ~ 0
 VSENSE12
 $Comp
 L Device:D_Zener D?
@@ -467,7 +467,7 @@ Wire Wire Line
 	5750 6900 5850 6900
 Wire Wire Line
 	5050 5600 5050 5550
-Text HLabel 5200 6050 2    50   Input ~ 0
+Text HLabel 5200 6050 2    50   BiDi ~ 0
 BAT0
 Wire Wire Line
 	5050 5900 5050 6050
@@ -566,7 +566,7 @@ Wire Wire Line
 Connection ~ 5050 4200
 Wire Wire Line
 	5050 4200 5750 4200
-Text HLabel 5850 8250 2    50   Input ~ 0
+Text HLabel 5850 8250 2    50   Output ~ 0
 VSENSE11
 $Comp
 L Device:D_Zener D?
@@ -599,7 +599,7 @@ Wire Wire Line
 	5750 8250 5850 8250
 Wire Wire Line
 	5050 6950 5050 6900
-Text HLabel 5200 7400 2    50   Input ~ 0
+Text HLabel 5200 7400 2    50   BiDi ~ 0
 BAT0
 Wire Wire Line
 	5050 7250 5050 7400
@@ -692,7 +692,7 @@ Wire Wire Line
 Connection ~ 3900 8250
 Text Label 3300 8250 0    50   ~ 0
 BAT11
-Text HLabel 5850 9600 2    50   Input ~ 0
+Text HLabel 5850 9600 2    50   Output ~ 0
 VSENSE10
 $Comp
 L Device:D_Zener D?
@@ -725,7 +725,7 @@ Wire Wire Line
 	5750 9600 5850 9600
 Wire Wire Line
 	5050 8300 5050 8250
-Text HLabel 5200 8750 2    50   Input ~ 0
+Text HLabel 5200 8750 2    50   BiDi ~ 0
 BAT0
 Wire Wire Line
 	5050 8600 5050 8750
@@ -821,7 +821,7 @@ BAT10
 Connection ~ 5050 8250
 Wire Wire Line
 	5050 8250 5750 8250
-Text HLabel 5850 10950 2    50   Input ~ 0
+Text HLabel 5850 10950 2    50   Output ~ 0
 VSENSE9
 $Comp
 L Device:D_Zener D?
@@ -854,7 +854,7 @@ Wire Wire Line
 	5750 10950 5850 10950
 Wire Wire Line
 	5050 9650 5050 9600
-Text HLabel 5200 10100 2    50   Input ~ 0
+Text HLabel 5200 10100 2    50   BiDi ~ 0
 BAT0
 Wire Wire Line
 	5050 9950 5050 10100
@@ -947,7 +947,7 @@ Wire Wire Line
 Connection ~ 3900 10950
 Text Label 3300 10950 0    50   ~ 0
 BAT9
-Text HLabel 5850 12300 2    50   Input ~ 0
+Text HLabel 5850 12300 2    50   Output ~ 0
 VSENSE8
 $Comp
 L Device:D_Zener D?
@@ -980,7 +980,7 @@ Wire Wire Line
 	5750 12300 5850 12300
 Wire Wire Line
 	5050 11000 5050 10950
-Text HLabel 5200 11450 2    50   Input ~ 0
+Text HLabel 5200 11450 2    50   BiDi ~ 0
 BAT0
 Wire Wire Line
 	5050 11300 5050 11450
@@ -1065,9 +1065,9 @@ Wire Wire Line
 Connection ~ 5050 6900
 Wire Wire Line
 	5050 6900 5750 6900
-Text HLabel 13000 1600 2    50   Input ~ 0
+Text HLabel 13000 1600 2    50   Output ~ 0
 VSENSE8
-Text HLabel 13000 2950 2    50   Input ~ 0
+Text HLabel 13000 2950 2    50   Output ~ 0
 VSENSE7
 $Comp
 L Device:D_Zener D?
@@ -1105,7 +1105,7 @@ Wire Wire Line
 Wire Wire Line
 	12200 1600 12900 1600
 Connection ~ 12900 1600
-Text HLabel 12350 2100 2    50   Input ~ 0
+Text HLabel 12350 2100 2    50   BiDi ~ 0
 BAT0
 Wire Wire Line
 	12200 1950 12200 2100
@@ -1219,7 +1219,7 @@ Wire Wire Line
 Connection ~ 11050 2950
 Text Label 10450 2950 0    50   ~ 0
 BAT7
-Text HLabel 13000 4300 2    50   Input ~ 0
+Text HLabel 13000 4300 2    50   Output ~ 0
 VSENSE6
 $Comp
 L Device:D_Zener D?
@@ -1252,7 +1252,7 @@ Wire Wire Line
 	12900 4300 13000 4300
 Wire Wire Line
 	12200 3000 12200 2950
-Text HLabel 12350 3450 2    50   Input ~ 0
+Text HLabel 12350 3450 2    50   BiDi ~ 0
 BAT0
 Wire Wire Line
 	12200 3300 12200 3450
@@ -1348,7 +1348,7 @@ BAT6
 Connection ~ 12200 2950
 Wire Wire Line
 	12200 2950 12900 2950
-Text HLabel 13000 5650 2    50   Input ~ 0
+Text HLabel 13000 5650 2    50   Output ~ 0
 VSENSE5
 $Comp
 L Device:D_Zener D?
@@ -1381,7 +1381,7 @@ Wire Wire Line
 	12900 5650 13000 5650
 Wire Wire Line
 	12200 4350 12200 4300
-Text HLabel 12350 4800 2    50   Input ~ 0
+Text HLabel 12350 4800 2    50   BiDi ~ 0
 BAT0
 Wire Wire Line
 	12200 4650 12200 4800
@@ -1474,7 +1474,7 @@ Wire Wire Line
 Connection ~ 11050 5650
 Text Label 10450 5650 0    50   ~ 0
 BAT5
-Text HLabel 13000 7000 2    50   Input ~ 0
+Text HLabel 13000 7000 2    50   Output ~ 0
 VSENSE4
 $Comp
 L Device:D_Zener D?
@@ -1507,7 +1507,7 @@ Wire Wire Line
 	12900 7000 13000 7000
 Wire Wire Line
 	12200 5700 12200 5650
-Text HLabel 12350 6150 2    50   Input ~ 0
+Text HLabel 12350 6150 2    50   BiDi ~ 0
 BAT0
 Wire Wire Line
 	12200 6000 12200 6150
@@ -1606,7 +1606,7 @@ Wire Wire Line
 Connection ~ 12200 4300
 Wire Wire Line
 	12200 4300 12900 4300
-Text HLabel 13000 8350 2    50   Input ~ 0
+Text HLabel 13000 8350 2    50   Output ~ 0
 VSENSE3
 $Comp
 L Device:D_Zener D?
@@ -1639,7 +1639,7 @@ Wire Wire Line
 	12900 8350 13000 8350
 Wire Wire Line
 	12200 7050 12200 7000
-Text HLabel 12350 7500 2    50   Input ~ 0
+Text HLabel 12350 7500 2    50   BiDi ~ 0
 BAT0
 Wire Wire Line
 	12200 7350 12200 7500
@@ -1732,7 +1732,7 @@ Wire Wire Line
 Connection ~ 11050 8350
 Text Label 10450 8350 0    50   ~ 0
 BAT3
-Text HLabel 13000 9700 2    50   Input ~ 0
+Text HLabel 13000 9700 2    50   Output ~ 0
 VSENSE2
 $Comp
 L Device:D_Zener D?
@@ -1765,7 +1765,7 @@ Wire Wire Line
 	12900 9700 13000 9700
 Wire Wire Line
 	12200 8400 12200 8350
-Text HLabel 12350 8850 2    50   Input ~ 0
+Text HLabel 12350 8850 2    50   BiDi ~ 0
 BAT0
 Wire Wire Line
 	12200 8700 12200 8850
@@ -1861,7 +1861,7 @@ BAT2
 Connection ~ 12200 8350
 Wire Wire Line
 	12200 8350 12900 8350
-Text HLabel 13000 11050 2    50   Input ~ 0
+Text HLabel 13000 11050 2    50   Output ~ 0
 VSENSE1
 $Comp
 L Device:D_Zener D?
@@ -1894,7 +1894,7 @@ Wire Wire Line
 	12900 11050 13000 11050
 Wire Wire Line
 	12200 9750 12200 9700
-Text HLabel 12350 10200 2    50   Input ~ 0
+Text HLabel 12350 10200 2    50   BiDi ~ 0
 BAT0
 Wire Wire Line
 	12200 10050 12200 10200
@@ -1987,7 +1987,7 @@ Wire Wire Line
 Connection ~ 11050 11050
 Text Label 10450 11050 0    50   ~ 0
 BAT1
-Text HLabel 13000 12400 2    50   Input ~ 0
+Text HLabel 13000 12400 2    50   Output ~ 0
 VSENSE0
 $Comp
 L Device:D_Zener D?
@@ -2020,7 +2020,7 @@ Wire Wire Line
 	12900 12400 13000 12400
 Wire Wire Line
 	12200 11100 12200 11050
-Text HLabel 12350 11550 2    50   Input ~ 0
+Text HLabel 12350 11550 2    50   BiDi ~ 0
 BAT0
 Wire Wire Line
 	12200 11400 12200 11550
@@ -2231,7 +2231,7 @@ Text Label 1900 3900 0    50   ~ 0
 BAT16
 Text Label 1900 4000 0    50   ~ 0
 BAT0
-Text HLabel 2300 3900 2    50   Input ~ 0
+Text HLabel 2300 3900 2    50   BiDi ~ 0
 BAT16
 Wire Wire Line
 	1250 3900 2300 3900
