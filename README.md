@@ -24,7 +24,7 @@ See another similar project at www.foxbms.org/
 
 ## Features
 - Master board with STM32 MCU
-- Slaves boards equiped with Texas Instrument bq76PL455 16-cells battery monitor IC
+- Slaves boards equiped with LTC6813 18-cell battery monitor
 - Isolated CAN bus interface for cell voltage monitoring and charger detection, status monitoring + much more with future updates (like state of charge / state of health).
 - USB interface for serial communication and firmware upgrades (no need for a programmer -> HW serial bootloader is used).
-- SD Card  for data storage
+- SD Card for data storage
