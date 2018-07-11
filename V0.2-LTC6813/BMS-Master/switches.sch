@@ -27,7 +27,7 @@ Precharge
 Text HLabel 6600 5700 2    50   Input ~ 0
 Charge
 $Comp
-L Isolator:SFH617A-2X009T U?
+L BMS-Master-rescue:SFH617A-2X009T-Isolator U?
 U 1 1 5ACC44C1
 P 5150 1950
 F 0 "U?" H 5150 2275 50  0000 C CNN
@@ -38,7 +38,7 @@ F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 5150 1950 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Isolator:SFH617A-2X009T U?
+L BMS-Master-rescue:SFH617A-2X009T-Isolator U?
 U 1 1 5ACC48D9
 P 5150 4150
 F 0 "U?" H 5150 4475 50  0000 C CNN
@@ -49,7 +49,7 @@ F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 5150 4150 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Isolator:SFH617A-2X009T U?
+L BMS-Master-rescue:SFH617A-2X009T-Isolator U?
 U 1 1 5ACC490F
 P 5150 5600
 F 0 "U?" H 5150 5925 50  0000 C CNN
@@ -84,7 +84,7 @@ Wire Wire Line
 	5850 5500 5450 5500
 Connection ~ 5850 4050
 $Comp
-L power:+3.3V #PWR?
+L BMS-Master-rescue:+3.3V-power #PWR?
 U 1 1 5ACFE468
 P 4550 1500
 F 0 "#PWR?" H 4550 1350 50  0001 C CNN
@@ -99,7 +99,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 1850 4850 1850
 $Comp
-L power:+3.3V #PWR?
+L BMS-Master-rescue:+3.3V-power #PWR?
 U 1 1 5ACFE5C5
 P 4600 3850
 F 0 "#PWR?" H 4600 3700 50  0001 C CNN
@@ -114,7 +114,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 4050 4850 4050
 $Comp
-L power:+3.3V #PWR?
+L BMS-Master-rescue:+3.3V-power #PWR?
 U 1 1 5ACFE760
 P 4550 5250
 F 0 "#PWR?" H 4550 5100 50  0001 C CNN
@@ -129,7 +129,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 5500 4850 5500
 $Comp
-L Transistor_FET:BSS138 Q?
+L BMS-Master-rescue:BSS138-Transistor_FET Q?
 U 1 1 5AD010B8
 P 3900 2350
 F 0 "Q?" H 4105 2396 50  0000 L CNN
@@ -140,7 +140,7 @@ F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 3900 2350 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5AD011B7
 P 4350 2050
 F 0 "R?" V 4557 2050 50  0000 C CNN
@@ -151,7 +151,7 @@ F 3 "~" H 4350 2050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5AD01241
 P 2950 2350
 F 0 "R?" V 3157 2350 50  0000 C CNN
@@ -162,7 +162,7 @@ F 3 "~" H 2950 2350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5AD01290
 P 3400 2550
 F 0 "R?" H 3470 2596 50  0000 L CNN
@@ -184,7 +184,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 2350 2800 2350
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5AD03C7A
 P 3750 2900
 F 0 "#PWR?" H 3750 2650 50  0001 C CNN
@@ -208,7 +208,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 2050 4000 2150
 $Comp
-L Transistor_FET:BSS138 Q?
+L BMS-Master-rescue:BSS138-Transistor_FET Q?
 U 1 1 5AD06F84
 P 3900 4550
 F 0 "Q?" H 4105 4596 50  0000 L CNN
@@ -219,7 +219,7 @@ F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 3900 4550 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5AD06F8A
 P 4350 4250
 F 0 "R?" V 4557 4250 50  0000 C CNN
@@ -230,7 +230,7 @@ F 3 "~" H 4350 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5AD06F90
 P 2950 4550
 F 0 "R?" V 3157 4550 50  0000 C CNN
@@ -241,7 +241,7 @@ F 3 "~" H 2950 4550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5AD06F96
 P 3400 4750
 F 0 "R?" H 3470 4796 50  0000 L CNN
@@ -263,7 +263,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 4550 2800 4550
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5AD06FA2
 P 3750 5100
 F 0 "#PWR?" H 3750 4850 50  0001 C CNN
@@ -287,7 +287,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 4250 4000 4350
 $Comp
-L Transistor_FET:BSS138 Q?
+L BMS-Master-rescue:BSS138-Transistor_FET Q?
 U 1 1 5AD07A68
 P 4150 6000
 F 0 "Q?" H 4355 6046 50  0000 L CNN
@@ -298,7 +298,7 @@ F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 4150 6000 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5AD07A6E
 P 4600 5700
 F 0 "R?" V 4807 5700 50  0000 C CNN
@@ -309,7 +309,7 @@ F 3 "~" H 4600 5700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5AD07A74
 P 3200 6000
 F 0 "R?" V 3407 6000 50  0000 C CNN
@@ -320,7 +320,7 @@ F 3 "~" H 3200 6000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5AD07A7A
 P 3650 6200
 F 0 "R?" H 3720 6246 50  0000 L CNN
@@ -340,7 +340,7 @@ Connection ~ 3650 6000
 Wire Wire Line
 	4250 5700 4450 5700
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5AD07A86
 P 4000 6550
 F 0 "#PWR?" H 4000 6300 50  0001 C CNN

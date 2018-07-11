@@ -34,7 +34,7 @@ CAN_TX
 Wire Wire Line
 	4750 3550 5200 3550
 $Comp
-L power:+3.3V #PWR?
+L BMS-Master-rescue:+3.3V-power #PWR?
 U 1 1 5A91EA58
 P 5050 3250
 F 0 "#PWR?" H 5050 3100 50  0001 C CNN
@@ -49,7 +49,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 3350 5200 3350
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5A91EADF
 P 5000 3850
 F 0 "#PWR?" H 5000 3600 50  0001 C CNN
@@ -64,7 +64,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 3650 5000 3850
 $Comp
-L Device:C C?
+L BMS-Master-rescue:C-Device C?
 U 1 1 5A91EB41
 P 3750 3500
 F 0 "C?" H 3865 3546 50  0000 L CNN
@@ -75,7 +75,7 @@ F 3 "~" H 3750 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L BMS-Master-rescue:+3.3V-power #PWR?
 U 1 1 5A91EB6B
 P 3750 3050
 F 0 "#PWR?" H 3750 2900 50  0001 C CNN
@@ -88,7 +88,7 @@ $EndComp
 Wire Wire Line
 	3750 3050 3750 3350
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5A91EBA8
 P 3750 3750
 F 0 "#PWR?" H 3750 3500 50  0001 C CNN
@@ -109,7 +109,7 @@ Wire Notes Line
 Wire Notes Line
 	5650 2350 5650 4850
 $Comp
-L power:GNDD #PWR?
+L BMS-Master-rescue:GNDD-power #PWR?
 U 1 1 5A91F28A
 P 6100 3850
 F 0 "#PWR?" H 6100 3600 50  0001 C CNN
@@ -124,7 +124,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 3650 6100 3850
 $Comp
-L Device:C C?
+L BMS-Master-rescue:C-Device C?
 U 1 1 5A91F3C0
 P 7300 3500
 F 0 "C?" V 7048 3500 50  0000 C CNN
@@ -135,7 +135,7 @@ F 3 "~" H 7300 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5A91F45F
 P 6900 3050
 F 0 "R?" H 6970 3096 50  0000 L CNN
@@ -146,7 +146,7 @@ F 3 "~" H 6900 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5A91F4AE
 P 6900 3900
 F 0 "R?" H 6970 3946 50  0000 L CNN
@@ -172,7 +172,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 4150 7550 4150
 $Comp
-L power:GNDD #PWR?
+L BMS-Master-rescue:GNDD-power #PWR?
 U 1 1 5A91F76E
 P 7650 3650
 F 0 "#PWR?" H 7650 3400 50  0001 C CNN
@@ -201,7 +201,7 @@ Wire Wire Line
 	6600 2700 6900 2700
 Connection ~ 6900 2700
 $Comp
-L power:GNDD #PWR?
+L BMS-Master-rescue:GNDD-power #PWR?
 U 1 1 5A91FE8A
 P 7650 2150
 F 0 "#PWR?" H 7650 1900 50  0001 C CNN
@@ -212,7 +212,7 @@ F 3 "" H 7650 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L BMS-Master-rescue:C-Device C?
 U 1 1 5A91FEEA
 P 7650 1900
 F 0 "C?" H 7535 1854 50  0000 R CNN
@@ -225,7 +225,7 @@ $EndComp
 Wire Wire Line
 	7650 2150 7650 2050
 $Comp
-L Device:C C?
+L BMS-Master-rescue:C-Device C?
 U 1 1 5A92018C
 P 8150 1900
 F 0 "C?" H 8035 1854 50  0000 R CNN
@@ -236,7 +236,7 @@ F 3 "~" H 8150 1900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GNDD #PWR?
+L BMS-Master-rescue:GNDD-power #PWR?
 U 1 1 5A9201EB
 P 8150 2150
 F 0 "#PWR?" H 8150 1900 50  0001 C CNN
@@ -249,7 +249,7 @@ $EndComp
 Wire Wire Line
 	8150 2050 8150 2150
 $Comp
-L Diode:MBR0540 D?
+L BMS-Master-rescue:MBR0540-Diode D?
 U 1 1 5A92055E
 P 9000 1600
 F 0 "D?" H 9000 1500 50  0000 C CNN
@@ -260,7 +260,7 @@ F 3 "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf" H 9000 1600 50  
 	-1   0    0    1   
 $EndComp
 $Comp
-L Transistor_FET:2N7002 Q?
+L BMS-Master-rescue:2N7002-Transistor_FET Q?
 U 1 1 5A92061C
 P 9000 950
 F 0 "Q?" V 9250 950 50  0000 C CNN
@@ -282,7 +282,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 750  8150 1600
 $Comp
-L power:GNDD #PWR?
+L BMS-Master-rescue:GNDD-power #PWR?
 U 1 1 5A921C15
 P 8700 1800
 F 0 "#PWR?" H 8700 1550 50  0001 C CNN
@@ -328,7 +328,7 @@ Wire Notes Line
 Text Notes 9150 1950 0    50   ~ 0
 Reverse polarity protection\n
 $Comp
-L Device:C C?
+L BMS-Master-rescue:C-Device C?
 U 1 1 5A924642
 P 3300 3500
 F 0 "C?" H 3415 3546 50  0000 L CNN
@@ -339,7 +339,7 @@ F 3 "~" H 3300 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L BMS-Master-rescue:+3.3V-power #PWR?
 U 1 1 5A924C1D
 P 3300 3050
 F 0 "#PWR?" H 3300 2900 50  0001 C CNN
@@ -352,7 +352,7 @@ $EndComp
 Wire Wire Line
 	3300 3050 3300 3350
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5A925217
 P 3300 3750
 F 0 "#PWR?" H 3300 3500 50  0001 C CNN

@@ -56,69 +56,6 @@ F35 "BAT16" B R 3700 2400 50
 F36 "BAT0" B R 3700 2500 50 
 $EndSheet
 $Sheet
-S 4900 2250 1800 4200
-U 5A8ACA42
-F0 "bq76PL455A-Q1" 50
-F1 "bq76PL455A-Q1.sch" 50
-F2 "VSENSE14" I L 4900 3500 50 
-F3 "EQ14" O L 4900 3600 50 
-F4 "VSENSE13" I L 4900 3700 50 
-F5 "EQ13" O L 4900 3800 50 
-F6 "VSENSE12" I L 4900 3900 50 
-F7 "EQ12" O L 4900 4000 50 
-F8 "VSENSE11" I L 4900 4100 50 
-F9 "EQ11" O L 4900 4200 50 
-F10 "VSENSE10" I L 4900 4300 50 
-F11 "EQ10" O L 4900 4400 50 
-F12 "EQ15" O L 4900 3400 50 
-F13 "VSENSE15" I L 4900 3300 50 
-F14 "EQ16" O L 4900 3200 50 
-F15 "VSENSE16" I L 4900 3100 50 
-F16 "BAT16" B L 4900 2400 50 
-F17 "NPN_BASE" B R 6700 3850 50 
-F18 "VP1" B R 6700 3650 50 
-F19 "AUX0" I R 6700 3300 50 
-F20 "AUX1" I R 6700 3200 50 
-F21 "AUX2" I R 6700 3100 50 
-F22 "AUX3" I R 6700 3000 50 
-F23 "AUX4" I R 6700 2900 50 
-F24 "AUX5" I R 6700 2800 50 
-F25 "AUX6" I R 6700 2700 50 
-F26 "AUX7" I R 6700 2600 50 
-F27 "VSENSE9" I L 4900 4500 50 
-F28 "EQ9" O L 4900 4600 50 
-F29 "VSENSE8" I L 4900 4700 50 
-F30 "EQ8" O L 4900 4800 50 
-F31 "VSENSE7" I L 4900 4900 50 
-F32 "EQ7" O L 4900 5000 50 
-F33 "VSENSE6" I L 4900 5100 50 
-F34 "EQ6" O L 4900 5200 50 
-F35 "VSENSE5" I L 4900 5300 50 
-F36 "EQ5" O L 4900 5400 50 
-F37 "VSENSE4" I L 4900 5500 50 
-F38 "EQ4" O L 4900 5600 50 
-F39 "VSENSE3" I L 4900 5700 50 
-F40 "EQ3" O L 4900 5800 50 
-F41 "VSENSE2" I L 4900 5900 50 
-F42 "EQ2" O L 4900 6000 50 
-F43 "VSENSE1" I L 4900 6100 50 
-F44 "EQ1" O L 4900 6200 50 
-F45 "VSENSE0" I L 4900 6300 50 
-F46 "VDIG" B R 6700 3750 50 
-F47 "VIO" B R 6700 3550 50 
-F48 "FAULT_N" O R 6700 5300 50 
-F49 "RX" I R 6700 5150 50 
-F50 "TX" O R 6700 5050 50 
-F51 "GPIO0" B R 6700 6250 50 
-F52 "GPIO1" B R 6700 6150 50 
-F53 "GPIO2" B R 6700 6050 50 
-F54 "GPIO3" B R 6700 5950 50 
-F55 "GPIO4" B R 6700 5850 50 
-F56 "GPIO5" B R 6700 5750 50 
-F57 "BAT0" B L 4900 2500 50 
-F58 "WAKEUP" O R 6700 5400 50 
-$EndSheet
-$Sheet
 S 7250 2250 1150 1150
 U 5A8ACA5D
 F0 "Temperature" 50
@@ -244,7 +181,7 @@ F6 "5V_CAN" I R 11400 8400 50
 F7 "GND_CAN" I R 11400 8700 50 
 $EndSheet
 $Comp
-L Connector_Specialized:USB_B_Micro J?
+L BMS-Master-rescue:USB_B_Micro-Connector_Specialized J?
 U 1 1 5A966632
 P 10850 7300
 F 0 "J?" H 10906 7767 50  0000 C CNN
@@ -255,7 +192,7 @@ F 3 "~" H 11000 7250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5A969833
 P 10900 7750
 F 0 "#PWR?" H 10900 7500 50  0001 C CNN
@@ -280,7 +217,7 @@ Wire Wire Line
 Wire Wire Line
 	9800 8550 9550 8550
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L BMS-Master-rescue:Conn_01x04-Connector_Generic J?
 U 1 1 5A98621E
 P 11750 8500
 F 0 "J?" H 11830 8492 50  0000 L CNN
@@ -299,7 +236,7 @@ Wire Wire Line
 Wire Wire Line
 	11400 8700 11550 8700
 $Comp
-L power:+5V #PWR?
+L BMS-Master-rescue:+5V-power #PWR?
 U 1 1 5A9B2FE8
 P 10050 7050
 F 0 "#PWR?" H 10050 6900 50  0001 C CNN
@@ -310,7 +247,7 @@ F 3 "" H 10050 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:MBR0540 D?
+L BMS-Master-rescue:MBR0540-Diode D?
 U 1 1 5A9B3071
 P 10300 7100
 F 0 "D?" H 10300 7316 50  0000 C CNN
@@ -327,7 +264,7 @@ Wire Wire Line
 Wire Wire Line
 	10450 7100 10550 7100
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5A9B7063
 P 9900 7300
 F 0 "R?" V 9693 7300 50  0000 C CNN
@@ -338,7 +275,7 @@ F 3 "~" H 9900 7300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5A9B70E5
 P 9900 7400
 F 0 "R?" V 10100 7400 50  0000 C CNN
@@ -367,7 +304,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 5750 8000 5750
 $Comp
-L Device:LED D?
+L BMS-Master-rescue:LED-Device D?
 U 1 1 5ABAB322
 P 6700 9900
 F 0 "D?" V 6738 9783 50  0000 R CNN
@@ -378,7 +315,7 @@ F 3 "~" H 6700 9900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5ABAB411
 P 6700 9500
 F 0 "R?" V 6900 9500 50  0000 C CNN
@@ -389,7 +326,7 @@ F 3 "~" H 6700 9500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5ABB20CA
 P 5950 9500
 F 0 "R?" V 6150 9500 50  0000 C CNN
@@ -400,7 +337,7 @@ F 3 "~" H 5950 9500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D?
+L BMS-Master-rescue:LED-Device D?
 U 1 1 5ABB20FE
 P 5950 9900
 F 0 "D?" V 5988 9783 50  0000 R CNN
@@ -415,7 +352,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 9750 6700 9650
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5ABB698D
 P 5950 10150
 F 0 "#PWR?" H 5950 9900 50  0001 C CNN
@@ -426,7 +363,7 @@ F 3 "" H 5950 10150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5ABB69D7
 P 6700 10150
 F 0 "#PWR?" H 6700 9900 50  0001 C CNN
@@ -445,7 +382,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 9150 8000 9150
 $Comp
-L power:+3.3V #PWR?
+L BMS-Master-rescue:+3.3V-power #PWR?
 U 1 1 5ABBDFF3
 P 5950 9250
 F 0 "#PWR?" H 5950 9100 50  0001 C CNN
@@ -462,7 +399,7 @@ Power LED
 Text Notes 7150 9850 1    50   ~ 0
 Status LED
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5ABC0C8F
 P 10100 9550
 F 0 "R?" V 10300 9550 50  0000 C CNN
@@ -473,7 +410,7 @@ F 3 "~" H 10100 9550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5ABC0CBB
 P 10100 9850
 F 0 "#PWR?" H 10100 9600 50  0001 C CNN
@@ -490,7 +427,7 @@ Wire Wire Line
 Wire Wire Line
 	10100 9250 10100 9400
 $Comp
-L Device:Buzzer BZ?
+L BMS-Master-rescue:Buzzer-Device BZ?
 U 1 1 5ABC5C93
 P 14100 8050
 F 0 "BZ?" H 14253 8079 50  0000 L CNN
@@ -501,7 +438,7 @@ F 3 "~" V 14075 8150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L BMS-Master-rescue:+3.3V-power #PWR?
 U 1 1 5ABC5D22
 P 14000 7800
 F 0 "#PWR?" H 14000 7650 50  0001 C CNN
@@ -514,7 +451,7 @@ $EndComp
 Wire Wire Line
 	14000 7800 14000 7950
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5ABCABB8
 P 14000 9050
 F 0 "#PWR?" H 14000 8800 50  0001 C CNN
@@ -525,7 +462,7 @@ F 3 "" H 14000 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:BSS138 Q?
+L BMS-Master-rescue:BSS138-Transistor_FET Q?
 U 1 1 5ABCAC4F
 P 13900 8550
 F 0 "Q?" H 14105 8596 50  0000 L CNN
@@ -577,7 +514,7 @@ F26 "I-" I L 8000 8750 50
 F27 "V+" B R 9550 4600 50 
 $EndSheet
 $Comp
-L Connector_Generic:Conn_01x05 J?
+L BMS-Master-rescue:Conn_01x05-Connector_Generic J?
 U 1 1 5ABE6776
 P 12250 4500
 F 0 "J?" H 12170 4917 50  0000 C CNN
@@ -590,7 +527,7 @@ $EndComp
 Text Notes 12450 4650 1    50   ~ 0
 Power
 $Comp
-L power:+3.3V #PWR?
+L BMS-Master-rescue:+3.3V-power #PWR?
 U 1 1 5ABE6960
 P 11800 4250
 F 0 "#PWR?" H 11800 4100 50  0001 C CNN
@@ -601,7 +538,7 @@ F 3 "" H 11800 4250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5ABEC8F7
 P 11700 4600
 F 0 "R?" V 11900 4600 50  0000 C CNN
@@ -616,7 +553,7 @@ Wire Wire Line
 Wire Wire Line
 	11550 4600 11400 4600
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5ABF492B
 P 11950 4800
 F 0 "#PWR?" H 11950 4550 50  0001 C CNN
@@ -642,7 +579,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 2500 4900 2500
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L BMS-Master-rescue:Conn_01x04-Connector_Generic J?
 U 1 1 5AB6317C
 P 4400 8650
 F 0 "J?" H 4480 8642 50  0000 L CNN
@@ -653,7 +590,7 @@ F 3 "~" H 4400 8650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L BMS-Master-rescue:+5V-power #PWR?
 U 1 1 5AB69DA9
 P 4650 8500
 F 0 "#PWR?" H 4650 8350 50  0001 C CNN
@@ -668,7 +605,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 8550 4650 8500
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5AB6D538
 P 4700 8900
 F 0 "#PWR?" H 4700 8650 50  0001 C CNN
@@ -755,7 +692,7 @@ Wire Wire Line
 Wire Wire Line
 	10050 5450 9550 5450
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L BMS-Master-rescue:Conn_01x02-Connector_Generic J?
 U 1 1 5AB7AB5E
 P 13700 3600
 F 0 "J?" H 13779 3592 50  0000 L CNN
@@ -766,7 +703,7 @@ F 3 "~" H 13700 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5AB80FEA
 P 13450 3750
 F 0 "#PWR?" H 13450 3500 50  0001 C CNN
@@ -781,7 +718,7 @@ Wire Wire Line
 Wire Wire Line
 	13450 3700 13500 3700
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L BMS-Master-rescue:Conn_01x02-Connector_Generic J?
 U 1 1 5ABBEF45
 P 13050 5050
 F 0 "J?" H 13130 5042 50  0000 L CNN
@@ -792,7 +729,7 @@ F 3 "~" H 13050 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L BMS-Master-rescue:Conn_01x02-Connector_Generic J?
 U 1 1 5ABBF131
 P 13050 5350
 F 0 "J?" H 13129 5342 50  0000 L CNN
@@ -803,7 +740,7 @@ F 3 "~" H 13050 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L BMS-Master-rescue:Conn_01x02-Connector_Generic J?
 U 1 1 5ABBF293
 P 13050 5650
 F 0 "J?" H 13129 5642 50  0000 L CNN
@@ -814,7 +751,7 @@ F 3 "~" H 13050 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5ABBF581
 P 12550 5850
 F 0 "#PWR?" H 12550 5600 50  0001 C CNN
@@ -857,7 +794,7 @@ Wire Wire Line
 Wire Wire Line
 	12250 5650 12850 5650
 $Comp
-L Connector_Generic:Conn_01x01 J?
+L BMS-Master-rescue:Conn_01x01-Connector_Generic J?
 U 1 1 5AC75917
 P 12250 2600
 F 0 "J?" H 12400 2600 50  0000 R CNN
@@ -868,7 +805,7 @@ F 3 "~" H 12250 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J?
+L BMS-Master-rescue:Conn_01x01-Connector_Generic J?
 U 1 1 5AC7F25B
 P 12250 2900
 F 0 "J?" H 12400 2900 50  0000 R CNN
@@ -897,7 +834,7 @@ Wire Wire Line
 Wire Wire Line
 	11250 3600 12550 3600
 $Comp
-L Device:Fuse F?
+L BMS-Master-rescue:Fuse-Device F?
 U 1 1 5ACF057B
 P 13100 3600
 F 0 "F?" V 12903 3600 50  0000 C CNN
@@ -912,4 +849,10 @@ Wire Wire Line
 Wire Wire Line
 	12950 3600 12550 3600
 Connection ~ 12550 3600
+$Sheet
+S 4900 2200 1800 4500
+U 5B4A196B
+F0 "ltc6813" 50
+F1 "ltc6813.sch" 50
+$EndSheet
 $EndSCHEMATC

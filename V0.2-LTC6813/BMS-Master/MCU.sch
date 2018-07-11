@@ -51,7 +51,7 @@ Connection ~ 16400 11900
 Wire Wire Line
 	16400 11900 16450 11900
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5A921A89
 P 16450 12100
 F 0 "#PWR?" H 16450 11850 50  0001 C CNN
@@ -67,7 +67,7 @@ Connection ~ 16450 11900
 Wire Wire Line
 	16450 11900 16500 11900
 $Comp
-L Device:C C?
+L BMS-Master-rescue:C-Device C?
 U 1 1 5A921BA9
 P 7000 9400
 F 0 "C?" H 7115 9446 50  0000 L CNN
@@ -79,7 +79,7 @@ F 4 "50V" H 7000 9400 50  0001 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L BMS-Master-rescue:C-Device C?
 U 1 1 5A921C07
 P 6000 9400
 F 0 "C?" H 6115 9446 50  0000 L CNN
@@ -91,7 +91,7 @@ F 4 "50V" H 6000 9400 50  0001 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Crystal Y?
+L BMS-Master-rescue:Crystal-Device Y?
 U 1 1 5A921CE8
 P 6500 9200
 F 0 "Y?" H 6500 9350 50  0000 C CNN
@@ -116,7 +116,7 @@ Connection ~ 7000 9200
 Wire Wire Line
 	7000 9200 7000 9100
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5A92281A
 P 6000 9600
 F 0 "#PWR?" H 6000 9350 50  0001 C CNN
@@ -127,7 +127,7 @@ F 3 "" H 6000 9600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5A92287D
 P 7000 9600
 F 0 "#PWR?" H 7000 9350 50  0001 C CNN
@@ -154,7 +154,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 9000 6000 9000
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5A9256C5
 P 8150 9650
 F 0 "#PWR?" H 8150 9400 50  0001 C CNN
@@ -175,7 +175,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 9650 7750 9650
 $Comp
-L Connector_Specialized:Micro_SD_Card_Det_Hirose_DM3AT J?
+L BMS-Master-rescue:Micro_SD_Card_Det_Hirose_DM3AT-Connector_Specialized J?
 U 1 1 5A92F51A
 P 4800 11400
 F 0 "J?" H 4750 12217 50  0000 C CNN
@@ -208,7 +208,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 12300 4000 11900
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5A933A6F
 P 5700 12450
 F 0 "#PWR?" H 5700 12200 50  0001 C CNN
@@ -230,7 +230,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 11100 5700 11100
 $Comp
-L Device:C C?
+L BMS-Master-rescue:C-Device C?
 U 1 1 5A934D3C
 P 7050 12250
 F 0 "C?" H 7165 12296 50  0000 L CNN
@@ -245,7 +245,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 11300 5700 11300
 $Comp
-L power:+3.3V #PWR?
+L BMS-Master-rescue:+3.3V-power #PWR?
 U 1 1 5A9358BF
 P 7900 12000
 F 0 "#PWR?" H 7900 11850 50  0001 C CNN
@@ -256,7 +256,7 @@ F 3 "" H 7900 12000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5A9358DF
 P 7050 12450
 F 0 "#PWR?" H 7050 12200 50  0001 C CNN
@@ -271,7 +271,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 11900 5700 12300
 $Comp
-L Device:L L?
+L BMS-Master-rescue:L-Device L?
 U 1 1 5A93EB70
 P 7500 12000
 F 0 "L?" V 7690 12000 50  0000 C CNN
@@ -327,7 +327,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 10500 8950 10500
 $Comp
-L Device:C C?
+L BMS-Master-rescue:C-Device C?
 U 1 1 5A95E11B
 P 7050 8350
 F 0 "C?" H 7165 8396 50  0000 L CNN
@@ -338,7 +338,7 @@ F 3 "~" H 7050 8350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5A95E15B
 P 7050 8550
 F 0 "#PWR?" H 7050 8300 50  0001 C CNN
@@ -351,7 +351,7 @@ $EndComp
 Wire Wire Line
 	7050 8500 7050 8550
 $Comp
-L power:+3.3V #PWR?
+L BMS-Master-rescue:+3.3V-power #PWR?
 U 1 1 5A964008
 P 16450 7650
 F 0 "#PWR?" H 16450 7500 50  0001 C CNN
@@ -391,7 +391,7 @@ Wire Wire Line
 Wire Wire Line
 	25500 10900 23800 10900
 $Comp
-L power:+3.3V #PWR?
+L BMS-Master-rescue:+3.3V-power #PWR?
 U 1 1 5AA4D323
 P 20600 7150
 F 0 "#PWR?" H 20600 7000 50  0001 C CNN
@@ -402,7 +402,7 @@ F 3 "" H 20600 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L BMS-Master-rescue:C-Device C?
 U 1 1 5AA4D32A
 P 20600 7350
 F 0 "C?" H 20715 7441 50  0000 L CNN
@@ -416,7 +416,7 @@ $EndComp
 Wire Wire Line
 	20600 7200 20600 7150
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5AA51178
 P 20600 7600
 F 0 "#PWR?" H 20600 7350 50  0001 C CNN
@@ -429,7 +429,7 @@ $EndComp
 Wire Wire Line
 	20600 7600 20600 7500
 $Comp
-L power:+3.3V #PWR?
+L BMS-Master-rescue:+3.3V-power #PWR?
 U 1 1 5AA550BE
 P 21200 7150
 F 0 "#PWR?" H 21200 7000 50  0001 C CNN
@@ -440,7 +440,7 @@ F 3 "" H 21200 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L BMS-Master-rescue:C-Device C?
 U 1 1 5AA550C5
 P 21200 7350
 F 0 "C?" H 21315 7441 50  0000 L CNN
@@ -454,7 +454,7 @@ $EndComp
 Wire Wire Line
 	21200 7200 21200 7150
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5AA550CC
 P 21200 7600
 F 0 "#PWR?" H 21200 7350 50  0001 C CNN
@@ -467,7 +467,7 @@ $EndComp
 Wire Wire Line
 	21200 7600 21200 7500
 $Comp
-L power:+3.3V #PWR?
+L BMS-Master-rescue:+3.3V-power #PWR?
 U 1 1 5AA591BA
 P 21800 7150
 F 0 "#PWR?" H 21800 7000 50  0001 C CNN
@@ -478,7 +478,7 @@ F 3 "" H 21800 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L BMS-Master-rescue:C-Device C?
 U 1 1 5AA591C1
 P 21800 7350
 F 0 "C?" H 21915 7441 50  0000 L CNN
@@ -492,7 +492,7 @@ $EndComp
 Wire Wire Line
 	21800 7200 21800 7150
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5AA591C8
 P 21800 7600
 F 0 "#PWR?" H 21800 7350 50  0001 C CNN
@@ -505,7 +505,7 @@ $EndComp
 Wire Wire Line
 	21800 7600 21800 7500
 $Comp
-L power:+3.3V #PWR?
+L BMS-Master-rescue:+3.3V-power #PWR?
 U 1 1 5AA591CF
 P 22400 7150
 F 0 "#PWR?" H 22400 7000 50  0001 C CNN
@@ -516,7 +516,7 @@ F 3 "" H 22400 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L BMS-Master-rescue:C-Device C?
 U 1 1 5AA591D6
 P 22400 7350
 F 0 "C?" H 22515 7441 50  0000 L CNN
@@ -530,7 +530,7 @@ $EndComp
 Wire Wire Line
 	22400 7200 22400 7150
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5AA591DD
 P 22400 7600
 F 0 "#PWR?" H 22400 7350 50  0001 C CNN
@@ -563,7 +563,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 8200 9200 8200
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5AA7B298
 P 8500 8550
 F 0 "R?" H 8570 8596 50  0000 L CNN
@@ -574,7 +574,7 @@ F 3 "~" H 8500 8550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5AA7B2E6
 P 8500 8800
 F 0 "#PWR?" H 8500 8550 50  0001 C CNN
@@ -602,7 +602,7 @@ Wire Wire Line
 	8300 8300 8500 8300
 Connection ~ 8500 8300
 $Comp
-L power:+3.3V #PWR?
+L BMS-Master-rescue:+3.3V-power #PWR?
 U 1 1 5AA8A218
 P 7500 8500
 F 0 "#PWR?" H 7500 8350 50  0001 C CNN
@@ -617,7 +617,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 8550 7700 8550
 $Comp
-L Switch:SW_MEC_5G SW?
+L BMS-Master-rescue:SW_MEC_5G-Switch SW?
 U 1 1 5A8F5FFE
 P 7900 8550
 F 0 "SW?" H 7900 8835 50  0000 C CNN
@@ -628,7 +628,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x05 J?
+L BMS-Master-rescue:Conn_01x05-Connector_Generic J?
 U 1 1 5A92BF2C
 P 27400 11350
 F 0 "J?" H 27480 11392 50  0000 L CNN
@@ -657,7 +657,7 @@ NRST
 Wire Wire Line
 	27000 11550 27200 11550
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5A959924
 P 26600 11400
 F 0 "#PWR?" H 26600 11150 50  0001 C CNN
@@ -672,7 +672,7 @@ Wire Wire Line
 Wire Wire Line
 	26600 11350 27200 11350
 $Comp
-L power:+3.3V #PWR?
+L BMS-Master-rescue:+3.3V-power #PWR?
 U 1 1 5A95ED28
 P 26600 11150
 F 0 "#PWR?" H 26600 11000 50  0001 C CNN
@@ -713,7 +713,7 @@ Wire Wire Line
 Wire Wire Line
 	23800 10000 25050 10000
 $Comp
-L Transistor_FET:BSS138 Q?
+L BMS-Master-rescue:BSS138-Transistor_FET Q?
 U 1 1 5ABE0CA0
 P 8050 9450
 F 0 "Q?" H 8255 9496 50  0000 L CNN
@@ -724,7 +724,7 @@ F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 8050 9450 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCU_ST_STM32:STM32F303CCTx U?
+L BMS-Master-rescue:STM32F303CCTx-MCU_ST_STM32 U?
 U 1 1 5A92186F
 P 16500 9800
 F 0 "U?" H 17300 11700 50  0000 C CNN

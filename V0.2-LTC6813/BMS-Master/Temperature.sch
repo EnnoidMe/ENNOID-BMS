@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_02x08_Counter_Clockwise J?
+L BMS-Master-rescue:Conn_02x08_Counter_Clockwise-Connector_Generic J?
 U 1 1 5AEA9148
 P 8500 9050
 F 0 "J?" H 8550 9567 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "~" H 8500 9050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5AEA9211
 P 7850 9650
 F 0 "#PWR?" H 7850 9400 50  0001 C CNN
@@ -76,7 +76,7 @@ Connection ~ 7850 9450
 Wire Wire Line
 	7850 9450 7850 9350
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5AEA9568
 P 11450 3150
 F 0 "R?" H 11520 3196 50  0000 L CNN
@@ -87,7 +87,7 @@ F 3 "~" H 11450 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5AEA95F3
 P 10950 3350
 F 0 "R?" V 10743 3350 50  0000 C CNN
@@ -102,7 +102,7 @@ Wire Wire Line
 Wire Wire Line
 	11450 3350 11100 3350
 $Comp
-L Device:C C?
+L BMS-Master-rescue:C-Device C?
 U 1 1 5AEA973B
 P 11450 3700
 F 0 "C?" H 11565 3746 50  0000 L CNN
@@ -127,7 +127,7 @@ Wire Wire Line
 Text Label 10900 2900 0    50   ~ 0
 VP1
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5AEA9CA3
 P 11450 3950
 F 0 "#PWR?" H 11450 3700 50  0001 C CNN
@@ -140,7 +140,7 @@ $EndComp
 Wire Wire Line
 	11450 3850 11450 3950
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5AEAA2B3
 P 11450 4600
 F 0 "R?" H 11520 4646 50  0000 L CNN
@@ -151,7 +151,7 @@ F 3 "~" H 11450 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5AEAA2B9
 P 10950 4800
 F 0 "R?" V 10743 4800 50  0000 C CNN
@@ -166,7 +166,7 @@ Wire Wire Line
 Wire Wire Line
 	11450 4800 11100 4800
 $Comp
-L Device:C C?
+L BMS-Master-rescue:C-Device C?
 U 1 1 5AEAA2C2
 P 11450 5150
 F 0 "C?" H 11565 5196 50  0000 L CNN
@@ -191,7 +191,7 @@ Wire Wire Line
 Text Label 10900 4350 0    50   ~ 0
 VP1
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5AEAA2CF
 P 11450 5400
 F 0 "#PWR?" H 11450 5150 50  0001 C CNN
@@ -204,7 +204,7 @@ $EndComp
 Wire Wire Line
 	11450 5300 11450 5400
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5AEAA88D
 P 11450 5950
 F 0 "R?" H 11520 5996 50  0000 L CNN
@@ -215,7 +215,7 @@ F 3 "~" H 11450 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5AEAA893
 P 10950 6150
 F 0 "R?" V 10743 6150 50  0000 C CNN
@@ -230,7 +230,7 @@ Wire Wire Line
 Wire Wire Line
 	11450 6150 11100 6150
 $Comp
-L Device:C C?
+L BMS-Master-rescue:C-Device C?
 U 1 1 5AEAA89C
 P 11450 6500
 F 0 "C?" H 11565 6546 50  0000 L CNN
@@ -255,7 +255,7 @@ Wire Wire Line
 Text Label 10900 5700 0    50   ~ 0
 VP1
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5AEAA8A9
 P 11450 6750
 F 0 "#PWR?" H 11450 6500 50  0001 C CNN
@@ -268,7 +268,7 @@ $EndComp
 Wire Wire Line
 	11450 6650 11450 6750
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5AEAA8B0
 P 11450 7400
 F 0 "R?" H 11520 7446 50  0000 L CNN
@@ -279,7 +279,7 @@ F 3 "~" H 11450 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5AEAA8B6
 P 10950 7600
 F 0 "R?" V 10743 7600 50  0000 C CNN
@@ -294,7 +294,7 @@ Wire Wire Line
 Wire Wire Line
 	11450 7600 11100 7600
 $Comp
-L Device:C C?
+L BMS-Master-rescue:C-Device C?
 U 1 1 5AEAA8BF
 P 11450 7950
 F 0 "C?" H 11565 7996 50  0000 L CNN
@@ -319,7 +319,7 @@ Wire Wire Line
 Text Label 10900 7150 0    50   ~ 0
 VP1
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5AEAA8CC
 P 11450 8200
 F 0 "#PWR?" H 11450 7950 50  0001 C CNN
@@ -332,7 +332,7 @@ $EndComp
 Wire Wire Line
 	11450 8100 11450 8200
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5AEAB9E1
 P 11450 8750
 F 0 "R?" H 11520 8796 50  0000 L CNN
@@ -343,7 +343,7 @@ F 3 "~" H 11450 8750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5AEAB9E7
 P 10950 8950
 F 0 "R?" V 10743 8950 50  0000 C CNN
@@ -358,7 +358,7 @@ Wire Wire Line
 Wire Wire Line
 	11450 8950 11100 8950
 $Comp
-L Device:C C?
+L BMS-Master-rescue:C-Device C?
 U 1 1 5AEAB9F0
 P 11450 9300
 F 0 "C?" H 11565 9346 50  0000 L CNN
@@ -383,7 +383,7 @@ Wire Wire Line
 Text Label 10900 8500 0    50   ~ 0
 VP1
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5AEAB9FD
 P 11450 9550
 F 0 "#PWR?" H 11450 9300 50  0001 C CNN
@@ -396,7 +396,7 @@ $EndComp
 Wire Wire Line
 	11450 9450 11450 9550
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5AEABA04
 P 11450 10200
 F 0 "R?" H 11520 10246 50  0000 L CNN
@@ -407,7 +407,7 @@ F 3 "~" H 11450 10200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5AEABA0A
 P 10950 10400
 F 0 "R?" V 10743 10400 50  0000 C CNN
@@ -422,7 +422,7 @@ Wire Wire Line
 Wire Wire Line
 	11450 10400 11100 10400
 $Comp
-L Device:C C?
+L BMS-Master-rescue:C-Device C?
 U 1 1 5AEABA13
 P 11450 10750
 F 0 "C?" H 11565 10796 50  0000 L CNN
@@ -447,7 +447,7 @@ Wire Wire Line
 Text Label 10900 9950 0    50   ~ 0
 VP1
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5AEABA20
 P 11450 11000
 F 0 "#PWR?" H 11450 10750 50  0001 C CNN
@@ -460,7 +460,7 @@ $EndComp
 Wire Wire Line
 	11450 10900 11450 11000
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5AEABA27
 P 11450 11550
 F 0 "R?" H 11520 11596 50  0000 L CNN
@@ -471,7 +471,7 @@ F 3 "~" H 11450 11550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5AEABA2D
 P 10950 11750
 F 0 "R?" V 10743 11750 50  0000 C CNN
@@ -486,7 +486,7 @@ Wire Wire Line
 Wire Wire Line
 	11450 11750 11100 11750
 $Comp
-L Device:C C?
+L BMS-Master-rescue:C-Device C?
 U 1 1 5AEABA36
 P 11450 12100
 F 0 "C?" H 11565 12146 50  0000 L CNN
@@ -511,7 +511,7 @@ Wire Wire Line
 Text Label 10900 11300 0    50   ~ 0
 VP1
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5AEABA43
 P 11450 12350
 F 0 "#PWR?" H 11450 12100 50  0001 C CNN
@@ -524,7 +524,7 @@ $EndComp
 Wire Wire Line
 	11450 12250 11450 12350
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5AEABA4A
 P 11450 13000
 F 0 "R?" H 11520 13046 50  0000 L CNN
@@ -535,7 +535,7 @@ F 3 "~" H 11450 13000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L BMS-Master-rescue:R-Device R?
 U 1 1 5AEABA50
 P 10950 13200
 F 0 "R?" V 10743 13200 50  0000 C CNN
@@ -550,7 +550,7 @@ Wire Wire Line
 Wire Wire Line
 	11450 13200 11100 13200
 $Comp
-L Device:C C?
+L BMS-Master-rescue:C-Device C?
 U 1 1 5AEABA59
 P 11450 13550
 F 0 "C?" H 11565 13596 50  0000 L CNN
@@ -575,7 +575,7 @@ Wire Wire Line
 Text Label 10900 12750 0    50   ~ 0
 VP1
 $Comp
-L power:GND #PWR?
+L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5AEABA66
 P 11450 13800
 F 0 "#PWR?" H 11450 13550 50  0001 C CNN
