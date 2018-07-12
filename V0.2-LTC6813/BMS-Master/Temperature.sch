@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 4 8
+Sheet 2 25
 Title "BMS-Master"
 Date ""
 Rev "V0.1"

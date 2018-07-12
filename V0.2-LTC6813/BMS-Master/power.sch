@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
-Sheet 7 8
+Sheet 5 25
 Title ""
 Date ""
 Rev ""
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 850  2200 0    50   Input ~ 0
-BAT16
+BAT+
 $Comp
 L BMS-Master-rescue:R-Device R?
 U 1 1 5AC18763
