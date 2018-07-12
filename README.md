@@ -17,9 +17,10 @@ The idea behind this project has been started on this thread:
 
 https://endless-sphere.com/forums/viewtopic.php?f=14&t=92952
 
-#Update 
+# Update 
+
 12/07/2018:
-Analog device is offering a DC2350 development board with DC2026 linduino control board. The final design will be based on those development boards with minor modifications in order to lower the cost and requirement.
+Analog device is offering a DC2350 development board with DC2026 linduino control board. The final design will be based on those development boards with minor modifications in order to lower the cost and the requirements.
 
 
 This project aims to create a scalable & modular open source BMS for up to 1000V lithium-ion battery packs.
