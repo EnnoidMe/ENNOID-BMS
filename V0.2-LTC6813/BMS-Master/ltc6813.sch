@@ -352,8 +352,6 @@ Wire Wire Line
 Wire Wire Line
 	4100 4650 1750 4650
 Wire Wire Line
-	4300 6000 4000 6000
-Wire Wire Line
 	4000 6000 4000 4750
 Wire Wire Line
 	4000 4750 1500 4750
@@ -1112,4 +1110,42 @@ Wire Wire Line
 Connection ~ 1750 4650
 Wire Wire Line
 	1750 4650 1500 4650
+Text Label 4050 14800 0    50   ~ 0
+C+1
+Text Label 4050 14250 0    50   ~ 0
+C+2
+Text Label 4050 13700 0    50   ~ 0
+C+3
+Text Label 4050 13150 0    50   ~ 0
+C+4
+Text Label 4050 12600 0    50   ~ 0
+C+5
+Text Label 4050 12050 0    50   ~ 0
+C+6
+Text Label 4050 11500 0    50   ~ 0
+C+7
+Text Label 4050 10950 0    50   ~ 0
+C+8
+Text Label 4050 10400 0    50   ~ 0
+C+9
+Text Label 4050 9850 0    50   ~ 0
+C+10
+Text Label 4050 9300 0    50   ~ 0
+C+11
+Text Label 4050 8750 0    50   ~ 0
+C+12
+Text Label 4050 8200 0    50   ~ 0
+C+13
+Text Label 4050 7650 0    50   ~ 0
+C+14
+Text Label 4050 7100 0    50   ~ 0
+C+15
+Text Label 4050 6550 0    50   ~ 0
+C+16
+Wire Wire Line
+	4000 6000 4350 6000
+Text Label 4050 6000 0    50   ~ 0
+C+17
+Text Label 4100 5450 0    50   ~ 0
+C+18
 $EndSCHEMATC
