@@ -25,3 +25,6 @@ Analog device is offering a DC2350 development board with DC2026 linduino contro
 
 This project aims to create a scalable & modular open source BMS for up to 1000V lithium-ion battery packs.
 
+24/08/2017:
+Project is halted until start of 2019
+
