@@ -1,11 +1,56 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# BMS-Master-rescue:+3.3V-power
+# Amplifier_Operational_OPA376xxD
 #
-DEF BMS-Master-rescue:+3.3V-power #PWR 0 0 Y Y 1 F P
+DEF Amplifier_Operational_OPA376xxD U 0 5 Y Y 1 F N
+F0 "U" 0 250 50 H V L CNN
+F1 "Amplifier_Operational_OPA376xxD" 0 150 50 H V L CNN
+F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" -100 -200 50 H I L CNN
+F3 "" 150 150 50 H I C CNN
+ALIAS OPA340UA OPA376xxD MCP6L91RT-ESN TSV911IDT THS4631D OPA330xxD MCP601-xSN LM6171D OPA356xxD AD8001AR LMH6702MA LMH6609MA OPA188xxD
+$FPLIST
+ SOIC*3.9x4.9mm*P1.27mm*
+$ENDFPLIST
+DRAW
+P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
+X NC 1 -100 100 100 D 50 50 1 1 N N
+X - 2 -300 -100 100 R 50 50 1 1 I
+X + 3 -300 100 100 R 50 50 1 1 I
+X V- 4 -100 -300 150 U 50 50 1 1 W
+X NC 5 0 100 100 D 50 50 1 1 N N
+X ~ 6 300 0 100 L 50 50 1 1 O
+X V+ 7 -100 300 150 D 50 50 1 1 W
+X NC 8 0 -100 100 U 50 50 1 1 N N
+ENDDRAW
+ENDDEF
+#
+# Analog_ADC_ADS1110
+#
+DEF Analog_ADC_ADS1110 U 0 40 Y Y 1 F N
+F0 "U" -300 350 50 H V L CNN
+F1 "Analog_ADC_ADS1110" 50 350 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23-6" 450 350 50 H I L CNN
+F3 "" -300 350 50 H I C CNN
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+S -300 300 300 -300 0 1 10 f
+X VIN+ 1 -400 100 100 R 50 50 1 1 I
+X GND 2 0 -400 100 U 50 50 1 1 W
+X SCL 3 400 100 100 L 50 50 1 1 I
+X SDA 4 400 -100 100 L 50 50 1 1 B
+X VDD 5 0 400 100 D 50 50 1 1 W
+X VIN- 6 -400 -100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# BMS-Master-rescue_+3.3V-power
+#
+DEF BMS-Master-rescue_+3.3V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "BMS-Master-rescue:+3.3V-power" 0 140 50 H V C CNN
+F1 "BMS-Master-rescue_+3.3V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +61,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue:+5V-power
+# BMS-Master-rescue_+5V-power
 #
-DEF BMS-Master-rescue:+5V-power #PWR 0 0 Y Y 1 F P
+DEF BMS-Master-rescue_+5V-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "BMS-Master-rescue:+5V-power" 0 140 50 H V C CNN
+F1 "BMS-Master-rescue_+5V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +76,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue:2N7002-Transistor_FET
+# BMS-Master-rescue_BSS138-Transistor_FET
 #
-DEF BMS-Master-rescue:2N7002-Transistor_FET Q 0 0 Y N 1 F N
+DEF BMS-Master-rescue_BSS138-Transistor_FET Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "BMS-Master-rescue:2N7002-Transistor_FET" 200 0 50 H V L CNN
+F1 "BMS-Master-rescue_BSS138-Transistor_FET" 200 0 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -65,45 +110,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue:BSS138-Transistor_FET
+# BMS-Master-rescue_Buzzer-Device
 #
-DEF BMS-Master-rescue:BSS138-Transistor_FET Q 0 0 Y N 1 F N
-F0 "Q" 200 75 50 H V L CNN
-F1 "BMS-Master-rescue:BSS138-Transistor_FET" 200 0 50 H V L CNN
-F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
-F3 "" 0 0 50 H I L CNN
-$FPLIST
- SOT?23*
-$ENDFPLIST
-DRAW
-C 65 0 111 0 1 10 N
-C 100 -70 11 0 1 0 F
-C 100 70 11 0 1 0 F
-P 2 0 1 0 30 -70 100 -70 N
-P 2 0 1 10 30 -50 30 -90 N
-P 2 0 1 0 30 0 100 0 N
-P 2 0 1 10 30 20 30 -20 N
-P 2 0 1 0 30 70 100 70 N
-P 2 0 1 10 30 90 30 50 N
-P 2 0 1 0 100 -70 100 -100 N
-P 2 0 1 0 100 -70 100 0 N
-P 2 0 1 0 100 100 100 70 N
-P 3 0 1 10 10 75 10 -75 10 -75 N
-P 4 0 1 0 40 0 80 15 80 -15 40 0 F
-P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
-P 4 0 1 0 110 20 115 15 145 15 150 10 N
-P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
-X G 1 -200 0 210 R 50 50 1 1 I
-X S 2 100 -200 100 U 50 50 1 1 P
-X D 3 100 200 100 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# BMS-Master-rescue:Buzzer-Device
-#
-DEF BMS-Master-rescue:Buzzer-Device BZ 0 1 Y N 1 F N
+DEF BMS-Master-rescue_Buzzer-Device BZ 0 1 Y N 1 F N
 F0 "BZ" 150 50 50 H V L CNN
-F1 "BMS-Master-rescue:Buzzer-Device" 150 -50 50 H V L CNN
+F1 "BMS-Master-rescue_Buzzer-Device" 150 -50 50 H V L CNN
 F2 "" -25 100 50 V I C CNN
 F3 "" -25 100 50 V I C CNN
 $FPLIST
@@ -119,11 +130,11 @@ X + 2 -100 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue:C-Device
+# BMS-Master-rescue_C-Device
 #
-DEF BMS-Master-rescue:C-Device C 0 10 N Y 1 F N
+DEF BMS-Master-rescue_C-Device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "BMS-Master-rescue:C-Device" 25 -100 50 H V L CNN
+F1 "BMS-Master-rescue_C-Device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -137,11 +148,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue:Conn_01x01-Connector_Generic
+# BMS-Master-rescue_Conn_01x01-Connector_Generic
 #
-DEF BMS-Master-rescue:Conn_01x01-Connector_Generic J 0 40 Y N 1 F N
+DEF BMS-Master-rescue_Conn_01x01-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "BMS-Master-rescue:Conn_01x01-Connector_Generic" 0 -100 50 H V C CNN
+F1 "BMS-Master-rescue_Conn_01x01-Connector_Generic" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -154,11 +165,11 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue:Conn_01x02-Connector_Generic
+# BMS-Master-rescue_Conn_01x02-Connector_Generic
 #
-DEF BMS-Master-rescue:Conn_01x02-Connector_Generic J 0 40 Y N 1 F N
+DEF BMS-Master-rescue_Conn_01x02-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "BMS-Master-rescue:Conn_01x02-Connector_Generic" 0 -200 50 H V C CNN
+F1 "BMS-Master-rescue_Conn_01x02-Connector_Generic" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -173,11 +184,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue:Conn_01x04-Connector_Generic
+# BMS-Master-rescue_Conn_01x04-Connector_Generic
 #
-DEF BMS-Master-rescue:Conn_01x04-Connector_Generic J 0 40 Y N 1 F N
+DEF BMS-Master-rescue_Conn_01x04-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "BMS-Master-rescue:Conn_01x04-Connector_Generic" 0 -300 50 H V C CNN
+F1 "BMS-Master-rescue_Conn_01x04-Connector_Generic" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -196,11 +207,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue:Conn_01x05-Connector_Generic
+# BMS-Master-rescue_Conn_01x05-Connector_Generic
 #
-DEF BMS-Master-rescue:Conn_01x05-Connector_Generic J 0 40 Y N 1 F N
+DEF BMS-Master-rescue_Conn_01x05-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "BMS-Master-rescue:Conn_01x05-Connector_Generic" 0 -300 50 H V C CNN
+F1 "BMS-Master-rescue_Conn_01x05-Connector_Generic" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -221,58 +232,11 @@ X Pin_5 5 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue:Conn_02x08_Counter_Clockwise-Connector_Generic
+# BMS-Master-rescue_Crystal-Device
 #
-DEF BMS-Master-rescue:Conn_02x08_Counter_Clockwise-Connector_Generic J 0 40 Y N 1 F N
-F0 "J" 50 400 50 H V C CNN
-F1 "BMS-Master-rescue:Conn_02x08_Counter_Clockwise-Connector_Generic" 50 -500 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_2x??_*
-$ENDFPLIST
-DRAW
-S -50 -395 0 -405 1 1 6 N
-S -50 -295 0 -305 1 1 6 N
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 205 0 195 1 1 6 N
-S -50 305 0 295 1 1 6 N
-S -50 350 150 -450 1 1 10 f
-S 150 -395 100 -405 1 1 6 N
-S 150 -295 100 -305 1 1 6 N
-S 150 -195 100 -205 1 1 6 N
-S 150 -95 100 -105 1 1 6 N
-S 150 5 100 -5 1 1 6 N
-S 150 105 100 95 1 1 6 N
-S 150 205 100 195 1 1 6 N
-S 150 305 100 295 1 1 6 N
-X Pin_1 1 -200 300 150 R 50 50 1 1 P
-X Pin_10 10 300 -300 150 L 50 50 1 1 P
-X Pin_11 11 300 -200 150 L 50 50 1 1 P
-X Pin_12 12 300 -100 150 L 50 50 1 1 P
-X Pin_13 13 300 0 150 L 50 50 1 1 P
-X Pin_14 14 300 100 150 L 50 50 1 1 P
-X Pin_15 15 300 200 150 L 50 50 1 1 P
-X Pin_16 16 300 300 150 L 50 50 1 1 P
-X Pin_2 2 -200 200 150 R 50 50 1 1 P
-X Pin_3 3 -200 100 150 R 50 50 1 1 P
-X Pin_4 4 -200 0 150 R 50 50 1 1 P
-X Pin_5 5 -200 -100 150 R 50 50 1 1 P
-X Pin_6 6 -200 -200 150 R 50 50 1 1 P
-X Pin_7 7 -200 -300 150 R 50 50 1 1 P
-X Pin_8 8 -200 -400 150 R 50 50 1 1 P
-X Pin_9 9 300 -400 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# BMS-Master-rescue:Crystal-Device
-#
-DEF BMS-Master-rescue:Crystal-Device Y 0 40 N N 1 F N
+DEF BMS-Master-rescue_Crystal-Device Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "BMS-Master-rescue:Crystal-Device" 0 -150 50 H V C CNN
+F1 "BMS-Master-rescue_Crystal-Device" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -289,11 +253,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue:D_Zener-Device
+# BMS-Master-rescue_D_Zener-Device
 #
-DEF BMS-Master-rescue:D_Zener-Device D 0 40 N N 1 F N
+DEF BMS-Master-rescue_D_Zener-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "BMS-Master-rescue:D_Zener-Device" 0 -100 50 H V C CNN
+F1 "BMS-Master-rescue_D_Zener-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -312,11 +276,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue:Fuse-Device
+# BMS-Master-rescue_Fuse-Device
 #
-DEF BMS-Master-rescue:Fuse-Device F 0 0 N Y 1 F N
+DEF BMS-Master-rescue_Fuse-Device F 0 0 N Y 1 F N
 F0 "F" 80 0 50 V V C CNN
-F1 "BMS-Master-rescue:Fuse-Device" -75 0 50 V V C CNN
+F1 "BMS-Master-rescue_Fuse-Device" -75 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -330,11 +294,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue:GND-power
+# BMS-Master-rescue_GND-power
 #
-DEF BMS-Master-rescue:GND-power #PWR 0 0 Y Y 1 F P
+DEF BMS-Master-rescue_GND-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "BMS-Master-rescue:GND-power" 0 -150 50 H V C CNN
+F1 "BMS-Master-rescue_GND-power" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -343,25 +307,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue:GNDD-power
+# BMS-Master-rescue_INDUCTOR-pspice
 #
-DEF BMS-Master-rescue:GNDD-power #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "BMS-Master-rescue:GNDD-power" 0 -125 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -50 -60 50 -80 0 1 10 F
-P 2 0 1 0 0 0 0 -60 N
-X GNDD 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# BMS-Master-rescue:INDUCTOR-pspice
-#
-DEF BMS-Master-rescue:INDUCTOR-pspice L 0 0 N Y 1 F N
+DEF BMS-Master-rescue_INDUCTOR-pspice L 0 0 N Y 1 F N
 F0 "L" 0 100 50 H V C CNN
-F1 "BMS-Master-rescue:INDUCTOR-pspice" 0 -50 50 H V C CNN
+F1 "BMS-Master-rescue_INDUCTOR-pspice" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -374,11 +324,11 @@ X 2 2 250 0 50 L 30 30 1 1 I
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue:Jumper_NC_Dual-Device
+# BMS-Master-rescue_Jumper_NC_Dual-Device
 #
-DEF BMS-Master-rescue:Jumper_NC_Dual-Device JP 0 30 Y N 1 F N
+DEF BMS-Master-rescue_Jumper_NC_Dual-Device JP 0 30 Y N 1 F N
 F0 "JP" 50 -100 50 H V L CNN
-F1 "BMS-Master-rescue:Jumper_NC_Dual-Device" 0 100 50 H V C BNN
+F1 "BMS-Master-rescue_Jumper_NC_Dual-Device" 0 100 50 H V C BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -393,11 +343,11 @@ X 3 3 250 0 95 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue:L-Device
+# BMS-Master-rescue_L-Device
 #
-DEF BMS-Master-rescue:L-Device L 0 40 N N 1 F N
+DEF BMS-Master-rescue_L-Device L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "BMS-Master-rescue:L-Device" 75 0 50 V V C CNN
+F1 "BMS-Master-rescue_L-Device" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -416,11 +366,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue:LED-Device
+# BMS-Master-rescue_LED-Device
 #
-DEF BMS-Master-rescue:LED-Device D 0 40 Y N 1 F N
+DEF BMS-Master-rescue_LED-Device D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "BMS-Master-rescue:LED-Device" 0 -100 50 H V C CNN
+F1 "BMS-Master-rescue_LED-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -439,11 +389,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue:LM5008MM-Regulator_Switching
+# BMS-Master-rescue_LM5008MM-Regulator_Switching
 #
-DEF BMS-Master-rescue:LM5008MM-Regulator_Switching U 0 20 Y Y 1 F N
+DEF BMS-Master-rescue_LM5008MM-Regulator_Switching U 0 20 Y Y 1 F N
 F0 "U" -300 350 50 H V L CNN
-F1 "BMS-Master-rescue:LM5008MM-Regulator_Switching" 0 350 50 H V L CNN
+F1 "BMS-Master-rescue_LM5008MM-Regulator_Switching" 0 350 50 H V L CNN
 F2 "Package_SO:MSOP-8_3x3mm_P0.65mm" 50 -450 50 H I L CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -462,11 +412,11 @@ X VIN 8 -400 200 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue:LP2985-3.3-Regulator_Linear
+# BMS-Master-rescue_LP2985-3.3-Regulator_Linear
 #
-DEF BMS-Master-rescue:LP2985-3.3-Regulator_Linear U 0 10 Y Y 1 F N
+DEF BMS-Master-rescue_LP2985-3.3-Regulator_Linear U 0 10 Y Y 1 F N
 F0 "U" -250 225 50 H V C CNN
-F1 "BMS-Master-rescue:LP2985-3.3-Regulator_Linear" 0 225 50 H V L CNN
+F1 "BMS-Master-rescue_LP2985-3.3-Regulator_Linear" 0 225 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5" 0 325 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -482,30 +432,11 @@ X VOUT 5 400 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue:MBR0540-Diode
+# BMS-Master-rescue_Micro_SD_Card_Det_Hirose_DM3AT-Connector_Specialized
 #
-DEF BMS-Master-rescue:MBR0540-Diode D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "BMS-Master-rescue:MBR0540-Diode" 0 -100 50 H V C CNN
-F2 "Diode_SMD:D_SOD-123" 0 -175 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- *:D*SOD?123*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
-P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# BMS-Master-rescue:Micro_SD_Card_Det_Hirose_DM3AT-Connector_Specialized
-#
-DEF BMS-Master-rescue:Micro_SD_Card_Det_Hirose_DM3AT-Connector_Specialized J 0 40 Y Y 1 F N
+DEF BMS-Master-rescue_Micro_SD_Card_Det_Hirose_DM3AT-Connector_Specialized J 0 40 Y Y 1 F N
 F0 "J" -650 700 50 H V C CNN
-F1 "BMS-Master-rescue:Micro_SD_Card_Det_Hirose_DM3AT-Connector_Specialized" 650 700 50 H V R CNN
+F1 "BMS-Master-rescue_Micro_SD_Card_Det_Hirose_DM3AT-Connector_Specialized" 650 700 50 H V R CNN
 F2 "" 2050 700 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 $FPLIST
@@ -536,11 +467,11 @@ X DET_B 9 -900 -500 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue:Q_NPN_BCE-Device
+# BMS-Master-rescue_Q_NPN_BCE-Device
 #
-DEF BMS-Master-rescue:Q_NPN_BCE-Device Q 0 0 Y N 1 F N
+DEF BMS-Master-rescue_Q_NPN_BCE-Device Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "BMS-Master-rescue:Q_NPN_BCE-Device" 200 -50 50 H V L CNN
+F1 "BMS-Master-rescue_Q_NPN_BCE-Device" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -555,11 +486,11 @@ X E 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue:R-Device
+# BMS-Master-rescue_R-Device
 #
-DEF BMS-Master-rescue:R-Device R 0 0 N Y 1 F N
+DEF BMS-Master-rescue_R-Device R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "BMS-Master-rescue:R-Device" 0 0 50 V V C CNN
+F1 "BMS-Master-rescue_R-Device" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -572,11 +503,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue:SFH617A-2X009T-Isolator
+# BMS-Master-rescue_SFH617A-2X009T-Isolator
 #
-DEF BMS-Master-rescue:SFH617A-2X009T-Isolator U 0 40 Y Y 1 F N
+DEF BMS-Master-rescue_SFH617A-2X009T-Isolator U 0 40 Y Y 1 F N
 F0 "U" -200 200 50 H V L CNN
-F1 "BMS-Master-rescue:SFH617A-2X009T-Isolator" 0 200 50 H V L CNN
+F1 "BMS-Master-rescue_SFH617A-2X009T-Isolator" 0 200 50 H V L CNN
 F2 "Package_DIP:SMDIP-4_W7.62mm" -200 -200 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -603,11 +534,11 @@ X ~ 4 300 100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue:STM32F303CCTx-MCU_ST_STM32
+# BMS-Master-rescue_STM32F303CCTx-MCU_ST_STM32
 #
-DEF BMS-Master-rescue:STM32F303CCTx-MCU_ST_STM32 U 0 40 Y Y 1 L N
+DEF BMS-Master-rescue_STM32F303CCTx-MCU_ST_STM32 U 0 40 Y Y 1 L N
 F0 "U" -7200 1725 50 H V L BNN
-F1 "BMS-Master-rescue:STM32F303CCTx-MCU_ST_STM32" 7200 1725 50 H V R BNN
+F1 "BMS-Master-rescue_STM32F303CCTx-MCU_ST_STM32" 7200 1725 50 H V R BNN
 F2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" 7200 1675 50 H I R TNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -663,11 +594,11 @@ X VDDA 9 100 1800 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue:SW_MEC_5G-Switch
+# BMS-Master-rescue_SW_MEC_5G-Switch
 #
-DEF BMS-Master-rescue:SW_MEC_5G-Switch SW 0 40 N N 1 F N
+DEF BMS-Master-rescue_SW_MEC_5G-Switch SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "BMS-Master-rescue:SW_MEC_5G-Switch" 0 -60 50 H V C CNN
+F1 "BMS-Master-rescue_SW_MEC_5G-Switch" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 $FPLIST
@@ -685,11 +616,11 @@ X B 4 200 0 100 L 50 50 1 1 P N
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue:USB_B_Micro-Connector_Specialized
+# BMS-Master-rescue_USB_B_Micro-Connector_Specialized
 #
-DEF BMS-Master-rescue:USB_B_Micro-Connector_Specialized J 0 40 Y Y 1 F N
+DEF BMS-Master-rescue_USB_B_Micro-Connector_Specialized J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "BMS-Master-rescue:USB_B_Micro-Connector_Specialized" -200 350 50 H V L CNN
+F1 "BMS-Master-rescue_USB_B_Micro-Connector_Specialized" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST
@@ -720,82 +651,115 @@ X Shield 6 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector:Conn_01x19_Male
+# Connector_Generic_Conn_01x19
 #
-DEF Connector:Conn_01x19_Male J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x19 J 0 40 Y N 1 F N
 F0 "J" 0 1000 50 H V C CNN
-F1 "Connector:Conn_01x19_Male" 0 -1000 50 H V C CNN
+F1 "Connector_Generic_Conn_01x19" 0 -1000 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
 DRAW
-S 34 -895 0 -905 1 1 6 F
-S 34 -795 0 -805 1 1 6 F
-S 34 -695 0 -705 1 1 6 F
-S 34 -595 0 -605 1 1 6 F
-S 34 -495 0 -505 1 1 6 F
-S 34 -395 0 -405 1 1 6 F
-S 34 -295 0 -305 1 1 6 F
-S 34 -195 0 -205 1 1 6 F
-S 34 -95 0 -105 1 1 6 F
-S 34 5 0 -5 1 1 6 F
-S 34 105 0 95 1 1 6 F
-S 34 205 0 195 1 1 6 F
-S 34 305 0 295 1 1 6 F
-S 34 405 0 395 1 1 6 F
-S 34 505 0 495 1 1 6 F
-S 34 605 0 595 1 1 6 F
-S 34 705 0 695 1 1 6 F
-S 34 805 0 795 1 1 6 F
-S 34 905 0 895 1 1 6 F
-P 2 1 1 6 50 -900 34 -900 N
-P 2 1 1 6 50 -800 34 -800 N
-P 2 1 1 6 50 -700 34 -700 N
-P 2 1 1 6 50 -600 34 -600 N
-P 2 1 1 6 50 -500 34 -500 N
-P 2 1 1 6 50 -400 34 -400 N
-P 2 1 1 6 50 -300 34 -300 N
-P 2 1 1 6 50 -200 34 -200 N
-P 2 1 1 6 50 -100 34 -100 N
-P 2 1 1 6 50 0 34 0 N
-P 2 1 1 6 50 100 34 100 N
-P 2 1 1 6 50 200 34 200 N
-P 2 1 1 6 50 300 34 300 N
-P 2 1 1 6 50 400 34 400 N
-P 2 1 1 6 50 500 34 500 N
-P 2 1 1 6 50 600 34 600 N
-P 2 1 1 6 50 700 34 700 N
-P 2 1 1 6 50 800 34 800 N
-P 2 1 1 6 50 900 34 900 N
-X Pin_1 1 200 900 150 L 50 50 1 1 P
-X Pin_10 10 200 0 150 L 50 50 1 1 P
-X Pin_11 11 200 -100 150 L 50 50 1 1 P
-X Pin_12 12 200 -200 150 L 50 50 1 1 P
-X Pin_13 13 200 -300 150 L 50 50 1 1 P
-X Pin_14 14 200 -400 150 L 50 50 1 1 P
-X Pin_15 15 200 -500 150 L 50 50 1 1 P
-X Pin_16 16 200 -600 150 L 50 50 1 1 P
-X Pin_17 17 200 -700 150 L 50 50 1 1 P
-X Pin_18 18 200 -800 150 L 50 50 1 1 P
-X Pin_19 19 200 -900 150 L 50 50 1 1 P
-X Pin_2 2 200 800 150 L 50 50 1 1 P
-X Pin_3 3 200 700 150 L 50 50 1 1 P
-X Pin_4 4 200 600 150 L 50 50 1 1 P
-X Pin_5 5 200 500 150 L 50 50 1 1 P
-X Pin_6 6 200 400 150 L 50 50 1 1 P
-X Pin_7 7 200 300 150 L 50 50 1 1 P
-X Pin_8 8 200 200 150 L 50 50 1 1 P
-X Pin_9 9 200 100 150 L 50 50 1 1 P
+S -50 -895 0 -905 1 1 6 N
+S -50 -795 0 -805 1 1 6 N
+S -50 -695 0 -705 1 1 6 N
+S -50 -595 0 -605 1 1 6 N
+S -50 -495 0 -505 1 1 6 N
+S -50 -395 0 -405 1 1 6 N
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 405 0 395 1 1 6 N
+S -50 505 0 495 1 1 6 N
+S -50 605 0 595 1 1 6 N
+S -50 705 0 695 1 1 6 N
+S -50 805 0 795 1 1 6 N
+S -50 905 0 895 1 1 6 N
+S -50 950 50 -950 1 1 10 f
+X Pin_1 1 -200 900 150 R 50 50 1 1 P
+X Pin_10 10 -200 0 150 R 50 50 1 1 P
+X Pin_11 11 -200 -100 150 R 50 50 1 1 P
+X Pin_12 12 -200 -200 150 R 50 50 1 1 P
+X Pin_13 13 -200 -300 150 R 50 50 1 1 P
+X Pin_14 14 -200 -400 150 R 50 50 1 1 P
+X Pin_15 15 -200 -500 150 R 50 50 1 1 P
+X Pin_16 16 -200 -600 150 R 50 50 1 1 P
+X Pin_17 17 -200 -700 150 R 50 50 1 1 P
+X Pin_18 18 -200 -800 150 R 50 50 1 1 P
+X Pin_19 19 -200 -900 150 R 50 50 1 1 P
+X Pin_2 2 -200 800 150 R 50 50 1 1 P
+X Pin_3 3 -200 700 150 R 50 50 1 1 P
+X Pin_4 4 -200 600 150 R 50 50 1 1 P
+X Pin_5 5 -200 500 150 R 50 50 1 1 P
+X Pin_6 6 -200 400 150 R 50 50 1 1 P
+X Pin_7 7 -200 300 150 R 50 50 1 1 P
+X Pin_8 8 -200 200 150 R 50 50 1 1 P
+X Pin_9 9 -200 100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:C
+# Connector_Generic_Conn_02x09_Counter_Clockwise
 #
-DEF Device:C C 0 10 N Y 1 F N
+DEF Connector_Generic_Conn_02x09_Counter_Clockwise J 0 40 Y N 1 F N
+F0 "J" 50 500 50 H V C CNN
+F1 "Connector_Generic_Conn_02x09_Counter_Clockwise" 50 -500 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -395 0 -405 1 1 6 N
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 405 0 395 1 1 6 N
+S -50 450 150 -450 1 1 10 f
+S 150 -395 100 -405 1 1 6 N
+S 150 -295 100 -305 1 1 6 N
+S 150 -195 100 -205 1 1 6 N
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+S 150 205 100 195 1 1 6 N
+S 150 305 100 295 1 1 6 N
+S 150 405 100 395 1 1 6 N
+X Pin_1 1 -200 400 150 R 50 50 1 1 P
+X Pin_10 10 300 -400 150 L 50 50 1 1 P
+X Pin_11 11 300 -300 150 L 50 50 1 1 P
+X Pin_12 12 300 -200 150 L 50 50 1 1 P
+X Pin_13 13 300 -100 150 L 50 50 1 1 P
+X Pin_14 14 300 0 150 L 50 50 1 1 P
+X Pin_15 15 300 100 150 L 50 50 1 1 P
+X Pin_16 16 300 200 150 L 50 50 1 1 P
+X Pin_17 17 300 300 150 L 50 50 1 1 P
+X Pin_18 18 300 400 150 L 50 50 1 1 P
+X Pin_2 2 -200 300 150 R 50 50 1 1 P
+X Pin_3 3 -200 200 150 R 50 50 1 1 P
+X Pin_4 4 -200 100 150 R 50 50 1 1 P
+X Pin_5 5 -200 0 150 R 50 50 1 1 P
+X Pin_6 6 -200 -100 150 R 50 50 1 1 P
+X Pin_7 7 -200 -200 150 R 50 50 1 1 P
+X Pin_8 8 -200 -300 150 R 50 50 1 1 P
+X Pin_9 9 -200 -400 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C
+#
+DEF Device_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device:C" 25 -100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -809,11 +773,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Q_NPN_BCE
+# Device_Q_NPN_BCE
 #
-DEF Device:Q_NPN_BCE Q 0 0 Y N 1 F N
+DEF Device_Q_NPN_BCE Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "Device:Q_NPN_BCE" 200 -50 50 H V L CNN
+F1 "Device_Q_NPN_BCE" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -828,11 +792,11 @@ X E 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:R
+# Device_R
 #
-DEF Device:R R 0 0 N Y 1 F N
+DEF Device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device:R" 0 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -845,11 +809,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Transformer_1P_1S
+# Device_Transformer_1P_1S
 #
-DEF Device:Transformer_1P_1S T 0 40 Y N 1 F N
+DEF Device_Transformer_1P_1S T 0 40 Y N 1 F N
 F0 "T" 0 250 50 H V C CNN
-F1 "Device:Transformer_1P_1S" 0 -300 50 H V C CNN
+F1 "Device_Transformer_1P_1S" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -878,11 +842,43 @@ X SB 4 400 200 300 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ENNOID:ISO1050DUBR
+# Diode_BAT54S
 #
-DEF ENNOID:ISO1050DUBR U 0 40 Y Y 1 F N
+DEF Diode_BAT54S D 0 40 Y Y 1 F N
+F0 "D" 25 -150 50 H V L CNN
+F1 "Diode_BAT54S" -250 125 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23" 75 125 50 H I L CNN
+F3 "" -120 0 50 H I C CNN
+$FPLIST
+ SOT*23*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -150 0 -50 0 N
+P 2 0 1 0 -125 -50 -125 -40 N
+P 2 0 1 0 -100 -50 -125 -50 N
+P 2 0 1 0 -100 -50 -100 50 N
+P 2 0 1 0 -100 50 -75 50 N
+P 2 0 1 0 -75 0 75 0 N
+P 2 0 1 0 -75 50 -75 40 N
+P 2 0 1 0 50 0 150 0 N
+P 2 0 1 0 125 -50 125 -40 N
+P 2 0 1 0 150 -50 125 -50 N
+P 2 0 1 0 150 -50 150 50 N
+P 2 0 1 0 150 50 175 50 N
+P 2 0 1 0 175 50 175 40 N
+P 4 0 1 0 -175 50 -175 -50 -100 0 -175 50 N
+P 4 0 1 0 75 50 75 -50 150 0 75 50 N
+X ~ 1 -300 0 150 R 50 50 1 1 P
+X ~ 2 300 0 150 L 50 50 1 1 P
+X ~ 3 0 -200 200 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ENNOID_ISO1050DUBR
+#
+DEF ENNOID_ISO1050DUBR U 0 40 Y Y 1 F N
 F0 "U" 0 300 50 H V C CNN
-F1 "ENNOID:ISO1050DUBR" 0 -300 50 H V C CNN
+F1 "ENNOID_ISO1050DUBR" 0 -300 50 H V C CNN
 F2 "" -100 -350 50 H I C CNN
 F3 "" -100 -350 50 H I C CNN
 DRAW
@@ -898,11 +894,11 @@ X Vcc2 8 400 150 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# ENNOID:LTC6813
+# ENNOID_LTC6813
 #
-DEF ENNOID:LTC6813 U 0 40 Y Y 1 F N
+DEF ENNOID_LTC6813 U 0 40 Y Y 1 F N
 F0 "U" 0 -50 50 H V C CNN
-F1 "ENNOID:LTC6813" 0 50 50 H V C CNN
+F1 "ENNOID_LTC6813" 0 50 50 H V C CNN
 F2 "" -50 -200 50 H I C CNN
 F3 "" -50 -200 50 H I C CNN
 DRAW
@@ -974,16 +970,251 @@ X S15 9 -1200 -50 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# Interface_USB_CP2104
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF Interface_USB_CP2104 U 0 40 Y Y 1 F N
+F0 "U" -300 925 50 H V R CNN
+F1 "Interface_USB_CP2104" -300 850 50 H V R CNN
+F2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" 150 -950 50 H I L CNN
+F3 "" -550 1250 50 H I C CNN
+$FPLIST
+ QFN*4x4mm*P0.5mm*
+$ENDFPLIST
+DRAW
+S -600 800 600 -900 0 1 10 f
+X RI 1 700 600 100 L 50 50 1 1 I
+X VIO/NC 10 200 900 100 D 50 50 1 1 w
+X GPIO.3 11 -700 -500 100 R 50 50 1 1 B
+X GPIO.2 12 -700 -400 100 R 50 50 1 1 B
+X GPIO.1 13 -700 -300 100 R 50 50 1 1 B
+X GPIO.0 14 -700 -200 100 R 50 50 1 1 B
+X ~SUSPEND 15 700 -700 100 L 50 50 1 1 O
+X VPP 16 -700 -700 100 R 50 50 1 1 P
+X SUSPEND 17 700 -600 100 L 50 50 1 1 O
+X CTS 18 700 -300 100 L 50 50 1 1 I
+X RTS 19 700 -200 100 L 50 50 1 1 O
+X GND 2 0 -1000 100 U 50 50 1 1 W
+X RXD 20 700 0 100 L 50 50 1 1 I
+X TXD 21 700 100 100 L 50 50 1 1 O
+X DSR 22 700 300 100 L 50 50 1 1 I
+X DTR 23 700 400 100 L 50 50 1 1 O
+X DCD 24 700 500 100 L 50 50 1 1 I
+X PAD 25 100 -1000 100 U 50 50 1 1 W
+X D+ 3 -700 0 100 R 50 50 1 1 B
+X D- 4 -700 100 100 R 50 50 1 1 B
+X VIO 5 -200 900 100 D 50 50 1 1 W
+X VDD 6 0 900 100 D 50 50 1 1 W
+X REGIN 7 -700 600 100 R 50 50 1 1 W
+X VBUS 8 -700 400 100 R 50 50 1 1 I
+X ~RST 9 700 -500 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# Isolator_SFH617A-2X017T
+#
+DEF Isolator_SFH617A-2X017T U 0 40 Y Y 1 F N
+F0 "U" -200 250 50 H V L CNN
+F1 "Isolator_SFH617A-2X017T" -200 -250 50 H V L CNN
+F2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" 0 -350 50 H I C CIN
+F3 "" 0 -50 50 H I L CNN
+ALIAS SFH617A-3X007T SFH617A-2X017T SFH617A-3X017T
+$FPLIST
+ SMDIP*W9.53mm*Clearance8mm*
+$ENDFPLIST
+DRAW
+S -200 150 200 -150 0 1 10 f
+P 2 0 1 10 -125 -25 -75 -25 N
+P 2 0 1 0 100 25 175 100 N
+P 2 0 1 0 175 -100 100 -25 F
+P 2 0 1 0 175 -100 200 -100 N
+P 2 0 1 0 175 100 200 100 N
+P 3 0 1 0 -100 -25 -100 -100 -200 -100 N
+P 3 0 1 20 100 75 100 -75 100 -75 N
+P 4 0 1 0 -200 100 -100 100 -100 -50 -100 25 N
+P 4 0 1 10 -100 -25 -125 25 -75 25 -100 -25 N
+P 5 0 1 0 -20 -20 30 -20 15 -25 15 -15 30 -20 N
+P 5 0 1 0 -20 20 30 20 15 15 15 25 30 20 N
+P 5 0 1 0 120 -65 140 -45 160 -85 120 -65 120 -65 F
+X ~ 1 -300 100 100 R 50 50 1 1 P
+X ~ 2 -300 -100 100 R 50 50 1 1 P
+X ~ 3 300 -100 100 L 50 50 1 1 P
+X ~ 4 300 100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Logic_LevelTranslator_SN74LVC1T45DBV
+#
+DEF Logic_LevelTranslator_SN74LVC1T45DBV U 0 20 Y Y 1 F N
+F0 "U" -250 350 50 H V C CNN
+F1 "Logic_LevelTranslator_SN74LVC1T45DBV" 150 350 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23-6" 0 -450 50 H I C CNN
+F3 "" -900 -650 50 H I C CNN
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+S -300 300 300 -300 0 1 10 f
+P 3 0 1 0 -100 0 -100 40 -30 40 N
+P 3 0 1 0 110 0 110 -40 40 -40 N
+P 4 0 1 0 -30 -40 -100 -40 -100 0 -180 0 N
+P 4 0 1 0 -30 0 -30 80 40 40 -30 0 N
+P 4 0 1 0 40 40 110 40 110 0 160 0 N
+P 5 0 1 0 40 0 40 -70 40 -80 -30 -40 40 0 N
+X VCCA 1 -100 400 100 D 50 50 1 1 W
+X GND 2 0 -400 100 U 50 50 1 1 W
+X A 3 -400 0 100 R 50 50 1 1 B
+X B 4 400 0 100 L 50 50 1 1 B
+X DIR 5 -400 -200 100 R 50 50 1 1 I
+X VCCB 6 100 400 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Power_Protection_SP0502BAHT
+#
+DEF Power_Protection_SP0502BAHT D 0 20 Y N 1 F N
+F0 "D" 225 100 50 H V L CNN
+F1 "Power_Protection_SP0502BAHT" 225 25 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23" 225 -50 50 H I L CNN
+F3 "" 125 125 50 H I C CNN
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+C 0 -50 10 0 1 0 F
+S -175 100 175 -100 0 1 10 f
+P 2 0 1 0 -100 100 -100 50 N
+P 2 0 1 0 0 -50 0 -100 N
+P 2 0 1 0 100 100 100 50 N
+P 4 0 1 0 -130 40 -130 50 -75 50 -70 50 N
+P 4 0 1 0 -100 50 -100 -50 100 -50 100 50 N
+P 4 0 1 0 -100 50 -75 0 -125 0 -100 50 N
+P 4 0 1 0 70 40 70 50 125 50 130 50 N
+P 4 0 1 0 100 50 75 0 125 0 100 50 N
+X A 3 0 -200 100 U 50 50 0 0 P
+X K 1 -100 200 100 D 50 50 1 1 P
+X K 2 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Power_Protection_SZNUP2105L
+#
+DEF Power_Protection_SZNUP2105L D 0 20 Y N 1 F N
+F0 "D" 225 100 50 H V L CNN
+F1 "Power_Protection_SZNUP2105L" 225 25 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23" 225 -50 50 H I L CNN
+F3 "" 125 125 50 H I C CNN
+ALIAS SZNUP2105L
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+S -175 100 175 -100 0 1 10 f
+P 2 0 1 0 -100 100 -100 25 N
+P 2 0 1 0 0 -50 0 -100 N
+P 2 0 1 0 100 100 100 25 N
+P 4 0 1 0 -150 50 -125 25 -75 25 -50 0 N
+P 4 0 1 0 -100 25 -100 -50 100 -50 100 25 N
+P 4 0 1 0 -100 25 -75 -25 -125 -25 -100 25 N
+P 4 0 1 0 100 25 75 -25 125 -25 100 25 N
+P 4 0 1 0 100 25 125 75 75 75 100 25 N
+P 5 0 1 0 -100 25 -125 75 -75 75 -100 25 -100 50 N
+P 5 0 1 0 50 50 75 25 100 25 125 25 150 0 N
+X A 3 0 -200 100 U 50 50 0 0 P
+X K 1 -100 200 100 D 50 50 1 1 P
+X K 2 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Transistor_FET_BSS138
+#
+DEF Transistor_FET_BSS138 Q 0 0 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "Transistor_FET_BSS138" 200 0 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+ALIAS 2N7002 MMBF170
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+C 65 0 111 0 1 10 N
+C 100 -70 11 0 1 0 F
+C 100 70 11 0 1 0 F
+P 2 0 1 0 30 -70 100 -70 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 0 30 0 100 0 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 0 30 70 100 70 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 -70 100 -100 N
+P 2 0 1 0 100 -70 100 0 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 10 10 75 10 -75 10 -75 N
+P 4 0 1 0 40 0 80 15 80 -15 40 0 F
+P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
+P 4 0 1 0 110 20 115 15 145 15 150 10 N
+P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
+X G 1 -200 0 210 R 50 50 1 1 I
+X S 2 100 -200 100 U 50 50 1 1 P
+X D 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_+3.3V
+#
+DEF power_+3.3V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3.3V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_VDD
+#
+DEF power_VDD #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_VDD" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VDD 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

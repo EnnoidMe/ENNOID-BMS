@@ -1,0 +1,3647 @@
+[Design]
+Version=1.0
+HierarchyMode=4
+ChannelRoomNamingStyle=3
+ReleasesFolder=
+ChannelDesignatorFormatString=$Component_$ChannelIndex
+ChannelRoomLevelSeperator=-
+OpenOutputs=1
+ArchiveProject=0
+TimestampOutput=0
+SeparateFolders=0
+TemplateLocationPath=
+PinSwapBy_Netlabel=1
+PinSwapBy_Pin=1
+AllowPortNetNames=0
+AllowSheetEntryNetNames=0
+AppendSheetNumberToLocalNets=0
+NetlistSinglePinNets=0
+DefaultConfiguration=Sources
+UserID=0xFFFFFFFF
+DefaultPcbProtel=1
+DefaultPcbPcad=0
+ReorderDocumentsOnCompile=1
+NameNetsHierarchically=1
+PowerPortNamesTakePriority=1
+PushECOToAnnotationFile=1
+DItemRevisionGUID=
+ReportSuppressedErrorsInMessages=0
+FSMCodingStyle=eFMSDropDownList_OneProcess
+FSMEncodingStyle=eFMSDropDownList_OneHot
+OutputPath=
+LogFolderPath=
+ManagedProjectGUID=
+LinkedManagedProjectGUID=
+IncludeDesignInRelease=0
+
+[Preferences]
+PrefsVaultGUID=
+PrefsRevisionGUID=
+
+[Document1]
+DocumentPath=LTC.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1400
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=13
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XBJEDAXC
+
+[Document2]
+DocumentPath=cell_fuses.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=300
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=2
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KUCMTCOY
+
+[Document3]
+DocumentPath=input_filter.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1300
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=12
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=RYEHDAWA
+
+[Document4]
+DocumentPath=passive_balancing.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1500
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=14
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YIDYYHMO
+
+[Document5]
+DocumentPath=feedback.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1100
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=10
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WNGHJKDA
+
+[Document6]
+DocumentPath=analog_in.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=100
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=0
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=GIWTMVRS
+
+[Document7]
+DocumentPath=digital_io.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=700
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=6
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=AJTROLEP
+
+[Document8]
+DocumentPath=eeprom_temp_sens.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=800
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CXSEWHUK
+
+[Document9]
+DocumentPath=connectors.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=400
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=3
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=PLCKQQXY
+
+[Document10]
+DocumentPath=ext_supply.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=900
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=8
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=TSXBWERQ
+
+[Document11]
+DocumentPath=slave.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BPWDSYOU
+
+[Document12]
+DocumentPath=structure.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document13]
+DocumentPath=hierarchy.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1200
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=11
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LWFGFITU
+
+[Document14]
+DocumentPath=daisy_chain_connectors.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=500
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=4
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KKSDDKLT
+
+[Document15]
+DocumentPath=ext_supply_con.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1000
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=9
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NMXETDPV
+
+[Document16]
+DocumentPath=bat_connectors.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=200
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=APUDXVEJ
+
+[Document17]
+DocumentPath=slave-18-ltc6813-1.BomDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document18]
+DocumentPath=bat_connectors.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document19]
+DocumentPath=feedback.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document20]
+DocumentPath=passive_balancing.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document21]
+DocumentPath=cell_fuses.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document22]
+DocumentPath=primary_decoupling.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document23]
+DocumentPath=dcdc_converter.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=600
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=5
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QBNRVQSQ
+
+[Document24]
+DocumentPath=input_filter.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document25]
+DocumentPath=schem-doc.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[ProjectVariant1]
+UniqueID=1BC06EA7-82EA-41F5-BD13-16703F83120B
+Description=default
+AllowFabrication=0
+ParameterCount=0
+VariationCount=54
+Variation1=Designator=C1306_1|UniqueId=\IPPXJKGT\XWMPRYWB|Kind=1|AlternatePart= 
+Variation2=Designator=C1309_1|UniqueId=\IPPXJKGT\PLJBDXHN|Kind=1|AlternatePart= 
+Variation3=Designator=C1308_1|UniqueId=\IPPXJKGT\GAOEJXLG|Kind=1|AlternatePart= 
+Variation4=Designator=C1307_1|UniqueId=\IPPXJKGT\GULFVLVU|Kind=1|AlternatePart= 
+Variation5=Designator=R1416_1|UniqueId=\FHDDMPDD\CPRRMLEU|Kind=1|AlternatePart= 
+Variation6=Designator=R1414_1|UniqueId=\FHDDMPDD\XDURIVRU|Kind=1|AlternatePart= 
+Variation7=Designator=R1412_1|UniqueId=\FHDDMPDD\DYJUVEQG|Kind=1|AlternatePart= 
+Variation8=Designator=R1410_1|UniqueId=\FHDDMPDD\RELOOAXR|Kind=1|AlternatePart= 
+Variation9=Designator=R1408_1|UniqueId=\FHDDMPDD\HAOPGTQC|Kind=1|AlternatePart= 
+Variation10=Designator=C1310_1|UniqueId=\IPPXJKGT\SPLDTYOF|Kind=1|AlternatePart= 
+Variation11=Designator=C1311_1|UniqueId=\IPPXJKGT\BCBOQQWT|Kind=1|AlternatePart= 
+Variation12=Designator=C1318_1|UniqueId=\IPPXJKGT\EDDXLTUS|Kind=1|AlternatePart= 
+Variation13=Designator=C1319_1|UniqueId=\IPPXJKGT\QUIAHFUQ|Kind=1|AlternatePart= 
+Variation14=Designator=C1320_1|UniqueId=\IPPXJKGT\AVVXOMRT|Kind=1|AlternatePart= 
+Variation15=Designator=C1321_1|UniqueId=\IPPXJKGT\OPRTGJYY|Kind=1|AlternatePart= 
+Variation16=Designator=C1322_1|UniqueId=\IPPXJKGT\VSVDOAHV|Kind=1|AlternatePart= 
+Variation17=Designator=C1323_1|UniqueId=\IPPXJKGT\IJHJPFYF|Kind=1|AlternatePart= 
+Variation18=Designator=R902|UniqueId=\KDJPDGIV\XSCSGRHU|Kind=1|AlternatePart= 
+Variation19=Designator=SJ300|UniqueId=\XBYPFDUL\TPREYXTJ|Kind=1|AlternatePart= 
+Variation20=Designator=SJ301|UniqueId=\XBYPFDUL\TMIEXJPD|Kind=1|AlternatePart= 
+Variation21=Designator=X900|UniqueId=\KDJPDGIV\JECWUOTM|Kind=1|AlternatePart= 
+Variation22=Designator=X1000|UniqueId=\AHAKFVWA\OTUQNSLA|Kind=1|AlternatePart= 
+Variation23=Designator=C1330_1|UniqueId=\IPPXJKGT\FKEVBYEQ|Kind=1|AlternatePart= 
+Variation24=Designator=C1330_2|UniqueId=\UNPGCEEF\FKEVBYEQ|Kind=1|AlternatePart= 
+Variation25=Designator=C1331_1|UniqueId=\IPPXJKGT\GRWRULKD|Kind=1|AlternatePart= 
+Variation26=Designator=C1331_2|UniqueId=\UNPGCEEF\GRWRULKD|Kind=1|AlternatePart= 
+Variation27=Designator=C1332_1|UniqueId=\IPPXJKGT\SBOKFYUJ|Kind=1|AlternatePart= 
+Variation28=Designator=C1332_2|UniqueId=\UNPGCEEF\SBOKFYUJ|Kind=1|AlternatePart= 
+Variation29=Designator=C1333_1|UniqueId=\IPPXJKGT\WPMVUNCO|Kind=1|AlternatePart= 
+Variation30=Designator=C1333_2|UniqueId=\UNPGCEEF\WPMVUNCO|Kind=1|AlternatePart= 
+Variation31=Designator=C1334_1|UniqueId=\IPPXJKGT\YDKENNCT|Kind=1|AlternatePart= 
+Variation32=Designator=C1334_2|UniqueId=\UNPGCEEF\YDKENNCT|Kind=1|AlternatePart= 
+Variation33=Designator=C1335_1|UniqueId=\IPPXJKGT\XRYNNEQS|Kind=1|AlternatePart= 
+Variation34=Designator=C1335_2|UniqueId=\UNPGCEEF\XRYNNEQS|Kind=1|AlternatePart= 
+Variation35=Designator=C1306_2|UniqueId=\UNPGCEEF\XWMPRYWB|Kind=1|AlternatePart= 
+Variation36=Designator=C1307_2|UniqueId=\UNPGCEEF\GULFVLVU|Kind=1|AlternatePart= 
+Variation37=Designator=C1308_2|UniqueId=\UNPGCEEF\GAOEJXLG|Kind=1|AlternatePart= 
+Variation38=Designator=C1309_2|UniqueId=\UNPGCEEF\PLJBDXHN|Kind=1|AlternatePart= 
+Variation39=Designator=C1310_2|UniqueId=\UNPGCEEF\SPLDTYOF|Kind=1|AlternatePart= 
+Variation40=Designator=C1311_2|UniqueId=\UNPGCEEF\BCBOQQWT|Kind=1|AlternatePart= 
+Variation41=Designator=C1318_2|UniqueId=\UNPGCEEF\EDDXLTUS|Kind=1|AlternatePart= 
+Variation42=Designator=C1319_2|UniqueId=\UNPGCEEF\QUIAHFUQ|Kind=1|AlternatePart= 
+Variation43=Designator=C1320_2|UniqueId=\UNPGCEEF\AVVXOMRT|Kind=1|AlternatePart= 
+Variation44=Designator=C1321_2|UniqueId=\UNPGCEEF\OPRTGJYY|Kind=1|AlternatePart= 
+Variation45=Designator=C1322_2|UniqueId=\UNPGCEEF\VSVDOAHV|Kind=1|AlternatePart= 
+Variation46=Designator=C1323_2|UniqueId=\UNPGCEEF\IJHJPFYF|Kind=1|AlternatePart= 
+Variation47=Designator=R1408_2|UniqueId=\CWNRVMUL\HAOPGTQC|Kind=1|AlternatePart= 
+Variation48=Designator=R1410_2|UniqueId=\CWNRVMUL\RELOOAXR|Kind=1|AlternatePart= 
+Variation49=Designator=R1412_2|UniqueId=\CWNRVMUL\DYJUVEQG|Kind=1|AlternatePart= 
+Variation50=Designator=R1414_2|UniqueId=\CWNRVMUL\XDURIVRU|Kind=1|AlternatePart= 
+Variation51=Designator=R1416_2|UniqueId=\CWNRVMUL\CPRRMLEU|Kind=1|AlternatePart= 
+Variation52=Designator=R1406_1|UniqueId=\FHDDMPDD\FCDANIBD|Kind=1|AlternatePart= 
+Variation53=Designator=R1407_2|UniqueId=\CWNRVMUL\SSFYWBNF|Kind=1|AlternatePart= 
+Variation54=Designator=D902|UniqueId=\KDJPDGIV\AYSKCJFK|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
+[ProjectVariant2]
+UniqueID=1BC06EA7-82EA-41F5-BD13-16703F83120B
+Description=automotive
+AllowFabrication=0
+ParameterCount=0
+VariationCount=72
+Variation1=Designator=C1306_1|UniqueId=\IPPXJKGT\XWMPRYWB|Kind=1|AlternatePart= 
+Variation2=Designator=C1309_1|UniqueId=\IPPXJKGT\PLJBDXHN|Kind=1|AlternatePart= 
+Variation3=Designator=C1308_1|UniqueId=\IPPXJKGT\GAOEJXLG|Kind=1|AlternatePart= 
+Variation4=Designator=C1307_1|UniqueId=\IPPXJKGT\GULFVLVU|Kind=1|AlternatePart= 
+Variation5=Designator=R1416_1|UniqueId=\FHDDMPDD\CPRRMLEU|Kind=1|AlternatePart= 
+Variation6=Designator=R1414_1|UniqueId=\FHDDMPDD\XDURIVRU|Kind=1|AlternatePart= 
+Variation7=Designator=R1412_1|UniqueId=\FHDDMPDD\DYJUVEQG|Kind=1|AlternatePart= 
+Variation8=Designator=R1410_1|UniqueId=\FHDDMPDD\RELOOAXR|Kind=1|AlternatePart= 
+Variation9=Designator=R1408_1|UniqueId=\FHDDMPDD\HAOPGTQC|Kind=1|AlternatePart= 
+Variation10=Designator=C1310_1|UniqueId=\IPPXJKGT\SPLDTYOF|Kind=1|AlternatePart= 
+Variation11=Designator=C1311_1|UniqueId=\IPPXJKGT\BCBOQQWT|Kind=1|AlternatePart= 
+Variation12=Designator=C1318_1|UniqueId=\IPPXJKGT\EDDXLTUS|Kind=1|AlternatePart= 
+Variation13=Designator=C1319_1|UniqueId=\IPPXJKGT\QUIAHFUQ|Kind=1|AlternatePart= 
+Variation14=Designator=C1320_1|UniqueId=\IPPXJKGT\AVVXOMRT|Kind=1|AlternatePart= 
+Variation15=Designator=C1321_1|UniqueId=\IPPXJKGT\OPRTGJYY|Kind=1|AlternatePart= 
+Variation16=Designator=C1322_1|UniqueId=\IPPXJKGT\VSVDOAHV|Kind=1|AlternatePart= 
+Variation17=Designator=C1323_1|UniqueId=\IPPXJKGT\IJHJPFYF|Kind=1|AlternatePart= 
+Variation18=Designator=R902|UniqueId=\KDJPDGIV\XSCSGRHU|Kind=1|AlternatePart= 
+Variation19=Designator=SJ300|UniqueId=\XBYPFDUL\TPREYXTJ|Kind=1|AlternatePart= 
+Variation20=Designator=SJ301|UniqueId=\XBYPFDUL\TMIEXJPD|Kind=1|AlternatePart= 
+Variation21=Designator=X900|UniqueId=\KDJPDGIV\JECWUOTM|Kind=1|AlternatePart= 
+Variation22=Designator=X1000|UniqueId=\AHAKFVWA\OTUQNSLA|Kind=1|AlternatePart= 
+Variation23=Designator=C1330_1|UniqueId=\IPPXJKGT\FKEVBYEQ|Kind=1|AlternatePart= 
+Variation24=Designator=C1330_2|UniqueId=\UNPGCEEF\FKEVBYEQ|Kind=1|AlternatePart= 
+Variation25=Designator=C1331_1|UniqueId=\IPPXJKGT\GRWRULKD|Kind=1|AlternatePart= 
+Variation26=Designator=C1331_2|UniqueId=\UNPGCEEF\GRWRULKD|Kind=1|AlternatePart= 
+Variation27=Designator=C1332_1|UniqueId=\IPPXJKGT\SBOKFYUJ|Kind=1|AlternatePart= 
+Variation28=Designator=C1332_2|UniqueId=\UNPGCEEF\SBOKFYUJ|Kind=1|AlternatePart= 
+Variation29=Designator=C1333_1|UniqueId=\IPPXJKGT\WPMVUNCO|Kind=1|AlternatePart= 
+Variation30=Designator=C1333_2|UniqueId=\UNPGCEEF\WPMVUNCO|Kind=1|AlternatePart= 
+Variation31=Designator=C1334_1|UniqueId=\IPPXJKGT\YDKENNCT|Kind=1|AlternatePart= 
+Variation32=Designator=C1334_2|UniqueId=\UNPGCEEF\YDKENNCT|Kind=1|AlternatePart= 
+Variation33=Designator=C1335_1|UniqueId=\IPPXJKGT\XRYNNEQS|Kind=1|AlternatePart= 
+Variation34=Designator=C1335_2|UniqueId=\UNPGCEEF\XRYNNEQS|Kind=1|AlternatePart= 
+Variation35=Designator=C1306_2|UniqueId=\UNPGCEEF\XWMPRYWB|Kind=1|AlternatePart= 
+Variation36=Designator=C1307_2|UniqueId=\UNPGCEEF\GULFVLVU|Kind=1|AlternatePart= 
+Variation37=Designator=C1308_2|UniqueId=\UNPGCEEF\GAOEJXLG|Kind=1|AlternatePart= 
+Variation38=Designator=C1309_2|UniqueId=\UNPGCEEF\PLJBDXHN|Kind=1|AlternatePart= 
+Variation39=Designator=C1310_2|UniqueId=\UNPGCEEF\SPLDTYOF|Kind=1|AlternatePart= 
+Variation40=Designator=C1311_2|UniqueId=\UNPGCEEF\BCBOQQWT|Kind=1|AlternatePart= 
+Variation41=Designator=C1318_2|UniqueId=\UNPGCEEF\EDDXLTUS|Kind=1|AlternatePart= 
+Variation42=Designator=C1319_2|UniqueId=\UNPGCEEF\QUIAHFUQ|Kind=1|AlternatePart= 
+Variation43=Designator=C1320_2|UniqueId=\UNPGCEEF\AVVXOMRT|Kind=1|AlternatePart= 
+Variation44=Designator=C1321_2|UniqueId=\UNPGCEEF\OPRTGJYY|Kind=1|AlternatePart= 
+Variation45=Designator=C1322_2|UniqueId=\UNPGCEEF\VSVDOAHV|Kind=1|AlternatePart= 
+Variation46=Designator=C1323_2|UniqueId=\UNPGCEEF\IJHJPFYF|Kind=1|AlternatePart= 
+Variation47=Designator=R1408_2|UniqueId=\CWNRVMUL\HAOPGTQC|Kind=1|AlternatePart= 
+Variation48=Designator=R1410_2|UniqueId=\CWNRVMUL\RELOOAXR|Kind=1|AlternatePart= 
+Variation49=Designator=R1412_2|UniqueId=\CWNRVMUL\DYJUVEQG|Kind=1|AlternatePart= 
+Variation50=Designator=R1414_2|UniqueId=\CWNRVMUL\XDURIVRU|Kind=1|AlternatePart= 
+Variation51=Designator=R1416_2|UniqueId=\CWNRVMUL\CPRRMLEU|Kind=1|AlternatePart= 
+Variation52=Designator=R1406_1|UniqueId=\FHDDMPDD\FCDANIBD|Kind=1|AlternatePart= 
+Variation53=Designator=R1407_2|UniqueId=\CWNRVMUL\SSFYWBNF|Kind=1|AlternatePart= 
+Variation54=Designator=U1100|UniqueId=\WGFFHSNI\EODFSUAB|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference=ACPL-217|AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+ParamVariation1=ParameterName=Comment|VariantValue=TLX9291A
+ParamDesignator1=U1100
+ParamVariation2=ParameterName=Automotive Qualified|VariantValue=True
+ParamDesignator2=U1100
+ParamVariation3=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator3=U1100
+ParamVariation4=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator4=U1100
+ParamVariation5=ParameterName=ComponentLink1URL|VariantValue=https://toshiba.semicon-storage.com/info/docget.jsp?did=53137&prodName=TLX9291A
+ParamDesignator5=U1100
+ParamVariation6=ParameterName=Database Table Name|VariantValue=IC
+ParamDesignator6=U1100
+ParamVariation7=ParameterName=Description|VariantValue=Optocoupler, Transistor Output, 1 Channel
+ParamDesignator7=U1100
+ParamVariation8=ParameterName=Footprint|VariantValue=SOIC127P700X220-4L
+ParamDesignator8=U1100
+ParamVariation9=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator9=U1100
+ParamVariation10=ParameterName=Library Reference|VariantValue=TLX9291A
+ParamDesignator10=U1100
+ParamVariation11=ParameterName=Manufacturer|VariantValue=Toshiba
+ParamDesignator11=U1100
+ParamVariation12=ParameterName=Operating Temperature|VariantValue=-40°C - +125°C
+ParamDesignator12=U1100
+ParamVariation13=ParameterName=Part Name|VariantValue=TLX9291A
+ParamDesignator13=U1100
+ParamVariation14=ParameterName=Part Number|VariantValue=TLX9291A
+ParamDesignator14=U1100
+ParamVariation15=ParameterName=PCB3D|VariantValue= 
+ParamDesignator15=U1100
+ParamVariation16=ParameterName=Pin Info|VariantValue= 
+ParamDesignator16=U1100
+ParamVariation17=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator17=U1100
+ParamVariation18=ParameterName=Simulation|VariantValue= 
+ParamDesignator18=U1100
+Variation55=Designator=U1101|UniqueId=\WGFFHSNI\MWDMTEFL|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+ParamVariation19=ParameterName=Comment|VariantValue=TLX9291A
+ParamDesignator19=U1101
+ParamVariation20=ParameterName=Automotive Qualified|VariantValue=True
+ParamDesignator20=U1101
+ParamVariation21=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator21=U1101
+ParamVariation22=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator22=U1101
+ParamVariation23=ParameterName=ComponentLink1URL|VariantValue=https://toshiba.semicon-storage.com/info/docget.jsp?did=53137&prodName=TLX9291A
+ParamDesignator23=U1101
+ParamVariation24=ParameterName=Database Table Name|VariantValue=IC
+ParamDesignator24=U1101
+ParamVariation25=ParameterName=Description|VariantValue=Optocoupler, Transistor Output, 1 Channel
+ParamDesignator25=U1101
+ParamVariation26=ParameterName=Footprint|VariantValue=SOIC127P700X220-4L
+ParamDesignator26=U1101
+ParamVariation27=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator27=U1101
+ParamVariation28=ParameterName=Library Reference|VariantValue=TLX9291A
+ParamDesignator28=U1101
+ParamVariation29=ParameterName=Manufacturer|VariantValue=Toshiba
+ParamDesignator29=U1101
+ParamVariation30=ParameterName=Operating Temperature|VariantValue=-40°C - +125°C
+ParamDesignator30=U1101
+ParamVariation31=ParameterName=Part Name|VariantValue=TLX9291A
+ParamDesignator31=U1101
+ParamVariation32=ParameterName=Part Number|VariantValue=TLX9291A
+ParamDesignator32=U1101
+ParamVariation33=ParameterName=PCB3D|VariantValue= 
+ParamDesignator33=U1101
+ParamVariation34=ParameterName=Pin Info|VariantValue= 
+ParamDesignator34=U1101
+ParamVariation35=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator35=U1101
+ParamVariation36=ParameterName=Simulation|VariantValue= 
+ParamDesignator36=U1101
+Variation56=Designator=U1117|UniqueId=\WGFFHSNI\NFDLPMTD|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+ParamVariation37=ParameterName=Comment|VariantValue=TLX9291A
+ParamDesignator37=U1117
+ParamVariation38=ParameterName=Automotive Qualified|VariantValue=True
+ParamDesignator38=U1117
+ParamVariation39=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator39=U1117
+ParamVariation40=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator40=U1117
+ParamVariation41=ParameterName=ComponentLink1URL|VariantValue=https://toshiba.semicon-storage.com/info/docget.jsp?did=53137&prodName=TLX9291A
+ParamDesignator41=U1117
+ParamVariation42=ParameterName=Database Table Name|VariantValue=IC
+ParamDesignator42=U1117
+ParamVariation43=ParameterName=Description|VariantValue=Optocoupler, Transistor Output, 1 Channel
+ParamDesignator43=U1117
+ParamVariation44=ParameterName=Footprint|VariantValue=SOIC127P700X220-4L
+ParamDesignator44=U1117
+ParamVariation45=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator45=U1117
+ParamVariation46=ParameterName=Library Reference|VariantValue=TLX9291A
+ParamDesignator46=U1117
+ParamVariation47=ParameterName=Manufacturer|VariantValue=Toshiba
+ParamDesignator47=U1117
+ParamVariation48=ParameterName=Operating Temperature|VariantValue=-40°C - +125°C
+ParamDesignator48=U1117
+ParamVariation49=ParameterName=Part Name|VariantValue=TLX9291A
+ParamDesignator49=U1117
+ParamVariation50=ParameterName=Part Number|VariantValue=TLX9291A
+ParamDesignator50=U1117
+ParamVariation51=ParameterName=PCB3D|VariantValue= 
+ParamDesignator51=U1117
+ParamVariation52=ParameterName=Pin Info|VariantValue= 
+ParamDesignator52=U1117
+ParamVariation53=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator53=U1117
+ParamVariation54=ParameterName=Simulation|VariantValue= 
+ParamDesignator54=U1117
+Variation57=Designator=U1116|UniqueId=\WGFFHSNI\MRHEHORE|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+ParamVariation55=ParameterName=Comment|VariantValue=TLX9291A
+ParamDesignator55=U1116
+ParamVariation56=ParameterName=Automotive Qualified|VariantValue=True
+ParamDesignator56=U1116
+ParamVariation57=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator57=U1116
+ParamVariation58=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator58=U1116
+ParamVariation59=ParameterName=ComponentLink1URL|VariantValue=https://toshiba.semicon-storage.com/info/docget.jsp?did=53137&prodName=TLX9291A
+ParamDesignator59=U1116
+ParamVariation60=ParameterName=Database Table Name|VariantValue=IC
+ParamDesignator60=U1116
+ParamVariation61=ParameterName=Description|VariantValue=Optocoupler, Transistor Output, 1 Channel
+ParamDesignator61=U1116
+ParamVariation62=ParameterName=Footprint|VariantValue=SOIC127P700X220-4L
+ParamDesignator62=U1116
+ParamVariation63=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator63=U1116
+ParamVariation64=ParameterName=Library Reference|VariantValue=TLX9291A
+ParamDesignator64=U1116
+ParamVariation65=ParameterName=Manufacturer|VariantValue=Toshiba
+ParamDesignator65=U1116
+ParamVariation66=ParameterName=Operating Temperature|VariantValue=-40°C - +125°C
+ParamDesignator66=U1116
+ParamVariation67=ParameterName=Part Name|VariantValue=TLX9291A
+ParamDesignator67=U1116
+ParamVariation68=ParameterName=Part Number|VariantValue=TLX9291A
+ParamDesignator68=U1116
+ParamVariation69=ParameterName=PCB3D|VariantValue= 
+ParamDesignator69=U1116
+ParamVariation70=ParameterName=Pin Info|VariantValue= 
+ParamDesignator70=U1116
+ParamVariation71=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator71=U1116
+ParamVariation72=ParameterName=Simulation|VariantValue= 
+ParamDesignator72=U1116
+Variation58=Designator=U1115|UniqueId=\WGFFHSNI\UODRAPAV|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+ParamVariation73=ParameterName=Comment|VariantValue=TLX9291A
+ParamDesignator73=U1115
+ParamVariation74=ParameterName=Automotive Qualified|VariantValue=True
+ParamDesignator74=U1115
+ParamVariation75=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator75=U1115
+ParamVariation76=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator76=U1115
+ParamVariation77=ParameterName=ComponentLink1URL|VariantValue=https://toshiba.semicon-storage.com/info/docget.jsp?did=53137&prodName=TLX9291A
+ParamDesignator77=U1115
+ParamVariation78=ParameterName=Database Table Name|VariantValue=IC
+ParamDesignator78=U1115
+ParamVariation79=ParameterName=Description|VariantValue=Optocoupler, Transistor Output, 1 Channel
+ParamDesignator79=U1115
+ParamVariation80=ParameterName=Footprint|VariantValue=SOIC127P700X220-4L
+ParamDesignator80=U1115
+ParamVariation81=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator81=U1115
+ParamVariation82=ParameterName=Library Reference|VariantValue=TLX9291A
+ParamDesignator82=U1115
+ParamVariation83=ParameterName=Manufacturer|VariantValue=Toshiba
+ParamDesignator83=U1115
+ParamVariation84=ParameterName=Operating Temperature|VariantValue=-40°C - +125°C
+ParamDesignator84=U1115
+ParamVariation85=ParameterName=Part Name|VariantValue=TLX9291A
+ParamDesignator85=U1115
+ParamVariation86=ParameterName=Part Number|VariantValue=TLX9291A
+ParamDesignator86=U1115
+ParamVariation87=ParameterName=PCB3D|VariantValue= 
+ParamDesignator87=U1115
+ParamVariation88=ParameterName=Pin Info|VariantValue= 
+ParamDesignator88=U1115
+ParamVariation89=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator89=U1115
+ParamVariation90=ParameterName=Simulation|VariantValue= 
+ParamDesignator90=U1115
+Variation59=Designator=U1114|UniqueId=\WGFFHSNI\GBECPITE|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+ParamVariation91=ParameterName=Comment|VariantValue=TLX9291A
+ParamDesignator91=U1114
+ParamVariation92=ParameterName=Automotive Qualified|VariantValue=True
+ParamDesignator92=U1114
+ParamVariation93=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator93=U1114
+ParamVariation94=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator94=U1114
+ParamVariation95=ParameterName=ComponentLink1URL|VariantValue=https://toshiba.semicon-storage.com/info/docget.jsp?did=53137&prodName=TLX9291A
+ParamDesignator95=U1114
+ParamVariation96=ParameterName=Database Table Name|VariantValue=IC
+ParamDesignator96=U1114
+ParamVariation97=ParameterName=Description|VariantValue=Optocoupler, Transistor Output, 1 Channel
+ParamDesignator97=U1114
+ParamVariation98=ParameterName=Footprint|VariantValue=SOIC127P700X220-4L
+ParamDesignator98=U1114
+ParamVariation99=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator99=U1114
+ParamVariation100=ParameterName=Library Reference|VariantValue=TLX9291A
+ParamDesignator100=U1114
+ParamVariation101=ParameterName=Manufacturer|VariantValue=Toshiba
+ParamDesignator101=U1114
+ParamVariation102=ParameterName=Operating Temperature|VariantValue=-40°C - +125°C
+ParamDesignator102=U1114
+ParamVariation103=ParameterName=Part Name|VariantValue=TLX9291A
+ParamDesignator103=U1114
+ParamVariation104=ParameterName=Part Number|VariantValue=TLX9291A
+ParamDesignator104=U1114
+ParamVariation105=ParameterName=PCB3D|VariantValue= 
+ParamDesignator105=U1114
+ParamVariation106=ParameterName=Pin Info|VariantValue= 
+ParamDesignator106=U1114
+ParamVariation107=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator107=U1114
+ParamVariation108=ParameterName=Simulation|VariantValue= 
+ParamDesignator108=U1114
+Variation60=Designator=U1113|UniqueId=\WGFFHSNI\GGDIJHJS|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+ParamVariation109=ParameterName=Comment|VariantValue=TLX9291A
+ParamDesignator109=U1113
+ParamVariation110=ParameterName=Automotive Qualified|VariantValue=True
+ParamDesignator110=U1113
+ParamVariation111=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator111=U1113
+ParamVariation112=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator112=U1113
+ParamVariation113=ParameterName=ComponentLink1URL|VariantValue=https://toshiba.semicon-storage.com/info/docget.jsp?did=53137&prodName=TLX9291A
+ParamDesignator113=U1113
+ParamVariation114=ParameterName=Database Table Name|VariantValue=IC
+ParamDesignator114=U1113
+ParamVariation115=ParameterName=Description|VariantValue=Optocoupler, Transistor Output, 1 Channel
+ParamDesignator115=U1113
+ParamVariation116=ParameterName=Footprint|VariantValue=SOIC127P700X220-4L
+ParamDesignator116=U1113
+ParamVariation117=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator117=U1113
+ParamVariation118=ParameterName=Library Reference|VariantValue=TLX9291A
+ParamDesignator118=U1113
+ParamVariation119=ParameterName=Manufacturer|VariantValue=Toshiba
+ParamDesignator119=U1113
+ParamVariation120=ParameterName=Operating Temperature|VariantValue=-40°C - +125°C
+ParamDesignator120=U1113
+ParamVariation121=ParameterName=Part Name|VariantValue=TLX9291A
+ParamDesignator121=U1113
+ParamVariation122=ParameterName=Part Number|VariantValue=TLX9291A
+ParamDesignator122=U1113
+ParamVariation123=ParameterName=PCB3D|VariantValue= 
+ParamDesignator123=U1113
+ParamVariation124=ParameterName=Pin Info|VariantValue= 
+ParamDesignator124=U1113
+ParamVariation125=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator125=U1113
+ParamVariation126=ParameterName=Simulation|VariantValue= 
+ParamDesignator126=U1113
+Variation61=Designator=U1112|UniqueId=\WGFFHSNI\PRUYLVYE|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+ParamVariation127=ParameterName=Comment|VariantValue=TLX9291A
+ParamDesignator127=U1112
+ParamVariation128=ParameterName=Automotive Qualified|VariantValue=True
+ParamDesignator128=U1112
+ParamVariation129=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator129=U1112
+ParamVariation130=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator130=U1112
+ParamVariation131=ParameterName=ComponentLink1URL|VariantValue=https://toshiba.semicon-storage.com/info/docget.jsp?did=53137&prodName=TLX9291A
+ParamDesignator131=U1112
+ParamVariation132=ParameterName=Database Table Name|VariantValue=IC
+ParamDesignator132=U1112
+ParamVariation133=ParameterName=Description|VariantValue=Optocoupler, Transistor Output, 1 Channel
+ParamDesignator133=U1112
+ParamVariation134=ParameterName=Footprint|VariantValue=SOIC127P700X220-4L
+ParamDesignator134=U1112
+ParamVariation135=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator135=U1112
+ParamVariation136=ParameterName=Library Reference|VariantValue=TLX9291A
+ParamDesignator136=U1112
+ParamVariation137=ParameterName=Manufacturer|VariantValue=Toshiba
+ParamDesignator137=U1112
+ParamVariation138=ParameterName=Operating Temperature|VariantValue=-40°C - +125°C
+ParamDesignator138=U1112
+ParamVariation139=ParameterName=Part Name|VariantValue=TLX9291A
+ParamDesignator139=U1112
+ParamVariation140=ParameterName=Part Number|VariantValue=TLX9291A
+ParamDesignator140=U1112
+ParamVariation141=ParameterName=PCB3D|VariantValue= 
+ParamDesignator141=U1112
+ParamVariation142=ParameterName=Pin Info|VariantValue= 
+ParamDesignator142=U1112
+ParamVariation143=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator143=U1112
+ParamVariation144=ParameterName=Simulation|VariantValue= 
+ParamDesignator144=U1112
+Variation62=Designator=U1111|UniqueId=\WGFFHSNI\LIRSVSQM|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+ParamVariation145=ParameterName=Comment|VariantValue=TLX9291A
+ParamDesignator145=U1111
+ParamVariation146=ParameterName=Automotive Qualified|VariantValue=True
+ParamDesignator146=U1111
+ParamVariation147=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator147=U1111
+ParamVariation148=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator148=U1111
+ParamVariation149=ParameterName=ComponentLink1URL|VariantValue=https://toshiba.semicon-storage.com/info/docget.jsp?did=53137&prodName=TLX9291A
+ParamDesignator149=U1111
+ParamVariation150=ParameterName=Database Table Name|VariantValue=IC
+ParamDesignator150=U1111
+ParamVariation151=ParameterName=Description|VariantValue=Optocoupler, Transistor Output, 1 Channel
+ParamDesignator151=U1111
+ParamVariation152=ParameterName=Footprint|VariantValue=SOIC127P700X220-4L
+ParamDesignator152=U1111
+ParamVariation153=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator153=U1111
+ParamVariation154=ParameterName=Library Reference|VariantValue=TLX9291A
+ParamDesignator154=U1111
+ParamVariation155=ParameterName=Manufacturer|VariantValue=Toshiba
+ParamDesignator155=U1111
+ParamVariation156=ParameterName=Operating Temperature|VariantValue=-40°C - +125°C
+ParamDesignator156=U1111
+ParamVariation157=ParameterName=Part Name|VariantValue=TLX9291A
+ParamDesignator157=U1111
+ParamVariation158=ParameterName=Part Number|VariantValue=TLX9291A
+ParamDesignator158=U1111
+ParamVariation159=ParameterName=PCB3D|VariantValue= 
+ParamDesignator159=U1111
+ParamVariation160=ParameterName=Pin Info|VariantValue= 
+ParamDesignator160=U1111
+ParamVariation161=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator161=U1111
+ParamVariation162=ParameterName=Simulation|VariantValue= 
+ParamDesignator162=U1111
+Variation63=Designator=U1110|UniqueId=\WGFFHSNI\MMQDLYRL|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+ParamVariation163=ParameterName=Comment|VariantValue=TLX9291A
+ParamDesignator163=U1110
+ParamVariation164=ParameterName=Automotive Qualified|VariantValue=True
+ParamDesignator164=U1110
+ParamVariation165=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator165=U1110
+ParamVariation166=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator166=U1110
+ParamVariation167=ParameterName=ComponentLink1URL|VariantValue=https://toshiba.semicon-storage.com/info/docget.jsp?did=53137&prodName=TLX9291A
+ParamDesignator167=U1110
+ParamVariation168=ParameterName=Database Table Name|VariantValue=IC
+ParamDesignator168=U1110
+ParamVariation169=ParameterName=Description|VariantValue=Optocoupler, Transistor Output, 1 Channel
+ParamDesignator169=U1110
+ParamVariation170=ParameterName=Footprint|VariantValue=SOIC127P700X220-4L
+ParamDesignator170=U1110
+ParamVariation171=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator171=U1110
+ParamVariation172=ParameterName=Library Reference|VariantValue=TLX9291A
+ParamDesignator172=U1110
+ParamVariation173=ParameterName=Manufacturer|VariantValue=Toshiba
+ParamDesignator173=U1110
+ParamVariation174=ParameterName=Operating Temperature|VariantValue=-40°C - +125°C
+ParamDesignator174=U1110
+ParamVariation175=ParameterName=Part Name|VariantValue=TLX9291A
+ParamDesignator175=U1110
+ParamVariation176=ParameterName=Part Number|VariantValue=TLX9291A
+ParamDesignator176=U1110
+ParamVariation177=ParameterName=PCB3D|VariantValue= 
+ParamDesignator177=U1110
+ParamVariation178=ParameterName=Pin Info|VariantValue= 
+ParamDesignator178=U1110
+ParamVariation179=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator179=U1110
+ParamVariation180=ParameterName=Simulation|VariantValue= 
+ParamDesignator180=U1110
+Variation64=Designator=U1109|UniqueId=\WGFFHSNI\YXFPHYEV|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+ParamVariation181=ParameterName=Comment|VariantValue=TLX9291A
+ParamDesignator181=U1109
+ParamVariation182=ParameterName=Automotive Qualified|VariantValue=True
+ParamDesignator182=U1109
+ParamVariation183=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator183=U1109
+ParamVariation184=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator184=U1109
+ParamVariation185=ParameterName=ComponentLink1URL|VariantValue=https://toshiba.semicon-storage.com/info/docget.jsp?did=53137&prodName=TLX9291A
+ParamDesignator185=U1109
+ParamVariation186=ParameterName=Database Table Name|VariantValue=IC
+ParamDesignator186=U1109
+ParamVariation187=ParameterName=Description|VariantValue=Optocoupler, Transistor Output, 1 Channel
+ParamDesignator187=U1109
+ParamVariation188=ParameterName=Footprint|VariantValue=SOIC127P700X220-4L
+ParamDesignator188=U1109
+ParamVariation189=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator189=U1109
+ParamVariation190=ParameterName=Library Reference|VariantValue=TLX9291A
+ParamDesignator190=U1109
+ParamVariation191=ParameterName=Manufacturer|VariantValue=Toshiba
+ParamDesignator191=U1109
+ParamVariation192=ParameterName=Operating Temperature|VariantValue=-40°C - +125°C
+ParamDesignator192=U1109
+ParamVariation193=ParameterName=Part Name|VariantValue=TLX9291A
+ParamDesignator193=U1109
+ParamVariation194=ParameterName=Part Number|VariantValue=TLX9291A
+ParamDesignator194=U1109
+ParamVariation195=ParameterName=PCB3D|VariantValue= 
+ParamDesignator195=U1109
+ParamVariation196=ParameterName=Pin Info|VariantValue= 
+ParamDesignator196=U1109
+ParamVariation197=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator197=U1109
+ParamVariation198=ParameterName=Simulation|VariantValue= 
+ParamDesignator198=U1109
+Variation65=Designator=U1108|UniqueId=\WGFFHSNI\GURYQHBJ|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+ParamVariation199=ParameterName=Comment|VariantValue=TLX9291A
+ParamDesignator199=U1108
+ParamVariation200=ParameterName=Automotive Qualified|VariantValue=True
+ParamDesignator200=U1108
+ParamVariation201=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator201=U1108
+ParamVariation202=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator202=U1108
+ParamVariation203=ParameterName=ComponentLink1URL|VariantValue=https://toshiba.semicon-storage.com/info/docget.jsp?did=53137&prodName=TLX9291A
+ParamDesignator203=U1108
+ParamVariation204=ParameterName=Database Table Name|VariantValue=IC
+ParamDesignator204=U1108
+ParamVariation205=ParameterName=Description|VariantValue=Optocoupler, Transistor Output, 1 Channel
+ParamDesignator205=U1108
+ParamVariation206=ParameterName=Footprint|VariantValue=SOIC127P700X220-4L
+ParamDesignator206=U1108
+ParamVariation207=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator207=U1108
+ParamVariation208=ParameterName=Library Reference|VariantValue=TLX9291A
+ParamDesignator208=U1108
+ParamVariation209=ParameterName=Manufacturer|VariantValue=Toshiba
+ParamDesignator209=U1108
+ParamVariation210=ParameterName=Operating Temperature|VariantValue=-40°C - +125°C
+ParamDesignator210=U1108
+ParamVariation211=ParameterName=Part Name|VariantValue=TLX9291A
+ParamDesignator211=U1108
+ParamVariation212=ParameterName=Part Number|VariantValue=TLX9291A
+ParamDesignator212=U1108
+ParamVariation213=ParameterName=PCB3D|VariantValue= 
+ParamDesignator213=U1108
+ParamVariation214=ParameterName=Pin Info|VariantValue= 
+ParamDesignator214=U1108
+ParamVariation215=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator215=U1108
+ParamVariation216=ParameterName=Simulation|VariantValue= 
+ParamDesignator216=U1108
+Variation66=Designator=U1107|UniqueId=\WGFFHSNI\KCKOVTHP|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+ParamVariation217=ParameterName=Comment|VariantValue=TLX9291A
+ParamDesignator217=U1107
+ParamVariation218=ParameterName=Automotive Qualified|VariantValue=True
+ParamDesignator218=U1107
+ParamVariation219=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator219=U1107
+ParamVariation220=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator220=U1107
+ParamVariation221=ParameterName=ComponentLink1URL|VariantValue=https://toshiba.semicon-storage.com/info/docget.jsp?did=53137&prodName=TLX9291A
+ParamDesignator221=U1107
+ParamVariation222=ParameterName=Database Table Name|VariantValue=IC
+ParamDesignator222=U1107
+ParamVariation223=ParameterName=Description|VariantValue=Optocoupler, Transistor Output, 1 Channel
+ParamDesignator223=U1107
+ParamVariation224=ParameterName=Footprint|VariantValue=SOIC127P700X220-4L
+ParamDesignator224=U1107
+ParamVariation225=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator225=U1107
+ParamVariation226=ParameterName=Library Reference|VariantValue=TLX9291A
+ParamDesignator226=U1107
+ParamVariation227=ParameterName=Manufacturer|VariantValue=Toshiba
+ParamDesignator227=U1107
+ParamVariation228=ParameterName=Operating Temperature|VariantValue=-40°C - +125°C
+ParamDesignator228=U1107
+ParamVariation229=ParameterName=Part Name|VariantValue=TLX9291A
+ParamDesignator229=U1107
+ParamVariation230=ParameterName=Part Number|VariantValue=TLX9291A
+ParamDesignator230=U1107
+ParamVariation231=ParameterName=PCB3D|VariantValue= 
+ParamDesignator231=U1107
+ParamVariation232=ParameterName=Pin Info|VariantValue= 
+ParamDesignator232=U1107
+ParamVariation233=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator233=U1107
+ParamVariation234=ParameterName=Simulation|VariantValue= 
+ParamDesignator234=U1107
+Variation67=Designator=U1106|UniqueId=\WGFFHSNI\QICETTNJ|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+ParamVariation235=ParameterName=Comment|VariantValue=TLX9291A
+ParamDesignator235=U1106
+ParamVariation236=ParameterName=Automotive Qualified|VariantValue=True
+ParamDesignator236=U1106
+ParamVariation237=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator237=U1106
+ParamVariation238=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator238=U1106
+ParamVariation239=ParameterName=ComponentLink1URL|VariantValue=https://toshiba.semicon-storage.com/info/docget.jsp?did=53137&prodName=TLX9291A
+ParamDesignator239=U1106
+ParamVariation240=ParameterName=Database Table Name|VariantValue=IC
+ParamDesignator240=U1106
+ParamVariation241=ParameterName=Description|VariantValue=Optocoupler, Transistor Output, 1 Channel
+ParamDesignator241=U1106
+ParamVariation242=ParameterName=Footprint|VariantValue=SOIC127P700X220-4L
+ParamDesignator242=U1106
+ParamVariation243=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator243=U1106
+ParamVariation244=ParameterName=Library Reference|VariantValue=TLX9291A
+ParamDesignator244=U1106
+ParamVariation245=ParameterName=Manufacturer|VariantValue=Toshiba
+ParamDesignator245=U1106
+ParamVariation246=ParameterName=Operating Temperature|VariantValue=-40°C - +125°C
+ParamDesignator246=U1106
+ParamVariation247=ParameterName=Part Name|VariantValue=TLX9291A
+ParamDesignator247=U1106
+ParamVariation248=ParameterName=Part Number|VariantValue=TLX9291A
+ParamDesignator248=U1106
+ParamVariation249=ParameterName=PCB3D|VariantValue= 
+ParamDesignator249=U1106
+ParamVariation250=ParameterName=Pin Info|VariantValue= 
+ParamDesignator250=U1106
+ParamVariation251=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator251=U1106
+ParamVariation252=ParameterName=Simulation|VariantValue= 
+ParamDesignator252=U1106
+Variation68=Designator=U1105|UniqueId=\WGFFHSNI\HLVAIEVS|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+ParamVariation253=ParameterName=Comment|VariantValue=TLX9291A
+ParamDesignator253=U1105
+ParamVariation254=ParameterName=Automotive Qualified|VariantValue=True
+ParamDesignator254=U1105
+ParamVariation255=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator255=U1105
+ParamVariation256=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator256=U1105
+ParamVariation257=ParameterName=ComponentLink1URL|VariantValue=https://toshiba.semicon-storage.com/info/docget.jsp?did=53137&prodName=TLX9291A
+ParamDesignator257=U1105
+ParamVariation258=ParameterName=Database Table Name|VariantValue=IC
+ParamDesignator258=U1105
+ParamVariation259=ParameterName=Description|VariantValue=Optocoupler, Transistor Output, 1 Channel
+ParamDesignator259=U1105
+ParamVariation260=ParameterName=Footprint|VariantValue=SOIC127P700X220-4L
+ParamDesignator260=U1105
+ParamVariation261=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator261=U1105
+ParamVariation262=ParameterName=Library Reference|VariantValue=TLX9291A
+ParamDesignator262=U1105
+ParamVariation263=ParameterName=Manufacturer|VariantValue=Toshiba
+ParamDesignator263=U1105
+ParamVariation264=ParameterName=Operating Temperature|VariantValue=-40°C - +125°C
+ParamDesignator264=U1105
+ParamVariation265=ParameterName=Part Name|VariantValue=TLX9291A
+ParamDesignator265=U1105
+ParamVariation266=ParameterName=Part Number|VariantValue=TLX9291A
+ParamDesignator266=U1105
+ParamVariation267=ParameterName=PCB3D|VariantValue= 
+ParamDesignator267=U1105
+ParamVariation268=ParameterName=Pin Info|VariantValue= 
+ParamDesignator268=U1105
+ParamVariation269=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator269=U1105
+ParamVariation270=ParameterName=Simulation|VariantValue= 
+ParamDesignator270=U1105
+Variation69=Designator=U1104|UniqueId=\WGFFHSNI\WNJWUQDH|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+ParamVariation271=ParameterName=Comment|VariantValue=TLX9291A
+ParamDesignator271=U1104
+ParamVariation272=ParameterName=Automotive Qualified|VariantValue=True
+ParamDesignator272=U1104
+ParamVariation273=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator273=U1104
+ParamVariation274=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator274=U1104
+ParamVariation275=ParameterName=ComponentLink1URL|VariantValue=https://toshiba.semicon-storage.com/info/docget.jsp?did=53137&prodName=TLX9291A
+ParamDesignator275=U1104
+ParamVariation276=ParameterName=Database Table Name|VariantValue=IC
+ParamDesignator276=U1104
+ParamVariation277=ParameterName=Description|VariantValue=Optocoupler, Transistor Output, 1 Channel
+ParamDesignator277=U1104
+ParamVariation278=ParameterName=Footprint|VariantValue=SOIC127P700X220-4L
+ParamDesignator278=U1104
+ParamVariation279=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator279=U1104
+ParamVariation280=ParameterName=Library Reference|VariantValue=TLX9291A
+ParamDesignator280=U1104
+ParamVariation281=ParameterName=Manufacturer|VariantValue=Toshiba
+ParamDesignator281=U1104
+ParamVariation282=ParameterName=Operating Temperature|VariantValue=-40°C - +125°C
+ParamDesignator282=U1104
+ParamVariation283=ParameterName=Part Name|VariantValue=TLX9291A
+ParamDesignator283=U1104
+ParamVariation284=ParameterName=Part Number|VariantValue=TLX9291A
+ParamDesignator284=U1104
+ParamVariation285=ParameterName=PCB3D|VariantValue= 
+ParamDesignator285=U1104
+ParamVariation286=ParameterName=Pin Info|VariantValue= 
+ParamDesignator286=U1104
+ParamVariation287=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator287=U1104
+ParamVariation288=ParameterName=Simulation|VariantValue= 
+ParamDesignator288=U1104
+Variation70=Designator=U1103|UniqueId=\WGFFHSNI\XTHKUCMQ|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+ParamVariation289=ParameterName=Comment|VariantValue=TLX9291A
+ParamDesignator289=U1103
+ParamVariation290=ParameterName=Automotive Qualified|VariantValue=True
+ParamDesignator290=U1103
+ParamVariation291=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator291=U1103
+ParamVariation292=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator292=U1103
+ParamVariation293=ParameterName=ComponentLink1URL|VariantValue=https://toshiba.semicon-storage.com/info/docget.jsp?did=53137&prodName=TLX9291A
+ParamDesignator293=U1103
+ParamVariation294=ParameterName=Database Table Name|VariantValue=IC
+ParamDesignator294=U1103
+ParamVariation295=ParameterName=Description|VariantValue=Optocoupler, Transistor Output, 1 Channel
+ParamDesignator295=U1103
+ParamVariation296=ParameterName=Footprint|VariantValue=SOIC127P700X220-4L
+ParamDesignator296=U1103
+ParamVariation297=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator297=U1103
+ParamVariation298=ParameterName=Library Reference|VariantValue=TLX9291A
+ParamDesignator298=U1103
+ParamVariation299=ParameterName=Manufacturer|VariantValue=Toshiba
+ParamDesignator299=U1103
+ParamVariation300=ParameterName=Operating Temperature|VariantValue=-40°C - +125°C
+ParamDesignator300=U1103
+ParamVariation301=ParameterName=Part Name|VariantValue=TLX9291A
+ParamDesignator301=U1103
+ParamVariation302=ParameterName=Part Number|VariantValue=TLX9291A
+ParamDesignator302=U1103
+ParamVariation303=ParameterName=PCB3D|VariantValue= 
+ParamDesignator303=U1103
+ParamVariation304=ParameterName=Pin Info|VariantValue= 
+ParamDesignator304=U1103
+ParamVariation305=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator305=U1103
+ParamVariation306=ParameterName=Simulation|VariantValue= 
+ParamDesignator306=U1103
+Variation71=Designator=U1102|UniqueId=\WGFFHSNI\MLCAFUBM|Kind=2|AlternatePart=TLX9291A|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=OE750.DbLib/IC|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=TLX9291A|AltLibLink_UseLibraryName=False|AltLibLink_SourceLibraryName=OE750.DbLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName=IC|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=SOIC127P700X220-4N|AltLibLink_IsSameFootprint=True
+ParamVariation307=ParameterName=Comment|VariantValue=TLX9291A
+ParamDesignator307=U1102
+ParamVariation308=ParameterName=Automotive Qualified|VariantValue=True
+ParamDesignator308=U1102
+ParamVariation309=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator309=U1102
+ParamVariation310=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator310=U1102
+ParamVariation311=ParameterName=ComponentLink1URL|VariantValue=https://toshiba.semicon-storage.com/info/docget.jsp?did=53137&prodName=TLX9291A
+ParamDesignator311=U1102
+ParamVariation312=ParameterName=Database Table Name|VariantValue=IC
+ParamDesignator312=U1102
+ParamVariation313=ParameterName=Description|VariantValue=Optocoupler, Transistor Output, 1 Channel
+ParamDesignator313=U1102
+ParamVariation314=ParameterName=Footprint|VariantValue=SOIC127P700X220-4L
+ParamDesignator314=U1102
+ParamVariation315=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator315=U1102
+ParamVariation316=ParameterName=Library Reference|VariantValue=TLX9291A
+ParamDesignator316=U1102
+ParamVariation317=ParameterName=Manufacturer|VariantValue=Toshiba
+ParamDesignator317=U1102
+ParamVariation318=ParameterName=Operating Temperature|VariantValue=-40°C - +125°C
+ParamDesignator318=U1102
+ParamVariation319=ParameterName=Part Name|VariantValue=TLX9291A
+ParamDesignator319=U1102
+ParamVariation320=ParameterName=Part Number|VariantValue=TLX9291A
+ParamDesignator320=U1102
+ParamVariation321=ParameterName=PCB3D|VariantValue= 
+ParamDesignator321=U1102
+ParamVariation322=ParameterName=Pin Info|VariantValue= 
+ParamDesignator322=U1102
+ParamVariation323=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator323=U1102
+ParamVariation324=ParameterName=Simulation|VariantValue= 
+ParamDesignator324=U1102
+Variation72=Designator=D902|UniqueId=\KDJPDGIV\AYSKCJFK|Kind=1|AlternatePart= 
+ParamVariationCount=324
+
+[Parameter1]
+Name=GlobalDate
+Value=2018-08-08
+
+[Parameter2]
+Name=GlobalLicense
+Value=Creative Commons Attribution 4.0
+
+[Parameter3]
+Name=GlobalProject
+Value=BMS-Slave 18-Cell
+
+[Parameter4]
+Name=GlobalVersion
+Value=1.1.3
+
+[Configuration1]
+Name=Sources
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=0
+ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
+ConfigurationType=Source
+
+[Configuration2]
+Name=Fabrication
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=fabrication.OutJob
+ContentTypeGUID=0C520D2A-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Fabrication
+
+[Configuration3]
+Name=Assembly default
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=default
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=assembly.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
+
+[Configuration4]
+Name=Assembly
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=[No Variations]
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=assembly.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
+
+[Configuration5]
+Name=Assembly automotive
+ParameterCount=0
+ConstraintFileCount=0
+ReleaseItemId=
+Variant=automotive
+OutputJobsCount=1
+DocumentReferenceClass1=DocumentReference
+OutputJobFileName1=assembly.OutJob
+ContentTypeGUID=0D12F8DC-E60C-11DF-B822-12313F0024A2
+ConfigurationType=Assembly
+
+[Generic_EDE]
+OutputDir=
+
+[OutputGroup1]
+Name=Netlist Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=CadnetixNetlist
+OutputName1=Cadnetix Netlist
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+OutputType2=CalayNetlist
+OutputName2=Calay Netlist
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=EDIF
+OutputName3=EDIF for PCB
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+OutputType4=EESofNetlist
+OutputName4=EESof Netlist
+OutputDocumentPath4=
+OutputVariantName4=
+OutputDefault4=0
+OutputType5=IntergraphNetlist
+OutputName5=Intergraph Netlist
+OutputDocumentPath5=
+OutputVariantName5=
+OutputDefault5=0
+OutputType6=MentorBoardStationNetlist
+OutputName6=Mentor BoardStation Netlist
+OutputDocumentPath6=
+OutputVariantName6=
+OutputDefault6=0
+OutputType7=MultiWire
+OutputName7=MultiWire
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+OutputType8=OrCadPCB2Netlist
+OutputName8=Orcad/PCB2 Netlist
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+OutputType9=PADSNetlist
+OutputName9=PADS ASCII Netlist
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+OutputType10=Pcad
+OutputName10=Pcad for PCB
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=PCADNetlist
+OutputName11=PCAD Netlist
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+OutputType12=PCADnltNetlist
+OutputName12=PCADnlt Netlist
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+OutputType13=Protel2Netlist
+OutputName13=Protel2 Netlist
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=ProtelNetlist
+OutputName14=Protel
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=RacalNetlist
+OutputName15=Racal Netlist
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=RINFNetlist
+OutputName16=RINF Netlist
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=SciCardsNetlist
+OutputName17=SciCards Netlist
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=TangoNetlist
+OutputName18=Tango Netlist
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
+OutputType19=TelesisNetlist
+OutputName19=Telesis Netlist
+OutputDocumentPath19=
+OutputVariantName19=
+OutputDefault19=0
+OutputType20=WireListNetlist
+OutputName20=WireList Netlist
+OutputDocumentPath20=
+OutputVariantName20=
+OutputDefault20=0
+OutputType21=XSpiceNetlist
+OutputName21=XSpice Netlist
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
+
+[OutputGroup2]
+Name=Simulator Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+
+[OutputGroup3]
+Name=Documentation Outputs
+Description=
+TargetPrinter=Virtual Printer
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Composite
+OutputName1=Composite Drawing
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType2=PCB 3D Print
+OutputName2=PCB 3D Print
+OutputDocumentPath2=
+OutputVariantName2=[No Variations]
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType3=PCB 3D Video
+OutputName3=PCB 3D Video
+OutputDocumentPath3=
+OutputVariantName3=[No Variations]
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType4=PCB Print
+OutputName4=PCB Prints
+OutputDocumentPath4=
+OutputVariantName4=
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType5=PCBDrawing
+OutputName5=Draftsman
+OutputDocumentPath5=
+OutputVariantName5=[No Variations]
+OutputDefault5=0
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType6=PCBLIB Print
+OutputName6=PCBLIB Prints
+OutputDocumentPath6=
+OutputVariantName6=
+OutputDefault6=0
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType7=PDF3D
+OutputName7=PDF3D
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=Report Print
+OutputName8=Report Prints
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType9=Schematic Print
+OutputName9=Schematic Prints
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.71|XCorrection=0.00|YCorrection=0.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration9_Name1=OutputConfigurationParameter1
+Configuration9_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
+OutputType10=SimView Print
+OutputName10=SimView Prints
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=Wave Print
+OutputName11=Wave Prints
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType12=WaveSim Print
+OutputName12=WaveSim Prints
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+
+[OutputGroup4]
+Name=Assembly Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Assembly
+OutputName1=Assembly Drawings
+OutputDocumentPath1=
+OutputVariantName1=[No Variations]
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType2=Pick Place
+OutputName2=Generates pick and place files
+OutputDocumentPath2=
+OutputVariantName2=[No Variations]
+OutputDefault2=0
+OutputType3=Test Points For Assembly
+OutputName3=Test Point Report
+OutputDocumentPath3=
+OutputVariantName3=[No Variations]
+OutputDefault3=0
+
+[OutputGroup5]
+Name=Fabrication Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Board Stack Report
+OutputName1=Report Board Stack
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType2=CompositeDrill
+OutputName2=Composite Drill Drawing
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType3=Drill
+OutputName3=Drill Drawing/Guides
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType4=Final
+OutputName4=Final Artwork Prints
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType5=Gerber
+OutputName5=Gerber Files
+OutputDocumentPath5=
+OutputVariantName5=[No Variations]
+OutputDefault5=0
+OutputType6=Gerber X2
+OutputName6=Gerber X2 Files
+OutputDocumentPath6=
+OutputVariantName6=
+OutputDefault6=0
+OutputType7=IPC2581
+OutputName7=IPC-2581 Files
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+OutputType8=Mask
+OutputName8=Solder/Paste Mask Prints
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType9=NC Drill
+OutputName9=NC Drill Files
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+OutputType10=ODB
+OutputName10=ODB++ Files
+OutputDocumentPath10=
+OutputVariantName10=[No Variations]
+OutputDefault10=0
+OutputType11=Plane
+OutputName11=Power-Plane Prints
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType12=Test Points
+OutputName12=Test Point Report
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+
+[OutputGroup6]
+Name=Report Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=BOM_PartType
+OutputName1=Bill of Materials
+OutputDocumentPath1=
+OutputVariantName1=[No Variations]
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType2=ComponentCrossReference
+OutputName2=Component Cross Reference Report
+OutputDocumentPath2=
+OutputVariantName2=[No Variations]
+OutputDefault2=0
+OutputType3=ReportHierarchy
+OutputName3=Report Project Hierarchy
+OutputDocumentPath3=
+OutputVariantName3=[No Variations]
+OutputDefault3=0
+OutputType4=Script
+OutputName4=Script Output
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
+OutputType5=SimpleBOM
+OutputName5=Simple BOM
+OutputDocumentPath5=
+OutputVariantName5=[No Variations]
+OutputDefault5=0
+OutputType6=SinglePinNetReporter
+OutputName6=Report Single Pin Nets
+OutputDocumentPath6=
+OutputVariantName6=[No Variations]
+OutputDefault6=0
+
+[OutputGroup7]
+Name=Other Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Text Print
+OutputName1=Text Print
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType2=Text Print
+OutputName2=Text Print
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType3=Text Print
+OutputName3=Text Print
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType4=Text Print
+OutputName4=Text Print
+OutputDocumentPath4=
+OutputVariantName4=
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType5=Text Print
+OutputName5=Text Print
+OutputDocumentPath5=
+OutputVariantName5=
+OutputDefault5=0
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType6=Text Print
+OutputName6=Text Print
+OutputDocumentPath6=
+OutputVariantName6=
+OutputDefault6=0
+PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType7=Text Print
+OutputName7=Text Print
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=Text Print
+OutputName8=Text Print
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType9=Text Print
+OutputName9=Text Print
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType10=Text Print
+OutputName10=Text Print
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=Text Print
+OutputName11=Text Print
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType12=Text Print
+OutputName12=Text Print
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType13=Text Print
+OutputName13=Text Print
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType14=Text Print
+OutputName14=Text Print
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType15=Text Print
+OutputName15=Text Print
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType16=Text Print
+OutputName16=Text Print
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType17=Text Print
+OutputName17=Text Print
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType18=Text Print
+OutputName18=Text Print
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
+PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType19=Text Print
+OutputName19=Text Print
+OutputDocumentPath19=
+OutputVariantName19=
+OutputDefault19=0
+PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType20=Text Print
+OutputName20=Text Print
+OutputDocumentPath20=
+OutputVariantName20=
+OutputDefault20=0
+PageOptions20=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType21=Text Print
+OutputName21=Text Print
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
+PageOptions21=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType22=Text Print
+OutputName22=Text Print
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+PageOptions22=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType23=Text Print
+OutputName23=Text Print
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
+PageOptions23=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType24=Text Print
+OutputName24=Text Print
+OutputDocumentPath24=
+OutputVariantName24=
+OutputDefault24=0
+PageOptions24=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType25=Text Print
+OutputName25=Text Print
+OutputDocumentPath25=
+OutputVariantName25=
+OutputDefault25=0
+PageOptions25=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType26=Text Print
+OutputName26=Text Print
+OutputDocumentPath26=
+OutputVariantName26=
+OutputDefault26=0
+PageOptions26=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType27=Text Print
+OutputName27=Text Print
+OutputDocumentPath27=
+OutputVariantName27=
+OutputDefault27=0
+PageOptions27=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType28=Text Print
+OutputName28=Text Print
+OutputDocumentPath28=
+OutputVariantName28=
+OutputDefault28=0
+PageOptions28=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType29=Text Print
+OutputName29=Text Print
+OutputDocumentPath29=
+OutputVariantName29=
+OutputDefault29=0
+PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+
+[OutputGroup8]
+Name=Validation Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Component states check
+OutputName1=Server's components states check
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+OutputType2=Configuration compliance
+OutputName2=Environment configuration compliance check
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=Design Rules Check
+OutputName3=Design Rules Check
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType4=Differences Report
+OutputName4=Differences Report
+OutputDocumentPath4=
+OutputVariantName4=
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType5=Electrical Rules Check
+OutputName5=Electrical Rules Check
+OutputDocumentPath5=
+OutputVariantName5=
+OutputDefault5=0
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType6=Footprint Comparison Report
+OutputName6=Footprint Comparison Report
+OutputDocumentPath6=
+OutputVariantName6=
+OutputDefault6=0
+
+[OutputGroup9]
+Name=Export Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AutoCAD dwg/dxf PCB
+OutputName1=AutoCAD dwg/dxf File PCB
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+OutputType2=AutoCAD dwg/dxf Schematic
+OutputName2=AutoCAD dwg/dxf File Schematic
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=ExportIDF
+OutputName3=Export IDF
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
+OutputType4=ExportPARASOLID
+OutputName4=Export PARASOLID
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
+OutputType5=ExportSTEP
+OutputName5=Export STEP
+OutputDocumentPath5=
+OutputVariantName5=[No Variations]
+OutputDefault5=0
+OutputType6=ExportVRML
+OutputName6=Export VRML
+OutputDocumentPath6=
+OutputVariantName6=[No Variations]
+OutputDefault6=0
+OutputType7=Save As/Export PCB
+OutputName7=Save As/Export PCB
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
+OutputType8=Save As/Export Schematic
+OutputName8=Save As/Export Schematic
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+OutputType9=Specctra Design PCB
+OutputName9=Specctra Design PCB
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+
+[OutputGroup10]
+Name=PostProcess Outputs
+Description=
+TargetPrinter=Microsoft Print to PDF
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=Copy Files
+OutputName1=Copy Files
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
+
+[Modification Levels]
+Type1=1
+Type2=1
+Type3=1
+Type4=1
+Type5=1
+Type6=1
+Type7=1
+Type8=1
+Type9=1
+Type10=1
+Type11=1
+Type12=1
+Type13=1
+Type14=1
+Type15=1
+Type16=1
+Type17=1
+Type18=1
+Type19=1
+Type20=1
+Type21=1
+Type22=1
+Type23=1
+Type24=1
+Type25=1
+Type26=1
+Type27=1
+Type28=1
+Type29=1
+Type30=1
+Type31=1
+Type32=1
+Type33=1
+Type34=1
+Type35=1
+Type36=1
+Type37=1
+Type38=1
+Type39=1
+Type40=1
+Type41=1
+Type42=1
+Type43=1
+Type44=1
+Type45=1
+Type46=1
+Type47=1
+Type48=1
+Type49=1
+Type50=1
+Type51=1
+Type52=1
+Type53=1
+Type54=1
+Type55=1
+Type56=1
+Type57=1
+Type58=1
+Type59=1
+Type60=1
+Type61=1
+Type62=1
+Type63=1
+Type64=1
+Type65=1
+Type66=1
+Type67=1
+Type68=1
+Type69=1
+Type70=1
+Type71=1
+Type72=1
+Type73=1
+Type74=1
+Type75=1
+Type76=1
+Type77=1
+Type78=1
+Type79=1
+Type80=1
+Type81=1
+Type82=1
+Type83=1
+Type84=1
+Type85=1
+Type86=1
+Type87=1
+Type88=1
+Type89=1
+Type90=1
+
+[Difference Levels]
+Type1=1
+Type2=1
+Type3=1
+Type4=1
+Type5=1
+Type6=1
+Type7=1
+Type8=1
+Type9=1
+Type10=1
+Type11=1
+Type12=1
+Type13=1
+Type14=1
+Type15=1
+Type16=1
+Type17=1
+Type18=1
+Type19=1
+Type20=1
+Type21=1
+Type22=1
+Type23=1
+Type24=1
+Type25=1
+Type26=1
+Type27=1
+Type28=1
+Type29=1
+Type30=1
+Type31=1
+Type32=1
+Type33=1
+Type34=1
+Type35=1
+Type36=1
+Type37=1
+Type38=1
+Type39=1
+Type40=1
+Type41=1
+Type42=1
+Type43=1
+Type44=1
+Type45=1
+Type46=1
+Type47=1
+Type48=1
+Type49=1
+
+[Electrical Rules Check]
+Type1=1
+Type2=1
+Type3=2
+Type4=1
+Type5=2
+Type6=2
+Type7=1
+Type8=1
+Type9=1
+Type10=1
+Type11=2
+Type12=2
+Type13=2
+Type14=1
+Type15=1
+Type16=1
+Type17=1
+Type18=1
+Type19=1
+Type20=1
+Type21=1
+Type22=1
+Type23=1
+Type24=1
+Type25=2
+Type26=2
+Type27=2
+Type28=1
+Type29=1
+Type30=1
+Type31=1
+Type32=2
+Type33=2
+Type34=2
+Type35=1
+Type36=2
+Type37=1
+Type38=2
+Type39=2
+Type40=2
+Type41=0
+Type42=2
+Type43=1
+Type44=1
+Type45=2
+Type46=1
+Type47=2
+Type48=2
+Type49=1
+Type50=2
+Type51=1
+Type52=1
+Type53=1
+Type54=1
+Type55=1
+Type56=2
+Type57=1
+Type58=1
+Type59=2
+Type60=1
+Type61=2
+Type62=2
+Type63=1
+Type64=0
+Type65=2
+Type66=3
+Type67=2
+Type68=2
+Type69=2
+Type70=2
+Type71=2
+Type72=2
+Type73=2
+Type74=1
+Type75=2
+Type76=1
+Type77=1
+Type78=1
+Type79=1
+Type80=2
+Type81=3
+Type82=3
+Type83=3
+Type84=3
+Type85=3
+Type86=2
+Type87=2
+Type88=2
+Type89=1
+Type90=1
+Type91=3
+Type92=3
+Type93=2
+Type94=2
+Type95=2
+Type96=2
+Type97=2
+Type98=0
+Type99=1
+Type100=2
+Type101=1
+Type102=2
+Type103=2
+Type104=1
+Type105=2
+Type106=2
+Type107=2
+Type108=2
+Type109=1
+Type110=1
+Type111=1
+Type112=1
+Type113=1
+MultiChannelAlternate=2
+
+[ERC Connection Matrix]
+L1=NNNNNNNNNNNWNNNWW
+L2=NNWNNNNWWWNWNWNWN
+L3=NWEENEEEENEWNEEWN
+L4=NNENNNWEENNWNENWN
+L5=NNNNNNNNNNNNNNNNN
+L6=NNENNNNEENNWNENWN
+L7=NNEWNNWEENNWNENWN
+L8=NWEENEENEEENNEENN
+L9=NWEENEEEENEWNEEWW
+L10=NWNNNNNENNEWNNEWN
+L11=NNENNNNEEENWNENWN
+L12=WWWWNWWNWWWNWWWNN
+L13=NNNNNNNNNNNWNNNWW
+L14=NWEENEEEENEWNEEWW
+L15=NNENNNNEEENWNENWW
+L16=WWWWNWWNWWWNWWWNW
+L17=WNNNNNNNWNNNWWWWN
+
+[Annotate]
+SortOrder=1
+SortLocation=0
+MatchParameter1=Comment
+MatchStrictly1=1
+MatchParameter2=Library Reference
+MatchStrictly2=1
+PhysicalNamingFormat=$Component_$RoomName
+GlobalIndexSortOrder=3
+GlobalIndexSortLocation=0
+
+[PrjClassGen]
+CompClassManualEnabled=0
+CompClassManualRoomEnabled=0
+NetClassAutoBusEnabled=0
+NetClassAutoCompEnabled=0
+NetClassAutoNamedHarnessEnabled=0
+NetClassManualEnabled=1
+NetClassSeparateForBusSections=0
+
+[LibraryUpdateOptions]
+SelectedOnly=0
+UpdateVariants=1
+PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=OE750.DbLib/C (ceramic)
+ComponentDesignItemID0=gen_C_ceramic_100n_200V_X7R_1206
+ComponentSymbolReference0=C
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=OE750.DbLib/C (ceramic)
+ComponentDesignItemID1=gen_C_ceramic_100n_50V_X7R_0603
+ComponentSymbolReference1=C
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=OE750.DbLib/C (ceramic)
+ComponentDesignItemID2=gen_C_ceramic_100p_50V_C0G_0603
+ComponentSymbolReference2=C
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=OE750.DbLib/C (ceramic)
+ComponentDesignItemID3=gen_C_ceramic_10n_100V_X7R_0603
+ComponentSymbolReference3=C
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=OE750.DbLib/C (ceramic)
+ComponentDesignItemID4=gen_C_ceramic_10u_25V_X7R_1210
+ComponentSymbolReference4=C
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=OE750.DbLib/C (ceramic)
+ComponentDesignItemID5=gen_C_ceramic_1u_250V_X7R_1812
+ComponentSymbolReference5=C
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=OE750.DbLib/C (ceramic)
+ComponentDesignItemID6=gen_C_ceramic_1u_25V_X7R_0805
+ComponentSymbolReference6=C
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=OE750.DbLib/C (ceramic)
+ComponentDesignItemID7=gen_C_ceramic_1u_50V_X7R_0805
+ComponentSymbolReference7=C
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=OE750.DbLib/C (ceramic)
+ComponentDesignItemID8=gen_C_ceramic_2u2_10V_X7R_0805
+ComponentSymbolReference8=C
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=OE750.DbLib/C (ceramic)
+ComponentDesignItemID9=gen_C_ceramic_470p_100V_X7R_0805
+ComponentSymbolReference9=C
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=OE750.DbLib/C (ceramic)
+ComponentDesignItemID10=gen_C_ceramic_4n7_1000V_X7R_1812
+ComponentSymbolReference10=C
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=OE750.DbLib/C (ceramic)
+ComponentDesignItemID11=gen_C_ceramic_4u7_100V_X7S_1206
+ComponentSymbolReference11=C
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=OE750.DbLib/Connector
+ComponentDesignItemID12=gen_pinheader_2.54_2
+ComponentSymbolReference12=X2
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=OE750.DbLib/Connector
+ComponentDesignItemID13=gen_pinheader_2.54_2x10
+ComponentSymbolReference13=X2x10
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Library Name And Type
+ComponentLibraryIdentifier14=OE750.DbLib/Connector
+ComponentDesignItemID14=gen_pinheader_2.54_2x4
+ComponentSymbolReference14=X2x4
+ComponentUpdate14=1
+ComponentIsDeviceSheet14=0
+ComponentLibIdentifierKind15=Library Name And Type
+ComponentLibraryIdentifier15=OE750.DbLib/Connector
+ComponentDesignItemID15=gen_pinheader_2.54_2x5
+ComponentSymbolReference15=X2x5
+ComponentUpdate15=1
+ComponentIsDeviceSheet15=0
+ComponentLibIdentifierKind16=Library Name And Type
+ComponentLibraryIdentifier16=OE750.DbLib/Connector
+ComponentDesignItemID16=gen_pinheader_2.54_2x9
+ComponentSymbolReference16=X2x9
+ComponentUpdate16=1
+ComponentIsDeviceSheet16=0
+ComponentLibIdentifierKind17=Library Name And Type
+ComponentLibraryIdentifier17=OE750.DbLib/Connector
+ComponentDesignItemID17=molex_microfit_3_01x2_THT
+ComponentSymbolReference17=X2
+ComponentUpdate17=1
+ComponentIsDeviceSheet17=0
+ComponentLibIdentifierKind18=Library Name And Type
+ComponentLibraryIdentifier18=OE750.DbLib/Connector
+ComponentDesignItemID18=molex_microfit_3_08x2_THT
+ComponentSymbolReference18=X8x2
+ComponentUpdate18=1
+ComponentIsDeviceSheet18=0
+ComponentLibIdentifierKind19=Library Name And Type
+ComponentLibraryIdentifier19=OE750.DbLib/Connector
+ComponentDesignItemID19=molex_microfit_3_12x2_THT
+ComponentSymbolReference19=X12x2
+ComponentUpdate19=1
+ComponentIsDeviceSheet19=0
+ComponentLibIdentifierKind20=Library Name And Type
+ComponentLibraryIdentifier20=OE750.DbLib/Connector
+ComponentDesignItemID20=samtec_TSW-102-07-G-D
+ComponentSymbolReference20=X2x2
+ComponentUpdate20=1
+ComponentIsDeviceSheet20=0
+ComponentLibIdentifierKind21=Library Name And Type
+ComponentLibraryIdentifier21=OE750.DbLib/D (LED)
+ComponentDesignItemID21=LED_0603_green_AECQ
+ComponentSymbolReference21=D_LED
+ComponentUpdate21=1
+ComponentIsDeviceSheet21=0
+ComponentLibIdentifierKind22=Library Name And Type
+ComponentLibraryIdentifier22=OE750.DbLib/D (Schottky)
+ComponentDesignItemID22=PDS3200-13
+ComponentSymbolReference22=PDS3200
+ComponentUpdate22=1
+ComponentIsDeviceSheet22=0
+ComponentLibIdentifierKind23=Library Name And Type
+ComponentLibraryIdentifier23=OE750.DbLib/IC
+ComponentDesignItemID23=ACPL-217-56BE
+ComponentSymbolReference23=ACPL-217
+ComponentUpdate23=1
+ComponentIsDeviceSheet23=0
+ComponentLibIdentifierKind24=Library Name And Type
+ComponentLibraryIdentifier24=OE750.DbLib/IC
+ComponentDesignItemID24=LM5161QPWPRQ1
+ComponentSymbolReference24=LM5161QPWPRQ1
+ComponentUpdate24=1
+ComponentIsDeviceSheet24=0
+ComponentLibIdentifierKind25=Library Name And Type
+ComponentLibraryIdentifier25=OE750.DbLib/IC
+ComponentDesignItemID25=LTC6813HLWE-1#3ZZPBF
+ComponentSymbolReference25=LTC6813HLWE-1#3ZZPBF
+ComponentUpdate25=1
+ComponentIsDeviceSheet25=0
+ComponentLibIdentifierKind26=Library Name And Type
+ComponentLibraryIdentifier26=OE750.DbLib/IC
+ComponentDesignItemID26=M24M02-DWMN3TP/K
+ComponentSymbolReference26=M24M02-DWMN3TP/K
+ComponentUpdate26=1
+ComponentIsDeviceSheet26=0
+ComponentLibIdentifierKind27=Library Name And Type
+ComponentLibraryIdentifier27=OE750.DbLib/IC
+ComponentDesignItemID27=TLX9291A
+ComponentSymbolReference27=TLX9291A
+ComponentUpdate27=1
+ComponentIsDeviceSheet27=0
+ComponentLibIdentifierKind28=Library Name And Type
+ComponentLibraryIdentifier28=OE750.DbLib/Misc (No BOM)
+ComponentDesignItemID28=Testpoint_Square
+ComponentSymbolReference28=Testpoint_Square
+ComponentUpdate28=1
+ComponentIsDeviceSheet28=0
+ComponentLibIdentifierKind29=Library Name And Type
+ComponentLibraryIdentifier29=OE750.DbLib/Misc
+ComponentDesignItemID29=fuse_0.25A_0466.250NR
+ComponentSymbolReference29=R_Fuse
+ComponentUpdate29=1
+ComponentIsDeviceSheet29=0
+ComponentLibIdentifierKind30=Library Name And Type
+ComponentLibraryIdentifier30=OE750.DbLib/Misc
+ComponentDesignItemID30=fuse_0.5A_0448.500MR
+ComponentSymbolReference30=R_Fuse
+ComponentUpdate30=1
+ComponentIsDeviceSheet30=0
+ComponentLibIdentifierKind31=Library Name And Type
+ComponentLibraryIdentifier31=OE750.DbLib/Misc
+ComponentDesignItemID31=fuse_1.25A_04661.25NR
+ComponentSymbolReference31=R_Fuse
+ComponentUpdate31=1
+ComponentIsDeviceSheet31=0
+ComponentLibIdentifierKind32=Library Name And Type
+ComponentLibraryIdentifier32=OE750.DbLib/Misc
+ComponentDesignItemID32=HM2102NL
+ComponentSymbolReference32=HM2102NL
+ComponentUpdate32=1
+ComponentIsDeviceSheet32=0
+ComponentLibIdentifierKind33=Library Name And Type
+ComponentLibraryIdentifier33=OE750.DbLib/Misc
+ComponentDesignItemID33=WE_750313457
+ComponentSymbolReference33=WE_750313457
+ComponentUpdate33=1
+ComponentIsDeviceSheet33=0
+ComponentLibIdentifierKind34=Library Name And Type
+ComponentLibraryIdentifier34=OE750.DbLib/R
+ComponentDesignItemID34=gen_R_0R_0603
+ComponentSymbolReference34=R
+ComponentUpdate34=1
+ComponentIsDeviceSheet34=0
+ComponentLibIdentifierKind35=Library Name And Type
+ComponentLibraryIdentifier35=OE750.DbLib/R
+ComponentDesignItemID35=gen_R_100R_0603
+ComponentSymbolReference35=R
+ComponentUpdate35=1
+ComponentIsDeviceSheet35=0
+ComponentLibIdentifierKind36=Library Name And Type
+ComponentLibraryIdentifier36=OE750.DbLib/R
+ComponentDesignItemID36=gen_R_100R_0805
+ComponentSymbolReference36=R
+ComponentUpdate36=1
+ComponentIsDeviceSheet36=0
+ComponentLibIdentifierKind37=Library Name And Type
+ComponentLibraryIdentifier37=OE750.DbLib/R
+ComponentDesignItemID37=gen_R_10k_0603
+ComponentSymbolReference37=R
+ComponentUpdate37=1
+ComponentIsDeviceSheet37=0
+ComponentLibIdentifierKind38=Library Name And Type
+ComponentLibraryIdentifier38=OE750.DbLib/R
+ComponentDesignItemID38=gen_R_115k_0603
+ComponentSymbolReference38=R
+ComponentUpdate38=1
+ComponentIsDeviceSheet38=0
+ComponentLibIdentifierKind39=Library Name And Type
+ComponentLibraryIdentifier39=OE750.DbLib/R
+ComponentDesignItemID39=gen_R_120R_0603
+ComponentSymbolReference39=R
+ComponentUpdate39=1
+ComponentIsDeviceSheet39=0
+ComponentLibIdentifierKind40=Library Name And Type
+ComponentLibraryIdentifier40=OE750.DbLib/R
+ComponentDesignItemID40=gen_R_124k_0603
+ComponentSymbolReference40=R
+ComponentUpdate40=1
+ComponentIsDeviceSheet40=0
+ComponentLibIdentifierKind41=Library Name And Type
+ComponentLibraryIdentifier41=OE750.DbLib/R
+ComponentDesignItemID41=gen_R_130R_2010
+ComponentSymbolReference41=R
+ComponentUpdate41=1
+ComponentIsDeviceSheet41=0
+ComponentLibIdentifierKind42=Library Name And Type
+ComponentLibraryIdentifier42=OE750.DbLib/R
+ComponentDesignItemID42=gen_R_150R_0603
+ComponentSymbolReference42=R
+ComponentUpdate42=1
+ComponentIsDeviceSheet42=0
+ComponentLibIdentifierKind43=Library Name And Type
+ComponentLibraryIdentifier43=OE750.DbLib/R
+ComponentDesignItemID43=gen_R_1k_0603
+ComponentSymbolReference43=R
+ComponentUpdate43=1
+ComponentIsDeviceSheet43=0
+ComponentLibIdentifierKind44=Library Name And Type
+ComponentLibraryIdentifier44=OE750.DbLib/R
+ComponentDesignItemID44=gen_R_1k2_0603
+ComponentSymbolReference44=R
+ComponentUpdate44=1
+ComponentIsDeviceSheet44=0
+ComponentLibIdentifierKind45=Library Name And Type
+ComponentLibraryIdentifier45=OE750.DbLib/R
+ComponentDesignItemID45=gen_R_1k5_0603
+ComponentSymbolReference45=R
+ComponentUpdate45=1
+ComponentIsDeviceSheet45=0
+ComponentLibIdentifierKind46=Library Name And Type
+ComponentLibraryIdentifier46=OE750.DbLib/R
+ComponentDesignItemID46=gen_R_1M_0603
+ComponentSymbolReference46=R
+ComponentUpdate46=1
+ComponentIsDeviceSheet46=0
+ComponentLibIdentifierKind47=Library Name And Type
+ComponentLibraryIdentifier47=OE750.DbLib/R
+ComponentDesignItemID47=gen_R_1R_0805
+ComponentSymbolReference47=R
+ComponentUpdate47=1
+ComponentIsDeviceSheet47=0
+ComponentLibIdentifierKind48=Library Name And Type
+ComponentLibraryIdentifier48=OE750.DbLib/R
+ComponentDesignItemID48=gen_R_200k_0603
+ComponentSymbolReference48=R
+ComponentUpdate48=1
+ComponentIsDeviceSheet48=0
+ComponentLibIdentifierKind49=Library Name And Type
+ComponentLibraryIdentifier49=OE750.DbLib/R
+ComponentDesignItemID49=gen_R_270R_0603
+ComponentSymbolReference49=R
+ComponentUpdate49=1
+ComponentIsDeviceSheet49=0
+ComponentLibIdentifierKind50=Library Name And Type
+ComponentLibraryIdentifier50=OE750.DbLib/R
+ComponentDesignItemID50=gen_R_390k_0603
+ComponentSymbolReference50=R
+ComponentUpdate50=1
+ComponentIsDeviceSheet50=0
+ComponentLibIdentifierKind51=Library Name And Type
+ComponentLibraryIdentifier51=OE750.DbLib/R
+ComponentDesignItemID51=gen_R_39R_0805
+ComponentSymbolReference51=R
+ComponentUpdate51=1
+ComponentIsDeviceSheet51=0
+ComponentLibIdentifierKind52=Library Name And Type
+ComponentLibraryIdentifier52=OE750.DbLib/R
+ComponentDesignItemID52=gen_R_3k3_0603
+ComponentSymbolReference52=R
+ComponentUpdate52=1
+ComponentIsDeviceSheet52=0
+ComponentLibIdentifierKind53=Library Name And Type
+ComponentLibraryIdentifier53=OE750.DbLib/R
+ComponentDesignItemID53=gen_R_820R_0603
+ComponentSymbolReference53=R
+ComponentUpdate53=1
+ComponentIsDeviceSheet53=0
+ComponentLibIdentifierKind54=Library Name And Type
+ComponentLibraryIdentifier54=OE750.DbLib/R
+ComponentDesignItemID54=gen_R_86k6_0603
+ComponentSymbolReference54=R
+ComponentUpdate54=1
+ComponentIsDeviceSheet54=0
+ComponentLibIdentifierKind55=Library Name Only
+ComponentLibraryIdentifier55=Altium Content Vault
+ComponentDesignItemID55=CMP-0192-00211-1
+ComponentSymbolReference55=SEN-TEMP-MCP980X-5
+ComponentUpdate55=1
+ComponentIsDeviceSheet55=0
+ComponentLibIdentifierKind56=Library Name Only
+ComponentLibraryIdentifier56=Altium Content Vault
+ComponentDesignItemID56=CMP-0227-00378-1
+ComponentSymbolReference56=PAS-IND-INDUCTOR-2
+ComponentUpdate56=1
+ComponentIsDeviceSheet56=0
+ComponentLibIdentifierKind57=Library Name Only
+ComponentLibraryIdentifier57=Altium Content Vault
+ComponentDesignItemID57=CMP-0314-00338-2
+ComponentSymbolReference57=TI-TCA6408A-TSSOP_PW-16
+ComponentUpdate57=1
+ComponentIsDeviceSheet57=0
+ComponentLibIdentifierKind58=Library Name Only
+ComponentLibraryIdentifier58=Altium Content Vault
+ComponentDesignItemID58=CMP-0384-01512-2
+ComponentSymbolReference58=ADI-ADxxxx-X-5
+ComponentUpdate58=1
+ComponentIsDeviceSheet58=0
+ComponentLibIdentifierKind59=Library Name Only
+ComponentLibraryIdentifier59=Altium Content Vault
+ComponentDesignItemID59=CMP-0492-02715-1
+ComponentSymbolReference59=LT-LT8302-S8E-8
+ComponentUpdate59=1
+ComponentIsDeviceSheet59=0
+ComponentLibIdentifierKind60=Library Name Only
+ComponentLibraryIdentifier60=Altium Content Vault
+ComponentDesignItemID60=CMP-0548-00258-2
+ComponentSymbolReference60=VISH-K1A2-2
+ComponentUpdate60=1
+ComponentIsDeviceSheet60=0
+ComponentLibIdentifierKind61=Library Name Only
+ComponentLibraryIdentifier61=Altium Content Vault
+ComponentDesignItemID61=CMP-0798-00197-1
+ComponentSymbolReference61=ADI-ADG728-RU-16
+ComponentUpdate61=1
+ComponentIsDeviceSheet61=0
+ComponentLibIdentifierKind62=Library Name Only
+ComponentLibraryIdentifier62=Altium Content Vault
+ComponentDesignItemID62=CMP-1060-00362-1
+ComponentSymbolReference62=ONSC-K1A2-2
+ComponentUpdate62=1
+ComponentIsDeviceSheet62=0
+ComponentLibIdentifierKind63=Library Name Only
+ComponentLibraryIdentifier63=Altium Content Vault
+ComponentDesignItemID63=CMP-1060-00434-1
+ComponentSymbolReference63=ONSC-K1A2-2
+ComponentUpdate63=1
+ComponentIsDeviceSheet63=0
+ComponentLibIdentifierKind64=Library Name Only
+ComponentLibraryIdentifier64=Altium Content Vault
+ComponentDesignItemID64=CMP-1259-00090-1
+ComponentSymbolReference64=NXP-PMOS-GSD-3
+ComponentUpdate64=1
+ComponentIsDeviceSheet64=0
+ComponentLibIdentifierKind65=Library Name Only
+ComponentLibraryIdentifier65=Altium Content Vault
+ComponentDesignItemID65=CMP-1354-00028-1
+ComponentSymbolReference65=WE-IND-INDUCTOR-2
+ComponentUpdate65=1
+ComponentIsDeviceSheet65=0
+ComponentLibIdentifierKind66=Library Name Only
+ComponentLibraryIdentifier66=Altium Content Vault
+ComponentDesignItemID66=CMP-2000-04915-1
+ComponentSymbolReference66=DSKY-AAK-3
+ComponentUpdate66=1
+ComponentIsDeviceSheet66=0
+ComponentLibIdentifierKind67=Library Name Only
+ComponentLibraryIdentifier67=Altium Content Vault
+ComponentDesignItemID67=CMP-2000-05099-1
+ComponentSymbolReference67=DSKY-AK-2
+ComponentUpdate67=1
+ComponentIsDeviceSheet67=0
+FullReplace=1
+UpdateDesignatorLock=0
+UpdatePartIDLock=0
+PreserveParameterLocations=1
+PreserveParameterVisibility=1
+DoGraphics=1
+DoParameters=1
+DoModels=1
+AddParameters=0
+RemoveParameters=0
+AddModels=1
+RemoveModels=1
+UpdateCurrentModels=1
+ParameterName0=# of I/Os
+ParameterUpdate0=1
+ParameterName1=5V Tolerant I/O
+ParameterUpdate1=1
+ParameterName2=Amplifiers Per Package
+ParameterUpdate2=1
+ParameterName3=Automotive Qualified
+ParameterUpdate3=1
+ParameterName4=Average Rectified Current-Max
+ParameterUpdate4=1
+ParameterName5=AVT Set
+ParameterUpdate5=1
+ParameterName6=Bandwidth (Hz)
+ParameterUpdate6=1
+ParameterName7=Battery Chemistry
+ParameterUpdate7=1
+ParameterName8=Breakdown Voltage
+ParameterUpdate8=1
+ParameterName9=Capacitance
+ParameterUpdate9=1
+ParameterName10=Case EIA
+ParameterUpdate10=1
+ParameterName11=Case Metric
+ParameterUpdate11=1
+ParameterName12=Channel Type
+ParameterUpdate12=1
+ParameterName13=Channel Width
+ParameterUpdate13=1
+ParameterName14=Circuits
+ParameterUpdate14=1
+ParameterName15=Code_IPC
+ParameterUpdate15=1
+ParameterName16=Code_JEDEC
+ParameterUpdate16=1
+ParameterName17=Color
+ParameterUpdate17=1
+ParameterName18=Comment
+ParameterUpdate18=1
+ParameterName19=Common Connection
+ParameterUpdate19=1
+ParameterName20=Component Kind
+ParameterUpdate20=1
+ParameterName21=ComponentLink1Description
+ParameterUpdate21=1
+ParameterName22=ComponentLink1URL
+ParameterUpdate22=1
+ParameterName23=ComponentLink2Description
+ParameterUpdate23=1
+ParameterName24=ComponentLink2URL
+ParameterUpdate24=1
+ParameterName25=ComponentLink3Description
+ParameterUpdate25=1
+ParameterName26=ComponentLink3URL
+ParameterUpdate26=1
+ParameterName27=ComponentLink4Description
+ParameterUpdate27=1
+ParameterName28=ComponentLink4URL
+ParameterUpdate28=1
+ParameterName29=Configuration Registers
+ParameterUpdate29=1
+ParameterName30=Continuous Forward Current
+ParameterUpdate30=1
+ParameterName31=Current Ifsm
+ParameterUpdate31=1
+ParameterName32=Datasheet URL
+ParameterUpdate32=1
+ParameterName33=Datasheet Version
+ParameterUpdate33=1
+ParameterName34=DatasheetVersion
+ParameterUpdate34=1
+ParameterName35=Description
+ParameterUpdate35=1
+ParameterName36=Dielectric
+ParameterUpdate36=1
+ParameterName37=Diode Case Style
+ParameterUpdate37=1
+ParameterName38=Diode Type
+ParameterUpdate38=1
+ParameterName39=Eco-Plan
+ParameterUpdate39=1
+ParameterName40=Enable Pin
+ParameterUpdate40=1
+ParameterName41=EXP Pin
+ParameterUpdate41=1
+ParameterName42=Forward Current If(AV)
+ParameterUpdate42=1
+ParameterName43=Forward Surge Current Ifsm Max
+ParameterUpdate43=1
+ParameterName44=Forward Voltage
+ParameterUpdate44=1
+ParameterName45=Forward Voltage @ 20mA
+ParameterUpdate45=1
+ParameterName46=Forward Voltage VF Max
+ParameterUpdate46=1
+ParameterName47=fSCLK(Max)(MHz)
+ParameterUpdate47=1
+ParameterName48=Function
+ParameterUpdate48=1
+ParameterName49=Generic Part Number
+ParameterUpdate49=1
+ParameterName50=I2C Address
+ParameterUpdate50=1
+ParameterName51=ID (uA)
+ParameterUpdate51=1
+ParameterName52=ID [max] (A)
+ParameterUpdate52=1
+ParameterName53=IDM [max] (A)
+ParameterUpdate53=1
+ParameterName54=IFSM
+ParameterUpdate54=1
+ParameterName55=Inductance
+ParameterUpdate55=1
+ParameterName56=Input Bias Current
+ParameterUpdate56=1
+ParameterName57=Input Offset Voltage
+ParameterUpdate57=1
+ParameterName58=Interrupt Output
+ParameterUpdate58=1
+ParameterName59=Iq/Amp
+ParameterUpdate59=1
+ParameterName60=Junction Temperature Tj Max
+ParameterUpdate60=1
+ParameterName61=Library Reference
+ParameterUpdate61=1
+ParameterName62=Low Power
+ParameterUpdate62=1
+ParameterName63=Manufacturer
+ParameterUpdate63=1
+ParameterName64=Manufacturer URL
+ParameterUpdate64=1
+ParameterName65=Master Side I2C Bus Capacitance Supported(pF)
+ParameterUpdate65=1
+ParameterName66=Max Analog Signal Range
+ParameterUpdate66=1
+ParameterName67=Max Frequency(kHz)
+ParameterUpdate67=1
+ParameterName68=Maximum Working Voltage
+ParameterUpdate68=1
+ParameterName69=Mounting Technology
+ParameterUpdate69=1
+ParameterName70=No. of Outputs
+ParameterUpdate70=1
+ParameterName71=No. of Pins
+ParameterUpdate71=1
+ParameterName72=Number of Cells
+ParameterUpdate72=1
+ParameterName73=Number of Outputs
+ParameterUpdate73=1
+ParameterName74=On-Chip Power-on-Reset
+ParameterUpdate74=1
+ParameterName75=Open Drain I/O Type
+ParameterUpdate75=1
+ParameterName76=Operating Junction and Storage Temperature Range
+ParameterUpdate76=1
+ParameterName77=Operating Temperature
+ParameterUpdate77=1
+ParameterName78=Operating Temperature Max
+ParameterUpdate78=1
+ParameterName79=Operating Temperature Min
+ParameterUpdate79=1
+ParameterName80=Operating Temperature Range
+ParameterUpdate80=1
+ParameterName81=Output Current
+ParameterUpdate81=1
+ParameterName82=P Max (W)
+ParameterUpdate82=1
+ParameterName83=Package / Case
+ParameterUpdate83=1
+ParameterName84=Package Description
+ParameterUpdate84=1
+ParameterName85=Package Reference
+ParameterUpdate85=1
+ParameterName86=Package URL
+ParameterUpdate86=1
+ParameterName87=Package Version
+ParameterUpdate87=1
+ParameterName88=PackageDescription
+ParameterUpdate88=1
+ParameterName89=PackageReference
+ParameterUpdate89=1
+ParameterName90=PackageVersion
+ParameterUpdate90=1
+ParameterName91=Packing
+ParameterUpdate91=1
+ParameterName92=Part Name
+ParameterUpdate92=1
+ParameterName93=Part Number
+ParameterUpdate93=1
+ParameterName94=PartNumber
+ParameterUpdate94=1
+ParameterName95=Peak Current-Max
+ParameterUpdate95=1
+ParameterName96=Pin Configuration
+ParameterUpdate96=1
+ParameterName97=PnP equipped
+ParameterUpdate97=1
+ParameterName98=PnP Package
+ParameterUpdate98=1
+ParameterName99=PnP Value
+ParameterUpdate99=1
+ParameterName100=Power
+ParameterUpdate100=1
+ParameterName101=PPPM (W)
+ParameterUpdate101=1
+ParameterName102=Push-Pull I/O Type
+ParameterUpdate102=1
+ParameterName103=Rated Current
+ParameterUpdate103=1
+ParameterName104=Rated Voltage
+ParameterUpdate104=1
+ParameterName105=Rating
+ParameterUpdate105=1
+ParameterName106=Reel Quantity
+ParameterUpdate106=1
+ParameterName107=Repetitive Reverse Voltage Vrrm Max
+ParameterUpdate107=1
+ParameterName108=Reset Input
+ParameterUpdate108=1
+ParameterName109=Resistance
+ParameterUpdate109=1
+ParameterName110=Reverse Current-Max
+ParameterUpdate110=1
+ParameterName111=Reverse Recovery Time trr Max
+ParameterUpdate111=1
+ParameterName112=Reverse Recovery Time trr Typ
+ParameterUpdate112=1
+ParameterName113=Reverse Voltage-Max [Vrrm]
+ParameterUpdate113=1
+ParameterName114=RevisionNote
+ParameterUpdate114=1
+ParameterName115=RoHS
+ParameterUpdate115=1
+ParameterName116=Ron (ohms)
+ParameterUpdate116=1
+ParameterName117=Series
+ParameterUpdate117=1
+ParameterName118=Simultaneously Active Channels
+ParameterUpdate118=1
+ParameterName119=Slave Side I2C Bus Capacitance Supported(pF)
+ParameterUpdate119=1
+ParameterName120=Slew Rate
+ParameterUpdate120=1
+ParameterName121=Small Signal Bandwidth
+ParameterUpdate121=1
+ParameterName122=SMD Marking
+ParameterUpdate122=1
+ParameterName123=SubFamily
+ParameterUpdate123=1
+ParameterName124=Supplier 1
+ParameterUpdate124=1
+ParameterName125=Supplier 2
+ParameterUpdate125=1
+ParameterName126=Supplier 3
+ParameterUpdate126=1
+ParameterName127=Supplier Part Number 1
+ParameterUpdate127=1
+ParameterName128=Supplier Part Number 2
+ParameterUpdate128=1
+ParameterName129=Supplier Part Number 3
+ParameterUpdate129=1
+ParameterName130=Supply V Guar Performance
+ParameterUpdate130=1
+ParameterName131=SVHC
+ParameterUpdate131=1
+ParameterName132=Tape Width
+ParameterUpdate132=1
+ParameterName133=Technology Family
+ParameterUpdate133=1
+ParameterName134=Temperature Max
+ParameterUpdate134=1
+ParameterName135=Temperature Min
+ParameterUpdate135=1
+ParameterName136=Termination Type
+ParameterUpdate136=1
+ParameterName137=Tolerance
+ParameterUpdate137=1
+ParameterName138=tpd max(ns)
+ParameterUpdate138=1
+ParameterName139=Type of Charger
+ParameterUpdate139=1
+ParameterName140=V Span Max
+ParameterUpdate140=1
+ParameterName141=V Span Min
+ParameterUpdate141=1
+ParameterName142=VBR Uni-Directional (V)
+ParameterUpdate142=1
+ParameterName143=Vcc range(V)
+ParameterUpdate143=1
+ParameterName144=VCC(Max)(V)
+ParameterUpdate144=1
+ParameterName145=VCC(Min)(V)
+ParameterUpdate145=1
+ParameterName146=VDS [max] (V)
+ParameterUpdate146=1
+ParameterName147=VGSth [typ] (V)
+ParameterUpdate147=1
+ParameterName148=VIN Max
+ParameterUpdate148=1
+ParameterName149=Vin Max(V)
+ParameterUpdate149=1
+ParameterName150=VIN Min
+ParameterUpdate150=1
+ParameterName151=Voltage Nodes(V)
+ParameterUpdate151=1
+ParameterName152=VWM (V)
+ParameterUpdate152=1
+ParameterName153=VZ Typ (V)
+ParameterUpdate153=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=ADI-RJ-5_L
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=ADI-RJ-5_M
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=ADI-RJ-5_N
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=ADI-RU-16_L
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=ADI-RU-16_M
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=ADI-RU-16_N
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=CAPC1608X08L
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=CAPC1608X08M
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=CAPC1608X08N
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=CAPC2012X14L
+ModelUpdate9=1
+ModelType10=PCBLIB
+ModelName10=CAPC2012X14M
+ModelUpdate10=1
+ModelType11=PCBLIB
+ModelName11=CAPC2012X14N
+ModelUpdate11=1
+ModelType12=PCBLIB
+ModelName12=CAPC3216X18L
+ModelUpdate12=1
+ModelType13=PCBLIB
+ModelName13=CAPC3216X18M
+ModelUpdate13=1
+ModelType14=PCBLIB
+ModelName14=CAPC3216X18N
+ModelUpdate14=1
+ModelType15=PCBLIB
+ModelName15=CAPC3225X25L
+ModelUpdate15=1
+ModelType16=PCBLIB
+ModelName16=CAPC3225X25M
+ModelUpdate16=1
+ModelType17=PCBLIB
+ModelName17=CAPC3225X25N
+ModelUpdate17=1
+ModelType18=PCBLIB
+ModelName18=CAPC4532X16L
+ModelUpdate18=1
+ModelType19=PCBLIB
+ModelName19=CAPC4532X16M
+ModelUpdate19=1
+ModelType20=PCBLIB
+ModelName20=CAPC4532X16N
+ModelUpdate20=1
+ModelType21=PCBLIB
+ModelName21=DIOD-POWERDI123-2_V
+ModelUpdate21=1
+ModelType22=PCBLIB
+ModelName22=HM2102NL
+ModelUpdate22=1
+ModelType23=PCBLIB
+ModelName23=LEDC1608X07L
+ModelUpdate23=1
+ModelType24=PCBLIB
+ModelName24=LEDC1608X07M
+ModelUpdate24=1
+ModelType25=PCBLIB
+ModelName25=LEDC1608X07N
+ModelUpdate25=1
+ModelType26=PCBLIB
+ModelName26=LITTLEFUSE_448
+ModelUpdate26=1
+ModelType27=PCBLIB
+ModelName27=LITTLEFUSE_466
+ModelUpdate27=1
+ModelType28=PCBLIB
+ModelName28=LT-S8E-8_V
+ModelUpdate28=1
+ModelType29=PCBLIB
+ModelName29=MOLEX_MICROFIT_01x2_THT
+ModelUpdate29=1
+ModelType30=PCBLIB
+ModelName30=MOLEX_MICROFIT_08x2_THT
+ModelUpdate30=1
+ModelType31=PCBLIB
+ModelName31=MOLEX_MICROFIT_12x2_THT
+ModelUpdate31=1
+ModelType32=PCBLIB
+ModelName32=NXP-SOT23_L
+ModelUpdate32=1
+ModelType33=PCBLIB
+ModelName33=NXP-SOT23_M
+ModelUpdate33=1
+ModelType34=PCBLIB
+ModelName34=NXP-SOT23_N
+ModelUpdate34=1
+ModelType35=PCBLIB
+ModelName35=NXP-SOT23-3_V
+ModelUpdate35=1
+ModelType36=PCBLIB
+ModelName36=ONSC-SOD-123-2-425-04_V
+ModelUpdate36=1
+ModelType37=PCBLIB
+ModelName37=Pinheader_2.54_2
+ModelUpdate37=1
+ModelType38=PCBLIB
+ModelName38=Pinheader_2.54_2x10
+ModelUpdate38=1
+ModelType39=PCBLIB
+ModelName39=Pinheader_2.54_2x2
+ModelUpdate39=1
+ModelType40=PCBLIB
+ModelName40=Pinheader_2.54_2x4
+ModelUpdate40=1
+ModelType41=PCBLIB
+ModelName41=Pinheader_2.54_2x5
+ModelUpdate41=1
+ModelType42=PCBLIB
+ModelName42=Pinheader_2.54_2x9
+ModelUpdate42=1
+ModelType43=PCBLIB
+ModelName43=PowerDI5
+ModelUpdate43=1
+ModelType44=PCBLIB
+ModelName44=PW0016A_L
+ModelUpdate44=1
+ModelType45=PCBLIB
+ModelName45=PW0016A_M
+ModelUpdate45=1
+ModelType46=PCBLIB
+ModelName46=PW0016A_N
+ModelUpdate46=1
+ModelType47=PCBLIB
+ModelName47=PWP0014A
+ModelUpdate47=1
+ModelType48=PCBLIB
+ModelName48=RESC1608X05L
+ModelUpdate48=1
+ModelType49=PCBLIB
+ModelName49=RESC1608X05M
+ModelUpdate49=1
+ModelType50=PCBLIB
+ModelName50=RESC1608X05N
+ModelUpdate50=1
+ModelType51=PCBLIB
+ModelName51=RESC2012X05L
+ModelUpdate51=1
+ModelType52=PCBLIB
+ModelName52=RESC2012X05M
+ModelUpdate52=1
+ModelType53=PCBLIB
+ModelName53=RESC2012X05N
+ModelUpdate53=1
+ModelType54=PCBLIB
+ModelName54=RESC5025X07L
+ModelUpdate54=1
+ModelType55=PCBLIB
+ModelName55=RESC5025X07M
+ModelUpdate55=1
+ModelType56=PCBLIB
+ModelName56=RESC5025X07N
+ModelUpdate56=1
+ModelType57=PCBLIB
+ModelName57=SOIC127P600X175-8L
+ModelUpdate57=1
+ModelType58=PCBLIB
+ModelName58=SOIC127P600X175-8M
+ModelUpdate58=1
+ModelType59=PCBLIB
+ModelName59=SOIC127P600X175-8N
+ModelUpdate59=1
+ModelType60=PCBLIB
+ModelName60=SOIC127P700X220-4L
+ModelUpdate60=1
+ModelType61=PCBLIB
+ModelName61=SOIC127P700X220-4M
+ModelUpdate61=1
+ModelType62=PCBLIB
+ModelName62=SOIC127P700X220-4N
+ModelUpdate62=1
+ModelType63=PCBLIB
+ModelName63=SOT-23-OT5_L
+ModelUpdate63=1
+ModelType64=PCBLIB
+ModelName64=SOT-23-OT5_M
+ModelUpdate64=1
+ModelType65=PCBLIB
+ModelName65=SOT-23-OT5_N
+ModelUpdate65=1
+ModelType66=PCBLIB
+ModelName66=Testpoint_S1
+ModelUpdate66=1
+ModelType67=PCBLIB
+ModelName67=Testpoint_S2
+ModelUpdate67=1
+ModelType68=PCBLIB
+ModelName68=TSQFP50P1200X1200X160_HS-65L
+ModelUpdate68=1
+ModelType69=PCBLIB
+ModelName69=TSQFP50P1200X1200X160_HS-65M
+ModelUpdate69=1
+ModelType70=PCBLIB
+ModelName70=TSQFP50P1200X1200X160_HS-65N
+ModelUpdate70=1
+ModelType71=PCBLIB
+ModelName71=VISH-DO-214AC-2_L
+ModelUpdate71=1
+ModelType72=PCBLIB
+ModelName72=VISH-DO-214AC-2_M
+ModelUpdate72=1
+ModelType73=PCBLIB
+ModelName73=VISH-DO-214AC-2_N
+ModelUpdate73=1
+ModelType74=PCBLIB
+ModelName74=WE_750313457
+ModelUpdate74=1
+ModelType75=PCBLIB
+ModelName75=WE-LQS 4018
+ModelUpdate75=1
+ModelType76=PCBLIB
+ModelName76=WE-TPC-5828-LH
+ModelUpdate76=1
+
+[DatabaseUpdateOptions]
+SelectedOnly=0
+UpdateVariants=1
+PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=OE750.DbLib/C (ceramic)
+ComponentDesignItemID0=gen_C_ceramic_100n_100V_X7R_0805
+ComponentSymbolReference0=C
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=OE750.DbLib/C (ceramic)
+ComponentDesignItemID1=gen_C_ceramic_100n_200V_X7R_0805
+ComponentSymbolReference1=C
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=OE750.DbLib/C (ceramic)
+ComponentDesignItemID2=gen_C_ceramic_100n_50V_X7R_0603
+ComponentSymbolReference2=C
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=OE750.DbLib/C (ceramic)
+ComponentDesignItemID3=gen_C_ceramic_100p_50V_C0G_0603
+ComponentSymbolReference3=C
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=OE750.DbLib/C (ceramic)
+ComponentDesignItemID4=gen_C_ceramic_10n_100V_X7R_0603
+ComponentSymbolReference4=C
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=OE750.DbLib/C (ceramic)
+ComponentDesignItemID5=gen_C_ceramic_10u_25V_X7R_1210
+ComponentSymbolReference5=C
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=OE750.DbLib/C (ceramic)
+ComponentDesignItemID6=gen_C_ceramic_1u_250V_X7R_1812
+ComponentSymbolReference6=C
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=OE750.DbLib/C (ceramic)
+ComponentDesignItemID7=gen_C_ceramic_1u_25V_X7R_0805
+ComponentSymbolReference7=C
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=OE750.DbLib/C (ceramic)
+ComponentDesignItemID8=gen_C_ceramic_1u_35V_X7R_0603
+ComponentSymbolReference8=C
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=OE750.DbLib/C (ceramic)
+ComponentDesignItemID9=gen_C_ceramic_2u2_10V_X5R_0603
+ComponentSymbolReference9=C
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=OE750.DbLib/C (ceramic)
+ComponentDesignItemID10=gen_C_ceramic_470p_100V_X7R_0805
+ComponentSymbolReference10=C
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=OE750.DbLib/C (ceramic)
+ComponentDesignItemID11=gen_C_ceramic_4n7_1000V_X7R_1812
+ComponentSymbolReference11=C
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=OE750.DbLib/C (ceramic)
+ComponentDesignItemID12=gen_C_ceramic_4u7_100V_X7S_1206
+ComponentSymbolReference12=C
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=OE750.DbLib/Connector
+ComponentDesignItemID13=gen_pinheader_2.54_2
+ComponentSymbolReference13=X2
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Library Name And Type
+ComponentLibraryIdentifier14=OE750.DbLib/Connector
+ComponentDesignItemID14=gen_pinheader_2.54_2x10
+ComponentSymbolReference14=X2x10
+ComponentUpdate14=1
+ComponentIsDeviceSheet14=0
+ComponentLibIdentifierKind15=Library Name And Type
+ComponentLibraryIdentifier15=OE750.DbLib/Connector
+ComponentDesignItemID15=gen_pinheader_2.54_2x4
+ComponentSymbolReference15=X2x4
+ComponentUpdate15=1
+ComponentIsDeviceSheet15=0
+ComponentLibIdentifierKind16=Library Name And Type
+ComponentLibraryIdentifier16=OE750.DbLib/Connector
+ComponentDesignItemID16=gen_pinheader_2.54_2x5
+ComponentSymbolReference16=X2x5
+ComponentUpdate16=1
+ComponentIsDeviceSheet16=0
+ComponentLibIdentifierKind17=Library Name And Type
+ComponentLibraryIdentifier17=OE750.DbLib/Connector
+ComponentDesignItemID17=gen_pinheader_2.54_2x9
+ComponentSymbolReference17=X2x9
+ComponentUpdate17=1
+ComponentIsDeviceSheet17=0
+ComponentLibIdentifierKind18=Library Name And Type
+ComponentLibraryIdentifier18=OE750.DbLib/Connector
+ComponentDesignItemID18=molex_microfit_3_01x2_THT
+ComponentSymbolReference18=X2
+ComponentUpdate18=1
+ComponentIsDeviceSheet18=0
+ComponentLibIdentifierKind19=Library Name And Type
+ComponentLibraryIdentifier19=OE750.DbLib/Connector
+ComponentDesignItemID19=molex_microfit_3_08x2_THT
+ComponentSymbolReference19=X8x2
+ComponentUpdate19=1
+ComponentIsDeviceSheet19=0
+ComponentLibIdentifierKind20=Library Name And Type
+ComponentLibraryIdentifier20=OE750.DbLib/Connector
+ComponentDesignItemID20=molex_microfit_3_12x2_THT
+ComponentSymbolReference20=X12x2
+ComponentUpdate20=1
+ComponentIsDeviceSheet20=0
+ComponentLibIdentifierKind21=Library Name And Type
+ComponentLibraryIdentifier21=OE750.DbLib/Connector
+ComponentDesignItemID21=samtec_TSW-102-07-G-D
+ComponentSymbolReference21=X2x2
+ComponentUpdate21=1
+ComponentIsDeviceSheet21=0
+ComponentLibIdentifierKind22=Library Name And Type
+ComponentLibraryIdentifier22=OE750.DbLib/D (LED)
+ComponentDesignItemID22=gen_LED_0603_green
+ComponentSymbolReference22=D_LED
+ComponentUpdate22=1
+ComponentIsDeviceSheet22=0
+ComponentLibIdentifierKind23=Library Name And Type
+ComponentLibraryIdentifier23=OE750.DbLib/D (Schottky)
+ComponentDesignItemID23=PDS3200-13
+ComponentSymbolReference23=PDS3200
+ComponentUpdate23=1
+ComponentIsDeviceSheet23=0
+ComponentLibIdentifierKind24=Library Name And Type
+ComponentLibraryIdentifier24=OE750.DbLib/IC
+ComponentDesignItemID24=ACPL-247-500E
+ComponentSymbolReference24=ACPL-247
+ComponentUpdate24=1
+ComponentIsDeviceSheet24=0
+ComponentLibIdentifierKind25=Library Name And Type
+ComponentLibraryIdentifier25=OE750.DbLib/IC
+ComponentDesignItemID25=LM5018MRX
+ComponentSymbolReference25=LM5018MRX
+ComponentUpdate25=1
+ComponentIsDeviceSheet25=0
+ComponentLibIdentifierKind26=Library Name And Type
+ComponentLibraryIdentifier26=OE750.DbLib/IC
+ComponentDesignItemID26=LTC6813HLWE-1#3ZZPBF
+ComponentSymbolReference26=LTC6813HLWE-1#3ZZPBF
+ComponentUpdate26=1
+ComponentIsDeviceSheet26=0
+ComponentLibIdentifierKind27=Library Name And Type
+ComponentLibraryIdentifier27=OE750.DbLib/IC
+ComponentDesignItemID27=M24M02-DWMN3TP/K
+ComponentSymbolReference27=M24M02-DWMN3TP/K
+ComponentUpdate27=1
+ComponentIsDeviceSheet27=0
+ComponentLibIdentifierKind28=Library Name And Type
+ComponentLibraryIdentifier28=OE750.DbLib/Misc (No BOM)
+ComponentDesignItemID28=Testpoint_Square
+ComponentSymbolReference28=Testpoint_Square
+ComponentUpdate28=1
+ComponentIsDeviceSheet28=0
+ComponentLibIdentifierKind29=Library Name And Type
+ComponentLibraryIdentifier29=OE750.DbLib/Misc
+ComponentDesignItemID29=fuse_0.25A_0466.250NR
+ComponentSymbolReference29=R_Fuse
+ComponentUpdate29=1
+ComponentIsDeviceSheet29=0
+ComponentLibIdentifierKind30=Library Name And Type
+ComponentLibraryIdentifier30=OE750.DbLib/Misc
+ComponentDesignItemID30=fuse_0.5A_0448.500MR
+ComponentSymbolReference30=R_Fuse
+ComponentUpdate30=1
+ComponentIsDeviceSheet30=0
+ComponentLibIdentifierKind31=Library Name And Type
+ComponentLibraryIdentifier31=OE750.DbLib/Misc
+ComponentDesignItemID31=fuse_1.25A_04661.25NR
+ComponentSymbolReference31=R_Fuse
+ComponentUpdate31=1
+ComponentIsDeviceSheet31=0
+ComponentLibIdentifierKind32=Library Name And Type
+ComponentLibraryIdentifier32=OE750.DbLib/Misc
+ComponentDesignItemID32=HM2102NL
+ComponentSymbolReference32=HM2102NL
+ComponentUpdate32=1
+ComponentIsDeviceSheet32=0
+ComponentLibIdentifierKind33=Library Name And Type
+ComponentLibraryIdentifier33=OE750.DbLib/Misc
+ComponentDesignItemID33=WE_750313457
+ComponentSymbolReference33=WE_750313457
+ComponentUpdate33=1
+ComponentIsDeviceSheet33=0
+ComponentLibIdentifierKind34=Library Name And Type
+ComponentLibraryIdentifier34=OE750.DbLib/R
+ComponentDesignItemID34=gen_R_0R_0603
+ComponentSymbolReference34=R
+ComponentUpdate34=1
+ComponentIsDeviceSheet34=0
+ComponentLibIdentifierKind35=Library Name And Type
+ComponentLibraryIdentifier35=OE750.DbLib/R
+ComponentDesignItemID35=gen_R_0R47_0805
+ComponentSymbolReference35=R
+ComponentUpdate35=1
+ComponentIsDeviceSheet35=0
+ComponentLibIdentifierKind36=Library Name And Type
+ComponentLibraryIdentifier36=OE750.DbLib/R
+ComponentDesignItemID36=gen_R_100R_0603
+ComponentSymbolReference36=R
+ComponentUpdate36=1
+ComponentIsDeviceSheet36=0
+ComponentLibIdentifierKind37=Library Name And Type
+ComponentLibraryIdentifier37=OE750.DbLib/R
+ComponentDesignItemID37=gen_R_100R_0805
+ComponentSymbolReference37=R
+ComponentUpdate37=1
+ComponentIsDeviceSheet37=0
+ComponentLibIdentifierKind38=Library Name And Type
+ComponentLibraryIdentifier38=OE750.DbLib/R
+ComponentDesignItemID38=gen_R_10k_0603
+ComponentSymbolReference38=R
+ComponentUpdate38=1
+ComponentIsDeviceSheet38=0
+ComponentLibIdentifierKind39=Library Name And Type
+ComponentLibraryIdentifier39=OE750.DbLib/R
+ComponentDesignItemID39=gen_R_115k_0603
+ComponentSymbolReference39=R
+ComponentUpdate39=1
+ComponentIsDeviceSheet39=0
+ComponentLibIdentifierKind40=Library Name And Type
+ComponentLibraryIdentifier40=OE750.DbLib/R
+ComponentDesignItemID40=gen_R_120R_0603
+ComponentSymbolReference40=R
+ComponentUpdate40=1
+ComponentIsDeviceSheet40=0
+ComponentLibIdentifierKind41=Library Name And Type
+ComponentLibraryIdentifier41=OE750.DbLib/R
+ComponentDesignItemID41=gen_R_127k_0603
+ComponentSymbolReference41=R
+ComponentUpdate41=1
+ComponentIsDeviceSheet41=0
+ComponentLibIdentifierKind42=Library Name And Type
+ComponentLibraryIdentifier42=OE750.DbLib/R
+ComponentDesignItemID42=gen_R_150R_0603
+ComponentSymbolReference42=R
+ComponentUpdate42=1
+ComponentIsDeviceSheet42=0
+ComponentLibIdentifierKind43=Library Name And Type
+ComponentLibraryIdentifier43=OE750.DbLib/R
+ComponentDesignItemID43=gen_R_1k_0603
+ComponentSymbolReference43=R
+ComponentUpdate43=1
+ComponentIsDeviceSheet43=0
+ComponentLibIdentifierKind44=Library Name And Type
+ComponentLibraryIdentifier44=OE750.DbLib/R
+ComponentDesignItemID44=gen_R_1k2_0603
+ComponentSymbolReference44=R
+ComponentUpdate44=1
+ComponentIsDeviceSheet44=0
+ComponentLibIdentifierKind45=Library Name And Type
+ComponentLibraryIdentifier45=OE750.DbLib/R
+ComponentDesignItemID45=gen_R_1k21_0603
+ComponentSymbolReference45=R
+ComponentUpdate45=1
+ComponentIsDeviceSheet45=0
+ComponentLibIdentifierKind46=Library Name And Type
+ComponentLibraryIdentifier46=OE750.DbLib/R
+ComponentDesignItemID46=gen_R_1M_0603
+ComponentSymbolReference46=R
+ComponentUpdate46=1
+ComponentIsDeviceSheet46=0
+ComponentLibIdentifierKind47=Library Name And Type
+ComponentLibraryIdentifier47=OE750.DbLib/R
+ComponentDesignItemID47=gen_R_200k_0603
+ComponentSymbolReference47=R
+ComponentUpdate47=1
+ComponentIsDeviceSheet47=0
+ComponentLibIdentifierKind48=Library Name And Type
+ComponentLibraryIdentifier48=OE750.DbLib/R
+ComponentDesignItemID48=gen_R_270R_0603
+ComponentSymbolReference48=R
+ComponentUpdate48=1
+ComponentIsDeviceSheet48=0
+ComponentLibIdentifierKind49=Library Name And Type
+ComponentLibraryIdentifier49=OE750.DbLib/R
+ComponentDesignItemID49=gen_R_390k_0603
+ComponentSymbolReference49=R
+ComponentUpdate49=1
+ComponentIsDeviceSheet49=0
+ComponentLibIdentifierKind50=Library Name And Type
+ComponentLibraryIdentifier50=OE750.DbLib/R
+ComponentDesignItemID50=gen_R_39R_0805
+ComponentSymbolReference50=R
+ComponentUpdate50=1
+ComponentIsDeviceSheet50=0
+ComponentLibIdentifierKind51=Library Name And Type
+ComponentLibraryIdentifier51=OE750.DbLib/R
+ComponentDesignItemID51=gen_R_3k09_0603
+ComponentSymbolReference51=R
+ComponentUpdate51=1
+ComponentIsDeviceSheet51=0
+ComponentLibIdentifierKind52=Library Name And Type
+ComponentLibraryIdentifier52=OE750.DbLib/R
+ComponentDesignItemID52=gen_R_3k3_0603
+ComponentSymbolReference52=R
+ComponentUpdate52=1
+ComponentIsDeviceSheet52=0
+ComponentLibIdentifierKind53=Library Name And Type
+ComponentLibraryIdentifier53=OE750.DbLib/R
+ComponentDesignItemID53=gen_R_68R_2010
+ComponentSymbolReference53=R
+ComponentUpdate53=1
+ComponentIsDeviceSheet53=0
+ComponentLibIdentifierKind54=Library Name And Type
+ComponentLibraryIdentifier54=OE750.DbLib/R
+ComponentDesignItemID54=gen_R_820R_0603
+ComponentSymbolReference54=R
+ComponentUpdate54=1
+ComponentIsDeviceSheet54=0
+ComponentLibIdentifierKind55=Library Name And Type
+ComponentLibraryIdentifier55=OE750.DbLib/R
+ComponentDesignItemID55=gen_R_86k6_0603
+ComponentSymbolReference55=R
+ComponentUpdate55=1
+ComponentIsDeviceSheet55=0
+ComponentLibIdentifierKind56=Library Name Only
+ComponentLibraryIdentifier56=Altium Content Vault
+ComponentDesignItemID56=CMP-0192-00211-1
+ComponentSymbolReference56=SEN-TEMP-MCP980X-5
+ComponentUpdate56=1
+ComponentIsDeviceSheet56=0
+ComponentLibIdentifierKind57=Library Name Only
+ComponentLibraryIdentifier57=Altium Content Vault
+ComponentDesignItemID57=CMP-0227-00378-1
+ComponentSymbolReference57=PAS-IND-INDUCTOR-2
+ComponentUpdate57=1
+ComponentIsDeviceSheet57=0
+ComponentLibIdentifierKind58=Library Name Only
+ComponentLibraryIdentifier58=Altium Content Vault
+ComponentDesignItemID58=CMP-0314-00348-2
+ComponentSymbolReference58=TI-PCF8574-TSSOP_PW-20
+ComponentUpdate58=1
+ComponentIsDeviceSheet58=0
+ComponentLibIdentifierKind59=Library Name Only
+ComponentLibraryIdentifier59=Altium Content Vault
+ComponentDesignItemID59=CMP-0359-02268-2
+ComponentSymbolReference59=LT-LT1809-LTC2050-6
+ComponentUpdate59=1
+ComponentIsDeviceSheet59=0
+ComponentLibIdentifierKind60=Library Name Only
+ComponentLibraryIdentifier60=Altium Content Vault
+ComponentDesignItemID60=CMP-0492-02715-1
+ComponentSymbolReference60=LT-LT8302-S8E-8
+ComponentUpdate60=1
+ComponentIsDeviceSheet60=0
+ComponentLibIdentifierKind61=Library Name Only
+ComponentLibraryIdentifier61=Altium Content Vault
+ComponentDesignItemID61=CMP-0548-00258-2
+ComponentSymbolReference61=VISH-K1A2-2
+ComponentUpdate61=1
+ComponentIsDeviceSheet61=0
+ComponentLibIdentifierKind62=Library Name Only
+ComponentLibraryIdentifier62=Altium Content Vault
+ComponentDesignItemID62=CMP-0798-00197-1
+ComponentSymbolReference62=ADI-ADG728-RU-16
+ComponentUpdate62=1
+ComponentIsDeviceSheet62=0
+ComponentLibIdentifierKind63=Library Name Only
+ComponentLibraryIdentifier63=Altium Content Vault
+ComponentDesignItemID63=CMP-1060-00377-1
+ComponentSymbolReference63=ONSC-K1A2-2
+ComponentUpdate63=1
+ComponentIsDeviceSheet63=0
+ComponentLibIdentifierKind64=Library Name Only
+ComponentLibraryIdentifier64=Altium Content Vault
+ComponentDesignItemID64=CMP-1060-00434-1
+ComponentSymbolReference64=ONSC-K1A2-2
+ComponentUpdate64=1
+ComponentIsDeviceSheet64=0
+ComponentLibIdentifierKind65=Library Name Only
+ComponentLibraryIdentifier65=Altium Content Vault
+ComponentDesignItemID65=CMP-1259-00090-1
+ComponentSymbolReference65=NXP-PMOS-GSD-3
+ComponentUpdate65=1
+ComponentIsDeviceSheet65=0
+ComponentLibIdentifierKind66=Library Name Only
+ComponentLibraryIdentifier66=Altium Content Vault
+ComponentDesignItemID66=CMP-1354-00028-1
+ComponentSymbolReference66=WE-IND-INDUCTOR-2
+ComponentUpdate66=1
+ComponentIsDeviceSheet66=0
+ComponentLibIdentifierKind67=Library Name Only
+ComponentLibraryIdentifier67=Altium Content Vault
+ComponentDesignItemID67=CMP-1396-00021-1
+ComponentSymbolReference67=PAS-IND-INDUCTOR-2
+ComponentUpdate67=1
+ComponentIsDeviceSheet67=0
+ComponentLibIdentifierKind68=Library Name Only
+ComponentLibraryIdentifier68=Altium Content Vault
+ComponentDesignItemID68=CMP-2000-04915-1
+ComponentSymbolReference68=DSKY-AAK-3
+ComponentUpdate68=1
+ComponentIsDeviceSheet68=0
+ComponentLibIdentifierKind69=Library Name Only
+ComponentLibraryIdentifier69=Altium Content Vault
+ComponentDesignItemID69=CMP-2000-05099-1
+ComponentSymbolReference69=DSKY-AK-2
+ComponentUpdate69=1
+ComponentIsDeviceSheet69=0
+
+[Comparison Options]
+ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
+ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+
+[SmartPDF]
+PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+

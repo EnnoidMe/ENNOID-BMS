@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:fpd="http://www.schaeffer-ag.de"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="165.35434mm"
+   height="49.574348mm"
+   viewBox="0 0 585.9012 175.65714"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="drawing.svg">
+  <defs
+     id="defs4">
+    <pattern
+       patternUnits="userSpaceOnUse"
+       height="1.5"
+       width="1.5"
+       y="1"
+       x="1"
+       id="revside-fill">
+      <line
+         id="line3343"
+         style="stroke-width:0.2; stroke:black; stroke-dasharray:none;"
+         y2="1"
+         x2="1"
+         y1="0"
+         x1="0" />
+      <line
+         id="line3345"
+         style="stroke-width:0.2; stroke:black; stroke-dasharray:none;"
+         y2="0"
+         x2="1"
+         y1="1"
+         x1="0" />
+    </pattern>
+    <pattern
+       patternUnits="userSpaceOnUse"
+       height="1.5"
+       width="1.5"
+       y="1"
+       x="1"
+       id="revside-fill-silver">
+      <line
+         id="line3348"
+         style="stroke-width:0.2; stroke:#e0e0e0; stroke-dasharray:none;"
+         y2="1.5"
+         x2="1.5"
+         y1="0"
+         x1="0" />
+      <line
+         id="line3350"
+         style="stroke-width:0.2; stroke:#e0e0e0; stroke-dasharray:none;"
+         y2="0"
+         x2="1.5"
+         y1="1.5"
+         x1="0" />
+    </pattern>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-96.33514"
+     inkscape:cy="-309.31431"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1178"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-44.192283,-47.390752)">
+    <g
+       id="g3352"
+       style="fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       transform="matrix(0,3.5433071,3.5433073,0,44.820034,48.018566)">
+      <path
+         id="path3354"
+         vector-effect="non-scaling-stroke"
+         d="m 0,162.5 a 2.5,2.5 0 0 0 2.5,2.5 l 0,0 44.22,0 a 2.5,2.5 0 0 0 2.5,-2.5 l 0,0 0,-160 A 2.5,2.5 0 0 0 46.72,0 l 0,0 L 2.5,0 A 2.5,2.5 0 0 0 0,2.5 l 0,0 0,160"
+         inkscape:connector-curvature="0"
+         style="fill:#cccccc;stroke:#000000;stroke-width:0.1mm" />
+      <path
+         id="path3356"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="M 6.688,9.674 A 0.468,0.468 0 0 1 6.511,9.397 1.114,1.114 0 0 1 6.531,8.845 0.527,0.527 0 0 1 6.728,8.569 0.361,0.361 0 0 1 7.28,8.747 l 0.237,0.69 A 0.361,0.361 0 0 0 8.069,9.614 0.527,0.527 0 0 0 8.266,9.338 1.114,1.114 0 0 0 8.286,8.786 0.468,0.468 0 0 0 8.108,8.51"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3358"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 7.102,10.147 0.69,0 a 0.493,0.493 0 0 1 0,0.986 l 0.493,0 -1.183,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3360"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 8.877,11.606 -1.282,0 a 0.493,0.493 0 0 0 0,0.986 l 0.197,0 a 0.493,0.493 0 0 0 0,-0.986 l -0.69,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3362"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 8.877,13.065 -1.282,0 a 0.493,0.493 0 0 0 0,0.986 l 0.197,0 a 0.493,0.493 0 0 0 0,-0.986 l -0.69,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3364"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 6.51,14.524 1.538,0 a 0.241,0.241 0 0 1 0.237,0.197"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3366"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 7.101,15.194 1.124,0.473"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3368"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="M 7.101,16.18 8.698,15.47 A 0.299,0.299 0 0 0 8.876,15.194"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3370"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 3.125,22.004 1.775,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3372"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 4.742,22.478 a 0.67,0.67 0 0 1 0.119,0.71 0.253,0.253 0 0 1 -0.474,-0.02 L 4.21,22.635 a 0.227,0.227 0 0 0 -0.414,-0.039 0.699,0.699 0 0 0 0.039,0.749"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3374"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 4.407,23.82 -0.197,0 a 0.493,0.493 0 0 0 0,0.986 l 0.197,0 a 0.493,0.493 0 0 0 0,-0.986"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3376"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 4.9,25.279 -0.099,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3378"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 8.286,21.255 -1.775,0 1.282,0.69 -1.282,0.69 1.775,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3380"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 7.793,23.109 -0.197,0 a 0.493,0.493 0 0 0 0,0.986 l 0.197,0 a 0.493,0.493 0 0 0 0,-0.986"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3382"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 8.286,24.568 -1.183,0 0.493,0 a 0.493,0.493 0 0 0 0,0.986 l 0.69,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3384"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 8.286,26.027 -0.099,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3386"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 6.767,31.378 a 0.578,0.578 0 0 1 0.296,-1.084 l 0.671,0 a 0.593,0.593 0 0 1 0.217,1.144"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3388"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 7.793,32.109 0,0.986"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3390"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 8.286,31.912 -1.775,0.69 1.775,0.69"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3392"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 8.286,33.766 -1.775,0 1.775,1.183 -1.775,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3394"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 6.984,36.684 0.829,0 a 0.513,0.513 0 0 1 0,1.025 l -0.829,0 a 0.513,0.513 0 0 1 0,-1.025"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3396"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 6.511,55.254 0,-0.888 0.828,0 A 0.676,0.676 0 0 0 7.201,54.84 0.571,0.571 0 0 0 8.168,55.195 0.533,0.533 0 0 0 8.049,54.347"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3398"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 6.511,65.429 1.479,-0.591 0,0.986 0,-0.197 -0.296,0 0.592,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3400"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 6.787,75.342 a 0.518,0.518 0 0 0 -0.315,0.473 0.4635,0.4635 0 0 0 0.927,0 0.463,0.463 0 0 0 0.926,0 0.548,0.548 0 0 0 -0.276,-0.473"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3402"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="M 6.688,85.817 6.59,85.936 a 0.489,0.489 0 0 0 0.69,0.69 l 1.006,-0.828 0,0.986"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3404"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 6.905,96.574 -0.394,0.394 1.775,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3406"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 6.984,106.738 0.829,0 a 0.513,0.513 0 0 1 0,1.025 l -0.829,0 a 0.513,0.513 0 0 1 0,-1.025"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3408"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 3.381,77.157 a 0.578,0.578 0 0 1 0.296,-1.084 l 0.671,0 a 0.593,0.593 0 0 1 0.217,1.144"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3410"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 4.407,77.691 -0.197,0 a 0.493,0.493 0 0 0 0,0.986 l 0.197,0 a 0.493,0.493 0 0 0 0,-0.986"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3412"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 4.9,79.151 -1.183,0 0.493,0 a 0.493,0.493 0 0 0 0,0.986 l 0.69,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3414"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 3.125,80.788 0.592,0 0,0.296 0,-0.493 0,0.197 0.946,0 A 0.241,0.241 0 0 1 4.9,80.985"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3416"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 3.717,82.583 0.69,0 a 0.513,0.513 0 0 0 0,-1.025 l -0.197,0 a 0.513,0.513 0 0 0 0,1.025 l 0.473,0 a 0.287,0.287 0 0 1 0.256,0.237"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3418"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="M 3.874,84.141 A 0.489,0.489 0 0 1 4.21,83.293 l 0.197,0 A 0.49,0.49 0 0 1 4.663,84.2"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3420"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 3.126,84.85 0.592,0 0,0.296 0,-0.493 0,0.197 0.946,0 a 0.241,0.241 0 0 1 0.237,0.197"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3422"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 4.408,85.619 -0.197,0 a 0.493,0.493 0 0 0 0,0.986 l 0.197,0 a 0.493,0.493 0 0 0 0,-0.986"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3424"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 4.901,87.078 -1.183,0 0.394,0 a 0.436,0.436 0 0 0 -0.276,0.098 0.281,0.281 0 0 0 0,0.434"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3426"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 4.743,88.064 a 0.67,0.67 0 0 1 0.119,0.71 0.253,0.253 0 0 1 -0.474,-0.02 L 4.211,88.221 a 0.227,0.227 0 0 0 -0.414,-0.039 0.699,0.699 0 0 0 0.039,0.749"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3428"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 4.9,40.642 -1.775,0 0,0.65 a 0.444,0.444 0 0 0 0.888,0 l 0,-0.65"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3430"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 4.9,42.181 -1.183,0 0.394,0 a 0.436,0.436 0 0 0 -0.276,0.098 0.281,0.281 0 0 0 0,0.434"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3432"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 3.125,43.168 0.099,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3434"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 3.717,43.168 1.183,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3436"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 4.9,43.642 -1.183,0 0.394,0 a 0.3945,0.3945 0 0 0 0,0.789 l 0.789,0 -0.789,0 a 0.394,0.394 0 0 0 0,0.788 l 0.789,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3438"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 3.718,46.718 0.69,0 a 0.513,0.513 0 0 0 0,-1.025 l -0.197,0 a 0.513,0.513 0 0 0 0,1.025 l 0.473,0 a 0.287,0.287 0 0 1 0.256,0.237"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3440"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 4.901,47.428 -1.183,0 0.394,0 a 0.436,0.436 0 0 0 -0.276,0.098 0.281,0.281 0 0 0 0,0.434"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3442"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 3.718,48.414 1.124,0.473"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3444"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="M 3.718,49.4 5.315,48.69 A 0.299,0.299 0 0 0 5.493,48.414"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3446"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 6.511,42.797 1.223,0 a 0.592,0.592 0 0 1 0,1.183 l -1.223,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3448"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 6.688,45.598 a 0.468,0.468 0 0 1 -0.177,-0.277 1.114,1.114 0 0 1 0.02,-0.552 0.527,0.527 0 0 1 0.197,-0.276 0.361,0.361 0 0 1 0.552,0.178 l 0.237,0.69 a 0.361,0.361 0 0 0 0.552,0.177 0.527,0.527 0 0 0 0.197,-0.276 1.114,1.114 0 0 0 0.02,-0.552 0.468,0.468 0 0 0 -0.178,-0.276"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3450"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 7.397,46.721 a 0.444,0.444 0 0 1 -0.887,0 l 0,-0.65 1.775,0 0,0.749 a 0.444,0.444 0 0 1 -0.888,0 l 0,-0.749"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3452"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 6.511,111.247 1.775,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3454"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 8.286,111.721 -1.183,0 0.493,0 a 0.493,0.493 0 0 0 0,0.986 l 0.69,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3456"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 6.511,113.358 0.592,0 0,0.296 0,-0.493 0,0.197 0.946,0 a 0.241,0.241 0 0 1 0.237,0.197"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3458"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 7.693,114.128 0,0.986 -0.098,0 a 0.493,0.493 0 0 1 0,-0.986 l 0.197,0 a 0.517,0.517 0 0 1 0.315,0.927"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3460"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 8.285,115.588 -1.183,0 0.394,0 a 0.436,0.436 0 0 0 -0.276,0.098 0.281,0.281 0 0 0 0,0.434"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3462"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 6.51,116.574 1.538,0 a 0.241,0.241 0 0 1 0.237,0.197"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3464"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 7.791,117.244 -0.197,0 a 0.493,0.493 0 0 0 0,0.986 l 0.197,0 a 0.493,0.493 0 0 0 0,-0.986"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3466"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 7.258,119.551 a 0.489,0.489 0 0 1 0.336,-0.848 l 0.197,0 a 0.49,0.49 0 0 1 0.256,0.907"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3468"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 6.508,120.083 1.775,0 -0.394,0 -0.789,0.986 0.473,-0.592 0.71,0.592"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3470"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 6.511,128.651 0,0.611 a 0.595,0.595 0 0 0 0.592,0.572 l 0.591,0 a 0.571,0.571 0 0 0 0.592,-0.572 l 0,-0.611 -1.775,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3472"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 7.102,131.333 0.69,0 a 0.513,0.513 0 0 0 0,-1.025 l -0.197,0 a 0.513,0.513 0 0 0 0,1.025 l 0.473,0 a 0.287,0.287 0 0 1 0.256,0.237"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3474"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 6.51,132.044 0.099,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3476"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 7.102,132.044 1.183,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3478"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 8.127,132.518 a 0.67,0.67 0 0 1 0.119,0.71 0.253,0.253 0 0 1 -0.474,-0.02 l -0.177,-0.533 a 0.227,0.227 0 0 0 -0.414,-0.039 0.699,0.699 0 0 0 0.039,0.749"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3480"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 7.102,133.86 1.124,0.473"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3482"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 7.102,134.846 1.597,-0.71 a 0.299,0.299 0 0 0 0.178,-0.276"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3484"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 7.259,136.167 a 0.489,0.489 0 0 1 0.336,-0.848 l 0.197,0 a 0.49,0.49 0 0 1 0.256,0.907"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3486"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 6.509,136.699 1.775,0 -0.69,0 a 0.493,0.493 0 0 0 0,0.986 l 0.69,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3488"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 7.101,139.183 0.69,0 a 0.513,0.513 0 0 0 0,-1.025 l -0.197,0 a 0.513,0.513 0 0 0 0,1.025 l 0.473,0 a 0.287,0.287 0 0 1 0.256,0.237"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3490"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 6.509,139.893 0.099,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3492"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 7.101,139.893 1.183,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3494"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 8.284,140.366 -1.183,0 0.493,0 a 0.493,0.493 0 0 0 0,0.986 l 0.69,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3496"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 6.689,153.431 a 0.468,0.468 0 0 1 -0.178,-0.277 1.114,1.114 0 0 1 0.02,-0.552 0.527,0.527 0 0 1 0.197,-0.276 0.361,0.361 0 0 1 0.552,0.178 l 0.237,0.69 a 0.361,0.361 0 0 0 0.552,0.177 0.527,0.527 0 0 0 0.197,-0.276 1.114,1.114 0 0 0 0.02,-0.552 0.468,0.468 0 0 0 -0.178,-0.276"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3498"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 7.693,153.905 0,0.986 -0.098,0 a 0.493,0.493 0 0 1 0,-0.986 l 0.197,0 a 0.517,0.517 0 0 1 0.315,0.927"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3500"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 7.259,156.212 a 0.489,0.489 0 0 1 0.336,-0.848 l 0.197,0 a 0.49,0.49 0 0 1 0.256,0.907"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3502"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 8.284,156.744 -0.099,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3504"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 9.898,152.278 1.223,0 a 0.592,0.592 0 0 1 0,1.183 l -1.223,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3506"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 10.075,155.079 a 0.468,0.468 0 0 1 -0.177,-0.277 1.114,1.114 0 0 1 0.02,-0.552 0.527,0.527 0 0 1 0.197,-0.276 0.361,0.361 0 0 1 0.552,0.178 l 0.237,0.69 a 0.361,0.361 0 0 0 0.552,0.177 0.527,0.527 0 0 0 0.197,-0.276 1.114,1.114 0 0 0 0.02,-0.552 0.468,0.468 0 0 0 -0.177,-0.276"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3508"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 10.785,156.203 a 0.444,0.444 0 0 1 -0.887,0 l 0,-0.651 1.775,0 0,0.749 a 0.444,0.444 0 0 1 -0.888,0 l 0,-0.749"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3510"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="M 42.854,16.684 A 0.578,0.578 0 0 1 43.15,15.6 l 0.671,0 a 0.593,0.593 0 0 1 0.217,1.144"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3512"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 43.879,17.415 0,0.986"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3514"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 44.372,17.218 -1.775,0.69 1.775,0.69"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3516"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 44.372,19.072 -1.775,0 1.775,1.183 -1.775,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3518"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 42.991,21.99 -0.394,0.394 1.775,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3520"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 44.373,28.785 -1.775,0 0,0.651 a 0.444,0.444 0 0 0 0.888,0 l 0,-0.651 0,0.69 0.887,0.394"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3522"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 42.776,31.468 a 0.468,0.468 0 0 1 -0.178,-0.277 1.114,1.114 0 0 1 0.02,-0.552 0.527,0.527 0 0 1 0.197,-0.276 0.361,0.361 0 0 1 0.552,0.178 l 0.237,0.69 a 0.361,0.361 0 0 0 0.552,0.177 0.527,0.527 0 0 0 0.197,-0.276 1.114,1.114 0 0 0 0.02,-0.552 0.468,0.468 0 0 0 -0.177,-0.276"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3524"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 43.486,31.942 0,1.025"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3526"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 42.598,34.031 1.479,-0.591 0,0.986 0,-0.197 -0.296,0 0.592,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3528"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 43.387,35.411 a 0.513,0.513 0 0 0 1.025,0 0.513,0.513 0 0 0 -1.025,0 0.414,0.414 0 0 1 -0.828,0 0.414,0.414 0 0 1 0.828,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3530"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 42.598,37.304 0,-0.888 0.828,0 a 0.676,0.676 0 0 0 -0.138,0.474 0.571,0.571 0 0 0 0.967,0.355 0.533,0.533 0 0 0 -0.119,-0.848"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3532"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 42.598,45.892 1.775,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3534"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 44.215,46.366 a 0.67,0.67 0 0 1 0.119,0.71 0.253,0.253 0 0 1 -0.474,-0.02 l -0.177,-0.533 a 0.227,0.227 0 0 0 -0.414,-0.039 0.699,0.699 0 0 0 0.039,0.749"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3536"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 43.88,47.708 -0.197,0 a 0.493,0.493 0 0 0 0,0.986 l 0.197,0 a 0.493,0.493 0 0 0 0,-0.986"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3538"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 44.373,49.168 -0.099,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3540"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 43.486,51.733 0,0.434 0.295,0 a 0.631,0.631 0 0 0 0,-1.262 l -0.591,0 a 0.608,0.608 0 0 0 -0.336,1.124"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3542"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 44.373,52.64 -1.775,0 0,0.651 a 0.444,0.444 0 0 0 0.888,0 l 0,-0.651"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3544"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 42.598,54.178 1.775,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3546"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 43.781,54.651 a 0.631,0.631 0 0 1 0,1.262 l -0.591,0 a 0.631,0.631 0 0 1 0,-1.262 l 0.591,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3548"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 42.598,101.361 1.775,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3550"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 44.215,101.835 a 0.67,0.67 0 0 1 0.119,0.71 0.253,0.253 0 0 1 -0.474,-0.02 l -0.177,-0.533 a 0.227,0.227 0 0 0 -0.414,-0.039 0.699,0.699 0 0 0 0.039,0.749"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3552"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 43.88,103.177 -0.197,0 a 0.493,0.493 0 0 0 0,0.986 l 0.197,0 a 0.493,0.493 0 0 0 0,-0.986"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3554"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 44.373,104.637 -0.099,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3556"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 44.373,106.373 -1.775,0 1.775,1.183 -1.775,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3558"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 43.781,108.029 a 0.631,0.631 0 0 1 0,1.262 l -0.591,0 a 0.631,0.631 0 0 1 0,-1.262 l 0.591,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3560"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 42.854,110.848 a 0.578,0.578 0 0 1 0.296,-1.084 l 0.671,0 a 0.593,0.593 0 0 1 0.217,1.144"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3562"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 43.88,120.915 0,0.986"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3564"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 44.373,120.718 -1.775,0.69 1.775,0.69"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3566"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 44.373,122.572 -1.183,0 0.493,0 a 0.493,0.493 0 0 0 0,0.986 l 0.69,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3568"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 43.19,125.057 0.69,0 a 0.513,0.513 0 0 0 0,-1.025 l -0.197,0 a 0.513,0.513 0 0 0 0,1.025 l 0.473,0 a 0.287,0.287 0 0 1 0.256,0.237"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3570"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 42.597,125.768 1.538,0 a 0.241,0.241 0 0 1 0.237,0.197"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3572"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 43.879,126.439 -0.197,0 a 0.493,0.493 0 0 0 0,0.986 l 0.197,0 a 0.493,0.493 0 0 0 0,-0.986"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3574"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 43.189,128.885 0.69,0 a 0.4933855,0.4933855 0 0 0 0.039,-0.986 l -0.236,0 a 0.493,0.493 0 0 0 0,0.986 l 0.789,0 a 0.497,0.497 0 0 0 0.355,-0.848"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3576"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 42.596,130.62 1.775,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3578"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 44.371,131.093 -1.183,0 0.493,0 a 0.493,0.493 0 0 0 0,0.986 l 0.69,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3580"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 44.963,132.552 -1.282,0 a 0.493,0.493 0 0 0 0,0.986 l 0.197,0 a 0.493,0.493 0 0 0 0,-0.986 l -0.69,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3582"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 43.188,134.011 0.69,0 a 0.493,0.493 0 0 1 0,0.986 l 0.493,0 -1.183,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3584"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 42.596,135.647 0.592,0 0,0.296 0,-0.493 0,0.197 0.946,0 a 0.241,0.241 0 0 1 0.237,0.197"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3586"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 44.213,136.416 a 0.67,0.67 0 0 1 0.119,0.71 0.253,0.253 0 0 1 -0.474,-0.02 l -0.177,-0.533 a 0.227,0.227 0 0 0 -0.414,-0.039 0.699,0.699 0 0 0 0.039,0.749"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3588"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 37.6,142.412 -1.775,0 1.282,0.69 -1.282,0.69 1.775,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3590"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 37.008,144.266 0,0.986 -0.098,0 a 0.493,0.493 0 0 1 0,-0.986 l 0.197,0 a 0.517,0.517 0 0 1 0.316,0.927"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3592"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 37.601,145.726 -1.183,0 0.394,0 a 0.3945,0.3945 0 0 0 0,0.789 l 0.789,0 -0.789,0 a 0.394,0.394 0 0 0 0,0.788 l 0.789,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3594"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 37.109,147.778 -0.197,0 a 0.493,0.493 0 0 0 0,0.986 l 0.197,0 a 0.493,0.493 0 0 0 0,-0.986"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3596"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 37.602,149.238 -1.183,0 0.394,0 a 0.436,0.436 0 0 0 -0.276,0.098 0.281,0.281 0 0 0 0,0.434"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3598"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 36.419,150.225 1.124,0.473"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3600"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 36.419,151.211 1.597,-0.71 a 0.299,0.299 0 0 0 0.178,-0.276"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3602"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 36.084,154.03 a 0.578,0.578 0 0 1 0.296,-1.084 l 0.671,0 a 0.593,0.593 0 0 1 0.217,1.144"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3604"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 36.42,155.588 0.69,0 a 0.513,0.513 0 0 0 0,-1.025 l -0.197,0 a 0.513,0.513 0 0 0 0,1.025 l 0.473,0 a 0.287,0.287 0 0 1 0.256,0.237"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3606"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 37.603,156.298 -1.183,0 0.394,0 a 0.436,0.436 0 0 0 -0.276,0.098 0.281,0.281 0 0 0 0,0.434"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3608"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 35.828,158.27 1.282,0 a 0.4933855,0.4933855 0 1 0 0.039,-0.986 l -0.236,0 a 0.493,0.493 0 0 0 0,0.986 l 0.69,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3610"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 43.387,66.571 a 0.513,0.513 0 0 0 1.025,0 0.513,0.513 0 0 0 -1.025,0 0.414,0.414 0 0 1 -0.828,0 0.414,0.414 0 0 1 0.828,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3612"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 42.894,76.558 -0.296,0 0,0.986 1.775,-0.789"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3614"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 46.24,71.707 a 0.578,0.578 0 0 1 0.296,-1.084 l 0.671,0 a 0.593,0.593 0 0 1 0.217,1.144"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3616"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 47.266,72.241 -0.197,0 a 0.493,0.493 0 0 0 0,0.986 l 0.197,0 a 0.493,0.493 0 0 0 0,-0.986"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3618"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 47.759,73.701 -1.183,0 0.493,0 a 0.493,0.493 0 0 0 0,0.986 l 0.69,0"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3620"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 45.983,75.338 0.592,0 0,0.296 0,-0.493 0,0.197 0.946,0 a 0.241,0.241 0 0 1 0.237,0.197"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3622"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 46.574,77.133 0.69,0 a 0.513,0.513 0 0 0 0,-1.025 l -0.197,0 a 0.513,0.513 0 0 0 0,1.025 l 0.473,0 a 0.287,0.287 0 0 1 0.256,0.237"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3624"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 46.73,78.691 a 0.489,0.489 0 0 1 0.336,-0.848 l 0.197,0 a 0.49,0.49 0 0 1 0.256,0.907"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3626"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 45.981,79.4 0.592,0 0,0.296 0,-0.493 0,0.197 0.946,0 a 0.241,0.241 0 0 1 0.237,0.197"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3628"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 47.262,80.169 -0.197,0 a 0.493,0.493 0 0 0 0,0.986 l 0.197,0 a 0.493,0.493 0 0 0 0,-0.986"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3630"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 47.755,81.628 -1.183,0 0.394,0 a 0.436,0.436 0 0 0 -0.276,0.098 0.281,0.281 0 0 0 0,0.434"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3632"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 47.597,82.614 a 0.67,0.67 0 0 1 0.119,0.71 0.253,0.253 0 0 1 -0.474,-0.02 l -0.177,-0.533 a 0.227,0.227 0 0 0 -0.414,-0.039 0.699,0.699 0 0 0 0.039,0.749"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3634"
+         fpd:engraving_ral_9005="1"
+         vector-effect="non-scaling-stroke"
+         d="m 43.801,87.019 a 0.513,0.513 0 0 0 0,1.025 l 0.099,0 a 0.513,0.513 0 0 0 0,-1.025 l -0.769,0 a 0.547,0.547 0 0 0 -0.415,0.927"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.20000001mm" />
+      <path
+         id="path3636"
+         vector-effect="non-scaling-stroke"
+         d="m 9.881,10.57 a 1.5,1.5 0 0 1 1.499,-1.5 l 0,0 2.199,0 L 13.581,5 A 1.5,1.5 0 0 1 15.08,3.5 l 0,0 5.04,10e-4 A 1.5,1.5 0 0 1 21.62,5 l 0,0 -0.001,153.7 a 1.5,1.5 0 0 1 -1.499,1.5 l 0,0 -1.65,-10e-4 a 1.499,1.499 0 0 1 -1.5,-1.499 l 0,0 0,-9.125 -1.891,-10e-4 a 1.5,1.5 0 0 1 -1.499,-1.499 l 0,0 0,-11.275 -2.201,-0.001 A 1.5,1.5 0 0 1 9.88,135.3 l 0,0 10e-4,-1.6 a 1.5,1.5 0 0 1 1.499,-1.5 l 0,0 2.199,0 10e-4,-13.6 -2.201,-10e-4 A 1.5,1.5 0 0 1 9.88,117.1 l 0,0 10e-4,-1.6 A 1.5,1.5 0 0 1 11.38,114 l 0,0 2.199,0 10e-4,-4.45 -2.201,-10e-4 A 1.5,1.5 0 0 1 9.88,108.05 l 0,0 10e-4,-1.6 a 1.5,1.5 0 0 1 1.499,-1.5 l 0,0 2.199,0 10e-4,-5.88 -2.201,-10e-4 A 1.5,1.5 0 0 1 9.88,97.57 l 0,0 10e-4,-1.6 a 1.5,1.5 0 0 1 1.499,-1.5 l 0,0 2.199,0 10e-4,-5.88 -2.201,-0.001 A 1.5,1.5 0 0 1 9.88,87.09 l 0,0 10e-4,-1.6 a 1.5,1.5 0 0 1 1.499,-1.5 l 0,0 2.199,0 10e-4,-5.88 -2.201,-0.001 A 1.5,1.5 0 0 1 9.88,76.61 l 0,0 10e-4,-1.6 a 1.5,1.5 0 0 1 1.499,-1.5 l 0,0 2.199,0 10e-4,-5.88 -2.201,-10e-4 A 1.5,1.5 0 0 1 9.88,66.13 l 0,0 10e-4,-1.6 a 1.5,1.5 0 0 1 1.499,-1.5 l 0,0 2.199,0 10e-4,-5.88 -2.201,-10e-4 A 1.5,1.5 0 0 1 9.88,55.65 l 0,0 10e-4,-1.6 a 1.5,1.5 0 0 1 1.499,-1.5 l 0,0 2.199,-10e-4 0.002,-2.275 a 1.5,1.5 0 0 1 1.499,-1.499 l 0,0 1.889,0 10e-4,-8.79 -1.891,-10e-4 A 1.5,1.5 0 0 1 13.58,38.485 l 0,0 0,-2.275 -2.201,-10e-4 A 1.5,1.5 0 0 1 9.88,34.71 l 0,0 10e-4,-1.6 a 1.5,1.5 0 0 1 1.499,-1.5 l 0,0 2.199,0 10e-4,-5.88 -2.201,-0.001 A 1.5,1.5 0 0 1 9.88,24.23 l 0,0 10e-4,-1.6 a 1.5,1.5 0 0 1 1.499,-1.5 l 0,0 2.199,0 10e-4,-7.46 -2.201,-10e-4 A 1.5,1.5 0 0 1 9.88,12.17 l 0,0 10e-4,-1.6"
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.1mm" />
+      <path
+         id="path3638"
+         vector-effect="non-scaling-stroke"
+         d="m 30.221,14.686 a 1.5,1.5 0 0 1 1.499,-1.5 l 0,0 5.04,10e-4 a 1.5,1.5 0 0 1 1.5,1.499 l 0,0 0,2.275 2.201,0.001 a 1.5,1.5 0 0 1 1.499,1.499 l 0,0 -10e-4,1.6 a 1.5,1.5 0 0 1 -1.499,1.5 l 0,0 -2.199,0 -0.001,9.37 2.201,10e-4 a 1.5,1.5 0 0 1 1.499,1.499 l 0,0 -10e-4,1.6 a 1.5,1.5 0 0 1 -1.499,1.5 l 0,0 -2.199,0 -0.001,13.18 2.201,0.001 a 1.5,1.5 0 0 1 1.499,1.499 l 0,0 -10e-4,1.6 a 1.5,1.5 0 0 1 -1.499,1.5 l 0,0 -2.199,0 -0.001,10.64 2.201,10e-4 a 1.5,1.5 0 0 1 1.499,1.499 l 0,0 -10e-4,1.6 a 1.499,1.499 0 0 1 -1.499,1.5 l 0,0 -2.199,0 -0.001,6.2 2.201,10e-4 a 1.5,1.5 0 0 1 1.499,1.499 l 0,0 -10e-4,1.6 a 1.499,1.499 0 0 1 -1.499,1.5 l 0,0 -2.199,0 -0.001,6.19 2.201,0.001 a 1.5,1.5 0 0 1 1.499,1.499 l 0,0 -10e-4,1.6 a 1.499,1.499 0 0 1 -1.499,1.5 l 0,0 -2.199,0 -0.001,12.93 2.201,0.001 a 1.5,1.5 0 0 1 1.499,1.499 l 0,0 -10e-4,1.6 a 1.499,1.499 0 0 1 -1.499,1.5 l 0,0 -2.199,0 -0.001,18.77 2.201,10e-4 a 1.5,1.5 0 0 1 1.499,1.499 l 0,0 -10e-4,1.6 a 1.499,1.499 0 0 1 -1.499,1.5 l 0,0 -2.199,0 -0.002,8.5 a 1.5,1.5 0 0 1 -1.499,1.5 l 0,0 -2.889,0 -0.002,13.5 a 1.5,1.5 0 0 1 -1.499,1.5 l 0,0 -0.65,-0.001 a 1.5,1.5 0 0 1 -1.5,-1.499 l 0,0 0.001,-139.855"
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.1mm" />
+      <path
+         id="path3640"
+         vector-effect="non-scaling-stroke"
+         d="M 3.647,2.803 3.701,2.806 3.755,2.811 3.938,2.831 3.992,2.838 4.046,2.847 4.1,2.858 4.28,2.898 4.334,2.911 4.386,2.925 4.437,2.941 4.611,3 4.662,3.019 4.713,3.039 4.757,3.059 4.924,3.136 4.973,3.16 5.022,3.185 5.069,3.212 5.227,3.307 5.319,3.367 5.358,3.396 5.505,3.507 5.548,3.541 5.59,3.576 5.637,3.619 5.77,3.746 5.809,3.785 5.846,3.825 5.877,3.86 5.996,4 6.031,4.042 6.064,4.086 6.094,4.128 6.198,4.281 6.227,4.327 6.256,4.374 6.282,4.421 6.368,4.583 6.393,4.632 6.416,4.681 6.437,4.732 6.505,4.903 6.524,4.954 6.542,5.006 6.557,5.059 6.606,5.237 6.62,5.29 6.631,5.343 6.64,5.39 6.67,5.571 6.678,5.625 6.684,5.679 6.688,5.735 6.698,5.919 6.7,5.973 6.7,6.028 6.698,6.081 6.688,6.265 6.684,6.32 6.678,6.374 6.67,6.429 6.64,6.61 6.63,6.664 6.618,6.718 6.606,6.763 6.557,6.941 6.542,6.994 6.524,7.046 6.505,7.097 6.437,7.268 6.416,7.319 6.393,7.368 6.368,7.417 6.282,7.579 6.255,7.627 6.227,7.674 6.198,7.719 6.094,7.872 6.062,7.917 6.029,7.961 5.996,8 5.877,8.14 5.841,8.182 5.803,8.221 5.77,8.254 5.637,8.381 5.597,8.418 5.555,8.454 5.505,8.493 5.358,8.604 5.314,8.636 5.268,8.667 5.227,8.693 5.069,8.788 5.021,8.815 4.973,8.84 4.924,8.864 4.757,8.941 4.707,8.963 4.656,8.983 4.611,9 4.437,9.059 4.385,9.075 4.332,9.09 4.28,9.102 4.1,9.142 4.047,9.153 3.993,9.162 3.938,9.169 3.755,9.189 3.7,9.194 3.646,9.197 3.592,9.198 3.408,9.198 3.353,9.197 3.299,9.194 3.245,9.189 3.062,9.169 3.008,9.162 2.954,9.153 2.9,9.142 2.72,9.102 2.666,9.089 2.614,9.075 2.563,9.059 2.389,9 2.338,8.981 2.287,8.961 2.243,8.941 2.076,8.864 2.027,8.84 1.978,8.815 1.931,8.788 1.773,8.693 1.681,8.633 1.642,8.604 1.495,8.493 1.452,8.459 1.41,8.424 1.363,8.381 1.23,8.254 1.191,8.215 1.154,8.175 1.123,8.14 1.004,8 0.969,7.958 0.936,7.914 0.906,7.872 0.802,7.719 0.773,7.673 0.744,7.626 0.718,7.579 0.632,7.417 0.607,7.368 0.584,7.319 0.563,7.268 0.495,7.097 0.476,7.046 0.458,6.994 0.443,6.941 0.394,6.763 0.38,6.71 0.369,6.657 0.36,6.61 0.33,6.429 0.322,6.375 0.316,6.321 0.312,6.265 0.302,6.081 0.3,6.027 0.3,5.972 0.302,5.919 0.312,5.735 0.316,5.68 0.322,5.626 0.33,5.571 0.36,5.39 0.37,5.336 0.382,5.282 0.394,5.237 0.443,5.059 0.458,5.006 0.476,4.954 0.495,4.903 0.563,4.732 0.584,4.681 0.607,4.632 0.632,4.583 0.718,4.421 0.745,4.373 0.773,4.326 0.802,4.281 0.906,4.128 0.938,4.083 0.971,4.039 1.004,4 1.123,3.86 1.159,3.818 1.197,3.779 1.23,3.746 1.363,3.619 1.403,3.582 1.445,3.546 1.495,3.507 1.642,3.396 1.686,3.364 1.732,3.333 1.773,3.307 1.931,3.212 1.979,3.185 2.027,3.16 2.076,3.136 2.243,3.059 2.293,3.037 2.344,3.017 2.389,3 2.563,2.941 2.615,2.925 2.668,2.91 2.72,2.898 2.9,2.858 2.953,2.847 3.007,2.838 3.062,2.831 3.245,2.811 3.3,2.806 3.354,2.803 3.408,2.802 l 0.184,0 0.055,10e-4 M 1.8,6 A 1.7,1.7 0 1 0 5.2,6 1.7,1.7 0 1 0 1.8,6"
+         inkscape:connector-curvature="0"
+         style="fill:#e0e0e0;stroke:#000000;stroke-width:0.1mm" />
+      <path
+         id="path3642"
+         vector-effect="non-scaling-stroke"
+         d="M 3.647,2.803 3.701,2.806 3.755,2.811 3.938,2.831 3.992,2.838 4.046,2.847 4.1,2.858 4.28,2.898 4.334,2.911 4.386,2.925 4.437,2.941 4.611,3 4.662,3.019 4.713,3.039 4.757,3.059 4.924,3.136 4.973,3.16 5.022,3.185 5.069,3.212 5.227,3.307 5.319,3.367 5.358,3.396 5.505,3.507 5.548,3.541 5.59,3.576 5.637,3.619 5.77,3.746 5.809,3.785 5.846,3.825 5.877,3.86 5.996,4 6.031,4.042 6.064,4.086 6.094,4.128 6.198,4.281 6.227,4.327 6.256,4.374 6.282,4.421 6.368,4.583 6.393,4.632 6.416,4.681 6.437,4.732 6.505,4.903 6.524,4.954 6.542,5.006 6.557,5.059 6.606,5.237 6.62,5.29 6.631,5.343 6.64,5.39 6.67,5.571 6.678,5.625 6.684,5.679 6.688,5.735 6.698,5.919 6.7,5.973 6.7,6.028 6.698,6.081 6.688,6.265 6.684,6.32 6.678,6.374 6.67,6.429 6.64,6.61 6.63,6.664 6.618,6.718 6.606,6.763 6.557,6.941 6.542,6.994 6.524,7.046 6.505,7.097 6.437,7.268 6.416,7.319 6.393,7.368 6.368,7.417 6.282,7.579 6.255,7.627 6.227,7.674 6.198,7.719 6.094,7.872 6.062,7.917 6.029,7.961 5.996,8 5.877,8.14 5.841,8.182 5.803,8.221 5.77,8.254 5.637,8.381 5.597,8.418 5.555,8.454 5.505,8.493 5.358,8.604 5.314,8.636 5.268,8.667 5.227,8.693 5.069,8.788 5.021,8.815 4.973,8.84 4.924,8.864 4.757,8.941 4.707,8.963 4.656,8.983 4.611,9 4.437,9.059 4.385,9.075 4.332,9.09 4.28,9.102 4.1,9.142 4.047,9.153 3.993,9.162 3.938,9.169 3.755,9.189 3.7,9.194 3.646,9.197 3.592,9.198 3.408,9.198 3.353,9.197 3.299,9.194 3.245,9.189 3.062,9.169 3.008,9.162 2.954,9.153 2.9,9.142 2.72,9.102 2.666,9.089 2.614,9.075 2.563,9.059 2.389,9 2.338,8.981 2.287,8.961 2.243,8.941 2.076,8.864 2.027,8.84 1.978,8.815 1.931,8.788 1.773,8.693 1.681,8.633 1.642,8.604 1.495,8.493 1.452,8.459 1.41,8.424 1.363,8.381 1.23,8.254 1.191,8.215 1.154,8.175 1.123,8.14 1.004,8 0.969,7.958 0.936,7.914 0.906,7.872 0.802,7.719 0.773,7.673 0.744,7.626 0.718,7.579 0.632,7.417 0.607,7.368 0.584,7.319 0.563,7.268 0.495,7.097 0.476,7.046 0.458,6.994 0.443,6.941 0.394,6.763 0.38,6.71 0.369,6.657 0.36,6.61 0.33,6.429 0.322,6.375 0.316,6.321 0.312,6.265 0.302,6.081 0.3,6.027 0.3,5.972 0.302,5.919 0.312,5.735 0.316,5.68 0.322,5.626 0.33,5.571 0.36,5.39 0.37,5.336 0.382,5.282 0.394,5.237 0.443,5.059 0.458,5.006 0.476,4.954 0.495,4.903 0.563,4.732 0.584,4.681 0.607,4.632 0.632,4.583 0.718,4.421 0.745,4.373 0.773,4.326 0.802,4.281 0.906,4.128 0.938,4.083 0.971,4.039 1.004,4 1.123,3.86 1.159,3.818 1.197,3.779 1.23,3.746 1.363,3.619 1.403,3.582 1.445,3.546 1.495,3.507 1.642,3.396 1.686,3.364 1.732,3.333 1.773,3.307 1.931,3.212 1.979,3.185 2.027,3.16 2.076,3.136 2.243,3.059 2.293,3.037 2.344,3.017 2.389,3 2.563,2.941 2.615,2.925 2.668,2.91 2.72,2.898 2.9,2.858 2.953,2.847 3.007,2.838 3.062,2.831 3.245,2.811 3.3,2.806 3.354,2.803 3.408,2.802 l 0.184,0 0.055,10e-4"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.1mm" />
+      <path
+         id="path3644"
+         vector-effect="non-scaling-stroke"
+         d="M 1.8,6 A 1.7,1.7 0 1 0 5.2,6 1.7,1.7 0 1 0 1.8,6"
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.1mm" />
+      <path
+         id="path3646"
+         vector-effect="non-scaling-stroke"
+         d="m 45.867,2.803 0.054,0.003 0.054,0.005 0.183,0.02 0.054,0.007 0.054,0.009 0.054,0.011 0.18,0.04 0.054,0.013 0.052,0.014 0.051,0.016 0.174,0.059 0.051,0.019 0.051,0.02 0.044,0.02 0.167,0.077 0.049,0.024 0.049,0.025 0.047,0.027 0.158,0.095 0.092,0.06 0.039,0.029 0.147,0.111 0.043,0.034 0.042,0.035 0.047,0.043 0.133,0.127 0.039,0.039 0.037,0.04 0.031,0.035 0.119,0.14 0.035,0.042 0.033,0.044 0.03,0.042 0.104,0.153 0.029,0.046 0.029,0.047 0.026,0.047 0.086,0.162 0.025,0.049 0.023,0.049 0.021,0.051 0.068,0.171 0.019,0.051 0.018,0.052 0.015,0.053 0.049,0.178 0.014,0.053 0.011,0.053 0.009,0.047 0.03,0.181 0.008,0.054 0.006,0.054 0.004,0.056 0.01,0.184 0.002,0.054 0,0.055 -0.002,0.053 -0.01,0.184 L 48.904,6.32 48.898,6.374 48.89,6.429 48.86,6.61 48.85,6.664 48.838,6.718 48.826,6.763 48.777,6.941 48.762,6.994 48.744,7.046 48.725,7.097 48.657,7.268 48.636,7.319 48.613,7.368 48.588,7.417 48.502,7.579 48.475,7.627 48.447,7.674 48.418,7.719 48.314,7.872 48.282,7.917 48.249,7.961 48.216,8 48.097,8.14 48.061,8.182 48.023,8.221 47.99,8.254 47.857,8.381 47.817,8.418 47.775,8.454 47.725,8.493 47.578,8.604 47.534,8.636 47.488,8.667 47.447,8.693 47.289,8.788 47.241,8.815 47.193,8.84 47.144,8.864 46.977,8.941 46.927,8.963 46.876,8.983 46.831,9 46.657,9.059 46.605,9.075 46.552,9.09 46.5,9.102 l -0.18,0.04 -0.053,0.011 -0.054,0.009 -0.055,0.007 -0.183,0.02 -0.055,0.005 -0.054,0.003 -0.054,0.001 -0.184,0 L 45.573,9.197 45.519,9.194 45.465,9.189 45.282,9.169 45.228,9.162 45.174,9.153 45.12,9.142 44.94,9.102 44.886,9.089 44.834,9.075 44.783,9.059 44.609,9 44.558,8.981 44.507,8.961 44.463,8.941 44.296,8.864 44.247,8.84 44.198,8.815 44.151,8.788 43.993,8.693 43.901,8.633 43.862,8.604 43.715,8.493 43.672,8.459 43.63,8.424 43.583,8.381 43.45,8.254 43.411,8.215 43.374,8.175 43.343,8.14 43.224,8 43.189,7.958 43.156,7.914 43.126,7.872 43.022,7.719 42.993,7.673 42.964,7.626 42.938,7.579 42.852,7.417 42.827,7.368 42.804,7.319 42.783,7.268 42.715,7.097 42.696,7.046 42.678,6.994 42.663,6.941 42.614,6.763 42.6,6.71 42.589,6.657 42.58,6.61 42.55,6.429 42.542,6.375 42.536,6.321 42.532,6.265 42.522,6.081 42.52,6.027 42.52,5.972 42.522,5.919 42.532,5.735 42.536,5.68 42.542,5.626 42.55,5.571 42.58,5.39 42.59,5.336 42.602,5.282 42.614,5.237 42.663,5.059 42.678,5.006 42.696,4.954 42.715,4.903 42.783,4.732 42.804,4.681 42.827,4.632 42.852,4.583 42.938,4.421 42.965,4.373 42.993,4.326 43.022,4.281 43.126,4.128 43.158,4.083 43.191,4.039 43.224,4 43.343,3.86 43.379,3.818 43.417,3.779 43.45,3.746 43.583,3.619 43.623,3.582 43.665,3.546 43.715,3.507 43.862,3.396 43.906,3.364 43.952,3.333 43.993,3.307 44.151,3.212 44.199,3.185 44.247,3.16 44.296,3.136 44.463,3.059 44.513,3.037 44.564,3.017 44.609,3 44.783,2.941 44.835,2.925 44.888,2.91 44.94,2.898 l 0.18,-0.04 0.053,-0.011 0.054,-0.009 0.055,-0.007 0.183,-0.02 0.055,-0.005 0.054,-0.003 0.054,-10e-4 0.184,0 0.055,10e-4 M 44.02,6 a 1.7,1.7 0 1 0 3.4,0 1.7,1.7 0 1 0 -3.4,0"
+         inkscape:connector-curvature="0"
+         style="fill:#e0e0e0;stroke:#000000;stroke-width:0.1mm" />
+      <path
+         id="path3648"
+         vector-effect="non-scaling-stroke"
+         d="m 45.867,2.803 0.054,0.003 0.054,0.005 0.183,0.02 0.054,0.007 0.054,0.009 0.054,0.011 0.18,0.04 0.054,0.013 0.052,0.014 0.051,0.016 0.174,0.059 0.051,0.019 0.051,0.02 0.044,0.02 0.167,0.077 0.049,0.024 0.049,0.025 0.047,0.027 0.158,0.095 0.092,0.06 0.039,0.029 0.147,0.111 0.043,0.034 0.042,0.035 0.047,0.043 0.133,0.127 0.039,0.039 0.037,0.04 0.031,0.035 0.119,0.14 0.035,0.042 0.033,0.044 0.03,0.042 0.104,0.153 0.029,0.046 0.029,0.047 0.026,0.047 0.086,0.162 0.025,0.049 0.023,0.049 0.021,0.051 0.068,0.171 0.019,0.051 0.018,0.052 0.015,0.053 0.049,0.178 0.014,0.053 0.011,0.053 0.009,0.047 0.03,0.181 0.008,0.054 0.006,0.054 0.004,0.056 0.01,0.184 0.002,0.054 0,0.055 -0.002,0.053 -0.01,0.184 L 48.904,6.32 48.898,6.374 48.89,6.429 48.86,6.61 48.85,6.664 48.838,6.718 48.826,6.763 48.777,6.941 48.762,6.994 48.744,7.046 48.725,7.097 48.657,7.268 48.636,7.319 48.613,7.368 48.588,7.417 48.502,7.579 48.475,7.627 48.447,7.674 48.418,7.719 48.314,7.872 48.282,7.917 48.249,7.961 48.216,8 48.097,8.14 48.061,8.182 48.023,8.221 47.99,8.254 47.857,8.381 47.817,8.418 47.775,8.454 47.725,8.493 47.578,8.604 47.534,8.636 47.488,8.667 47.447,8.693 47.289,8.788 47.241,8.815 47.193,8.84 47.144,8.864 46.977,8.941 46.927,8.963 46.876,8.983 46.831,9 46.657,9.059 46.605,9.075 46.552,9.09 46.5,9.102 l -0.18,0.04 -0.053,0.011 -0.054,0.009 -0.055,0.007 -0.183,0.02 -0.055,0.005 -0.054,0.003 -0.054,0.001 -0.184,0 L 45.573,9.197 45.519,9.194 45.465,9.189 45.282,9.169 45.228,9.162 45.174,9.153 45.12,9.142 44.94,9.102 44.886,9.089 44.834,9.075 44.783,9.059 44.609,9 44.558,8.981 44.507,8.961 44.463,8.941 44.296,8.864 44.247,8.84 44.198,8.815 44.151,8.788 43.993,8.693 43.901,8.633 43.862,8.604 43.715,8.493 43.672,8.459 43.63,8.424 43.583,8.381 43.45,8.254 43.411,8.215 43.374,8.175 43.343,8.14 43.224,8 43.189,7.958 43.156,7.914 43.126,7.872 43.022,7.719 42.993,7.673 42.964,7.626 42.938,7.579 42.852,7.417 42.827,7.368 42.804,7.319 42.783,7.268 42.715,7.097 42.696,7.046 42.678,6.994 42.663,6.941 42.614,6.763 42.6,6.71 42.589,6.657 42.58,6.61 42.55,6.429 42.542,6.375 42.536,6.321 42.532,6.265 42.522,6.081 42.52,6.027 42.52,5.972 42.522,5.919 42.532,5.735 42.536,5.68 42.542,5.626 42.55,5.571 42.58,5.39 42.59,5.336 42.602,5.282 42.614,5.237 42.663,5.059 42.678,5.006 42.696,4.954 42.715,4.903 42.783,4.732 42.804,4.681 42.827,4.632 42.852,4.583 42.938,4.421 42.965,4.373 42.993,4.326 43.022,4.281 43.126,4.128 43.158,4.083 43.191,4.039 43.224,4 43.343,3.86 43.379,3.818 43.417,3.779 43.45,3.746 43.583,3.619 43.623,3.582 43.665,3.546 43.715,3.507 43.862,3.396 43.906,3.364 43.952,3.333 43.993,3.307 44.151,3.212 44.199,3.185 44.247,3.16 44.296,3.136 44.463,3.059 44.513,3.037 44.564,3.017 44.609,3 44.783,2.941 44.835,2.925 44.888,2.91 44.94,2.898 l 0.18,-0.04 0.053,-0.011 0.054,-0.009 0.055,-0.007 0.183,-0.02 0.055,-0.005 0.054,-0.003 0.054,-10e-4 0.184,0 0.055,10e-4"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.1mm" />
+      <path
+         id="path3650"
+         vector-effect="non-scaling-stroke"
+         d="m 44.02,6 a 1.7,1.7 0 1 0 3.4,0 1.7,1.7 0 1 0 -3.4,0"
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.1mm" />
+      <path
+         id="path3652"
+         vector-effect="non-scaling-stroke"
+         d="m 3.647,155.803 0.054,0.003 0.054,0.005 0.183,0.02 0.054,0.007 0.054,0.009 0.054,0.011 0.18,0.04 0.054,0.013 0.052,0.014 0.051,0.016 0.174,0.059 0.051,0.019 0.051,0.02 0.044,0.02 0.167,0.077 0.049,0.024 0.049,0.025 0.047,0.027 0.158,0.095 0.092,0.06 0.039,0.029 0.147,0.111 0.043,0.034 0.042,0.035 0.047,0.043 0.133,0.127 0.039,0.039 0.037,0.04 0.031,0.035 0.119,0.14 0.035,0.042 0.033,0.044 0.03,0.042 0.104,0.153 0.029,0.046 0.029,0.047 0.026,0.047 0.086,0.162 0.025,0.049 0.023,0.049 0.021,0.051 0.068,0.171 0.019,0.051 0.018,0.052 0.015,0.053 0.049,0.178 0.014,0.053 0.011,0.053 0.009,0.047 0.03,0.181 0.008,0.054 0.006,0.054 0.004,0.056 0.01,0.184 0.002,0.054 0,0.055 -0.002,0.053 -0.01,0.184 -0.004,0.055 -0.006,0.054 -0.008,0.055 -0.03,0.181 -0.01,0.054 -0.012,0.054 -0.012,0.045 -0.049,0.178 -0.015,0.053 -0.018,0.052 -0.019,0.051 -0.068,0.171 -0.021,0.051 -0.023,0.049 -0.025,0.049 -0.086,0.162 -0.027,0.048 -0.028,0.047 -0.029,0.045 -0.104,0.153 -0.032,0.045 -0.033,0.044 -0.033,0.039 -0.119,0.14 -0.036,0.042 -0.038,0.039 -0.033,0.033 -0.133,0.127 -0.04,0.037 -0.042,0.036 -0.05,0.039 -0.147,0.111 -0.044,0.032 -0.046,0.031 -0.041,0.026 -0.158,0.095 -0.048,0.027 -0.048,0.025 -0.049,0.024 -0.167,0.077 -0.05,0.022 -0.051,0.02 -0.045,0.017 -0.174,0.059 -0.052,0.016 -0.053,0.015 -0.052,0.012 -0.18,0.04 -0.053,0.011 -0.054,0.009 -0.055,0.007 -0.183,0.02 -0.055,0.005 -0.054,0.003 -0.054,0.001 -0.184,0 -0.055,-0.001 -0.054,-0.003 -0.054,-0.005 -0.183,-0.02 L 3.008,162.162 2.954,162.153 2.9,162.142 2.72,162.102 2.666,162.089 2.614,162.075 2.563,162.059 2.389,162 2.338,161.981 2.287,161.961 2.243,161.941 2.076,161.864 2.027,161.84 1.978,161.815 1.931,161.788 1.773,161.693 1.681,161.633 1.642,161.604 1.495,161.493 1.452,161.459 1.41,161.424 1.363,161.381 1.23,161.254 1.191,161.215 1.154,161.175 1.123,161.14 1.004,161 0.969,160.958 0.936,160.914 0.906,160.872 0.802,160.719 0.773,160.673 0.744,160.626 0.718,160.579 0.632,160.417 0.607,160.368 0.584,160.319 0.563,160.268 0.495,160.097 0.476,160.046 0.458,159.994 0.443,159.941 0.394,159.763 0.38,159.71 0.369,159.657 0.36,159.61 0.33,159.429 0.322,159.375 0.316,159.321 0.312,159.265 0.302,159.081 0.3,159.027 l 0,-0.055 0.002,-0.053 0.01,-0.184 0.004,-0.055 0.006,-0.054 0.008,-0.055 0.03,-0.181 0.01,-0.054 0.012,-0.054 0.012,-0.045 0.049,-0.178 0.015,-0.053 0.018,-0.052 0.019,-0.051 0.068,-0.171 0.021,-0.051 0.023,-0.049 0.025,-0.049 0.086,-0.162 0.027,-0.048 0.028,-0.047 0.029,-0.045 0.104,-0.153 0.032,-0.045 0.033,-0.044 0.033,-0.039 0.119,-0.14 0.036,-0.042 0.038,-0.039 0.033,-0.033 0.133,-0.127 0.04,-0.037 0.042,-0.036 0.05,-0.039 0.147,-0.111 0.044,-0.032 0.046,-0.031 0.041,-0.026 0.158,-0.095 0.048,-0.027 0.048,-0.025 0.049,-0.024 0.167,-0.077 0.05,-0.022 0.051,-0.02 0.045,-0.017 0.174,-0.059 0.052,-0.016 0.053,-0.015 0.052,-0.012 0.18,-0.04 0.053,-0.011 0.054,-0.009 0.055,-0.007 0.183,-0.02 0.055,-0.005 0.054,-0.003 0.054,-0.001 0.184,0 0.055,0.001 M 1.8,159 a 1.7,1.7 0 1 0 3.4,0 1.7,1.7 0 1 0 -3.4,0"
+         inkscape:connector-curvature="0"
+         style="fill:#e0e0e0;stroke:#000000;stroke-width:0.1mm" />
+      <path
+         id="path3654"
+         vector-effect="non-scaling-stroke"
+         d="m 3.647,155.803 0.054,0.003 0.054,0.005 0.183,0.02 0.054,0.007 0.054,0.009 0.054,0.011 0.18,0.04 0.054,0.013 0.052,0.014 0.051,0.016 0.174,0.059 0.051,0.019 0.051,0.02 0.044,0.02 0.167,0.077 0.049,0.024 0.049,0.025 0.047,0.027 0.158,0.095 0.092,0.06 0.039,0.029 0.147,0.111 0.043,0.034 0.042,0.035 0.047,0.043 0.133,0.127 0.039,0.039 0.037,0.04 0.031,0.035 0.119,0.14 0.035,0.042 0.033,0.044 0.03,0.042 0.104,0.153 0.029,0.046 0.029,0.047 0.026,0.047 0.086,0.162 0.025,0.049 0.023,0.049 0.021,0.051 0.068,0.171 0.019,0.051 0.018,0.052 0.015,0.053 0.049,0.178 0.014,0.053 0.011,0.053 0.009,0.047 0.03,0.181 0.008,0.054 0.006,0.054 0.004,0.056 0.01,0.184 0.002,0.054 0,0.055 -0.002,0.053 -0.01,0.184 -0.004,0.055 -0.006,0.054 -0.008,0.055 -0.03,0.181 -0.01,0.054 -0.012,0.054 -0.012,0.045 -0.049,0.178 -0.015,0.053 -0.018,0.052 -0.019,0.051 -0.068,0.171 -0.021,0.051 -0.023,0.049 -0.025,0.049 -0.086,0.162 -0.027,0.048 -0.028,0.047 -0.029,0.045 -0.104,0.153 -0.032,0.045 -0.033,0.044 -0.033,0.039 -0.119,0.14 -0.036,0.042 -0.038,0.039 -0.033,0.033 -0.133,0.127 -0.04,0.037 -0.042,0.036 -0.05,0.039 -0.147,0.111 -0.044,0.032 -0.046,0.031 -0.041,0.026 -0.158,0.095 -0.048,0.027 -0.048,0.025 -0.049,0.024 -0.167,0.077 -0.05,0.022 -0.051,0.02 -0.045,0.017 -0.174,0.059 -0.052,0.016 -0.053,0.015 -0.052,0.012 -0.18,0.04 -0.053,0.011 -0.054,0.009 -0.055,0.007 -0.183,0.02 -0.055,0.005 -0.054,0.003 -0.054,0.001 -0.184,0 -0.055,-0.001 -0.054,-0.003 -0.054,-0.005 -0.183,-0.02 L 3.008,162.162 2.954,162.153 2.9,162.142 2.72,162.102 2.666,162.089 2.614,162.075 2.563,162.059 2.389,162 2.338,161.981 2.287,161.961 2.243,161.941 2.076,161.864 2.027,161.84 1.978,161.815 1.931,161.788 1.773,161.693 1.681,161.633 1.642,161.604 1.495,161.493 1.452,161.459 1.41,161.424 1.363,161.381 1.23,161.254 1.191,161.215 1.154,161.175 1.123,161.14 1.004,161 0.969,160.958 0.936,160.914 0.906,160.872 0.802,160.719 0.773,160.673 0.744,160.626 0.718,160.579 0.632,160.417 0.607,160.368 0.584,160.319 0.563,160.268 0.495,160.097 0.476,160.046 0.458,159.994 0.443,159.941 0.394,159.763 0.38,159.71 0.369,159.657 0.36,159.61 0.33,159.429 0.322,159.375 0.316,159.321 0.312,159.265 0.302,159.081 0.3,159.027 l 0,-0.055 0.002,-0.053 0.01,-0.184 0.004,-0.055 0.006,-0.054 0.008,-0.055 0.03,-0.181 0.01,-0.054 0.012,-0.054 0.012,-0.045 0.049,-0.178 0.015,-0.053 0.018,-0.052 0.019,-0.051 0.068,-0.171 0.021,-0.051 0.023,-0.049 0.025,-0.049 0.086,-0.162 0.027,-0.048 0.028,-0.047 0.029,-0.045 0.104,-0.153 0.032,-0.045 0.033,-0.044 0.033,-0.039 0.119,-0.14 0.036,-0.042 0.038,-0.039 0.033,-0.033 0.133,-0.127 0.04,-0.037 0.042,-0.036 0.05,-0.039 0.147,-0.111 0.044,-0.032 0.046,-0.031 0.041,-0.026 0.158,-0.095 0.048,-0.027 0.048,-0.025 0.049,-0.024 0.167,-0.077 0.05,-0.022 0.051,-0.02 0.045,-0.017 0.174,-0.059 0.052,-0.016 0.053,-0.015 0.052,-0.012 0.18,-0.04 0.053,-0.011 0.054,-0.009 0.055,-0.007 0.183,-0.02 0.055,-0.005 0.054,-0.003 0.054,-0.001 0.184,0 0.055,0.001"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.1mm" />
+      <path
+         id="path3656"
+         vector-effect="non-scaling-stroke"
+         d="m 1.8,159 a 1.7,1.7 0 1 0 3.4,0 1.7,1.7 0 1 0 -3.4,0"
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.1mm" />
+      <path
+         id="path3658"
+         vector-effect="non-scaling-stroke"
+         d="m 45.867,155.803 0.054,0.003 0.054,0.005 0.183,0.02 0.054,0.007 0.054,0.009 0.054,0.011 0.18,0.04 0.054,0.013 0.052,0.014 0.051,0.016 0.174,0.059 0.051,0.019 0.051,0.02 0.044,0.02 0.167,0.077 0.049,0.024 0.049,0.025 0.047,0.027 0.158,0.095 0.092,0.06 0.039,0.029 0.147,0.111 0.043,0.034 0.042,0.035 0.047,0.043 0.133,0.127 0.039,0.039 0.037,0.04 0.031,0.035 0.119,0.14 0.035,0.042 0.033,0.044 0.03,0.042 0.104,0.153 0.029,0.046 0.029,0.047 0.026,0.047 0.086,0.162 0.025,0.049 0.023,0.049 0.021,0.051 0.068,0.171 0.019,0.051 0.018,0.052 0.015,0.053 0.049,0.178 0.014,0.053 0.011,0.053 0.009,0.047 0.03,0.181 0.008,0.054 0.006,0.054 0.004,0.056 0.01,0.184 0.002,0.054 0,0.055 -0.002,0.053 -0.01,0.184 -0.004,0.055 -0.006,0.054 -0.008,0.055 -0.03,0.181 -0.01,0.054 -0.012,0.054 -0.012,0.045 -0.049,0.178 -0.015,0.053 -0.018,0.052 -0.019,0.051 -0.068,0.171 -0.021,0.051 -0.023,0.049 -0.025,0.049 -0.086,0.162 -0.027,0.048 -0.028,0.047 -0.029,0.045 -0.104,0.153 -0.032,0.045 -0.033,0.044 -0.033,0.039 -0.119,0.14 -0.036,0.042 -0.038,0.039 -0.033,0.033 -0.133,0.127 -0.04,0.037 -0.042,0.036 -0.05,0.039 -0.147,0.111 -0.044,0.032 -0.046,0.031 -0.041,0.026 -0.158,0.095 -0.048,0.027 -0.048,0.025 -0.049,0.024 -0.167,0.077 -0.05,0.022 -0.051,0.02 -0.045,0.017 -0.174,0.059 -0.052,0.016 -0.053,0.015 -0.052,0.012 -0.18,0.04 -0.053,0.011 -0.054,0.009 -0.055,0.007 -0.183,0.02 -0.055,0.005 -0.054,0.003 -0.054,0.001 -0.184,0 -0.055,-0.001 -0.054,-0.003 -0.054,-0.005 -0.183,-0.02 -0.054,-0.007 -0.054,-0.009 -0.054,-0.011 -0.18,-0.04 -0.054,-0.013 -0.052,-0.014 -0.051,-0.016 -0.174,-0.059 -0.051,-0.019 -0.051,-0.02 -0.044,-0.02 -0.167,-0.077 -0.049,-0.024 -0.049,-0.025 -0.047,-0.027 -0.158,-0.095 -0.092,-0.06 -0.039,-0.029 -0.147,-0.111 -0.043,-0.034 -0.042,-0.035 -0.047,-0.043 -0.133,-0.127 -0.039,-0.039 -0.037,-0.04 -0.031,-0.035 -0.119,-0.14 -0.035,-0.042 -0.033,-0.044 -0.03,-0.042 -0.104,-0.153 -0.029,-0.046 -0.029,-0.047 -0.026,-0.047 -0.086,-0.162 -0.025,-0.049 -0.023,-0.049 -0.021,-0.051 -0.068,-0.171 -0.019,-0.051 -0.018,-0.052 -0.015,-0.053 -0.049,-0.178 -0.014,-0.053 -0.011,-0.053 -0.009,-0.047 -0.03,-0.181 -0.008,-0.054 -0.006,-0.054 -0.004,-0.056 -0.01,-0.184 -0.002,-0.054 0,-0.055 0.002,-0.053 0.01,-0.184 0.004,-0.055 0.006,-0.054 0.008,-0.055 0.03,-0.181 0.01,-0.054 0.012,-0.054 0.012,-0.045 0.049,-0.178 0.015,-0.053 0.018,-0.052 0.019,-0.051 0.068,-0.171 0.021,-0.051 0.023,-0.049 0.025,-0.049 0.086,-0.162 0.027,-0.048 0.028,-0.047 0.029,-0.045 0.104,-0.153 0.032,-0.045 0.033,-0.044 0.033,-0.039 0.119,-0.14 0.036,-0.042 0.038,-0.039 0.033,-0.033 0.133,-0.127 0.04,-0.037 0.042,-0.036 0.05,-0.039 0.147,-0.111 0.044,-0.032 0.046,-0.031 0.041,-0.026 0.158,-0.095 0.048,-0.027 0.048,-0.025 0.049,-0.024 0.167,-0.077 0.05,-0.022 0.051,-0.02 0.045,-0.017 0.174,-0.059 0.052,-0.016 0.053,-0.015 0.052,-0.012 0.18,-0.04 0.053,-0.011 0.054,-0.009 0.055,-0.007 0.183,-0.02 0.055,-0.005 0.054,-0.003 0.054,-0.001 0.184,0 0.055,0.001 M 44.02,159 a 1.7,1.7 0 1 0 3.4,0 1.7,1.7 0 1 0 -3.4,0"
+         inkscape:connector-curvature="0"
+         style="fill:#e0e0e0;stroke:#000000;stroke-width:0.1mm" />
+      <path
+         id="path3660"
+         vector-effect="non-scaling-stroke"
+         d="m 45.867,155.803 0.054,0.003 0.054,0.005 0.183,0.02 0.054,0.007 0.054,0.009 0.054,0.011 0.18,0.04 0.054,0.013 0.052,0.014 0.051,0.016 0.174,0.059 0.051,0.019 0.051,0.02 0.044,0.02 0.167,0.077 0.049,0.024 0.049,0.025 0.047,0.027 0.158,0.095 0.092,0.06 0.039,0.029 0.147,0.111 0.043,0.034 0.042,0.035 0.047,0.043 0.133,0.127 0.039,0.039 0.037,0.04 0.031,0.035 0.119,0.14 0.035,0.042 0.033,0.044 0.03,0.042 0.104,0.153 0.029,0.046 0.029,0.047 0.026,0.047 0.086,0.162 0.025,0.049 0.023,0.049 0.021,0.051 0.068,0.171 0.019,0.051 0.018,0.052 0.015,0.053 0.049,0.178 0.014,0.053 0.011,0.053 0.009,0.047 0.03,0.181 0.008,0.054 0.006,0.054 0.004,0.056 0.01,0.184 0.002,0.054 0,0.055 -0.002,0.053 -0.01,0.184 -0.004,0.055 -0.006,0.054 -0.008,0.055 -0.03,0.181 -0.01,0.054 -0.012,0.054 -0.012,0.045 -0.049,0.178 -0.015,0.053 -0.018,0.052 -0.019,0.051 -0.068,0.171 -0.021,0.051 -0.023,0.049 -0.025,0.049 -0.086,0.162 -0.027,0.048 -0.028,0.047 -0.029,0.045 -0.104,0.153 -0.032,0.045 -0.033,0.044 -0.033,0.039 -0.119,0.14 -0.036,0.042 -0.038,0.039 -0.033,0.033 -0.133,0.127 -0.04,0.037 -0.042,0.036 -0.05,0.039 -0.147,0.111 -0.044,0.032 -0.046,0.031 -0.041,0.026 -0.158,0.095 -0.048,0.027 -0.048,0.025 -0.049,0.024 -0.167,0.077 -0.05,0.022 -0.051,0.02 -0.045,0.017 -0.174,0.059 -0.052,0.016 -0.053,0.015 -0.052,0.012 -0.18,0.04 -0.053,0.011 -0.054,0.009 -0.055,0.007 -0.183,0.02 -0.055,0.005 -0.054,0.003 -0.054,0.001 -0.184,0 -0.055,-0.001 -0.054,-0.003 -0.054,-0.005 -0.183,-0.02 -0.054,-0.007 -0.054,-0.009 -0.054,-0.011 -0.18,-0.04 -0.054,-0.013 -0.052,-0.014 -0.051,-0.016 -0.174,-0.059 -0.051,-0.019 -0.051,-0.02 -0.044,-0.02 -0.167,-0.077 -0.049,-0.024 -0.049,-0.025 -0.047,-0.027 -0.158,-0.095 -0.092,-0.06 -0.039,-0.029 -0.147,-0.111 -0.043,-0.034 -0.042,-0.035 -0.047,-0.043 -0.133,-0.127 -0.039,-0.039 -0.037,-0.04 -0.031,-0.035 -0.119,-0.14 -0.035,-0.042 -0.033,-0.044 -0.03,-0.042 -0.104,-0.153 -0.029,-0.046 -0.029,-0.047 -0.026,-0.047 -0.086,-0.162 -0.025,-0.049 -0.023,-0.049 -0.021,-0.051 -0.068,-0.171 -0.019,-0.051 -0.018,-0.052 -0.015,-0.053 -0.049,-0.178 -0.014,-0.053 -0.011,-0.053 -0.009,-0.047 -0.03,-0.181 -0.008,-0.054 -0.006,-0.054 -0.004,-0.056 -0.01,-0.184 -0.002,-0.054 0,-0.055 0.002,-0.053 0.01,-0.184 0.004,-0.055 0.006,-0.054 0.008,-0.055 0.03,-0.181 0.01,-0.054 0.012,-0.054 0.012,-0.045 0.049,-0.178 0.015,-0.053 0.018,-0.052 0.019,-0.051 0.068,-0.171 0.021,-0.051 0.023,-0.049 0.025,-0.049 0.086,-0.162 0.027,-0.048 0.028,-0.047 0.029,-0.045 0.104,-0.153 0.032,-0.045 0.033,-0.044 0.033,-0.039 0.119,-0.14 0.036,-0.042 0.038,-0.039 0.033,-0.033 0.133,-0.127 0.04,-0.037 0.042,-0.036 0.05,-0.039 0.147,-0.111 0.044,-0.032 0.046,-0.031 0.041,-0.026 0.158,-0.095 0.048,-0.027 0.048,-0.025 0.049,-0.024 0.167,-0.077 0.05,-0.022 0.051,-0.02 0.045,-0.017 0.174,-0.059 0.052,-0.016 0.053,-0.015 0.052,-0.012 0.18,-0.04 0.053,-0.011 0.054,-0.009 0.055,-0.007 0.183,-0.02 0.055,-0.005 0.054,-0.003 0.054,-0.001 0.184,0 0.055,0.001"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.1mm" />
+      <path
+         id="path3662"
+         vector-effect="non-scaling-stroke"
+         d="m 44.02,159 a 1.7,1.7 0 1 0 3.4,0 1.7,1.7 0 1 0 -3.4,0"
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.1mm" />
+      <path
+         id="path3664"
+         vector-effect="non-scaling-stroke"
+         d="m 0,162.5 a 2.5,2.5 0 0 0 2.5,2.5 l 0,0 44.22,0 a 2.5,2.5 0 0 0 2.5,-2.5 l 0,0 0,-160 A 2.5,2.5 0 0 0 46.72,0 l 0,0 L 2.5,0 A 2.5,2.5 0 0 0 0,2.5 l 0,0 0,160"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-width:0.1mm" />
+    </g>
+  </g>
+</svg>

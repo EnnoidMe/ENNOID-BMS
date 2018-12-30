@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:BMS-Master-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 25
+Sheet 3 27
 Title ""
 Date ""
 Rev ""
@@ -51,18 +51,18 @@ Wire Wire Line
 $Comp
 L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5A91EADF
-P 5000 3850
-F 0 "#PWR?" H 5000 3600 50  0001 C CNN
-F 1 "GND" H 5005 3677 50  0000 C CNN
-F 2 "" H 5000 3850 50  0001 C CNN
-F 3 "" H 5000 3850 50  0001 C CNN
-	1    5000 3850
+P 5000 5150
+F 0 "#PWR?" H 5000 4900 50  0001 C CNN
+F 1 "GND" H 5005 4977 50  0000 C CNN
+F 2 "" H 5000 5150 50  0001 C CNN
+F 3 "" H 5000 5150 50  0001 C CNN
+	1    5000 5150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5200 3650 5000 3650
 Wire Wire Line
-	5000 3650 5000 3850
+	5000 3650 5000 4300
 $Comp
 L BMS-Master-rescue:C-Device C?
 U 1 1 5A91EB41
@@ -100,233 +100,16 @@ F 3 "" H 3750 3750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3750 3650 3750 3750
-Text HLabel 7500 2700 2    50   Input ~ 0
+Text HLabel 7550 3550 2    50   Input ~ 0
 CANH
-Text HLabel 7550 4150 2    50   Input ~ 0
+Text HLabel 7550 3450 2    50   Input ~ 0
 CANL
-Wire Notes Line
-	5550 2350 5550 4850
-Wire Notes Line
-	5650 2350 5650 4850
-$Comp
-L BMS-Master-rescue:GNDD-power #PWR?
-U 1 1 5A91F28A
-P 6100 3850
-F 0 "#PWR?" H 6100 3600 50  0001 C CNN
-F 1 "GNDD" H 6104 3695 50  0000 C CNN
-F 2 "" H 6100 3850 50  0001 C CNN
-F 3 "" H 6100 3850 50  0001 C CNN
-	1    6100 3850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	6000 3650 6100 3650
+	6000 3650 6000 4300
 Wire Wire Line
-	6100 3650 6100 3850
-$Comp
-L BMS-Master-rescue:C-Device C?
-U 1 1 5A91F3C0
-P 7300 3500
-F 0 "C?" V 7048 3500 50  0000 C CNN
-F 1 "100n" V 7139 3500 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7338 3350 50  0001 C CNN
-F 3 "~" H 7300 3500 50  0001 C CNN
-	1    7300 3500
-	0    1    1    0   
-$EndComp
-$Comp
-L BMS-Master-rescue:R-Device R?
-U 1 1 5A91F45F
-P 6900 3050
-F 0 "R?" H 6970 3096 50  0000 L CNN
-F 1 "60.4" H 6970 3005 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" V 6830 3050 50  0001 C CNN
-F 3 "~" H 6900 3050 50  0001 C CNN
-	1    6900 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L BMS-Master-rescue:R-Device R?
-U 1 1 5A91F4AE
-P 6900 3900
-F 0 "R?" H 6970 3946 50  0000 L CNN
-F 1 "60.4" H 6970 3855 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" V 6830 3900 50  0001 C CNN
-F 3 "~" H 6900 3900 50  0001 C CNN
-	1    6900 3900
-	1    0    0    -1  
-$EndComp
+	7550 3550 6900 3550
 Wire Wire Line
-	6900 3200 6900 3500
-Wire Wire Line
-	7150 3500 6900 3500
-Connection ~ 6900 3500
-Wire Wire Line
-	6900 3500 6900 3750
-Wire Wire Line
-	6900 2900 6900 2700
-Wire Wire Line
-	6900 2700 7500 2700
-Wire Wire Line
-	6900 4050 6900 4150
-Wire Wire Line
-	6900 4150 7550 4150
-$Comp
-L BMS-Master-rescue:GNDD-power #PWR?
-U 1 1 5A91F76E
-P 7650 3650
-F 0 "#PWR?" H 7650 3400 50  0001 C CNN
-F 1 "GNDD" H 7654 3495 50  0000 C CNN
-F 2 "" H 7650 3650 50  0001 C CNN
-F 3 "" H 7650 3650 50  0001 C CNN
-	1    7650 3650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7450 3500 7650 3500
-Wire Wire Line
-	7650 3500 7650 3650
-Wire Wire Line
-	6900 4150 6600 4150
-Wire Wire Line
-	6600 4150 6600 3550
-Wire Wire Line
-	6600 3550 6000 3550
-Connection ~ 6900 4150
-Wire Wire Line
-	6000 3450 6600 3450
-Wire Wire Line
-	6600 3450 6600 2700
-Wire Wire Line
-	6600 2700 6900 2700
-Connection ~ 6900 2700
-$Comp
-L BMS-Master-rescue:GNDD-power #PWR?
-U 1 1 5A91FE8A
-P 7650 2150
-F 0 "#PWR?" H 7650 1900 50  0001 C CNN
-F 1 "GNDD" H 7654 1995 50  0000 C CNN
-F 2 "" H 7650 2150 50  0001 C CNN
-F 3 "" H 7650 2150 50  0001 C CNN
-	1    7650 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L BMS-Master-rescue:C-Device C?
-U 1 1 5A91FEEA
-P 7650 1900
-F 0 "C?" H 7535 1854 50  0000 R CNN
-F 1 "100n" H 7535 1945 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7688 1750 50  0001 C CNN
-F 3 "~" H 7650 1900 50  0001 C CNN
-	1    7650 1900
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7650 2150 7650 2050
-$Comp
-L BMS-Master-rescue:C-Device C?
-U 1 1 5A92018C
-P 8150 1900
-F 0 "C?" H 8035 1854 50  0000 R CNN
-F 1 "4.7u" H 8035 1945 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8188 1750 50  0001 C CNN
-F 3 "~" H 8150 1900 50  0001 C CNN
-	1    8150 1900
-	-1   0    0    1   
-$EndComp
-$Comp
-L BMS-Master-rescue:GNDD-power #PWR?
-U 1 1 5A9201EB
-P 8150 2150
-F 0 "#PWR?" H 8150 1900 50  0001 C CNN
-F 1 "GNDD" H 8154 1995 50  0000 C CNN
-F 2 "" H 8150 2150 50  0001 C CNN
-F 3 "" H 8150 2150 50  0001 C CNN
-	1    8150 2150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8150 2050 8150 2150
-$Comp
-L BMS-Master-rescue:MBR0540-Diode D?
-U 1 1 5A92055E
-P 9000 1600
-F 0 "D?" H 9000 1500 50  0000 C CNN
-F 1 "MBR0540" H 9000 1750 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 9000 1425 50  0001 C CNN
-F 3 "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf" H 9000 1600 50  0001 C CNN
-	1    9000 1600
-	-1   0    0    1   
-$EndComp
-$Comp
-L BMS-Master-rescue:2N7002-Transistor_FET Q?
-U 1 1 5A92061C
-P 9000 950
-F 0 "Q?" V 9250 950 50  0000 C CNN
-F 1 "2N7002" V 9341 950 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9200 875 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 9000 950 50  0001 L CNN
-	1    9000 950 
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8150 1600 8150 1750
-Wire Wire Line
-	7650 1750 7650 1600
-Wire Wire Line
-	7650 1600 8150 1600
-Connection ~ 8150 1600
-Wire Wire Line
-	8150 750  9000 750 
-Wire Wire Line
-	8150 750  8150 1600
-$Comp
-L BMS-Master-rescue:GNDD-power #PWR?
-U 1 1 5A921C15
-P 8700 1800
-F 0 "#PWR?" H 8700 1550 50  0001 C CNN
-F 1 "GNDD" H 8704 1645 50  0000 C CNN
-F 2 "" H 8700 1800 50  0001 C CNN
-F 3 "" H 8700 1800 50  0001 C CNN
-	1    8700 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8700 1800 8700 1600
-Wire Wire Line
-	8700 1600 8850 1600
-Wire Wire Line
-	8700 1600 8700 1050
-Wire Wire Line
-	8700 1050 8800 1050
-Connection ~ 8700 1600
-Wire Wire Line
-	9200 1050 9400 1050
-Wire Wire Line
-	9400 1050 9400 1600
-Wire Wire Line
-	9400 1600 9150 1600
-Text HLabel 9650 750  2    50   Input ~ 0
-5V_CAN
-Wire Wire Line
-	9000 750  9650 750 
-Connection ~ 9000 750 
-Text HLabel 9650 1600 2    50   Input ~ 0
-GND_CAN
-Wire Wire Line
-	9400 1600 9650 1600
-Connection ~ 9400 1600
-Wire Notes Line
-	8500 550  10300 550 
-Wire Notes Line
-	10300 550  10300 2050
-Wire Notes Line
-	10300 2050 8500 2050
-Wire Notes Line
-	8500 2050 8500 550 
-Text Notes 9150 1950 0    50   ~ 0
-Reverse polarity protection\n
+	6000 3450 7100 3450
 $Comp
 L BMS-Master-rescue:C-Device C?
 U 1 1 5A924642
@@ -364,4 +147,189 @@ F 3 "" H 3300 3750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3300 3650 3300 3750
+Text HLabel 7700 1700 2    50   Input ~ 0
+5V_CAN
+$Comp
+L BMS-Master-rescue:C-Device C?
+U 1 1 5C24AE55
+P 7000 1850
+F 0 "C?" V 6748 1850 50  0000 C CNN
+F 1 "100n" V 6839 1850 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7038 1700 50  0001 C CNN
+F 3 "~" H 7000 1850 50  0001 C CNN
+	1    7000 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L BMS-Master-rescue:C-Device C?
+U 1 1 5C24B678
+P 6650 1850
+F 0 "C?" H 6765 1896 50  0000 L CNN
+F 1 "1u" H 6765 1805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6688 1700 50  0001 C CNN
+F 3 "~" H 6650 1850 50  0001 C CNN
+	1    6650 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L BMS-Master-rescue:R-Device R?
+U 1 1 5C24E192
+P 5600 4300
+F 0 "R?" V 5550 4000 50  0000 L CNN
+F 1 "4.7M" V 5450 4000 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" V 5530 4300 50  0001 C CNN
+F 3 "~" H 5600 4300 50  0001 C CNN
+F 4 "100V" V 5600 4300 50  0001 C CNN "Voltage "
+	1    5600 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L BMS-Master-rescue:C-Device C?
+U 1 1 5C24E7DA
+P 5600 4950
+F 0 "C?" V 5350 4750 50  0000 C CNN
+F 1 "10n" V 5450 4800 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5638 4800 50  0001 C CNN
+F 3 "~" H 5600 4950 50  0001 C CNN
+F 4 "100V" V 5600 4950 50  0001 C CNN "Voltage "
+	1    5600 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 4300 5000 4300
+Connection ~ 5000 4300
+Wire Wire Line
+	5000 4300 5000 4950
+Wire Wire Line
+	5450 4950 5000 4950
+Connection ~ 5000 4950
+Wire Wire Line
+	5000 4950 5000 5150
+Wire Wire Line
+	5750 4950 6000 4950
+Wire Wire Line
+	5750 4300 6000 4300
+Connection ~ 6000 4300
+Wire Wire Line
+	6000 4300 6000 4950
+Wire Wire Line
+	7700 1700 7000 1700
+Connection ~ 7000 1700
+Wire Wire Line
+	7000 1700 6650 1700
+Wire Wire Line
+	6650 1700 6200 1700
+Wire Wire Line
+	6200 1700 6200 3350
+Wire Wire Line
+	6200 3350 6000 3350
+Connection ~ 6650 1700
+Wire Wire Line
+	6000 4950 6000 5150
+Connection ~ 6000 4950
+Text Label 7350 2100 0    50   ~ 0
+CAN_GND
+Wire Wire Line
+	6650 2000 6650 2100
+Wire Wire Line
+	6650 2100 7000 2100
+Wire Wire Line
+	7000 2000 7000 2100
+Connection ~ 7000 2100
+Wire Wire Line
+	7000 2100 7350 2100
+Text Label 6100 5150 0    50   ~ 0
+CAN_GND
+Wire Wire Line
+	6000 5150 6100 5150
+Text HLabel 6050 5300 2    50   Input ~ 0
+CAN_GND
+Wire Wire Line
+	6050 5300 6000 5300
+Wire Wire Line
+	6000 5300 6000 5150
+Connection ~ 6000 5150
+$Comp
+L Power_Protection:SZNUP2105L D?
+U 1 1 5C258D40
+P 7000 3900
+F 0 "D?" H 7205 3946 50  0000 L CNN
+F 1 "SZNUP2105L" H 7205 3855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7225 3850 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF" H 7125 4025 50  0001 C CNN
+	1    7000 3900
+	1    0    0    -1  
+$EndComp
+Text Label 7150 4200 0    50   ~ 0
+CAN_GND
+Wire Wire Line
+	7000 4100 7000 4200
+Wire Wire Line
+	7000 4200 7150 4200
+Wire Wire Line
+	6900 3700 6900 3550
+Connection ~ 6900 3550
+Wire Wire Line
+	6900 3550 6000 3550
+Wire Wire Line
+	7100 3700 7100 3450
+Connection ~ 7100 3450
+Wire Wire Line
+	7100 3450 7550 3450
+Wire Notes Line
+	5650 2350 5650 6300
+Wire Notes Line
+	5550 2350 5550 6300
+$Comp
+L Isolator:SFH617A-2X017T U?
+U 1 1 5C25CD2F
+P 5600 6100
+F 0 "U?" H 5600 6425 50  0000 C CNN
+F 1 "SFH617A-2X017T" H 5600 6334 50  0000 C CNN
+F 2 "Package_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 5600 5750 50  0001 C CIN
+F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 5600 6050 50  0001 L CNN
+	1    5600 6100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BMS-Master-rescue:GND-power #PWR?
+U 1 1 5C25DB56
+P 5100 6400
+F 0 "#PWR?" H 5100 6150 50  0001 C CNN
+F 1 "GND" H 5105 6227 50  0000 C CNN
+F 2 "" H 5100 6400 50  0001 C CNN
+F 3 "" H 5100 6400 50  0001 C CNN
+	1    5100 6400
+	1    0    0    -1  
+$EndComp
+Text HLabel 4300 6000 0    50   Input ~ 0
+EnableRequest
+Wire Wire Line
+	5300 6000 4300 6000
+Wire Wire Line
+	5300 6200 5100 6200
+Wire Wire Line
+	5100 6200 5100 6400
+$Comp
+L BMS-Master-rescue:R-Device R?
+U 1 1 5C25FA4A
+P 6450 6000
+F 0 "R?" V 6400 5700 50  0000 L CNN
+F 1 "2.2k" V 6300 5700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" V 6380 6000 50  0001 C CNN
+F 3 "~" H 6450 6000 50  0001 C CNN
+F 4 "100V" V 6450 6000 50  0001 C CNN "Voltage "
+	1    6450 6000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5900 6000 6300 6000
+Text Label 6200 6200 0    50   ~ 0
+CAN_GND
+Wire Wire Line
+	5900 6200 6200 6200
+Text HLabel 7450 6000 2    50   Input ~ 0
+Enable_CAN
+Wire Wire Line
+	6600 6000 7450 6000
 $EndSCHEMATC

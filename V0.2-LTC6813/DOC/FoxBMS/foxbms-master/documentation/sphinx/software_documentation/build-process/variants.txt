@@ -1,0 +1,33 @@
+from waflib.Build import BuildContext, CleanContext, InstallContext, \
+    UninstallContext, ListContext, StepContext
+for x in variants:
+    for y in (
+        BuildContext,
+        CleanContext,
+        InstallContext,
+        UninstallContext,
+        ListContext,
+        StepContext
+        ):
+        name = y.__name__.replace('Context','').lower()
+        class tmp(y):
+            if name == 'build':
+                __doc__ = '''executes the {} of {}'''.format(name, x)
+            elif name == 'clean':
+                __doc__ = '''cleans the project {}'''.format(x)
+            elif name == 'install' or name == 'uninstall':
+                __doc__ = '''CURRENTLY NOT SUPPORTED:{}s the project {}'''.format(name, x)
+            elif name == 'list':
+                __doc__ = '''lists the targets to execute for {}'''.format(x)
+            elif name == 'step':
+                __doc__ = '''executes tasks in a step-by-step fashion, for \
+debugging of {}'''.format(x)
+            cmd = name + '_' + x
+            variant = x
+
+    dox = 'doxygen'
+    class tmp(BuildContext):
+        __doc__ = '''creates the {} documentation of {}'''.format(dox, x)
+        cmd = dox + '_' + x
+        fun = dox
+        variant = x

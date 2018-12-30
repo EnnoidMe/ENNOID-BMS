@@ -1,0 +1,17 @@
+.. include:: ../../macros.rst (RELATIVE LINK, MUST BE ADAPTED)
+
+
+.. _DEFINE_A_LABEL_WHICH_STARTS_WITH_UNDERSCORE:
+
+========
+HEADINGS
+========
+
+TEXT TEXT
+
+.. _DEFINE_Another_LABEL_WHICH_STARTS_WITH_UNDERSCORE:
+
+SMALLER HEADING
+---------------
+
+TEXT TEXT

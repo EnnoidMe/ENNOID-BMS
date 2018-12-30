@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:BMS-Master-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
-Sheet 4 25
+Sheet 23 27
 Title ""
 Date ""
 Rev ""
@@ -14,25 +14,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 8900 10300 0    50   Input ~ 0
-TX
-Text HLabel 8900 10400 0    50   Input ~ 0
-RX
+Text HLabel 24450 9900 2    50   Input ~ 0
+TX_USB
+Text HLabel 24450 10000 2    50   Input ~ 0
+RX_USB
 Text HLabel 9100 9300 0    50   Input ~ 0
-FAULT_N
-Text HLabel 25300 10200 2    50   Input ~ 0
-GPIO0
-Text HLabel 25300 10300 2    50   Input ~ 0
-GPIO1
-Text HLabel 25300 10400 2    50   Input ~ 0
-GPIO2
-Text HLabel 25300 10500 2    50   Input ~ 0
-GPIO3
-Text HLabel 25300 10600 2    50   Input ~ 0
-GPIO4
-Text HLabel 25300 10700 2    50   Input ~ 0
-GPIO5
-Text HLabel 25300 10100 2    50   Input ~ 0
+SAFETY
+Text HLabel 8950 9900 0    50   Input ~ 0
 WAKEUP
 Wire Wire Line
 	16300 11600 16300 11900
@@ -143,12 +131,10 @@ Wire Wire Line
 	6000 9550 6000 9600
 Wire Wire Line
 	9100 9300 9200 9300
-Text HLabel 7750 9650 0    50   BiDi ~ 0
+Text HLabel 7500 9950 0    50   BiDi ~ 0
 ChargeDetect
 Wire Wire Line
 	9200 9400 8600 9400
-Wire Wire Line
-	8150 9200 8150 9250
 Wire Wire Line
 	7000 9100 9200 9100
 Wire Wire Line
@@ -156,138 +142,16 @@ Wire Wire Line
 $Comp
 L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5A9256C5
-P 8150 9650
-F 0 "#PWR?" H 8150 9400 50  0001 C CNN
-F 1 "GND" H 8155 9477 50  0000 C CNN
-F 2 "" H 8150 9650 50  0001 C CNN
-F 3 "" H 8150 9650 50  0001 C CNN
-	1    8150 9650
+P 7800 9650
+F 0 "#PWR?" H 7800 9400 50  0001 C CNN
+F 1 "GND" H 7805 9477 50  0000 C CNN
+F 2 "" H 7800 9650 50  0001 C CNN
+F 3 "" H 7800 9650 50  0001 C CNN
+	1    7800 9650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8600 9200 8150 9200
 Wire Wire Line
 	8600 9200 8600 9400
-Wire Wire Line
-	7850 9450 7800 9450
-Wire Wire Line
-	7800 9450 7800 9650
-Wire Wire Line
-	7800 9650 7750 9650
-$Comp
-L BMS-Master-rescue:Micro_SD_Card_Det_Hirose_DM3AT-Connector_Specialized J?
-U 1 1 5A92F51A
-P 4800 11400
-F 0 "J?" H 4750 12217 50  0000 C CNN
-F 1 "Micro_SD_Card_Det_Hirose_DM3AT" H 4750 12126 50  0000 C CNN
-F 2 "" H 6850 12100 50  0001 C CNN
-F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 4800 11500 50  0001 C CNN
-	1    4800 11400
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	9200 11100 7600 11100
-Wire Wire Line
-	7600 11100 7600 11600
-Wire Wire Line
-	7600 11600 5700 11600
-Wire Wire Line
-	5700 11200 9200 11200
-Wire Wire Line
-	9200 11000 7500 11000
-Wire Wire Line
-	7500 11000 7500 11400
-Wire Wire Line
-	7500 11400 5700 11400
-Wire Wire Line
-	5700 11500 6900 11500
-Wire Wire Line
-	6900 11500 6900 12300
-Wire Wire Line
-	6900 12300 5700 12300
-Wire Wire Line
-	4000 12300 4000 11900
-$Comp
-L BMS-Master-rescue:GND-power #PWR?
-U 1 1 5A933A6F
-P 5700 12450
-F 0 "#PWR?" H 5700 12200 50  0001 C CNN
-F 1 "GND" H 5705 12277 50  0000 C CNN
-F 2 "" H 5700 12450 50  0001 C CNN
-F 3 "" H 5700 12450 50  0001 C CNN
-	1    5700 12450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5700 12450 5700 12300
-Connection ~ 5700 12300
-Wire Wire Line
-	5700 12300 4000 12300
-Wire Wire Line
-	9200 10900 7400 10900
-Wire Wire Line
-	7400 10900 7400 11100
-Wire Wire Line
-	7400 11100 5700 11100
-$Comp
-L BMS-Master-rescue:C-Device C?
-U 1 1 5A934D3C
-P 7050 12250
-F 0 "C?" H 7165 12296 50  0000 L CNN
-F 1 "C" H 7165 12205 50  0000 L CNN
-F 2 "" H 7088 12100 50  0001 C CNN
-F 3 "~" H 7050 12250 50  0001 C CNN
-	1    7050 12250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7050 12100 7050 12000
-Wire Wire Line
-	7050 11300 5700 11300
-$Comp
-L BMS-Master-rescue:+3.3V-power #PWR?
-U 1 1 5A9358BF
-P 7900 12000
-F 0 "#PWR?" H 7900 11850 50  0001 C CNN
-F 1 "+3.3V" H 7915 12173 50  0000 C CNN
-F 2 "" H 7900 12000 50  0001 C CNN
-F 3 "" H 7900 12000 50  0001 C CNN
-	1    7900 12000
-	1    0    0    -1  
-$EndComp
-$Comp
-L BMS-Master-rescue:GND-power #PWR?
-U 1 1 5A9358DF
-P 7050 12450
-F 0 "#PWR?" H 7050 12200 50  0001 C CNN
-F 1 "GND" H 7055 12277 50  0000 C CNN
-F 2 "" H 7050 12450 50  0001 C CNN
-F 3 "" H 7050 12450 50  0001 C CNN
-	1    7050 12450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7050 12400 7050 12450
-Wire Wire Line
-	5700 11900 5700 12300
-$Comp
-L BMS-Master-rescue:L-Device L?
-U 1 1 5A93EB70
-P 7500 12000
-F 0 "L?" V 7690 12000 50  0000 C CNN
-F 1 "BLM18PG330SN1D" V 7599 12000 50  0000 C CNN
-F 2 "Inductors_SMD:L_0603_HandSoldering" H 7500 12000 50  0001 C CNN
-F 3 "~" H 7500 12000 50  0001 C CNN
-	1    7500 12000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7650 12000 7900 12000
-Wire Wire Line
-	7350 12000 7050 12000
-Connection ~ 7050 12000
-Wire Wire Line
-	7050 12000 7050 11300
 Text HLabel 8950 10800 0    50   Input ~ 0
 PreChargeEnable
 Wire Wire Line
@@ -296,14 +160,6 @@ Text HLabel 8950 10700 0    50   Input ~ 0
 DischargeEnable
 Wire Wire Line
 	8950 10700 9200 10700
-Text Label 6500 11800 2    50   ~ 0
-SDCardDetect
-Wire Wire Line
-	5700 11800 6500 11800
-Text Label 8900 9900 2    50   ~ 0
-SDCardDetect
-Wire Wire Line
-	8950 10600 9200 10600
 Text HLabel 8950 10200 0    50   Input ~ 0
 PowerEnable
 Wire Wire Line
@@ -324,8 +180,6 @@ Text HLabel 8950 9700 0    50   Input ~ 0
 ChargeEnable
 Wire Wire Line
 	8950 9700 9200 9700
-Wire Wire Line
-	9200 10500 8950 10500
 $Comp
 L BMS-Master-rescue:C-Device C?
 U 1 1 5A95E11B
@@ -371,12 +225,6 @@ Wire Wire Line
 	16400 8000 16400 7650
 Connection ~ 16400 7650
 Wire Wire Line
-	26400 9100 24850 9100
-Wire Wire Line
-	24850 9100 24850 9800
-Wire Wire Line
-	24850 9800 23800 9800
-Wire Wire Line
 	25400 11400 24450 11400
 Wire Wire Line
 	24450 11400 24450 11200
@@ -386,10 +234,6 @@ Wire Wire Line
 	24500 11100 23800 11100
 Wire Wire Line
 	24500 11000 23800 11000
-Wire Wire Line
-	23800 10800 25500 10800
-Wire Wire Line
-	25500 10900 23800 10900
 $Comp
 L BMS-Master-rescue:+3.3V-power #PWR?
 U 1 1 5AA4D323
@@ -542,19 +386,11 @@ F 3 "" H 22400 7600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	22400 7600 22400 7500
-Text HLabel 26400 9100 2    50   BiDi ~ 0
-V+
-Text HLabel 25500 10800 2    50   Output ~ 0
-USB_DM
-Text HLabel 25500 10900 2    50   Input ~ 0
-USB_DP
-Text HLabel 26400 9200 2    50   Input ~ 0
-I+
-Text HLabel 26400 9300 2    50   Input ~ 0
-I-
-Text HLabel 8950 10500 0    50   Input ~ 0
+Text HLabel 24450 9800 2    50   BiDi ~ 0
+VoutSense
+Text HLabel 24450 10800 2    50   Input ~ 0
 CAN_RX
-Text HLabel 8950 10600 0    50   Input ~ 0
+Text HLabel 24450 10900 2    50   Input ~ 0
 CAN_TX
 Text HLabel 25400 11400 2    50   Input ~ 0
 BUZZER
@@ -685,10 +521,6 @@ $EndComp
 Wire Wire Line
 	26600 11150 27200 11150
 Wire Wire Line
-	8900 10300 9200 10300
-Wire Wire Line
-	8900 10400 9200 10400
-Wire Wire Line
 	16450 7650 16500 7650
 Connection ~ 16450 7650
 Wire Wire Line
@@ -700,27 +532,15 @@ Wire Wire Line
 	16500 7650 16600 7650
 Text Notes 27350 11050 0    50   ~ 0
 DEBUG\n
-Wire Wire Line
-	23800 9900 24950 9900
-Wire Wire Line
-	24950 9900 24950 9200
-Wire Wire Line
-	24950 9200 26400 9200
-Wire Wire Line
-	25050 10000 25050 9300
-Wire Wire Line
-	25050 9300 26400 9300
-Wire Wire Line
-	23800 10000 25050 10000
 $Comp
 L BMS-Master-rescue:BSS138-Transistor_FET Q?
 U 1 1 5ABE0CA0
-P 8050 9450
-F 0 "Q?" H 8255 9496 50  0000 L CNN
-F 1 "BSS138" H 8255 9405 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8250 9375 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 8050 9450 50  0001 L CNN
-	1    8050 9450
+P 7700 9400
+F 0 "Q?" H 7905 9446 50  0000 L CNN
+F 1 "BSS138" H 7905 9355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7900 9325 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 7700 9400 50  0001 L CNN
+	1    7700 9400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -735,19 +555,250 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8900 9900 9200 9900
+	9200 10600 8450 10600
+Text HLabel 24450 10100 2    50   Input ~ 0
+SS
+Text HLabel 24450 10200 2    50   Input ~ 0
+SCK
+Text HLabel 24450 10400 2    50   Input ~ 0
+MOSI
+Text HLabel 24450 10500 2    50   Input ~ 0
+SPI_WT_SS
 Wire Wire Line
-	23800 10700 25300 10700
+	23800 9900 24450 9900
 Wire Wire Line
-	25300 10600 23800 10600
+	23800 10000 24450 10000
 Wire Wire Line
-	23800 10500 25300 10500
+	23800 10100 24450 10100
 Wire Wire Line
-	25300 10400 23800 10400
+	23800 10200 24450 10200
 Wire Wire Line
-	23800 10300 25300 10300
+	23800 10400 24450 10400
 Wire Wire Line
-	25300 10200 23800 10200
+	23800 10500 24450 10500
+Text HLabel 24450 10600 2    50   Input ~ 0
+SCL
 Wire Wire Line
-	25300 10100 23800 10100
+	24450 10600 23800 10600
+Text HLabel 24450 10700 2    50   Input ~ 0
+SDA
+Wire Wire Line
+	24450 10700 23800 10700
+Wire Wire Line
+	24450 10800 23800 10800
+Wire Wire Line
+	23800 10900 24450 10900
+Text HLabel 8950 10300 0    50   Input ~ 0
+OLED_SCL
+Text HLabel 8950 10400 0    50   Input ~ 0
+OLED_SDA
+Text HLabel 8950 10500 0    50   Input ~ 0
+OLED_RST
+Wire Wire Line
+	8950 10500 9200 10500
+Wire Wire Line
+	9200 10400 8950 10400
+Wire Wire Line
+	8950 10300 9200 10300
+Text HLabel 9100 9500 0    50   Input ~ 0
+Wireless_GDO0
+Wire Wire Line
+	9200 9500 9100 9500
+Wire Wire Line
+	7800 9200 8600 9200
+Wire Wire Line
+	7500 9400 7500 9950
+Wire Wire Line
+	7800 9600 7800 9650
+Wire Wire Line
+	23800 9800 24450 9800
+Wire Wire Line
+	9200 9900 8950 9900
+Text HLabel 25050 9700 2    50   BiDi ~ 0
+NTC_Switch
+Wire Wire Line
+	23800 9700 24100 9700
+$Comp
+L BMS-Master-rescue:C-Device C?
+U 1 1 5C347219
+P 24100 9550
+F 0 "C?" H 24215 9641 50  0000 L CNN
+F 1 "100n" H 24215 9550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 24138 9400 50  0001 C CNN
+F 3 "~" H 24100 9550 50  0001 C CNN
+F 4 "25V" H 24215 9459 50  0000 L CNN "Voltage"
+	1    24100 9550
+	1    0    0    -1  
+$EndComp
+Connection ~ 24100 9700
+Wire Wire Line
+	24100 9700 24600 9700
+$Comp
+L BMS-Master-rescue:R-Device R?
+U 1 1 5C34B363
+P 24600 9550
+F 0 "R?" H 24670 9596 50  0000 L CNN
+F 1 "1k" H 24670 9505 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 24530 9550 50  0001 C CNN
+F 3 "~" H 24600 9550 50  0001 C CNN
+	1    24600 9550
+	1    0    0    -1  
+$EndComp
+Connection ~ 24600 9700
+Wire Wire Line
+	24600 9700 25050 9700
+$Comp
+L BMS-Master-rescue:+3.3V-power #PWR?
+U 1 1 5C34F8D4
+P 24600 9350
+F 0 "#PWR?" H 24600 9200 50  0001 C CNN
+F 1 "+3.3V" H 24615 9523 50  0000 C CNN
+F 2 "" H 24600 9350 50  0001 C CNN
+F 3 "" H 24600 9350 50  0001 C CNN
+	1    24600 9350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	24600 9350 24600 9400
+$Comp
+L BMS-Master-rescue:GND-power #PWR?
+U 1 1 5C35346F
+P 23900 9200
+F 0 "#PWR?" H 23900 8950 50  0001 C CNN
+F 1 "GND" H 23905 9027 50  0000 C CNN
+F 2 "" H 23900 9200 50  0001 C CNN
+F 3 "" H 23900 9200 50  0001 C CNN
+	1    23900 9200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	23900 9200 23900 9150
+Wire Wire Line
+	23900 9150 24100 9150
+Wire Wire Line
+	24100 9150 24100 9400
+Text Label 8450 10600 2    50   ~ 0
+SDCardDetect
+Wire Wire Line
+	5700 11800 6500 11800
+Text Label 6500 11800 2    50   ~ 0
+SDCardDetect
+Wire Wire Line
+	7050 12000 7050 11300
+Wire Wire Line
+	7350 12000 7050 12000
+Wire Wire Line
+	7650 12000 7900 12000
+$Comp
+L BMS-Master-rescue:L-Device L?
+U 1 1 5A93EB70
+P 7500 12000
+F 0 "L?" V 7690 12000 50  0000 C CNN
+F 1 "BLM18PG330SN1D" V 7599 12000 50  0000 C CNN
+F 2 "Inductors_SMD:L_0603_HandSoldering" H 7500 12000 50  0001 C CNN
+F 3 "~" H 7500 12000 50  0001 C CNN
+	1    7500 12000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5700 11900 5700 12300
+Wire Wire Line
+	7050 12400 7050 12450
+$Comp
+L BMS-Master-rescue:GND-power #PWR?
+U 1 1 5A9358DF
+P 7050 12450
+F 0 "#PWR?" H 7050 12200 50  0001 C CNN
+F 1 "GND" H 7055 12277 50  0000 C CNN
+F 2 "" H 7050 12450 50  0001 C CNN
+F 3 "" H 7050 12450 50  0001 C CNN
+	1    7050 12450
+	1    0    0    -1  
+$EndComp
+$Comp
+L BMS-Master-rescue:+3.3V-power #PWR?
+U 1 1 5A9358BF
+P 7900 12000
+F 0 "#PWR?" H 7900 11850 50  0001 C CNN
+F 1 "+3.3V" H 7915 12173 50  0000 C CNN
+F 2 "" H 7900 12000 50  0001 C CNN
+F 3 "" H 7900 12000 50  0001 C CNN
+	1    7900 12000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 11300 5700 11300
+Connection ~ 7050 12000
+Wire Wire Line
+	7050 12100 7050 12000
+$Comp
+L BMS-Master-rescue:C-Device C?
+U 1 1 5A934D3C
+P 7050 12250
+F 0 "C?" H 7165 12296 50  0000 L CNN
+F 1 "C" H 7165 12205 50  0000 L CNN
+F 2 "" H 7088 12100 50  0001 C CNN
+F 3 "~" H 7050 12250 50  0001 C CNN
+	1    7050 12250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 11100 5700 11100
+Wire Wire Line
+	7400 10900 7400 11100
+Wire Wire Line
+	9200 10900 7400 10900
+Wire Wire Line
+	5700 12300 4000 12300
+Connection ~ 5700 12300
+Wire Wire Line
+	5700 12450 5700 12300
+$Comp
+L BMS-Master-rescue:GND-power #PWR?
+U 1 1 5A933A6F
+P 5700 12450
+F 0 "#PWR?" H 5700 12200 50  0001 C CNN
+F 1 "GND" H 5705 12277 50  0000 C CNN
+F 2 "" H 5700 12450 50  0001 C CNN
+F 3 "" H 5700 12450 50  0001 C CNN
+	1    5700 12450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 12300 4000 11900
+Wire Wire Line
+	6900 12300 5700 12300
+Wire Wire Line
+	6900 11500 6900 12300
+Wire Wire Line
+	5700 11500 6900 11500
+Wire Wire Line
+	7500 11400 5700 11400
+Wire Wire Line
+	7500 11000 7500 11400
+Wire Wire Line
+	9200 11000 7500 11000
+Wire Wire Line
+	5700 11200 9200 11200
+Wire Wire Line
+	7600 11600 5700 11600
+Wire Wire Line
+	7600 11100 7600 11600
+Wire Wire Line
+	9200 11100 7600 11100
+$Comp
+L BMS-Master-rescue:Micro_SD_Card_Det_Hirose_DM3AT-Connector_Specialized J?
+U 1 1 5A92F51A
+P 4800 11400
+F 0 "J?" H 4750 12217 50  0000 C CNN
+F 1 "Micro_SD_Card_Det_Hirose_DM3AT" H 4750 12126 50  0000 C CNN
+F 2 "" H 6850 12100 50  0001 C CNN
+F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 4800 11500 50  0001 C CNN
+	1    4800 11400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	23800 10300 24450 10300
+Text HLabel 24450 10300 2    50   Input ~ 0
+MISO
 $EndSCHEMATC
