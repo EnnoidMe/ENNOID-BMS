@@ -96,7 +96,7 @@ F 3 "~" H 4650 3800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text HLabel 950  3800 0    50   Input ~ 0
-IN
+I
 $Comp
 L Device:R R?
 U 1 1 5C521BE6
