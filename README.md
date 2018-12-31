@@ -20,11 +20,14 @@ https://endless-sphere.com/forums/viewtopic.php?f=14&t=92952
 # Update 
 
 12/07/2018:
-Analog device is offering a DC2350 development board with DC2026 linduino control board. The final design will be based on those development boards with major modifications in order to lower the cost and reach the requirement.
+Analog device is offering a DC2350 development board with DC2026 linduino control board. The final design will be based on those development boards with major modifications in order to lower the cost and reach the project requirements.
 
 
 This project aims to create a scalable & modular open source BMS for up to 1000V lithium-ion battery packs.
 
 24/08/2017:
 Project is halted until start of 2019
+
+31/12/2018:
+Copying DieBieMS into kicad, switching balancing circuit to LTC6813 and adapting the schematic to have the MPU and controls with galvanic isolation. 
 
