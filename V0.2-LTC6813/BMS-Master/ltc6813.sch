@@ -297,8 +297,6 @@ Wire Wire Line
 Wire Wire Line
 	4100 5450 4100 4650
 Wire Wire Line
-	4100 4650 1750 4650
-Wire Wire Line
 	4000 6000 4000 4750
 Wire Wire Line
 	4000 4750 1500 4750
@@ -780,15 +778,6 @@ Text HLabel 16650 3750 2    50   Input ~ 0
 PB
 Wire Wire Line
 	16500 3750 16650 3750
-Text HLabel 1500 4300 0    50   Output ~ 0
-BAT+
-Wire Wire Line
-	1500 4300 1750 4300
-Wire Wire Line
-	1750 4300 1750 4650
-Connection ~ 1750 4650
-Wire Wire Line
-	1750 4650 1500 4650
 Text Label 4050 14800 0    50   ~ 0
 C+1
 Text Label 4050 14250 0    50   ~ 0
@@ -1521,4 +1510,6 @@ F 3 "" H 1600 6750 50  0001 C CNN
 	1    1600 6750
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1500 4650 4100 4650
 $EndSCHEMATC

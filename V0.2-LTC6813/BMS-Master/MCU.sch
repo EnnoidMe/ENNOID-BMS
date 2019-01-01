@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
-Sheet 23 27
+Sheet 27 27
 Title ""
 Date ""
 Rev ""
@@ -19,9 +19,9 @@ TX_USB
 Text HLabel 24450 10000 2    50   Input ~ 0
 RX_USB
 Text HLabel 9100 9300 0    50   Input ~ 0
-SAFETY
-Text HLabel 8950 9900 0    50   Input ~ 0
-WAKEUP
+Safety
+Text HLabel 8100 9900 0    50   Input ~ 0
+SwitchEnable
 Wire Wire Line
 	16300 11600 16300 11900
 Wire Wire Line
@@ -131,7 +131,7 @@ Wire Wire Line
 	6000 9550 6000 9600
 Wire Wire Line
 	9100 9300 9200 9300
-Text HLabel 7500 9950 0    50   BiDi ~ 0
+Text HLabel 7200 9950 0    50   BiDi ~ 0
 ChargeDetect
 Wire Wire Line
 	9200 9400 8600 9400
@@ -399,69 +399,15 @@ Wire Wire Line
 Wire Wire Line
 	7050 8200 9200 8200
 $Comp
-L BMS-Master-rescue:R-Device R?
-U 1 1 5AA7B298
-P 8500 8550
-F 0 "R?" H 8570 8596 50  0000 L CNN
-F 1 "1k" H 8570 8505 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8430 8550 50  0001 C CNN
-F 3 "~" H 8500 8550 50  0001 C CNN
-	1    8500 8550
-	1    0    0    -1  
-$EndComp
-$Comp
 L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5AA7B2E6
-P 8500 8800
-F 0 "#PWR?" H 8500 8550 50  0001 C CNN
-F 1 "GND" H 8505 8627 50  0000 C CNN
-F 2 "" H 8500 8800 50  0001 C CNN
-F 3 "" H 8500 8800 50  0001 C CNN
-	1    8500 8800
+P 8500 8650
+F 0 "#PWR?" H 8500 8400 50  0001 C CNN
+F 1 "GND" H 8505 8477 50  0000 C CNN
+F 2 "" H 8500 8650 50  0001 C CNN
+F 3 "" H 8500 8650 50  0001 C CNN
+	1    8500 8650
 	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8500 8700 8500 8800
-Wire Wire Line
-	9200 8600 8850 8600
-Wire Wire Line
-	8850 8600 8850 8300
-Wire Wire Line
-	8850 8300 8500 8300
-Wire Wire Line
-	8500 8300 8500 8400
-Wire Wire Line
-	8100 8550 8300 8550
-Wire Wire Line
-	8300 8550 8300 8300
-Wire Wire Line
-	8300 8300 8500 8300
-Connection ~ 8500 8300
-$Comp
-L BMS-Master-rescue:+3.3V-power #PWR?
-U 1 1 5AA8A218
-P 7500 8500
-F 0 "#PWR?" H 7500 8350 50  0001 C CNN
-F 1 "+3.3V" H 7515 8673 50  0000 C CNN
-F 2 "" H 7500 8500 50  0001 C CNN
-F 3 "" H 7500 8500 50  0001 C CNN
-	1    7500 8500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7500 8500 7500 8550
-Wire Wire Line
-	7500 8550 7700 8550
-$Comp
-L BMS-Master-rescue:SW_MEC_5G-Switch SW?
-U 1 1 5A8F5FFE
-P 7900 8550
-F 0 "SW?" H 7900 8835 50  0000 C CNN
-F 1 "B3U-1000P" H 7900 8744 50  0000 C CNN
-F 2 "" H 7900 8750 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7900 8750 50  0001 C CNN
-	1    7900 8550
-	-1   0    0    -1  
 $EndComp
 $Comp
 L BMS-Master-rescue:Conn_01x05-Connector_Generic J?
@@ -607,13 +553,11 @@ Wire Wire Line
 Wire Wire Line
 	7800 9200 8600 9200
 Wire Wire Line
-	7500 9400 7500 9950
-Wire Wire Line
 	7800 9600 7800 9650
 Wire Wire Line
 	23800 9800 24450 9800
 Wire Wire Line
-	9200 9900 8950 9900
+	9200 9900 8200 9900
 Text HLabel 25050 9700 2    50   BiDi ~ 0
 NTC_Switch
 Wire Wire Line
@@ -679,9 +623,7 @@ Wire Wire Line
 	24100 9150 24100 9400
 Text Label 8450 10600 2    50   ~ 0
 SDCardDetect
-Wire Wire Line
-	5700 11800 6500 11800
-Text Label 6500 11800 2    50   ~ 0
+Text Label 6500 11900 2    50   ~ 0
 SDCardDetect
 Wire Wire Line
 	7050 12000 7050 11300
@@ -700,8 +642,6 @@ F 3 "~" H 7500 12000 50  0001 C CNN
 	1    7500 12000
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5700 11900 5700 12300
 Wire Wire Line
 	7050 12400 7050 12450
 $Comp
@@ -748,26 +688,21 @@ Wire Wire Line
 	7400 10900 7400 11100
 Wire Wire Line
 	9200 10900 7400 10900
-Wire Wire Line
-	5700 12300 4000 12300
-Connection ~ 5700 12300
-Wire Wire Line
-	5700 12450 5700 12300
 $Comp
 L BMS-Master-rescue:GND-power #PWR?
 U 1 1 5A933A6F
-P 5700 12450
-F 0 "#PWR?" H 5700 12200 50  0001 C CNN
-F 1 "GND" H 5705 12277 50  0000 C CNN
-F 2 "" H 5700 12450 50  0001 C CNN
-F 3 "" H 5700 12450 50  0001 C CNN
-	1    5700 12450
+P 6550 12450
+F 0 "#PWR?" H 6550 12200 50  0001 C CNN
+F 1 "GND" H 6555 12277 50  0000 C CNN
+F 2 "" H 6550 12450 50  0001 C CNN
+F 3 "" H 6550 12450 50  0001 C CNN
+	1    6550 12450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4000 12300 4000 11900
 Wire Wire Line
-	6900 12300 5700 12300
+	6900 12300 6550 12300
 Wire Wire Line
 	6900 11500 6900 12300
 Wire Wire Line
@@ -798,7 +733,109 @@ F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catal
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	23800 10300 24450 10300
-Text HLabel 24450 10300 2    50   Input ~ 0
+	23800 10300 26100 10300
+Text HLabel 26350 10300 2    50   Input ~ 0
 MISO
+$Comp
+L BMS-Master-rescue:+3.3V-power #PWR?
+U 1 1 5C66533B
+P 7050 7550
+F 0 "#PWR?" H 7050 7400 50  0001 C CNN
+F 1 "+3.3V" H 7065 7723 50  0000 C CNN
+F 2 "" H 7050 7550 50  0001 C CNN
+F 3 "" H 7050 7550 50  0001 C CNN
+	1    7050 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L BMS-Master-rescue:R-Device R?
+U 1 1 5C665C3A
+P 7050 7800
+F 0 "R?" H 7120 7846 50  0000 L CNN
+F 1 "10k" H 7120 7755 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6980 7800 50  0001 C CNN
+F 3 "~" H 7050 7800 50  0001 C CNN
+	1    7050 7800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 7550 7050 7650
+Wire Wire Line
+	7050 7950 7050 8200
+Connection ~ 7050 8200
+Wire Wire Line
+	8500 8600 8500 8650
+Wire Wire Line
+	8500 8600 9200 8600
+Wire Wire Line
+	5700 11900 6500 11900
+Wire Wire Line
+	5700 11800 6550 11800
+Wire Wire Line
+	6550 11800 6550 12300
+Connection ~ 6550 12300
+Wire Wire Line
+	4000 12300 6550 12300
+Wire Wire Line
+	6550 12300 6550 12450
+$Comp
+L BMS-Master-rescue:R-Device R?
+U 1 1 5C6988CA
+P 8200 10050
+F 0 "R?" H 8270 10096 50  0000 L CNN
+F 1 "10k" H 8270 10005 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8130 10050 50  0001 C CNN
+F 3 "~" H 8200 10050 50  0001 C CNN
+	1    8200 10050
+	1    0    0    -1  
+$EndComp
+Connection ~ 8200 9900
+Wire Wire Line
+	8200 9900 8100 9900
+$Comp
+L BMS-Master-rescue:GND-power #PWR?
+U 1 1 5C699041
+P 8200 10250
+F 0 "#PWR?" H 8200 10000 50  0001 C CNN
+F 1 "GND" H 8205 10077 50  0000 C CNN
+F 2 "" H 8200 10250 50  0001 C CNN
+F 3 "" H 8200 10250 50  0001 C CNN
+	1    8200 10250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 10200 8200 10250
+Wire Wire Line
+	7200 9950 7400 9950
+Wire Wire Line
+	7400 9950 7400 9400
+Wire Wire Line
+	7400 9400 7500 9400
+$Comp
+L BMS-Master-rescue:R-Device R?
+U 1 1 5C6AE41B
+P 26100 10150
+F 0 "R?" H 26170 10196 50  0000 L CNN
+F 1 "1.5k" H 26170 10105 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 26030 10150 50  0001 C CNN
+F 3 "~" H 26100 10150 50  0001 C CNN
+	1    26100 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L BMS-Master-rescue:+3.3V-power #PWR?
+U 1 1 5C6AE421
+P 26100 9950
+F 0 "#PWR?" H 26100 9800 50  0001 C CNN
+F 1 "+3.3V" H 26115 10123 50  0000 C CNN
+F 2 "" H 26100 9950 50  0001 C CNN
+F 3 "" H 26100 9950 50  0001 C CNN
+	1    26100 9950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	26100 9950 26100 10000
+Connection ~ 26100 10300
+Wire Wire Line
+	26100 10300 26350 10300
 $EndSCHEMATC
