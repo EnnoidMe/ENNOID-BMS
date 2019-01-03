@@ -687,4 +687,36 @@ Wire Wire Line
 Wire Wire Line
 	9950 6100 10150 6100
 Connection ~ 9950 6100
+Text HLabel 14450 4300 2    50   Input ~ 0
++12V
+Text HLabel 14550 2350 2    50   Input ~ 0
++12V
+$Comp
+L Device:Thermistor_NTC TH?
+U 1 1 5C84F4B0
+P 3300 9350
+F 0 "TH?" H 3147 9304 50  0000 R CNN
+F 1 "Thermistor_NTC" H 3147 9395 50  0000 R CNN
+F 2 "" H 3300 9400 50  0001 C CNN
+F 3 "~" H 3300 9400 50  0001 C CNN
+	1    3300 9350
+	-1   0    0    1   
+$EndComp
+Text HLabel 3300 8850 1    50   Input ~ 0
+NTC_Switch
+Wire Wire Line
+	3300 8850 3300 9200
+$Comp
+L BMS-Master-rescue:GND-power #PWR?
+U 1 1 5C85297F
+P 3300 9700
+F 0 "#PWR?" H 3300 9450 50  0001 C CNN
+F 1 "GND" H 3305 9527 50  0000 C CNN
+F 2 "" H 3300 9700 50  0001 C CNN
+F 3 "" H 3300 9700 50  0001 C CNN
+	1    3300 9700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 9500 3300 9700
 $EndSCHEMATC
