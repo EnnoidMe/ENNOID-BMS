@@ -67,7 +67,7 @@ L BMS-Master-rescue:C-Device C85
 U 1 1 5C53450B
 P 3100 6850
 F 0 "C85" H 3215 6896 50  0000 L CNN
-F 1 "C" H 3215 6805 50  0000 L CNN
+F 1 "33u" H 3215 6805 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 3138 6700 50  0001 C CNN
 F 3 "~" H 3100 6850 50  0001 C CNN
 F 4 "450V" H 3300 6700 50  0000 C CNN "Volatge"
@@ -106,9 +106,9 @@ L Device:L L2
 U 1 1 5C5443DC
 P 5650 6650
 F 0 "L2" V 5840 6650 50  0000 C CNN
-F 1 "L" V 5749 6650 50  0000 C CNN
+F 1 "2.2uH - 4Amps" V 5749 6650 50  0000 C CNN
 F 2 "" H 5650 6650 50  0001 C CNN
-F 3 "~" H 5650 6650 50  0001 C CNN
+F 3 "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=2ahUKEwjF8sbF6NLfAhVPqlkKHfcADH4QFjACegQICBAC&url=http%3A%2F%2Fwww.korin.co.jp%2Fproduct%2Fpdf%2FCat09501Sa.pdf&usg=AOvVaw3C9mpYL_KrwIiBYSZfq788" H 5650 6650 50  0001 C CNN
 	1    5650 6650
 	0    -1   -1   0   
 $EndComp
@@ -119,8 +119,8 @@ L BMS-Master-rescue:C-Device C86
 U 1 1 5C5483B1
 P 5300 6900
 F 0 "C86" H 5415 6946 50  0000 L CNN
-F 1 "C" H 5415 6855 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 5338 6750 50  0001 C CNN
+F 1 "10n" H 5415 6855 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5338 6750 50  0001 C CNN
 F 3 "~" H 5300 6900 50  0001 C CNN
 F 4 "" H 5500 6750 50  0001 C CNN "Volatge"
 	1    5300 6900
@@ -140,10 +140,9 @@ L BMS-Master-rescue:C-Device C87
 U 1 1 5C55039B
 P 6000 6950
 F 0 "C87" H 6115 6996 50  0000 L CNN
-F 1 "C" H 6115 6905 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206_HandSoldering" H 6038 6800 50  0001 C CNN
-F 3 "~" H 6000 6950 50  0001 C CNN
-F 4 "" H 6200 6800 50  0001 C CNN "Volatge"
+F 1 "220u" H 6115 6905 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_8x10" H 6038 6800 50  0001 C CNN
+F 3 "UWT1V221MNL1GS" H 6000 6950 50  0001 C CNN
 	1    6000 6950
 	1    0    0    -1  
 $EndComp
