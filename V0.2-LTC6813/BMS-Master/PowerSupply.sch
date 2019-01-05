@@ -38,8 +38,6 @@ Wire Wire Line
 Text HLabel 7900 5800 0    50   Input ~ 0
 ExternalPower
 Wire Wire Line
-	7900 5800 8050 5800
-Wire Wire Line
 	8650 5800 8650 6150
 NoConn ~ 3700 7350
 NoConn ~ 3700 7600
@@ -98,8 +96,6 @@ Wire Wire Line
 Wire Wire Line
 	2350 7150 3100 7150
 Connection ~ 3100 7150
-Wire Wire Line
-	1700 6650 2150 6650
 Connection ~ 3100 6650
 $Comp
 L Device:L L2
@@ -107,7 +103,7 @@ U 1 1 5C5443DC
 P 5650 6650
 F 0 "L2" V 5840 6650 50  0000 C CNN
 F 1 "2.2uH - 4Amps" V 5749 6650 50  0000 C CNN
-F 2 "" H 5650 6650 50  0001 C CNN
+F 2 "ENNOID:TDK_Inductor" H 5650 6650 50  0001 C CNN
 F 3 "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=2ahUKEwjF8sbF6NLfAhVPqlkKHfcADH4QFjACegQICBAC&url=http%3A%2F%2Fwww.korin.co.jp%2Fproduct%2Fpdf%2FCat09501Sa.pdf&usg=AOvVaw3C9mpYL_KrwIiBYSZfq788" H 5650 6650 50  0001 C CNN
 	1    5650 6650
 	0    -1   -1   0   
@@ -178,32 +174,6 @@ Wire Wire Line
 	11000 6400 11000 5900
 Wire Wire Line
 	11000 5900 11200 5900
-$Comp
-L Device:Fuse F2
-U 1 1 5C5F7134
-P 2300 6650
-F 0 "F2" V 2103 6650 50  0000 C CNN
-F 1 "Fuse" V 2194 6650 50  0000 C CNN
-F 2 "" V 2230 6650 50  0001 C CNN
-F 3 "~" H 2300 6650 50  0001 C CNN
-	1    2300 6650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2450 6650 3100 6650
-$Comp
-L Device:Fuse F3
-U 1 1 5C5F84F5
-P 8200 5800
-F 0 "F3" V 8003 5800 50  0000 C CNN
-F 1 "Fuse" V 8094 5800 50  0000 C CNN
-F 2 "" V 8130 5800 50  0001 C CNN
-F 3 "~" H 8200 5800 50  0001 C CNN
-	1    8200 5800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8350 5800 8650 5800
 $Comp
 L Regulator_Switching:LM5165 U19
 U 1 1 5C600D32
@@ -935,4 +905,8 @@ Wire Notes Line
 	4200 5400 4200 9750
 Wire Notes Line
 	4400 5400 4400 9750
+Wire Wire Line
+	7900 5800 8650 5800
+Wire Wire Line
+	1700 6650 3100 6650
 $EndSCHEMATC
