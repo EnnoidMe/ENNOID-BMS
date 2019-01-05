@@ -30,28 +30,26 @@ https://endless-sphere.com/forums/viewtopic.php?f=14&t=92952
 
 
 ### Features:
-- Modular **master** board for sub 18 cells ~80V packs & additionnal slave boards for up to 1000V pack
-- Isolated output for Charge, discharge & precharge contactor
-- Isolated power supply unit for sub 400V packs (external PSU possible through the dedicated connector above 400V)
-- Isolated voltage measurement for charge, discharge & pack buses
+- Modular **master board** for sub 18 cells ~80V packs & additionnal **slave boards** for up to 1000V pack
+- Isolated output for Charge, Discharge & Precharge contactor
+- Integrated isolated power supply unit for sub 400V packs (external PSU possible through the dedicated connector for above 400V packs)
+- Isolated voltage measurement for Charge, Discharge & Pack buses
 - Current monitoring via external isolated delta-sigma current sensor
 - Isolated CAN bus interface for cell voltage monitoring and charger detection, status monitoring + much more with future updates (like state of charge / state of health).
 - USB interface for serial communication and firmware upgrades (no need for a programmer -> HW serial bootloader is used).
-- Wireless 
+- Wireless transceiver
 - SDCard for logging (to develop a SoC and SoH algorithm)
 
 ### Components:
 
-The IC's used with their corresponding functionality:
-
 - LTC6813    -> Battery stack cell voltage monitor.
 - STM32F303  -> Main microcontroller.
-- INA226     -> Power measurement.
 - AMC1301    -> Isolated voltage measurement
 - AMC1303    -> Current measurement
-- BQ76200    -> FET driver for LOAD+ CHARGE+ and Pre-charge switch driving.
+- INA226     -> Power measurement.
+- BQ76200    -> Driver for Discharge, Charge and Precharge switches.
 - LM5165     -> SMPS Buck converter, converting the external voltage to +3.3V.
-- ISO1050    -> isolated CAN-Bus transceiver.
+- ISO1050    -> Isolated CAN-Bus transceiver.
 - CP2104-F03 -> USB to serial converter for bootloader based firmware updates and debugging.
 
 
