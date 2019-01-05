@@ -31,3 +31,7 @@ Project is halted until start of 2019
 31/12/2018:
 Copying DieBieMS into kicad, switching balancing circuit to LTC6813 and adapting the schematic to have the MPU and controls with galvanic isolation. 
 
+### Schematics
+
+![alt text](V0.2-LTC6813/PIC/MainSchematic.png)
+
