@@ -14,12 +14,12 @@ This repository is part of the open-source project: EVGE - Electric Vehicle Glob
 
 This project aims to create a scalable & modular open source BMS for up to 1000V lithium-ion battery packs.
 
+# Update 
+
 20/02/2018:
 The idea behind this project has been started on this thread:
 
 https://endless-sphere.com/forums/viewtopic.php?f=14&t=92952
-
-# Update 
 
 31/12/2018:
 - Copying DieBieMS schematics into kicad
