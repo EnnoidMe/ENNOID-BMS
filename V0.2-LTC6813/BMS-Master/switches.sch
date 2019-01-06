@@ -20,122 +20,22 @@ Text HLabel 4500 4250 0    50   Input ~ 0
 ChargeEnable
 Text HLabel 4500 5850 0    50   Input ~ 0
 PrechargeEnable
-Text HLabel 14450 6600 2    50   Input ~ 0
+Text HLabel 12950 7100 2    50   Input ~ 0
 Discharge
-Text HLabel 15200 4500 2    50   Input ~ 0
+Text HLabel 13700 5000 2    50   Input ~ 0
 Precharge
-Text HLabel 15300 2550 2    50   Input ~ 0
+Text HLabel 13800 3050 2    50   Input ~ 0
 Charge
-$Comp
-L BMS-Master-rescue:SFH617A-2X009T-Isolator U2
-U 1 1 5ACC44C1
-P 13800 6500
-F 0 "U2" H 13800 6825 50  0000 C CNN
-F 1 "SFH617A-2X009T" H 13800 6734 50  0000 C CNN
-F 2 "Package_DIP:SMDIP-4_W7.62mm" H 13600 6300 50  0001 L CIN
-F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 13800 6500 50  0001 L CNN
-	1    13800 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L BMS-Master-rescue:SFH617A-2X009T-Isolator U3
-U 1 1 5ACC48D9
-P 13800 4400
-F 0 "U3" H 13800 4725 50  0000 C CNN
-F 1 "SFH617A-2X009T" H 13800 4634 50  0000 C CNN
-F 2 "Package_DIP:SMDIP-4_W7.62mm" H 13600 4200 50  0001 L CIN
-F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 13800 4400 50  0001 L CNN
-	1    13800 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L BMS-Master-rescue:SFH617A-2X009T-Isolator U4
-U 1 1 5ACC490F
-P 13800 2450
-F 0 "U4" H 13800 2775 50  0000 C CNN
-F 1 "SFH617A-2X009T" H 13800 2684 50  0000 C CNN
-F 2 "Package_DIP:SMDIP-4_W7.62mm" H 13600 2250 50  0001 L CIN
-F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 13800 2450 50  0001 L CNN
-	1    13800 2450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	14100 2550 15300 2550
+	12600 3050 13800 3050
 Wire Wire Line
-	14100 4500 15200 4500
+	12600 5000 13700 5000
 Wire Wire Line
-	14100 6600 14450 6600
+	12600 7100 12950 7100
 Wire Wire Line
-	14550 4300 14100 4300
+	13050 4600 12600 4600
 Wire Wire Line
-	14550 2350 14100 2350
-$Comp
-L BMS-Master-rescue:+3.3V-power #PWR0126
-U 1 1 5ACFE468
-P 13250 6200
-F 0 "#PWR0126" H 13250 6050 50  0001 C CNN
-F 1 "+3.3V" H 13265 6373 50  0000 C CNN
-F 2 "" H 13250 6200 50  0001 C CNN
-F 3 "" H 13250 6200 50  0001 C CNN
-	1    13250 6200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13250 6200 13250 6400
-Wire Wire Line
-	13250 6400 13500 6400
-$Comp
-L BMS-Master-rescue:+3.3V-power #PWR0127
-U 1 1 5ACFE5C5
-P 13250 4100
-F 0 "#PWR0127" H 13250 3950 50  0001 C CNN
-F 1 "+3.3V" H 13265 4273 50  0000 C CNN
-F 2 "" H 13250 4100 50  0001 C CNN
-F 3 "" H 13250 4100 50  0001 C CNN
-	1    13250 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13250 4100 13250 4300
-Wire Wire Line
-	13250 4300 13500 4300
-$Comp
-L BMS-Master-rescue:+3.3V-power #PWR0128
-U 1 1 5ACFE760
-P 13250 2100
-F 0 "#PWR0128" H 13250 1950 50  0001 C CNN
-F 1 "+3.3V" H 13265 2273 50  0000 C CNN
-F 2 "" H 13250 2100 50  0001 C CNN
-F 3 "" H 13250 2100 50  0001 C CNN
-	1    13250 2100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13250 2100 13250 2350
-Wire Wire Line
-	13250 2350 13500 2350
-$Comp
-L BMS-Master-rescue:BSS138-Transistor_FET Q4
-U 1 1 5AD010B8
-P 12500 6900
-F 0 "Q4" H 12705 6946 50  0000 L CNN
-F 1 "BSS138" H 12705 6855 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 12700 6825 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 12500 6900 50  0001 L CNN
-	1    12500 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L BMS-Master-rescue:R-Device R26
-U 1 1 5AD011B7
-P 12950 6600
-F 0 "R26" V 13157 6600 50  0000 C CNN
-F 1 "430" V 13066 6600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 12880 6600 50  0001 C CNN
-F 3 "~" H 12950 6600 50  0001 C CNN
-	1    12950 6600
-	0    -1   -1   0   
-$EndComp
+	13050 2650 12600 2650
 $Comp
 L BMS-Master-rescue:R-Device R24
 U 1 1 5AD01241
@@ -148,48 +48,7 @@ F 3 "~" H 11950 6900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	12600 6600 12800 6600
-Wire Wire Line
 	11350 6900 11800 6900
-$Comp
-L BMS-Master-rescue:GND-power #PWR0129
-U 1 1 5AD03C7A
-P 12600 7250
-F 0 "#PWR0129" H 12600 7000 50  0001 C CNN
-F 1 "GND" H 12605 7077 50  0000 C CNN
-F 2 "" H 12600 7250 50  0001 C CNN
-F 3 "" H 12600 7250 50  0001 C CNN
-	1    12600 7250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12600 7250 12600 7100
-Wire Wire Line
-	13100 6600 13500 6600
-Wire Wire Line
-	12600 6600 12600 6700
-$Comp
-L BMS-Master-rescue:BSS138-Transistor_FET Q5
-U 1 1 5AD06F84
-P 12500 4800
-F 0 "Q5" H 12705 4846 50  0000 L CNN
-F 1 "BSS138" H 12705 4755 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 12700 4725 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 12500 4800 50  0001 L CNN
-	1    12500 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L BMS-Master-rescue:R-Device R27
-U 1 1 5AD06F8A
-P 12950 4500
-F 0 "R27" V 13157 4500 50  0000 C CNN
-F 1 "430" V 13066 4500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 12880 4500 50  0001 C CNN
-F 3 "~" H 12950 4500 50  0001 C CNN
-	1    12950 4500
-	0    -1   -1   0   
-$EndComp
 $Comp
 L BMS-Master-rescue:R-Device R23
 U 1 1 5AD06F90
@@ -199,47 +58,6 @@ F 1 "10" V 12066 4800 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 11880 4800 50  0001 C CNN
 F 3 "~" H 11950 4800 50  0001 C CNN
 	1    11950 4800
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	12600 4500 12800 4500
-$Comp
-L BMS-Master-rescue:GND-power #PWR0130
-U 1 1 5AD06FA2
-P 12600 5150
-F 0 "#PWR0130" H 12600 4900 50  0001 C CNN
-F 1 "GND" H 12605 4977 50  0000 C CNN
-F 2 "" H 12600 5150 50  0001 C CNN
-F 3 "" H 12600 5150 50  0001 C CNN
-	1    12600 5150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12600 5150 12600 5000
-Wire Wire Line
-	13100 4500 13500 4500
-Wire Wire Line
-	12600 4500 12600 4600
-$Comp
-L BMS-Master-rescue:BSS138-Transistor_FET Q6
-U 1 1 5AD07A68
-P 12500 2850
-F 0 "Q6" H 12705 2896 50  0000 L CNN
-F 1 "BSS138" H 12705 2805 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 12700 2775 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 12500 2850 50  0001 L CNN
-	1    12500 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L BMS-Master-rescue:R-Device R28
-U 1 1 5AD07A6E
-P 13000 2550
-F 0 "R28" V 13207 2550 50  0000 C CNN
-F 1 "430" V 13116 2550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 12930 2550 50  0001 C CNN
-F 3 "~" H 13000 2550 50  0001 C CNN
-	1    13000 2550
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -253,25 +71,6 @@ F 3 "~" H 11950 2850 50  0001 C CNN
 	1    11950 2850
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	12600 2550 12850 2550
-$Comp
-L BMS-Master-rescue:GND-power #PWR0131
-U 1 1 5AD07A86
-P 12600 3150
-F 0 "#PWR0131" H 12600 2900 50  0001 C CNN
-F 1 "GND" H 12605 2977 50  0000 C CNN
-F 2 "" H 12600 3150 50  0001 C CNN
-F 3 "" H 12600 3150 50  0001 C CNN
-	1    12600 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12600 3150 12600 3050
-Wire Wire Line
-	12600 2550 12600 2650
-Wire Wire Line
-	13500 2550 13150 2550
 $Comp
 L Device:C C12
 U 1 1 5C8DE537
@@ -707,12 +506,8 @@ F 3 "" H 3300 9700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3300 9500 3300 9700
-Wire Notes Line
-	13700 1100 13700 7350
-Wire Notes Line
-	13900 1100 13900 7350
 Wire Wire Line
-	14100 6400 14650 6400
+	12600 6700 13150 6700
 Wire Notes Line
 	12600 8100 12550 8100
 Text HLabel 15300 1050 2    50   Input ~ 0
@@ -721,10 +516,43 @@ Text Label 14950 1050 2    50   ~ 0
 12-24V
 Wire Wire Line
 	14950 1050 15300 1050
-Text Label 14550 2350 2    50   ~ 0
+Text Label 13050 2650 2    50   ~ 0
 12-24V
-Text Label 14550 4300 2    50   ~ 0
+Text Label 13050 4600 2    50   ~ 0
 12-24V
-Text Label 14650 6400 2    50   ~ 0
+Text Label 13150 6700 2    50   ~ 0
 12-24V
+$Comp
+L Transistor_FET:IRF6614 Q?
+U 1 1 5C720727
+P 12500 2850
+F 0 "Q?" H 12706 2896 50  0000 L CNN
+F 1 "IRF6614" H 12706 2805 50  0000 L CNN
+F 2 "Package_DirectFET:DirectFET_ST" H 12500 2850 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/irf6614pbf.pdf?fileId=5546d462533600a4015355e8346c1a0f" H 12500 2850 50  0001 L CNN
+	1    12500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:IRF6614 Q?
+U 1 1 5C72452E
+P 12500 4800
+F 0 "Q?" H 12706 4846 50  0000 L CNN
+F 1 "IRF6614" H 12706 4755 50  0000 L CNN
+F 2 "Package_DirectFET:DirectFET_ST" H 12500 4800 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/irf6614pbf.pdf?fileId=5546d462533600a4015355e8346c1a0f" H 12500 4800 50  0001 L CNN
+	1    12500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:IRF6614 Q?
+U 1 1 5C7254ED
+P 12500 6900
+F 0 "Q?" H 12706 6946 50  0000 L CNN
+F 1 "IRF6614" H 12706 6855 50  0000 L CNN
+F 2 "Package_DirectFET:DirectFET_ST" H 12500 6900 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/irf6614pbf.pdf?fileId=5546d462533600a4015355e8346c1a0f" H 12500 6900 50  0001 L CNN
+	1    12500 6900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
