@@ -34,7 +34,7 @@ F 3 "~" H 8650 6400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8750 6400 11000 6400
+	8750 6400 9250 6400
 Text HLabel 7900 5800 0    50   Input ~ 0
 ExternalPower
 Wire Wire Line
@@ -134,40 +134,26 @@ Wire Wire Line
 $Comp
 L BMS-Master-rescue:C-Device C87
 U 1 1 5C55039B
-P 6000 6950
-F 0 "C87" H 6115 6996 50  0000 L CNN
-F 1 "220u" H 6115 6905 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_8x10" H 6038 6800 50  0001 C CNN
-F 3 "UWT1V221MNL1GS" H 6000 6950 50  0001 C CNN
-	1    6000 6950
+P 9250 6750
+F 0 "C87" H 9365 6796 50  0000 L CNN
+F 1 "220u" H 9365 6705 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_8x10" H 9288 6600 50  0001 C CNN
+F 3 "UWT1V221MNL1GS" H 9250 6750 50  0001 C CNN
+	1    9250 6750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6000 6650 6000 6800
-Wire Wire Line
-	5800 6650 6000 6650
-Wire Wire Line
-	5300 7150 6000 7150
-Wire Wire Line
-	6000 7150 6000 7100
 Connection ~ 5300 7150
 $Comp
 L BMS-Master-rescue:GND-power #PWR0250
 U 1 1 5C580B9E
-P 6450 7200
-F 0 "#PWR0250" H 6450 6950 50  0001 C CNN
-F 1 "GND" H 6455 7027 50  0000 C CNN
-F 2 "" H 6450 7200 50  0001 C CNN
-F 3 "" H 6450 7200 50  0001 C CNN
-	1    6450 7200
+P 9650 7150
+F 0 "#PWR0250" H 9650 6900 50  0001 C CNN
+F 1 "GND" H 9655 6977 50  0000 C CNN
+F 2 "" H 9650 7150 50  0001 C CNN
+F 3 "" H 9650 7150 50  0001 C CNN
+	1    9650 7150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6000 7150 6450 7150
-Wire Wire Line
-	6450 7150 6450 7200
-Connection ~ 6000 7150
-Connection ~ 6000 6650
 Text HLabel 11200 5900 2    50   Input ~ 0
 +12V
 Wire Wire Line
@@ -819,8 +805,6 @@ Wire Wire Line
 	10350 9150 10650 9150
 Wire Wire Line
 	10950 9150 11100 9150
-Wire Wire Line
-	6000 6650 8650 6650
 NoConn ~ 14500 6700
 NoConn ~ 14500 6800
 Wire Notes Line
@@ -832,10 +816,10 @@ Wire Wire Line
 Wire Wire Line
 	1700 6650 3100 6650
 $Comp
-L Diode:1N4148W D?
+L Diode:1N4148W D11
 U 1 1 5C331B88
 P 13550 8500
-F 0 "D?" H 13550 8283 50  0000 C CNN
+F 0 "D11" H 13550 8283 50  0000 C CNN
 F 1 "1N4148W" H 13550 8374 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123" H 13550 8325 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13550 8500 50  0001 C CNN
@@ -843,10 +827,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13550 8500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Diode:1N4148W D?
+L Diode:1N4148W D12
 U 1 1 5C332A77
 P 13600 9100
-F 0 "D?" H 13600 8883 50  0000 C CNN
+F 0 "D12" H 13600 8883 50  0000 C CNN
 F 1 "1N4148W" H 13600 8974 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123" H 13600 8925 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13600 9100 50  0001 C CNN
@@ -854,10 +838,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13600 9100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Diode:1N4148W D?
+L Diode:1N4148W D13
 U 1 1 5C3330A4
 P 13600 9800
-F 0 "D?" H 13600 9583 50  0000 C CNN
+F 0 "D13" H 13600 9583 50  0000 C CNN
 F 1 "1N4148W" H 13600 9674 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123" H 13600 9625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13600 9800 50  0001 C CNN
@@ -865,10 +849,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 13600 9800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Diode:1N4148W D?
+L Diode:1N4148W D9
 U 1 1 5C333552
 P 12450 9800
-F 0 "D?" H 12450 10017 50  0000 C CNN
+F 0 "D9" H 12450 10017 50  0000 C CNN
 F 1 "1N4148W" H 12450 9926 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123" H 12450 9625 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12450 9800 50  0001 C CNN
@@ -876,10 +860,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 12450 9800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N4148W D?
+L Diode:1N4148W D8
 U 1 1 5C333C1D
 P 11250 9150
-F 0 "D?" H 11250 9367 50  0000 C CNN
+F 0 "D8" H 11250 9367 50  0000 C CNN
 F 1 "1N4148W" H 11250 9276 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123" H 11250 8975 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11250 9150 50  0001 C CNN
@@ -887,10 +871,10 @@ F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 11250 9150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:BZT52Bxx D?
+L Diode:BZT52Bxx D7
 U 1 1 5C334781
 P 10900 10550
-F 0 "D?" V 10854 10629 50  0000 L CNN
+F 0 "D7" V 10854 10629 50  0000 L CNN
 F 1 "BZT52C16" V 10945 10629 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 10900 10375 50  0001 C CNN
 F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf" H 10900 10550 50  0001 C CNN
@@ -899,14 +883,28 @@ F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf" H 10
 $EndComp
 Connection ~ 10900 10400
 $Comp
-L Diode:BZT52Bxx D?
+L Diode:BZT52Bxx D10
 U 1 1 5C339837
 P 13350 7400
-F 0 "D?" V 13304 7479 50  0000 L CNN
+F 0 "D10" V 13304 7479 50  0000 L CNN
 F 1 "BZT52C16" V 13395 7479 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 13350 7225 50  0001 C CNN
 F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf" H 13350 7400 50  0001 C CNN
 	1    13350 7400
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	9250 6400 9250 6600
+Connection ~ 9250 6400
+Wire Wire Line
+	9250 6400 11000 6400
+Wire Wire Line
+	9250 6900 9250 7150
+Connection ~ 9250 7150
+Wire Wire Line
+	9250 7150 9650 7150
+Wire Wire Line
+	5800 6650 8650 6650
+Wire Wire Line
+	5300 7150 9250 7150
 $EndSCHEMATC
