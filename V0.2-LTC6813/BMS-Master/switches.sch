@@ -65,10 +65,8 @@ Wire Wire Line
 	14100 4500 15200 4500
 Wire Wire Line
 	14100 6600 14450 6600
-Text HLabel 14650 6400 2    50   Input ~ 0
-+12V
 Wire Wire Line
-	14450 4300 14100 4300
+	14550 4300 14100 4300
 Wire Wire Line
 	14550 2350 14100 2350
 $Comp
@@ -681,10 +679,6 @@ Wire Wire Line
 Wire Wire Line
 	9950 6100 10150 6100
 Connection ~ 9950 6100
-Text HLabel 14450 4300 2    50   Input ~ 0
-+12V
-Text HLabel 14550 2350 2    50   Input ~ 0
-+12V
 $Comp
 L Device:Thermistor_NTC TH1
 U 1 1 5C84F4B0
@@ -721,4 +715,16 @@ Wire Wire Line
 	14100 6400 14650 6400
 Wire Notes Line
 	12600 8100 12550 8100
+Text HLabel 15300 1050 2    50   Input ~ 0
+12-24V
+Text Label 14950 1050 2    50   ~ 0
+12-24V
+Wire Wire Line
+	14950 1050 15300 1050
+Text Label 14550 2350 2    50   ~ 0
+12-24V
+Text Label 14550 4300 2    50   ~ 0
+12-24V
+Text Label 14650 6400 2    50   ~ 0
+12-24V
 $EndSCHEMATC

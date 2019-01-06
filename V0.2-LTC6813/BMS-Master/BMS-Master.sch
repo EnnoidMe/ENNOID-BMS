@@ -341,7 +341,7 @@ F8 "Enable" I L 7150 2300 50
 F9 "Safety" I L 7150 2600 50 
 F10 "Vpack" I L 7150 1850 50 
 F11 "Vbat" I L 7150 1750 50 
-F12 "+12V" I L 7150 2850 50 
+F12 "12-24V" I L 7150 2850 50 
 F13 "VoutSense" I R 8700 2900 50 
 F14 "NTC_Switch" I R 8700 2800 50 
 $EndSheet
@@ -403,17 +403,6 @@ F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 10300 2300 50  0001
 F 3 "~" H 10300 2300 50  0001 C CNN
 	1    10300 2300
 	1    0    0    -1  
-$EndComp
-$Comp
-L BMS-Master-rescue:GND-power #PWR0113
-U 1 1 5ABBF581
-P 9800 2500
-F 0 "#PWR0113" H 9800 2250 50  0001 C CNN
-F 1 "GND" H 9805 2327 50  0000 C CNN
-F 2 "" H 9800 2500 50  0001 C CNN
-F 3 "" H 9800 2500 50  0001 C CNN
-	1    9800 2500
-	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	9800 2500 9800 2400
@@ -842,26 +831,18 @@ Wire Wire Line
 Wire Wire Line
 	6100 2350 6400 2350
 Wire Wire Line
-	6400 2350 6400 3500
+	6400 2350 6400 3800
 Wire Wire Line
 	6400 4550 7150 4550
 Wire Wire Line
-	6100 3500 6400 3500
-Connection ~ 6400 3500
+	6100 3800 6400 3800
+Connection ~ 6400 3800
 Wire Wire Line
-	6400 3500 6400 4550
-Wire Wire Line
-	6100 3600 6300 3600
-Wire Wire Line
-	6300 3600 6300 4700
+	6400 3800 6400 4550
 Wire Wire Line
 	6300 4700 7150 4700
 Wire Wire Line
 	7150 4800 6250 4800
-Wire Wire Line
-	6250 4800 6250 3700
-Wire Wire Line
-	6250 3700 6100 3700
 Wire Wire Line
 	6100 3300 6650 3300
 Wire Wire Line
@@ -874,13 +855,13 @@ U 5AC18063
 F0 "PowerSupply" 50
 F1 "PowerSupply.sch" 50
 F2 "PushButton" I L 4350 3900 50 
-F3 "PowerButton" I R 6100 3700 50 
-F4 "PowerEnable" I R 6100 3600 50 
+F3 "PowerButton" I R 6100 4000 50 
+F4 "PowerEnable" I R 6100 3900 50 
 F5 "ExternalPower" I L 4350 3600 50 
-F6 "ChargeDetect" I R 6100 3500 50 
+F6 "ChargeDetect" I R 6100 3800 50 
 F7 "BAT+" I L 4350 3300 50 
-F8 "+12V" I R 6100 3300 50 
-F9 "EnableFromExt" I R 6100 3400 50 
+F8 "12-24V" I R 6100 3300 50 
+F9 "EnableFromExt" I R 6100 3500 50 
 $EndSheet
 Wire Wire Line
 	2700 3300 2700 900 
@@ -890,9 +871,9 @@ Wire Wire Line
 Wire Wire Line
 	6150 4950 7150 4950
 Wire Wire Line
-	6100 3400 9150 3400
+	6100 3500 9150 3500
 Wire Wire Line
-	9150 3400 9150 6700
+	9150 3500 9150 6700
 Wire Wire Line
 	9150 6700 9250 6700
 Wire Wire Line
@@ -982,19 +963,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 3600 3650 3600
 Wire Notes Line width 20
-	5100 2750 5100 3500
-Wire Notes Line width 20
-	5100 3500 2800 3500
-Wire Notes Line width 20
 	2800 3500 2800 4850
-Wire Notes Line width 20
-	2800 4850 5150 4850
-Wire Notes Line width 20
-	5150 4900 5150 8850
-Wire Notes Line width 20
-	5150 8850 950  8850
-Wire Notes Line width 20
-	950  600  950  8800
 Text Notes 1200 2200 0    200  ~ 40
 ISOLATED
 $Comp
@@ -1023,10 +992,6 @@ Wire Wire Line
 	2400 8600 2400 8550
 Wire Wire Line
 	2400 8550 2300 8550
-Wire Notes Line width 20
-	2800 2750 5100 2750
-Text Notes 5150 8850 0    200  ~ 40
-NNOID
 $Sheet
 S 7150 3650 1550 6450
 U 5AB72D4D
@@ -1229,4 +1194,39 @@ Wire Notes Line
 	9950 7550 9950 8400
 Wire Notes Line
 	10100 7550 10100 8400
+Wire Wire Line
+	6250 4800 6250 4000
+Wire Wire Line
+	6250 4000 6100 4000
+Wire Wire Line
+	6100 3900 6300 3900
+Wire Wire Line
+	6300 3900 6300 4700
+Wire Notes Line width 20
+	5250 2750 5250 3500
+Wire Notes Line width 20
+	2800 4850 5800 4850
+Wire Notes Line width 20
+	950  600  950  8850
+$Comp
+L power:GND #PWR?
+U 1 1 5C686A2F
+P 9800 2500
+F 0 "#PWR?" H 9800 2250 50  0001 C CNN
+F 1 "GND" H 9805 2327 50  0000 C CNN
+F 2 "" H 9800 2500 50  0001 C CNN
+F 3 "" H 9800 2500 50  0001 C CNN
+	1    9800 2500
+	1    0    0    -1  
+$EndComp
+Wire Notes Line width 20
+	2800 2750 5250 2750
+Wire Notes Line width 20
+	2800 3500 5250 3500
+Wire Notes Line width 20
+	950  8850 5800 8850
+Wire Notes Line width 20
+	5800 4850 5800 8850
+Text Notes 5850 8850 0    200  ~ 40
+NNOID
 $EndSCHEMATC

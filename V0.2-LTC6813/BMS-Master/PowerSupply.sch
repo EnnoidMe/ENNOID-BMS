@@ -154,12 +154,8 @@ F 3 "" H 9650 7150 50  0001 C CNN
 	1    9650 7150
 	1    0    0    -1  
 $EndComp
-Text HLabel 11200 5900 2    50   Input ~ 0
-+12V
-Wire Wire Line
-	11000 6400 11000 5900
-Wire Wire Line
-	11000 5900 11200 5900
+Text HLabel 9250 4300 2    50   Input ~ 0
+12-24V
 $Comp
 L Regulator_Switching:LM5165 U19
 U 1 1 5C600D32
@@ -198,8 +194,6 @@ $EndComp
 Wire Wire Line
 	11900 6700 11900 6400
 Connection ~ 11900 6400
-Wire Wire Line
-	11900 6400 12400 6400
 Wire Wire Line
 	12400 6700 12400 6400
 $Comp
@@ -244,9 +238,6 @@ Wire Wire Line
 	14050 6950 14050 6500
 Wire Wire Line
 	14050 6500 14500 6500
-Wire Wire Line
-	11000 6400 11900 6400
-Connection ~ 11000 6400
 Wire Wire Line
 	12400 6400 13350 6400
 Connection ~ 12400 6400
@@ -897,8 +888,6 @@ Wire Wire Line
 	9250 6400 9250 6600
 Connection ~ 9250 6400
 Wire Wire Line
-	9250 6400 11000 6400
-Wire Wire Line
 	9250 6900 9250 7150
 Connection ~ 9250 7150
 Wire Wire Line
@@ -907,4 +896,10 @@ Wire Wire Line
 	5800 6650 8650 6650
 Wire Wire Line
 	5300 7150 9250 7150
+Wire Wire Line
+	9250 4300 9250 6400
+Wire Wire Line
+	9250 6400 11900 6400
+Wire Wire Line
+	11900 6400 12400 6400
 $EndSCHEMATC
