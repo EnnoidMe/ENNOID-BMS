@@ -20,7 +20,7 @@ U 1 1 5C246DA5
 P 5350 3600
 F 0 "U7" H 5900 4700 50  0000 C CNN
 F 1 "CP2104" H 5800 4600 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 5500 2650 50  0001 L CNN
+F 2 "Housings_DFN_QFN:QFN-24-1EP_4x4mm_Pitch0.5mm" H 5500 2650 50  0001 L CNN
 F 3 "https://www.silabs.com/Support%20Documents/TechnicalDocs/cp2104.pdf" H 4800 4850 50  0001 C CNN
 	1    5350 3600
 	-1   0    0    -1  
@@ -95,7 +95,7 @@ U 1 1 5C2FBFBC
 P 6800 4150
 F 0 "D3" H 7005 4196 50  0000 L CNN
 F 1 "SP0502BAHT" H 7005 4105 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7025 4100 50  0001 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 7025 4100 50  0001 L CNN
 F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 6925 4275 50  0001 C CNN
 	1    6800 4150
 	1    0    0    -1  
@@ -327,17 +327,6 @@ Wire Wire Line
 	6800 2200 6800 2050
 Wire Wire Line
 	6400 2050 6400 2200
-$Comp
-L Transistor_FET:BSS138 Q26
-U 1 1 5C307737
-P 8650 1750
-F 0 "Q26" H 8856 1796 50  0000 L CNN
-F 1 "BSS138" H 8856 1705 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8850 1675 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 8650 1750 50  0001 L CNN
-	1    8650 1750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7900 1500 7900 1750
 Wire Wire Line
@@ -377,4 +366,15 @@ NoConn ~ 6050 3800
 NoConn ~ 6050 3900
 NoConn ~ 6050 4000
 NoConn ~ 6050 4100
+$Comp
+L Transistor_FET:BSS138 Q26
+U 1 1 5C307737
+P 8650 1750
+F 0 "Q26" H 8856 1796 50  0000 L CNN
+F 1 "BSS138" H 8856 1705 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 8850 1675 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 8650 1750 50  0001 L CNN
+	1    8650 1750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

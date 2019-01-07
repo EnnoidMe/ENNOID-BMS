@@ -484,7 +484,7 @@ U 1 1 5ABE0CA0
 P 7700 9400
 F 0 "Q27" H 7905 9446 50  0000 L CNN
 F 1 "BSS138" H 7905 9355 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7900 9325 50  0001 L CIN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 7900 9325 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 7700 9400 50  0001 L CNN
 	1    7700 9400
 	1    0    0    -1  
@@ -495,7 +495,7 @@ U 1 1 5A92186F
 P 16500 9800
 F 0 "U17" H 17300 11700 50  0000 C CNN
 F 1 "STM32F303CCTx" H 17350 11600 50  0000 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 23700 11475 50  0001 R TNN
+F 2 "Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm" H 23700 11475 50  0001 R TNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00058181.pdf" H 16500 9800 50  0001 C CNN
 	1    16500 9800
 	1    0    0    -1  
@@ -677,7 +677,7 @@ U 1 1 5A934D3C
 P 7050 12250
 F 0 "C79" H 7165 12296 50  0000 L CNN
 F 1 "C" H 7165 12205 50  0000 L CNN
-F 2 "" H 7088 12100 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7088 12100 50  0001 C CNN
 F 3 "~" H 7050 12250 50  0001 C CNN
 	1    7050 12250
 	1    0    0    -1  
@@ -841,4 +841,5 @@ Wire Wire Line
 NoConn ~ 5700 11000
 NoConn ~ 5700 11700
 NoConn ~ 9200 8800
+NoConn ~ 7250 10350
 $EndSCHEMATC
