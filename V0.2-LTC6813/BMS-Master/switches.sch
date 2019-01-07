@@ -20,22 +20,14 @@ Text HLabel 4500 4250 0    50   Input ~ 0
 ChargeEnable
 Text HLabel 4500 5850 0    50   Input ~ 0
 PrechargeEnable
-Text HLabel 12950 7100 2    50   Input ~ 0
+Text HLabel 14450 7400 2    50   Input ~ 0
 Discharge
-Text HLabel 13700 5000 2    50   Input ~ 0
+Text HLabel 14500 5000 2    50   Input ~ 0
 Precharge
-Text HLabel 13800 3050 2    50   Input ~ 0
+Text HLabel 14600 3300 2    50   Input ~ 0
 Charge
 Wire Wire Line
-	12600 3050 13800 3050
-Wire Wire Line
-	12600 5000 13700 5000
-Wire Wire Line
-	12600 7100 12950 7100
-Wire Wire Line
-	13050 4600 12600 4600
-Wire Wire Line
-	13050 2650 12600 2650
+	13400 5000 14500 5000
 $Comp
 L BMS-Master-rescue:R-Device R24
 U 1 1 5AD01241
@@ -270,19 +262,13 @@ Connection ~ 5800 5050
 Wire Wire Line
 	5800 5050 5900 5050
 Wire Wire Line
-	12100 2850 12300 2850
-Wire Wire Line
 	8900 4600 11350 4600
 Wire Wire Line
 	11350 4600 11350 2850
 Wire Wire Line
 	11350 2850 11800 2850
 Wire Wire Line
-	12100 4800 12300 4800
-Wire Wire Line
 	8900 4800 11800 4800
-Wire Wire Line
-	12100 6900 12300 6900
 Wire Wire Line
 	8900 5050 11350 5050
 Wire Wire Line
@@ -506,53 +492,134 @@ F 3 "" H 3300 9700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3300 9500 3300 9700
-Wire Wire Line
-	12600 6700 13150 6700
 Wire Notes Line
 	12600 8100 12550 8100
-Text HLabel 15300 1050 2    50   Input ~ 0
+Text HLabel 1850 1250 0    50   Input ~ 0
 12-24V
-Text Label 14950 1050 2    50   ~ 0
+Text Label 2200 1250 0    50   ~ 0
 12-24V
 Wire Wire Line
-	14950 1050 15300 1050
-Text Label 13050 2650 2    50   ~ 0
-12-24V
-Text Label 13050 4600 2    50   ~ 0
-12-24V
-Text Label 13150 6700 2    50   ~ 0
+	2200 1250 1850 1250
+Text Label 14300 4450 2    50   ~ 0
 12-24V
 $Comp
 L Transistor_FET:IRF6614 Q?
 U 1 1 5C720727
-P 12500 2850
-F 0 "Q?" H 12706 2896 50  0000 L CNN
-F 1 "IRF6614" H 12706 2805 50  0000 L CNN
-F 2 "Package_DirectFET:DirectFET_ST" H 12500 2850 50  0001 C CIN
-F 3 "https://www.infineon.com/dgdl/irf6614pbf.pdf?fileId=5546d462533600a4015355e8346c1a0f" H 12500 2850 50  0001 L CNN
-	1    12500 2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_FET:IRF6614 Q?
-U 1 1 5C72452E
-P 12500 4800
-F 0 "Q?" H 12706 4846 50  0000 L CNN
-F 1 "IRF6614" H 12706 4755 50  0000 L CNN
-F 2 "Package_DirectFET:DirectFET_ST" H 12500 4800 50  0001 C CIN
-F 3 "https://www.infineon.com/dgdl/irf6614pbf.pdf?fileId=5546d462533600a4015355e8346c1a0f" H 12500 4800 50  0001 L CNN
-	1    12500 4800
+P 13300 2850
+F 0 "Q?" H 13506 2896 50  0000 L CNN
+F 1 "IRF6614" H 13506 2805 50  0000 L CNN
+F 2 "Package_DirectFET:DirectFET_ST" H 13300 2850 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/irf6614pbf.pdf?fileId=5546d462533600a4015355e8346c1a0f" H 13300 2850 50  0001 L CNN
+	1    13300 2850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_FET:IRF6614 Q?
 U 1 1 5C7254ED
-P 12500 6900
-F 0 "Q?" H 12706 6946 50  0000 L CNN
-F 1 "IRF6614" H 12706 6855 50  0000 L CNN
-F 2 "Package_DirectFET:DirectFET_ST" H 12500 6900 50  0001 C CIN
-F 3 "https://www.infineon.com/dgdl/irf6614pbf.pdf?fileId=5546d462533600a4015355e8346c1a0f" H 12500 6900 50  0001 L CNN
-	1    12500 6900
+P 13300 6900
+F 0 "Q?" H 13506 6946 50  0000 L CNN
+F 1 "IRF6614" H 13506 6855 50  0000 L CNN
+F 2 "Package_DirectFET:DirectFET_ST" H 13300 6900 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/irf6614pbf.pdf?fileId=5546d462533600a4015355e8346c1a0f" H 13300 6900 50  0001 L CNN
+	1    13300 6900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	12100 4800 12750 4800
+Wire Wire Line
+	12100 6900 12750 6900
+Text Label 13850 2650 2    50   ~ 0
+12-24V
+Wire Wire Line
+	13850 2650 13400 2650
+$Comp
+L BMS-Master-rescue:R-Device R?
+U 1 1 5C76C82D
+P 12850 3100
+F 0 "R?" V 13057 3100 50  0000 C CNN
+F 1 "4.7M" V 12966 3100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 12780 3100 50  0001 C CNN
+F 3 "~" H 12850 3100 50  0001 C CNN
+	1    12850 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12850 3300 13400 3300
+Wire Wire Line
+	13400 3300 13400 3050
+Wire Wire Line
+	13400 3300 14600 3300
+Connection ~ 13400 3300
+Wire Wire Line
+	12850 3250 12850 3300
+Wire Wire Line
+	12100 2850 12850 2850
+Wire Wire Line
+	12850 2950 12850 2850
+Connection ~ 12850 2850
+Wire Wire Line
+	12850 2850 13100 2850
+$Comp
+L BMS-Master-rescue:R-Device R?
+U 1 1 5C7765D0
+P 12750 7150
+F 0 "R?" V 12957 7150 50  0000 C CNN
+F 1 "4.7M" V 12866 7150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 12680 7150 50  0001 C CNN
+F 3 "~" H 12750 7150 50  0001 C CNN
+	1    12750 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12750 7000 12750 6900
+Connection ~ 12750 6900
+Wire Wire Line
+	12750 6900 13100 6900
+Wire Wire Line
+	12750 7300 12750 7400
+Wire Wire Line
+	12750 7400 13400 7400
+Wire Wire Line
+	13400 7100 13400 7400
+Connection ~ 13400 7400
+Wire Wire Line
+	13400 7400 14450 7400
+$Comp
+L Transistor_FET:IRF7606PBF Q?
+U 1 1 5C782F5A
+P 13300 4800
+F 0 "Q?" H 13506 4846 50  0000 L CNN
+F 1 "IRF7606PBF" H 13506 4755 50  0000 L CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 13500 4725 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irf7606pbf.pdf" V 13300 4800 50  0001 L CNN
+	1    13300 4800
+	1    0    0    -1  
+$EndComp
+Text Label 13950 6700 2    50   ~ 0
+12-24V
+Wire Wire Line
+	13400 6700 13950 6700
+$Comp
+L BMS-Master-rescue:R-Device R?
+U 1 1 5C788A5B
+P 12750 4650
+F 0 "R?" V 12957 4650 50  0000 C CNN
+F 1 "4.7M" V 12866 4650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 12680 4650 50  0001 C CNN
+F 3 "~" H 12750 4650 50  0001 C CNN
+	1    12750 4650
+	1    0    0    -1  
+$EndComp
+Connection ~ 12750 4800
+Wire Wire Line
+	12750 4800 13100 4800
+Wire Wire Line
+	12750 4450 12750 4500
+Wire Wire Line
+	12750 4450 13400 4450
+Wire Wire Line
+	13400 4600 13400 4450
+Connection ~ 13400 4450
+Wire Wire Line
+	13400 4450 14300 4450
 $EndSCHEMATC
