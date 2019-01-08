@@ -522,41 +522,8 @@ Wire Wire Line
 	11400 8050 10850 8050
 Wire Wire Line
 	10850 8150 11400 8150
-$Comp
-L BMS-Master-rescue:Conn_01x01-Connector_Generic J1
-U 1 1 5AC7F25B
-P 1350 900
-F 0 "J1" H 1500 900 50  0000 R CNN
-F 1 "BAT+" H 1500 1000 50  0000 R CNN
-F 2 "Mounting_Holes:MountingHole_2.5mm_Pad" H 1350 900 50  0001 C CNN
-F 3 "~" H 1350 900 50  0001 C CNN
-	1    1350 900 
-	-1   0    0    1   
-$EndComp
-$Comp
-L BMS-Master-rescue:Conn_01x01-Connector_Generic J13
-U 1 1 5AC75917
-P 14400 950
-F 0 "J13" H 14550 950 50  0000 R CNN
-F 1 "Charge+" H 14700 1050 50  0000 R CNN
-F 2 "Mounting_Holes:MountingHole_2.5mm_Pad" H 14400 950 50  0001 C CNN
-F 3 "~" H 14400 950 50  0001 C CNN
-	1    14400 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L BMS-Master-rescue:Conn_01x01-Connector_Generic J2
-U 1 1 5C2CD367
-P 1350 1250
-F 0 "J2" H 1500 1250 50  0000 R CNN
-F 1 "BAT-" H 1500 1350 50  0000 R CNN
-F 2 "Mounting_Holes:MountingHole_2.5mm_Pad" H 1350 1250 50  0001 C CNN
-F 3 "~" H 1350 1250 50  0001 C CNN
-	1    1350 1250
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
-	1950 1250 1950 1350
+	1950 1000 1950 1350
 Wire Wire Line
 	8700 6800 9250 6800
 Wire Wire Line
@@ -725,30 +692,6 @@ Wire Wire Line
 Wire Wire Line
 	7150 7700 6850 7700
 $Comp
-L BMS-Master-rescue:Conn_01x01-Connector_Generic J14
-U 1 1 5C36D2BC
-P 14400 1250
-F 0 "J14" H 14550 1250 50  0000 R CNN
-F 1 "Discharge+" H 14700 1350 50  0000 R CNN
-F 2 "Mounting_Holes:MountingHole_2.5mm_Pad" H 14400 1250 50  0001 C CNN
-F 3 "~" H 14400 1250 50  0001 C CNN
-	1    14400 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L BMS-Master-rescue:Conn_01x01-Connector_Generic J15
-U 1 1 5C377043
-P 14400 1600
-F 0 "J15" H 14550 1600 50  0000 R CNN
-F 1 "Common" H 14550 1700 50  0000 R CNN
-F 2 "Mounting_Holes:MountingHole_2.5mm_Pad" H 14400 1600 50  0001 C CNN
-F 3 "~" H 14400 1600 50  0001 C CNN
-	1    14400 1600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13600 1600 13600 1700
-$Comp
 L power:GNDA #PWR0116
 U 1 1 5C377052
 P 13600 1700
@@ -806,22 +749,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 1250 14200 1250
 Wire Wire Line
-	13950 1600 14200 1600
-Wire Wire Line
-	13650 1600 13600 1600
-$Comp
-L BMS-Master-rescue:R-Device R5
-U 1 1 5C377049
-P 13800 1600
-F 0 "R5" V 14000 1600 50  0000 C CNN
-F 1 "15" V 13900 1600 50  0000 C CNN
-F 2 "Resistors_SMD:R_2512_HandSoldering" V 13730 1600 50  0001 C CNN
-F 3 "~" H 13800 1600 50  0001 C CNN
-	1    13800 1600
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	1550 1250 1950 1250
+	1550 1000 1950 1000
 Wire Wire Line
 	3700 8550 4350 8550
 Wire Wire Line
@@ -971,7 +899,7 @@ L Connector_Generic:Conn_01x10 J5
 U 1 1 5CCA1BE6
 P 2100 8050
 F 0 "J5" H 2018 8667 50  0000 C CNN
-F 1 "Conn_01x10" H 2018 8576 50  0000 C CNN
+F 1 "Temp" H 2018 8576 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 2100 8050 50  0001 C CNN
 F 3 "~" H 2100 8050 50  0001 C CNN
 	1    2100 8050
@@ -1229,4 +1157,46 @@ Wire Notes Line width 20
 	5800 4850 5800 8850
 Text Notes 5850 8850 0    200  ~ 40
 NNOID
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5C3822E8
+P 14400 950
+F 0 "J2" H 14480 942 50  0000 L CNN
+F 1 "Charge" H 14480 851 50  0000 L CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00001_Pitch5.00mm" H 14400 950 50  0001 C CNN
+F 3 "~" H 14400 950 50  0001 C CNN
+	1    14400 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J13
+U 1 1 5C382B94
+P 14400 1250
+F 0 "J13" H 14480 1242 50  0000 L CNN
+F 1 "Discharge" H 14480 1151 50  0000 L CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00001_Pitch5.00mm" H 14400 1250 50  0001 C CNN
+F 3 "~" H 14400 1250 50  0001 C CNN
+	1    14400 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13600 1350 14200 1350
+Wire Wire Line
+	13600 1350 13600 1700
+Wire Wire Line
+	13600 1350 13600 1050
+Wire Wire Line
+	13600 1050 14200 1050
+Connection ~ 13600 1350
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5C39EE7F
+P 1350 900
+F 0 "J1" H 1268 1117 50  0000 C CNN
+F 1 "BAT" H 1268 1026 50  0000 C CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00001_Pitch5.00mm" H 1350 900 50  0001 C CNN
+F 3 "~" H 1350 900 50  0001 C CNN
+	1    1350 900 
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -74,16 +74,8 @@ F3 "V-" I L 4350 14450 50
 F4 "C" I R 4850 14250 50 
 F5 "C+" I L 4350 14250 50 
 $EndSheet
-Text Label 5100 15000 0    50   ~ 0
-S1
-Text Label 5100 14800 0    50   ~ 0
-C1
 Wire Wire Line
 	1600 6750 1600 6600
-Text Label 5100 14450 0    50   ~ 0
-S2
-Text Label 5100 14250 0    50   ~ 0
-C2
 $Sheet
 S 4350 13600 500  400 
 U 5B50012A
@@ -94,10 +86,6 @@ F3 "V-" I L 4350 13900 50
 F4 "C" I R 4850 13700 50 
 F5 "C+" I L 4350 13700 50 
 $EndSheet
-Text Label 5100 13900 0    50   ~ 0
-S3
-Text Label 5100 13700 0    50   ~ 0
-C3
 $Sheet
 S 4350 13050 500  400 
 U 5B502FEF
@@ -108,10 +96,6 @@ F3 "V-" I L 4350 13350 50
 F4 "C" I R 4850 13150 50 
 F5 "C+" I L 4350 13150 50 
 $EndSheet
-Text Label 5100 13350 0    50   ~ 0
-S4
-Text Label 5100 13150 0    50   ~ 0
-C4
 $Sheet
 S 4350 12500 500  400 
 U 5B50355C
@@ -122,10 +106,6 @@ F3 "V-" I L 4350 12800 50
 F4 "C" I R 4850 12600 50 
 F5 "C+" I L 4350 12600 50 
 $EndSheet
-Text Label 5100 12800 0    50   ~ 0
-S5
-Text Label 5100 12600 0    50   ~ 0
-C5
 $Sheet
 S 4350 11950 500  400 
 U 5B504105
@@ -136,10 +116,6 @@ F3 "V-" I L 4350 12250 50
 F4 "C" I R 4850 12050 50 
 F5 "C+" I L 4350 12050 50 
 $EndSheet
-Text Label 5100 12250 0    50   ~ 0
-S6
-Text Label 5100 12050 0    50   ~ 0
-C6
 $Sheet
 S 4350 11400 500  400 
 U 5B504814
@@ -150,10 +126,6 @@ F3 "V-" I L 4350 11700 50
 F4 "C" I R 4850 11500 50 
 F5 "C+" I L 4350 11500 50 
 $EndSheet
-Text Label 5100 11700 0    50   ~ 0
-S7
-Text Label 5100 11500 0    50   ~ 0
-C7
 $Sheet
 S 4350 10850 500  400 
 U 5B5050BC
@@ -164,10 +136,6 @@ F3 "V-" I L 4350 11150 50
 F4 "C" I R 4850 10950 50 
 F5 "C+" I L 4350 10950 50 
 $EndSheet
-Text Label 5100 11150 0    50   ~ 0
-S8
-Text Label 5100 10950 0    50   ~ 0
-C8
 $Sheet
 S 4350 10300 500  400 
 U 5B50594B
@@ -178,10 +146,6 @@ F3 "V-" I L 4350 10600 50
 F4 "C" I R 4850 10400 50 
 F5 "C+" I L 4350 10400 50 
 $EndSheet
-Text Label 5100 10600 0    50   ~ 0
-S9
-Text Label 5100 10400 0    50   ~ 0
-C9
 $Sheet
 S 4350 9750 500  400 
 U 5B506BB1
@@ -192,10 +156,6 @@ F3 "V-" I L 4350 10050 50
 F4 "C" I R 4850 9850 50 
 F5 "C+" I L 4350 9850 50 
 $EndSheet
-Text Label 5100 10050 0    50   ~ 0
-S10
-Text Label 5100 9850 0    50   ~ 0
-C10
 $Sheet
 S 4350 9200 500  400 
 U 5B507536
@@ -206,10 +166,6 @@ F3 "V-" I L 4350 9500 50
 F4 "C" I R 4850 9300 50 
 F5 "C+" I L 4350 9300 50 
 $EndSheet
-Text Label 5100 9500 0    50   ~ 0
-S11
-Text Label 5100 9300 0    50   ~ 0
-C11
 $Sheet
 S 4350 8650 500  400 
 U 5B50804F
@@ -220,10 +176,6 @@ F3 "V-" I L 4350 8950 50
 F4 "C" I R 4850 8750 50 
 F5 "C+" I L 4350 8750 50 
 $EndSheet
-Text Label 5100 8950 0    50   ~ 0
-S12
-Text Label 5100 8750 0    50   ~ 0
-C12
 $Sheet
 S 4350 8100 500  400 
 U 5B508C6C
@@ -234,10 +186,6 @@ F3 "V-" I L 4350 8400 50
 F4 "C" I R 4850 8200 50 
 F5 "C+" I L 4350 8200 50 
 $EndSheet
-Text Label 5100 8400 0    50   ~ 0
-S13
-Text Label 5100 8200 0    50   ~ 0
-C13
 $Sheet
 S 4350 7550 500  400 
 U 5B509A8B
@@ -248,10 +196,6 @@ F3 "V-" I L 4350 7850 50
 F4 "C" I R 4850 7650 50 
 F5 "C+" I L 4350 7650 50 
 $EndSheet
-Text Label 5100 7850 0    50   ~ 0
-S14
-Text Label 5100 7650 0    50   ~ 0
-C14
 $Sheet
 S 4350 7000 500  400 
 U 5B50AABA
@@ -680,22 +624,6 @@ Wire Wire Line
 	14350 3500 14350 3450
 Wire Wire Line
 	14350 3800 14350 3850
-Text Label 5100 7300 0    50   ~ 0
-S15
-Text Label 5100 7100 0    50   ~ 0
-C15
-Text Label 5100 6750 0    50   ~ 0
-S16
-Text Label 5100 6550 0    50   ~ 0
-C16
-Text Label 5100 6200 0    50   ~ 0
-S17
-Text Label 5100 6000 0    50   ~ 0
-C17
-Text Label 5100 5650 0    50   ~ 0
-S18
-Text Label 5100 5450 0    50   ~ 0
-C18
 Text Label 2200 6600 0    50   ~ 0
 C0
 Text Label 8400 3950 1    50   ~ 0
@@ -757,44 +685,8 @@ Text HLabel 16650 3450 2    50   Input ~ 0
 MB
 Text HLabel 16650 3850 2    50   Input ~ 0
 PB
-Text Label 4050 14800 0    50   ~ 0
-C+1
-Text Label 4050 14250 0    50   ~ 0
-C+2
-Text Label 4050 13700 0    50   ~ 0
-C+3
-Text Label 4050 13150 0    50   ~ 0
-C+4
-Text Label 4050 12600 0    50   ~ 0
-C+5
-Text Label 4050 12050 0    50   ~ 0
-C+6
-Text Label 4050 11500 0    50   ~ 0
-C+7
-Text Label 4050 10950 0    50   ~ 0
-C+8
-Text Label 4050 10400 0    50   ~ 0
-C+9
-Text Label 4050 9850 0    50   ~ 0
-C+10
-Text Label 4050 9300 0    50   ~ 0
-C+11
-Text Label 4050 8750 0    50   ~ 0
-C+12
-Text Label 4050 8200 0    50   ~ 0
-C+13
-Text Label 4050 7650 0    50   ~ 0
-C+14
-Text Label 4050 7100 0    50   ~ 0
-C+15
-Text Label 4050 6550 0    50   ~ 0
-C+16
 Wire Wire Line
 	4000 6000 4300 6000
-Text Label 4050 6000 0    50   ~ 0
-C+17
-Text Label 4100 5450 0    50   ~ 0
-C+18
 Text HLabel 10550 5450 2    50   Input ~ 0
 GPIO1
 Wire Wire Line
