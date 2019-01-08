@@ -32,11 +32,11 @@ https://endless-sphere.com/forums/viewtopic.php?f=14&t=92952
 
 ### Features:
 - Modular **master board** for sub 18 cells ~80V packs & additionnal **slave boards** for up to 1000V pack
-- Isolated output for Charge, Discharge & Precharge contactor
 - Integrated isolated power supply unit for sub 400V packs (external PSU possible through the dedicated connector for above 400V packs)
 - Isolated voltage measurement for Charge, Discharge & Pack buses
 - Current monitoring via external isolated delta-sigma current sensor
 - Isolated CAN bus interface for cell voltage monitoring and charger detection, status monitoring + much more with future updates (like state of charge / state of health).
+- Output for Charge, Discharge & Precharge contactors
 - USB interface for serial communication and firmware upgrades (no need for a programmer -> HW serial bootloader is used).
 - Wireless transceiver
 - SDCard for logging (to develop a SoC and SoH algorithm)
