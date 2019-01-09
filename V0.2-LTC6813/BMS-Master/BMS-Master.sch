@@ -80,7 +80,7 @@ L BMS-Master-rescue:LED-Device D2
 U 1 1 5ABAB322
 P 6800 10700
 F 0 "D2" V 6838 10583 50  0000 R CNN
-F 1 "LED" V 6747 10583 50  0000 R CNN
+F 1 "STATUS" V 6747 10583 50  0000 R CNN
 F 2 "LEDs:LED_0603_HandSoldering" H 6800 10700 50  0001 C CNN
 F 3 "~" H 6800 10700 50  0001 C CNN
 	1    6800 10700
@@ -113,7 +113,7 @@ L BMS-Master-rescue:LED-Device D1
 U 1 1 5ABB20FE
 P 2250 10500
 F 0 "D1" V 2288 10383 50  0000 R CNN
-F 1 "LED" V 2197 10383 50  0000 R CNN
+F 1 "POWER" V 2197 10383 50  0000 R CNN
 F 2 "LEDs:LED_0603_HandSoldering" H 2250 10500 50  0001 C CNN
 F 3 "~" H 2250 10500 50  0001 C CNN
 	1    2250 10500
@@ -164,10 +164,6 @@ F 3 "" H 2250 9850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2250 9850 2250 9950
-Text Notes 2000 10500 1    50   ~ 0
-Power LED
-Text Notes 6600 10850 1    50   ~ 0
-Status LED
 $Comp
 L BMS-Master-rescue:R-Device R4
 U 1 1 5ABC0C8F
@@ -241,7 +237,7 @@ U 1 1 5ABE6776
 P 3500 4250
 F 0 "J6" V 3700 4050 50  0000 C CNN
 F 1 "Power Button" V 3600 4250 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_KK-6410-05_05x2.54mm_Straight" H 3500 4250 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_PicoBlade_53398-0571_05x1.25mm_Straight" H 3500 4250 50  0001 C CNN
 F 3 "~" H 3500 4250 50  0001 C CNN
 	1    3500 4250
 	-1   0    0    -1  
@@ -507,7 +503,7 @@ U 1 1 5C2681C9
 P 11600 7950
 F 0 "J11" H 11680 7992 50  0000 L CNN
 F 1 "CAN" H 11680 7901 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x05_Pitch2.54mm" H 11600 7950 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_PicoBlade_53261-0571_05x1.25mm_Angled" H 11600 7950 50  0001 C CNN
 F 3 "" H 11600 7950 50  0001 C CNN
 	1    11600 7950
 	1    0    0    -1  
@@ -550,11 +546,11 @@ F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 10250 10600 50  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS-Master-rescue:Conn_01x02-Connector_Generic DaisyChain1
+L BMS-Master-rescue:Conn_01x02-Connector_Generic J14
 U 1 1 5C30CF47
 P 2050 5150
-F 0 "DaisyChain1" H 2129 5142 50  0000 L CNN
-F 1 "J?" H 2129 5051 50  0000 L CNN
+F 0 "J14" H 2129 5142 50  0000 L CNN
+F 1 "DaisyChain" H 2129 5051 50  0000 L CNN
 F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 2050 5150 50  0001 C CNN
 F 3 "~" H 2050 5150 50  0001 C CNN
 	1    2050 5150
@@ -990,7 +986,7 @@ U 1 1 5C37653F
 P 11150 9250
 F 0 "J18" H 11230 9292 50  0000 L CNN
 F 1 "OLED" H 11230 9201 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x05_Pitch2.54mm" H 11150 9250 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_PicoBlade_53398-0571_05x1.25mm_Straight" H 11150 9250 50  0001 C CNN
 F 3 "" H 11150 9250 50  0001 C CNN
 	1    11150 9250
 	1    0    0    -1  

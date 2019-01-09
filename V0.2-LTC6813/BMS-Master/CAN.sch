@@ -106,10 +106,6 @@ Text HLabel 7550 3450 2    50   Input ~ 0
 CANL
 Wire Wire Line
 	6000 3650 6000 4300
-Wire Wire Line
-	7550 3550 6900 3550
-Wire Wire Line
-	6000 3450 7100 3450
 $Comp
 L BMS-Master-rescue:C-Device C43
 U 1 1 5A924642
@@ -266,16 +262,6 @@ Wire Wire Line
 	7000 4100 7000 4200
 Wire Wire Line
 	7000 4200 7150 4200
-Wire Wire Line
-	6900 3700 6900 3550
-Connection ~ 6900 3550
-Wire Wire Line
-	6900 3550 6000 3550
-Wire Wire Line
-	7100 3700 7100 3450
-Connection ~ 7100 3450
-Wire Wire Line
-	7100 3450 7550 3450
 Wire Notes Line
 	5650 2350 5650 6300
 Wire Notes Line
@@ -332,4 +318,18 @@ Text HLabel 7450 6000 2    50   Input ~ 0
 Enable_CAN
 Wire Wire Line
 	6600 6000 7450 6000
+Wire Wire Line
+	6000 3450 6900 3450
+Wire Wire Line
+	6000 3550 7100 3550
+Wire Wire Line
+	6900 3700 6900 3450
+Connection ~ 6900 3450
+Wire Wire Line
+	6900 3450 7550 3450
+Wire Wire Line
+	7100 3700 7100 3550
+Connection ~ 7100 3550
+Wire Wire Line
+	7100 3550 7550 3550
 $EndSCHEMATC
