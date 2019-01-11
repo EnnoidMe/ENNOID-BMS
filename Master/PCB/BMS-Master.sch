@@ -19,7 +19,7 @@ L BMS-Master-rescue:USB_B_Micro-Connector_Specialized J12
 U 1 1 5A966632
 P 11850 6750
 F 0 "J12" H 11906 7217 50  0000 C CNN
-F 1 "USB_B_Micro" H 11906 7126 50  0000 C CNN
+F 1 "USB" H 11906 7126 50  0000 C CNN
 F 2 "Connectors_USB:USB_Micro-B_Molex_47346-0001" H 12000 6700 50  0001 C CNN
 F 3 "~" H 12000 6700 50  0001 C CNN
 	1    11850 6750
@@ -321,7 +321,7 @@ L BMS-Master-rescue:Conn_01x02-Connector_Generic J3
 U 1 1 5AB7AB5E
 P 3450 3600
 F 0 "J3" H 3529 3592 50  0000 L CNN
-F 1 "ExternalPower" H 3529 3501 50  0000 L CNN
+F 1 "ExtPower" H 3529 3501 50  0000 L CNN
 F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 3450 3600 50  0001 C CNN
 F 3 "~" H 3450 3600 50  0001 C CNN
 	1    3450 3600
@@ -525,8 +525,6 @@ F 3 "" H 13600 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1550 900  2700 900 
-Wire Wire Line
 	7150 3700 6950 3700
 Wire Wire Line
 	6950 3700 6950 2600
@@ -613,7 +611,6 @@ F9 "EnableFromExt" I R 6100 3500 50
 $EndSheet
 Wire Wire Line
 	2700 3300 2700 900 
-Connection ~ 2700 900 
 Wire Wire Line
 	2700 900  4350 900 
 Wire Wire Line
@@ -695,23 +692,6 @@ Wire Notes Line width 20
 	2800 1500 6250 1500
 Wire Notes Line width 20
 	950  600  6250 600 
-$Comp
-L Device:Fuse F?
-U 1 1 5CE39439
-P 3500 3300
-AR Path="/5AC18063/5CE39439" Ref="F?"  Part="1" 
-AR Path="/5CE39439" Ref="F2"  Part="1" 
-F 0 "F2" V 3303 3300 50  0000 C CNN
-F 1 "Fuse 400V" V 3394 3300 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_universal_Type-III" V 3430 3300 50  0001 C CNN
-F 3 "~" H 3500 3300 50  0001 C CNN
-	1    3500 3300
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2700 3300 3350 3300
-Wire Wire Line
-	3650 3300 4350 3300
 Wire Wire Line
 	8700 1950 10100 1950
 Wire Wire Line
@@ -984,4 +964,9 @@ Wire Wire Line
 	6100 9300 7150 9300
 Wire Wire Line
 	6100 9200 7150 9200
+Connection ~ 2700 900 
+Wire Wire Line
+	2700 3300 4350 3300
+Wire Wire Line
+	1550 900  2700 900 
 $EndSCHEMATC
