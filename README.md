@@ -61,9 +61,11 @@ https://endless-sphere.com/forums/viewtopic.php?f=14&t=92952
 - AMC1303	-> Current measurement
 - INA226	-> Power measurement.
 - BQ76200	-> Driver for Discharge, Charge and Precharge switches.
-- LM5165	-> SMPS Buck converter, converting the external voltage to +3.3V.
+- EPM2405SJ	-> Isolated Buck converter, converting main battery pack voltage to +24V (sub 400V battery pack otherwise use external power supply connector)
+- LM5165	-> SMPS Buck converter, converting the 24V voltage to +3.3V.
 - ISO1050	-> Isolated CAN-Bus transceiver.
 - CP2104-F03	-> USB to serial converter for bootloader based firmware updates and debugging.
+
 
 
 
