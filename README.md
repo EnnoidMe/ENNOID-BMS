@@ -35,12 +35,6 @@ https://endless-sphere.com/forums/viewtopic.php?f=14&t=92952
 
 
 ### Features:
-**slave boards**
-- 18 Cells balancing/board
-- Stackable for up to 1000V packs 
-- 9 Temperatures sensors/board
-- Daisychain Master/Slave ISOSPI communication 
-- Internal & external balancing circuit mode possible through dedicated jumpers
 
 **Master board**
 - Integrated isolated power supply unit for sub 400V packs (external PSU possible through the dedicated connector for above 400V packs)
@@ -51,6 +45,13 @@ https://endless-sphere.com/forums/viewtopic.php?f=14&t=92952
 - USB interface for serial communication and firmware upgrades (no need for a programmer -> HW serial bootloader is used).
 - Wireless transceiver
 - SDCard for logging (to develop a SoC and SoH algorithm)
+
+**Slave boards**
+- 18 Cells balancing/board
+- Stackable for up to 1000V packs 
+- 9 Temperatures sensors/board
+- Daisychain Master/Slave ISOSPI communication 
+- Internal & external balancing circuit mode possible through dedicated jumpers
 
 ### Components:
 
