@@ -161,7 +161,7 @@ L BMS-Slave-rescue:Conn_01x02-Connector_Generic-BMS-Slave-rescue J15
 U 1 1 5C6934C8
 P 10250 4000
 F 0 "J15" H 10329 3992 50  0000 L CNN
-F 1 "Slave" H 10329 3901 50  0000 L CNN
+F 1 "Master" H 10329 3901 50  0000 L CNN
 F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 10250 4000 50  0001 C CNN
 F 3 "~" H 10250 4000 50  0001 C CNN
 	1    10250 4000
