@@ -28,10 +28,20 @@ https://endless-sphere.com/forums/viewtopic.php?f=14&t=92952
 - Adapting the schematic to have the MPU isolated from PSU, Balancing circuit & High voltage measurements.
 - Removing high current circuits from the PCB (Traces & FET switches are now removed, the current will flow through external contactor instead. ex: EV-200 contactor)
 
+11/01/2019:
+- Master board will be on a 4 layers PCB 100mm x 100mm
+- Slave boards will be  on a 2 layers PCB 100mm x 100mm
+
 
 
 ### Features:
-- Modular **master board** for sub 18 cells ~80V packs & additionnal **slave boards** for up to 1000V pack
+**slave boards**
+- 18 Cells balancing/board
+- Stackable for up to 1000V packs
+- 9 Temperature sensors/board
+- ISOSPI communication
+
+**Master board**
 - Integrated isolated power supply unit for sub 400V packs (external PSU possible through the dedicated connector for above 400V packs)
 - Isolated voltages measurements for Charge, Discharge & Pack buses
 - Current monitoring via external isolated delta-sigma current sensor
