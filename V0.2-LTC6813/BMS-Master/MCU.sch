@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
-Sheet 28 28
+Sheet 9 28
 Title ""
 Date ""
 Rev ""
@@ -415,7 +415,7 @@ U 1 1 5A92BF2C
 P 27400 11350
 F 0 "J17" H 27480 11392 50  0000 L CNN
 F 1 "SWD" H 27480 11301 50  0000 L CNN
-F 2 "Connectors_Molex:Molex_KK-6410-05_05x2.54mm_Straight" H 27400 11350 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_PicoBlade_53261-0571_05x1.25mm_Angled" H 27400 11350 50  0001 C CNN
 F 3 "~" H 27400 11350 50  0001 C CNN
 	1    27400 11350
 	1    0    0    -1  
@@ -502,8 +502,6 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 $EndComp
 Wire Wire Line
 	9200 10600 8450 10600
-Text HLabel 24450 10100 2    50   Input ~ 0
-SS
 Text HLabel 24450 10200 2    50   Input ~ 0
 SCK
 Text HLabel 24450 10400 2    50   Input ~ 0
@@ -815,4 +813,237 @@ F 3 "~" H 24600 9550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	23800 10300 26350 10300
+Wire Wire Line
+	17250 2600 17650 2600
+Wire Wire Line
+	17250 2750 17950 2750
+Wire Wire Line
+	17250 2900 17650 2900
+Wire Wire Line
+	17250 3050 17650 3050
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C68B634
+P 18350 3150
+AR Path="/5B4A196B/5C68B634" Ref="#PWR?"  Part="1" 
+AR Path="/5AB72D4D/5C68B634" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR0126" H 18350 3000 50  0001 C CNN
+F 1 "+3.3V" H 18365 3323 50  0000 C CNN
+F 2 "" H 18350 3150 50  0001 C CNN
+F 3 "" H 18350 3150 50  0001 C CNN
+	1    18350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C68B63A
+P 15650 2900
+AR Path="/5B4A196B/5C68B63A" Ref="R?"  Part="1" 
+AR Path="/5AB72D4D/5C68B63A" Ref="R36"  Part="1" 
+F 0 "R36" V 15443 2900 50  0000 C CNN
+F 1 "1k" V 15534 2900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 15580 2900 50  0001 C CNN
+F 3 "~" H 15650 2900 50  0001 C CNN
+	1    15650 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C68B640
+P 15100 2900
+AR Path="/5B4A196B/5C68B640" Ref="R?"  Part="1" 
+AR Path="/5AB72D4D/5C68B640" Ref="R5"  Part="1" 
+F 0 "R5" V 14893 2900 50  0000 C CNN
+F 1 "1k" V 14984 2900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 15030 2900 50  0001 C CNN
+F 3 "~" H 15100 2900 50  0001 C CNN
+	1    15100 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14900 3100 14900 2900
+Wire Wire Line
+	14900 2900 14950 2900
+$Comp
+L power:GND #PWR?
+U 1 1 5C68B648
+P 14900 3100
+AR Path="/5B4A196B/5C68B648" Ref="#PWR?"  Part="1" 
+AR Path="/5AB72D4D/5C68B648" Ref="#PWR0127"  Part="1" 
+F 0 "#PWR0127" H 14900 2850 50  0001 C CNN
+F 1 "GND" H 14905 2927 50  0000 C CNN
+F 2 "" H 14900 3100 50  0001 C CNN
+F 3 "" H 14900 3100 50  0001 C CNN
+	1    14900 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15250 2900 15400 2900
+Wire Wire Line
+	15800 2900 16050 2900
+Wire Wire Line
+	15400 2900 15400 3050
+Wire Wire Line
+	15400 3050 16050 3050
+Connection ~ 15400 2900
+Wire Wire Line
+	15400 2900 15500 2900
+Wire Wire Line
+	14450 2600 15950 2600
+Wire Wire Line
+	15950 2600 15950 2750
+Wire Wire Line
+	15950 2750 16050 2750
+Wire Wire Line
+	16050 2600 16050 2450
+Wire Wire Line
+	14000 2450 16050 2450
+Wire Wire Line
+	16050 3650 16050 3900
+Wire Wire Line
+	16050 3900 17250 3900
+$Comp
+L Device:C C?
+U 1 1 5C68B65B
+P 17250 4050
+AR Path="/5B4A196B/5C68B65B" Ref="C?"  Part="1" 
+AR Path="/5AB72D4D/5C68B65B" Ref="C20"  Part="1" 
+F 0 "C20" H 17135 4004 50  0000 R CNN
+F 1 "1uF" H 17135 4095 50  0000 R CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 17288 3900 50  0001 C CNN
+F 3 "~" H 17250 4050 50  0001 C CNN
+	1    17250 4050
+	-1   0    0    1   
+$EndComp
+Connection ~ 17250 3900
+$Comp
+L power:GND #PWR?
+U 1 1 5C68B662
+P 17250 4300
+AR Path="/5B4A196B/5C68B662" Ref="#PWR?"  Part="1" 
+AR Path="/5AB72D4D/5C68B662" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0128" H 17250 4050 50  0001 C CNN
+F 1 "GND" H 17255 4127 50  0000 C CNN
+F 2 "" H 17250 4300 50  0001 C CNN
+F 3 "" H 17250 4300 50  0001 C CNN
+	1    17250 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17250 4200 17250 4300
+$Comp
+L ENNOID:LTC6820 U?
+U 1 1 5C68B669
+P 16650 2950
+AR Path="/5B4A196B/5C68B669" Ref="U?"  Part="1" 
+AR Path="/5AB72D4D/5C68B669" Ref="U2"  Part="1" 
+F 0 "U2" H 16650 3615 50  0000 C CNN
+F 1 "LTC6820" H 16650 3524 50  0000 C CNN
+F 2 "Housings_SSOP:MSOP-16_3x4mm_Pitch0.5mm" H 16650 2450 50  0001 C CNN
+F 3 "" H 16650 2450 50  0001 C CNN
+	1    16650 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17250 3650 17250 3900
+$Comp
+L power:GND #PWR?
+U 1 1 5C68B670
+P 15500 3650
+AR Path="/5B4A196B/5C68B670" Ref="#PWR?"  Part="1" 
+AR Path="/5AB72D4D/5C68B670" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0129" H 15500 3400 50  0001 C CNN
+F 1 "GND" H 15505 3477 50  0000 C CNN
+F 2 "" H 15500 3650 50  0001 C CNN
+F 3 "" H 15500 3650 50  0001 C CNN
+	1    15500 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16050 3200 15500 3200
+Wire Wire Line
+	15500 3200 15500 3350
+Connection ~ 15500 3350
+Wire Wire Line
+	15500 3350 15500 3650
+Wire Wire Line
+	15500 3350 15800 3350
+Wire Wire Line
+	17250 3650 17250 3500
+Connection ~ 17250 3650
+Connection ~ 17250 3350
+Wire Wire Line
+	17250 3350 17250 3200
+Connection ~ 17250 3500
+Wire Wire Line
+	17250 3500 17250 3350
+Wire Wire Line
+	18350 3150 18350 3200
+Wire Wire Line
+	18350 3200 17950 3200
+Connection ~ 17250 3200
+$Comp
+L Device:Jumper_NC_Dual JP?
+U 1 1 5C68B684
+P 15800 3600
+AR Path="/5B4A196B/5C68B684" Ref="JP?"  Part="1" 
+AR Path="/5AB72D4D/5C68B684" Ref="JP3"  Part="1" 
+F 0 "JP3" V 15800 3701 50  0000 L CNN
+F 1 "Jumper_NC_Dual" V 15845 3702 50  0001 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 15800 3600 50  0001 C CNN
+F 3 "~" H 15800 3600 50  0001 C CNN
+	1    15800 3600
+	0    -1   1    0   
+$EndComp
+Connection ~ 15800 3350
+Wire Wire Line
+	15800 3350 16050 3350
+Wire Wire Line
+	15800 3850 15800 3900
+Wire Wire Line
+	15800 3900 16050 3900
+Connection ~ 16050 3900
+Wire Wire Line
+	15900 3600 16000 3600
+Wire Wire Line
+	16000 3600 16000 3500
+Wire Wire Line
+	16000 3500 16050 3500
+$Comp
+L Device:R R?
+U 1 1 5C68B692
+P 17950 2950
+AR Path="/5B4A196B/5C68B692" Ref="R?"  Part="1" 
+AR Path="/5AB72D4D/5C68B692" Ref="R37"  Part="1" 
+F 0 "R37" V 17743 2950 50  0000 C CNN
+F 1 "10k" V 17834 2950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 17880 2950 50  0001 C CNN
+F 3 "~" H 17950 2950 50  0001 C CNN
+	1    17950 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	17950 2800 17950 2750
+Connection ~ 17950 2750
+Wire Wire Line
+	17950 2750 18200 2750
+Wire Wire Line
+	17950 3100 17950 3200
+Connection ~ 17950 3200
+Wire Wire Line
+	17950 3200 17250 3200
+Text HLabel 14000 2450 0    50   Input ~ 0
+MA
+Text HLabel 14450 2600 0    50   Input ~ 0
+PA
+Text Label 17650 3050 0    50   ~ 0
+SS
+Text Label 17650 2900 0    50   ~ 0
+SCK
+Text Label 18200 2750 0    50   ~ 0
+MISO
+Text Label 17650 2600 0    50   ~ 0
+MOSI
+Text Label 24450 10100 0    50   ~ 0
+SS
 $EndSCHEMATC
