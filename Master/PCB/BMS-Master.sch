@@ -453,7 +453,7 @@ Wire Wire Line
 Wire Wire Line
 	10850 8150 11400 8150
 Wire Wire Line
-	1950 1000 1950 1350
+	1950 1000 1950 1100
 Wire Wire Line
 	8700 6800 9250 6800
 Wire Wire Line
@@ -503,12 +503,12 @@ NoConn ~ 4000 2200
 $Comp
 L power:GNDA #PWR0115
 U 1 1 5C8C87E3
-P 1950 1350
-F 0 "#PWR0115" H 1950 1100 50  0001 C CNN
-F 1 "GNDA" H 1955 1177 50  0000 C CNN
-F 2 "" H 1950 1350 50  0001 C CNN
-F 3 "" H 1950 1350 50  0001 C CNN
-	1    1950 1350
+P 1950 1100
+F 0 "#PWR0115" H 1950 850 50  0001 C CNN
+F 1 "GNDA" H 1955 927 50  0000 C CNN
+F 2 "" H 1950 1100 50  0001 C CNN
+F 3 "" H 1950 1100 50  0001 C CNN
+	1    1950 1100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -605,14 +605,9 @@ F3 "PowerButton" I R 6100 4000 50
 F4 "PowerEnable" I R 6100 3900 50 
 F5 "ExternalPower" I L 4350 3600 50 
 F6 "ChargeDetect" I R 6100 3800 50 
-F7 "BAT+" I L 4350 3300 50 
-F8 "24V" I R 6100 3300 50 
-F9 "EnableFromExt" I R 6100 3500 50 
+F7 "24V" I R 6100 3300 50 
+F8 "EnableFromExt" I R 6100 3500 50 
 $EndSheet
-Wire Wire Line
-	2700 3300 2700 900 
-Wire Wire Line
-	2700 900  4350 900 
 Wire Wire Line
 	6150 4950 7150 4950
 Wire Wire Line
@@ -671,9 +666,7 @@ F 3 "" H 4050 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Notes Line width 20
-	6250 600  6250 1500
-Wire Notes Line width 20
-	2800 1500 2800 2750
+	14950 600  14950 1450
 Wire Wire Line
 	6500 4400 7150 4400
 Wire Wire Line
@@ -686,12 +679,12 @@ Wire Wire Line
 	6150 4350 6150 4950
 Wire Wire Line
 	3900 3600 3650 3600
-Text Notes 1200 2200 0    200  ~ 40
+Text Notes 2600 1400 0    200  ~ 40
 ISOLATED
 Wire Notes Line width 20
-	2800 1500 6250 1500
+	950  1500 14950 1450
 Wire Notes Line width 20
-	950  600  6250 600 
+	950  600  14950 600 
 Wire Wire Line
 	8700 1950 10100 1950
 Wire Wire Line
@@ -847,8 +840,6 @@ Wire Wire Line
 	6100 3900 6300 3900
 Wire Wire Line
 	6300 3900 6300 4700
-Wire Notes Line width 20
-	5250 2750 5250 3500
 $Comp
 L power:GND #PWR0113
 U 1 1 5C686A2F
@@ -860,8 +851,6 @@ F 3 "" H 9800 2500 50  0001 C CNN
 	1    9800 2500
 	1    0    0    -1  
 $EndComp
-Wire Notes Line width 20
-	2800 2750 5250 2750
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 5C3822E8
@@ -955,18 +944,13 @@ Wire Wire Line
 Wire Wire Line
 	7100 5900 7150 5900
 Wire Notes Line width 20
-	950  600  950  3500
-Wire Notes Line width 20
-	950  3500 5250 3500
+	950  600  950  1500
 Wire Wire Line
 	6100 9400 7150 9400
 Wire Wire Line
 	6100 9300 7150 9300
 Wire Wire Line
 	6100 9200 7150 9200
-Connection ~ 2700 900 
 Wire Wire Line
-	2700 3300 4350 3300
-Wire Wire Line
-	1550 900  2700 900 
+	1550 900  4350 900 
 $EndSCHEMATC

@@ -37,7 +37,6 @@ https://endless-sphere.com/forums/viewtopic.php?f=14&t=92952
 ### Features:
 
 **Master board**
-- Integrated isolated power supply unit for sub 400V packs (external PSU possible through the dedicated connector for above 400V packs)
 - Isolated voltages measurements for Charge, Discharge & Pack buses
 - Current monitoring via external isolated delta-sigma current sensor
 - Isolated CAN bus interface for cell voltage monitoring and charger detection, status monitoring + much more with future updates (like state of charge / state of health).
@@ -61,7 +60,6 @@ https://endless-sphere.com/forums/viewtopic.php?f=14&t=92952
 - AMC1303	-> Current measurement
 - INA226	-> Power measurement.
 - BQ76200	-> Driver for Discharge, Charge and Precharge switches.
-- EPM2405SJ	-> Isolated Buck converter, converting main battery pack voltage to +24V (sub 400V battery pack otherwise use external power supply connector)
 - LM5165	-> SMPS Buck converter, converting the 24V voltage to +3.3V.
 - ISO1050	-> Isolated CAN-Bus transceiver.
 - CP2104-F03	-> USB to serial converter for bootloader based firmware updates and debugging.

@@ -14,147 +14,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1700 6650 0    50   Input ~ 0
-BAT+
 Text HLabel 9400 9800 0    50   Input ~ 0
 PushButton
 Text HLabel 9400 10100 0    50   Input ~ 0
 PowerButton
 Text HLabel 13850 10700 2    50   Input ~ 0
 PowerEnable
-$Comp
-L BMS-Master-rescue:Jumper_NC_Dual-Device JP22
-U 1 1 5AB703CB
-P 8650 6400
-F 0 "JP22" V 8696 6502 50  0000 L CNN
-F 1 "Jumper_NC_Dual" V 8605 6502 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8650 6400 50  0001 C CNN
-F 3 "~" H 8650 6400 50  0001 C CNN
-	1    8650 6400
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8750 6400 9250 6400
 Text HLabel 7900 5800 0    50   Input ~ 0
 ExternalPower
-Wire Wire Line
-	8650 5800 8650 6150
-NoConn ~ 3700 7350
-NoConn ~ 3700 7600
-NoConn ~ 4900 8000
-NoConn ~ 4900 8100
-NoConn ~ 4900 8200
-NoConn ~ 4900 8300
-$Comp
-L ENNOID:EPM2405SJ U18
-U 1 1 5C5147EE
-P 4300 7350
-F 0 "U18" H 3800 8550 50  0000 C CNN
-F 1 "EPM2405SJ" H 3950 8450 50  0000 C CNN
-F 2 "ENNOID:EPM2405SJ" H 4300 7350 50  0001 C CNN
-F 3 "" H 4300 7350 50  0001 C CNN
-	1    4300 7350
-	1    0    0    -1  
-$EndComp
-NoConn ~ 4900 6450
-NoConn ~ 4900 6900
-NoConn ~ 3700 6900
-NoConn ~ 3700 6450
-$Comp
-L BMS-Master-rescue:C-Device C85
-U 1 1 5C53450B
-P 3100 6850
-F 0 "C85" H 3215 6896 50  0000 L CNN
-F 1 "33u" H 3215 6805 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D16.0mm_P7.50mm" H 3138 6700 50  0001 C CNN
-F 3 "~" H 3100 6850 50  0001 C CNN
-F 4 "450V" H 3300 6700 50  0000 C CNN "Volatge"
-	1    3100 6850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3100 6700 3100 6650
-Wire Wire Line
-	3100 6650 3700 6650
-Wire Wire Line
-	3100 7000 3100 7150
-Wire Wire Line
-	3100 7150 3700 7150
-$Comp
-L power:GNDA #PWR0249
-U 1 1 5C53BE9E
-P 2350 7300
-F 0 "#PWR0249" H 2350 7050 50  0001 C CNN
-F 1 "GNDA" H 2355 7127 50  0000 C CNN
-F 2 "" H 2350 7300 50  0001 C CNN
-F 3 "" H 2350 7300 50  0001 C CNN
-	1    2350 7300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2350 7300 2350 7150
-Wire Wire Line
-	2350 7150 3100 7150
-Connection ~ 3100 7150
-Connection ~ 3100 6650
-$Comp
-L Device:L L2
-U 1 1 5C5443DC
-P 5650 6650
-F 0 "L2" V 5840 6650 50  0000 C CNN
-F 1 "2.2uH - 4Amps - CLF6045T-2R2N-D" V 5749 6650 50  0000 C CNN
-F 2 "ENNOID:TDK_Inductor" H 5650 6650 50  0001 C CNN
-F 3 "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=2ahUKEwjF8sbF6NLfAhVPqlkKHfcADH4QFjACegQICBAC&url=http%3A%2F%2Fwww.korin.co.jp%2Fproduct%2Fpdf%2FCat09501Sa.pdf&usg=AOvVaw3C9mpYL_KrwIiBYSZfq788" H 5650 6650 50  0001 C CNN
-	1    5650 6650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4900 6650 5300 6650
-$Comp
-L BMS-Master-rescue:C-Device C86
-U 1 1 5C5483B1
-P 5300 6900
-F 0 "C86" H 5415 6946 50  0000 L CNN
-F 1 "10n" H 5415 6855 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5338 6750 50  0001 C CNN
-F 3 "~" H 5300 6900 50  0001 C CNN
-F 4 "" H 5500 6750 50  0001 C CNN "Volatge"
-	1    5300 6900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4900 7150 5300 7150
-Wire Wire Line
-	5300 7150 5300 7050
-Wire Wire Line
-	5300 6750 5300 6650
-Connection ~ 5300 6650
-Wire Wire Line
-	5300 6650 5500 6650
-$Comp
-L BMS-Master-rescue:C-Device C87
-U 1 1 5C55039B
-P 9250 6750
-F 0 "C87" H 9365 6796 50  0000 L CNN
-F 1 "220u" H 9365 6705 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_8x10" H 9288 6600 50  0001 C CNN
-F 3 "UWT1V221MNL1GS" H 9250 6750 50  0001 C CNN
-	1    9250 6750
-	1    0    0    -1  
-$EndComp
-Connection ~ 5300 7150
-$Comp
-L BMS-Master-rescue:GND-power #PWR0250
-U 1 1 5C580B9E
-P 9650 7150
-F 0 "#PWR0250" H 9650 6900 50  0001 C CNN
-F 1 "GND" H 9655 6977 50  0000 C CNN
-F 2 "" H 9650 7150 50  0001 C CNN
-F 3 "" H 9650 7150 50  0001 C CNN
-	1    9650 7150
-	1    0    0    -1  
-$EndComp
-Text HLabel 9250 4300 2    50   Input ~ 0
+Text HLabel 9250 5800 2    50   Input ~ 0
 24V
 $Comp
 L Regulator_Switching:LM5165 U19
@@ -787,14 +655,8 @@ Wire Wire Line
 	10950 9150 11100 9150
 NoConn ~ 14500 6700
 NoConn ~ 14500 6800
-Wire Notes Line
-	4200 5400 4200 9750
-Wire Notes Line
-	4400 5400 4400 9750
 Wire Wire Line
 	7900 5800 8650 5800
-Wire Wire Line
-	1700 6650 3100 6650
 $Comp
 L Diode:1N4148W D11
 U 1 1 5C331B88
@@ -874,22 +736,6 @@ F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf" H 13
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9250 6400 9250 6600
-Connection ~ 9250 6400
-Wire Wire Line
-	9250 6900 9250 7150
-Connection ~ 9250 7150
-Wire Wire Line
-	9250 7150 9650 7150
-Wire Wire Line
-	5800 6650 8650 6650
-Wire Wire Line
-	5300 7150 9250 7150
-Wire Wire Line
-	9250 4300 9250 6400
-Wire Wire Line
-	9250 6400 11900 6400
-Wire Wire Line
 	11900 6400 12400 6400
 $Comp
 L Transistor_FET:BSS138 Q29
@@ -902,4 +748,11 @@ F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 13200 10700 50  0
 	1    13200 10700
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	8650 5800 8650 6400
+Wire Wire Line
+	8650 5800 9250 5800
+Connection ~ 8650 5800
+Wire Wire Line
+	8650 6400 11900 6400
 $EndSCHEMATC

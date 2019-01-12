@@ -19,7 +19,7 @@ L Logic_LevelTranslator:SN74LVC1T45DBV U10
 U 1 1 5C51B27D
 P 8450 12550
 F 0 "U10" H 8894 12596 50  0000 L CNN
-F 1 "SN74LVC1T45DBV" H 8894 12505 50  0000 L CNN
+F 1 "SN74LVC1T45DBV" H 8500 12200 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 8450 12100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf" H 7550 11900 50  0001 C CNN
 	1    8450 12550
@@ -85,8 +85,6 @@ F 3 "~" H 6450 12550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6050 12550 6300 12550
-Wire Wire Line
 	6600 12550 7300 12550
 $Comp
 L Device:R R127
@@ -131,8 +129,6 @@ F 3 "" H 7100 13150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7100 12850 7100 13150
-Wire Wire Line
-	8850 12550 9600 12550
 $Comp
 L Device:R R135
 U 1 1 5C52515C
@@ -296,16 +292,16 @@ $EndComp
 Wire Wire Line
 	9000 12250 9000 12150
 Wire Wire Line
-	12900 11400 12900 12650
+	12900 11600 12900 12650
 Wire Wire Line
-	11800 11400 11800 12750
+	11800 11600 11800 12750
 Wire Wire Line
-	11800 11400 12900 11400
+	11800 11600 12900 11600
 Wire Wire Line
-	11800 11400 10550 11400
+	11800 11600 10550 11600
 Wire Wire Line
-	10550 11400 10550 11750
-Connection ~ 11800 11400
+	10550 11600 10550 11750
+Connection ~ 11800 11600
 Wire Wire Line
 	7100 12100 7100 12150
 $Comp
@@ -1759,7 +1755,7 @@ F 1 "OPA2376xxD" H 15600 9126 50  0000 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 15600 8850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa376.pdf" H 15600 8850 50  0001 C CNN
 	1    15600 8850
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Text HLabel 16600 8850 2    50   Input ~ 0
 ChargeDetect
@@ -1978,4 +1974,26 @@ Wire Wire Line
 Connection ~ 16850 12550
 Wire Wire Line
 	16850 12550 17050 12550
+Wire Wire Line
+	6050 12550 6300 12550
+Wire Wire Line
+	8850 12550 9600 12550
+Wire Notes Line
+	7300 11350 7300 13450
+Wire Notes Line
+	6200 13450 6200 11350
+Wire Notes Line
+	9400 11350 9400 13450
+Wire Notes Line
+	14350 11350 14350 13450
+Wire Notes Line
+	6200 11350 14350 11350
+Wire Notes Line
+	6200 13450 14350 13450
+Text Notes 6250 13400 0    50   ~ 0
+Input protection
+Text Notes 7450 13450 0    50   ~ 0
+Buffer to restore digital signal
+Text Notes 9450 13450 0    50   ~ 0
+Second order filter
 $EndSCHEMATC
