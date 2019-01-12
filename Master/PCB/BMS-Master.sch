@@ -277,21 +277,6 @@ F 3 "~" H 3800 2100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 2000 4050 2000
-Wire Wire Line
-	4050 2000 4050 1950
-$Comp
-L BMS-Master-rescue:GND-power #PWR0111
-U 1 1 5AB6D538
-P 4100 2350
-F 0 "#PWR0111" H 4100 2100 50  0001 C CNN
-F 1 "GND" H 4105 2177 50  0000 C CNN
-F 2 "" H 4100 2350 50  0001 C CNN
-F 3 "" H 4100 2350 50  0001 C CNN
-	1    4100 2350
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
 	4000 2300 4100 2300
 Wire Wire Line
 	4100 2300 4100 2350
@@ -498,6 +483,7 @@ F7 "Discharge+" I R 6100 1250 50
 F8 "Vbat" I R 6100 1750 50 
 F9 "Vpack" I R 6100 1850 50 
 F10 "ChargeDetect" B R 6100 2350 50 
+F11 "ISO+3.3V" I L 4350 2000 50 
 $EndSheet
 NoConn ~ 4000 2200
 $Comp
@@ -654,19 +640,8 @@ Wire Wire Line
 	4000 2100 4350 2100
 Wire Wire Line
 	3700 4150 4200 4150
-$Comp
-L power:+3V3 #PWR0110
-U 1 1 5CABCF8D
-P 4050 1950
-F 0 "#PWR0110" H 4050 1800 50  0001 C CNN
-F 1 "+3V3" H 4065 2123 50  0000 C CNN
-F 2 "" H 4050 1950 50  0001 C CNN
-F 3 "" H 4050 1950 50  0001 C CNN
-	1    4050 1950
-	1    0    0    -1  
-$EndComp
 Wire Notes Line width 20
-	14950 600  14950 1450
+	14950 600  14950 1500
 Wire Wire Line
 	6500 4400 7150 4400
 Wire Wire Line
@@ -679,10 +654,8 @@ Wire Wire Line
 	6150 4350 6150 4950
 Wire Wire Line
 	3900 3600 3650 3600
-Text Notes 2600 1400 0    200  ~ 40
+Text Notes 1650 2050 0    200  ~ 40
 ISOLATED
-Wire Notes Line width 20
-	950  1500 14950 1450
 Wire Notes Line width 20
 	950  600  14950 600 
 Wire Wire Line
@@ -944,7 +917,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 5900 7150 5900
 Wire Notes Line width 20
-	950  600  950  1500
+	950  600  950  2750
 Wire Wire Line
 	6100 9400 7150 9400
 Wire Wire Line
@@ -953,4 +926,23 @@ Wire Wire Line
 	6100 9200 7150 9200
 Wire Wire Line
 	1550 900  4350 900 
+$Comp
+L power:GNDA #PWR0110
+U 1 1 5C7CFF1D
+P 4100 2350
+F 0 "#PWR0110" H 4100 2100 50  0001 C CNN
+F 1 "GNDA" H 4105 2177 50  0000 C CNN
+F 2 "" H 4100 2350 50  0001 C CNN
+F 3 "" H 4100 2350 50  0001 C CNN
+	1    4100 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2000 4350 2000
+Wire Notes Line width 20
+	5500 1500 5500 2750
+Wire Notes Line width 20
+	5500 2750 950  2750
+Wire Notes Line width 20
+	5500 1500 14950 1500
 $EndSCHEMATC
