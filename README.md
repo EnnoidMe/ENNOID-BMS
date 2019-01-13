@@ -28,9 +28,12 @@ https://endless-sphere.com/forums/viewtopic.php?f=14&t=92952
 - Adapting the schematics to have the MPU isolated from PSU, Balancing circuit & High voltage measurements.
 - Removing high current circuits from the PCB (Traces & FET switches are now removed, the current will flow through external contactor instead. ex: EV-200 contactor)
 
-11/01/2019:
-- Master board will be on a 4 layers PCB 100mm x 100mm
+13/01/2019:
+For cost reasons:
+- Master board will be on a 2 layers PCB 100mm x 100mm 
 - Slave boards will be  on a 2 layers PCB 100mm x 100mm
+
+PCB cost = 10 x (2 boards @ 4.90$ CAD+ + shipping = 9.80$ CAD + shipping :)
 
 
 

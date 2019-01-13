@@ -483,7 +483,6 @@ F7 "Discharge+" I R 6100 1250 50
 F8 "Vbat" I R 6100 1750 50 
 F9 "Vpack" I R 6100 1850 50 
 F10 "ChargeDetect" B R 6100 2350 50 
-F11 "ISO+3.3V" I L 4350 2000 50 
 $EndSheet
 NoConn ~ 4000 2200
 $Comp
@@ -917,7 +916,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 5900 7150 5900
 Wire Notes Line width 20
-	950  600  950  2750
+	950  600  950  1650
 Wire Wire Line
 	6100 9400 7150 9400
 Wire Wire Line
@@ -926,23 +925,80 @@ Wire Wire Line
 	6100 9200 7150 9200
 Wire Wire Line
 	1550 900  4350 900 
+Wire Notes Line width 20
+	950  1650 14950 1500
 $Comp
-L power:GNDA #PWR0110
-U 1 1 5C7CFF1D
+L Connector_Generic:Conn_01x01 J4
+U 1 1 5C3F429D
+P 650 800
+F 0 "J4" H 568 575 50  0000 C CNN
+F 1 "Corner" H 568 666 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via" H 650 800 50  0001 C CNN
+F 3 "~" H 650 800 50  0001 C CNN
+	1    650  800 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 5C3F5593
+P 650 1150
+F 0 "J5" H 568 925 50  0000 C CNN
+F 1 "Corner" H 568 1016 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via" H 650 1150 50  0001 C CNN
+F 3 "~" H 650 1150 50  0001 C CNN
+	1    650  1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J14
+U 1 1 5C3F5D5A
+P 650 1450
+F 0 "J14" H 568 1225 50  0000 C CNN
+F 1 "Corner" H 568 1316 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via" H 650 1450 50  0001 C CNN
+F 3 "~" H 650 1450 50  0001 C CNN
+	1    650  1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J15
+U 1 1 5C3F5F67
+P 650 1750
+F 0 "J15" H 568 1525 50  0000 C CNN
+F 1 "Corner" H 568 1616 50  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via" H 650 1750 50  0001 C CNN
+F 3 "~" H 650 1750 50  0001 C CNN
+	1    650  1750
+	-1   0    0    1   
+$EndComp
+NoConn ~ 850  800 
+NoConn ~ 850  1150
+NoConn ~ 850  1450
+NoConn ~ 850  1750
+$Comp
+L BMS-Master-rescue:GND-power #PWR?
+U 1 1 5C44BDEC
 P 4100 2350
-F 0 "#PWR0110" H 4100 2100 50  0001 C CNN
-F 1 "GNDA" H 4105 2177 50  0000 C CNN
+F 0 "#PWR?" H 4100 2100 50  0001 C CNN
+F 1 "GND" H 4105 2177 50  0000 C CNN
 F 2 "" H 4100 2350 50  0001 C CNN
 F 3 "" H 4100 2350 50  0001 C CNN
 	1    4100 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BMS-Master-rescue:+3.3V-power #PWR?
+U 1 1 5C44C08D
+P 4100 1950
+F 0 "#PWR?" H 4100 1800 50  0001 C CNN
+F 1 "+3.3V" H 4115 2123 50  0000 C CNN
+F 2 "" H 4100 1950 50  0001 C CNN
+F 3 "" H 4100 1950 50  0001 C CNN
+	1    4100 1950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 2000 4350 2000
-Wire Notes Line width 20
-	5500 1500 5500 2750
-Wire Notes Line width 20
-	5500 2750 950  2750
-Wire Notes Line width 20
-	5500 1500 14950 1500
+	4000 2000 4100 2000
+Wire Wire Line
+	4100 2000 4100 1950
 $EndSCHEMATC

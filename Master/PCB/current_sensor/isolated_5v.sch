@@ -273,13 +273,13 @@ VDD2
 Text HLabel 8600 3500 2    60   Input ~ 0
 GND2
 Wire Wire Line
-	3650 3200 2600 3200
+	3650 3200 3550 3200
 Wire Wire Line
 	3550 3200 3550 3100
 Wire Wire Line
 	3550 3100 3650 3100
 Wire Wire Line
-	3650 2900 2600 2900
+	3650 2900 3150 2900
 Wire Wire Line
 	5650 2900 5200 2900
 Wire Wire Line
@@ -289,7 +289,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 3200 6400 2900
 Wire Wire Line
-	7550 2900 5850 2900
+	7550 2900 7450 2900
 Wire Wire Line
 	6850 3100 6850 2900
 Wire Wire Line
@@ -303,7 +303,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 3100 7450 3500
 Wire Wire Line
-	8600 3500 6850 3500
+	8600 3500 8500 3500
 Wire Wire Line
 	6850 3500 6850 3300
 Wire Wire Line
@@ -311,7 +311,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 3100 8500 2900
 Wire Wire Line
-	8600 2900 8300 2900
+	8600 2900 8500 2900
 Wire Wire Line
 	8500 3300 8500 3500
 Wire Wire Line
@@ -362,4 +362,30 @@ Wire Notes Line
 	4950 2300 4950 3850
 Wire Notes Line
 	5050 2300 5050 3850
+Wire Wire Line
+	3150 2900 2950 2900
+Wire Wire Line
+	2950 2900 2600 2900
+Wire Wire Line
+	6400 2900 5850 2900
+Wire Wire Line
+	6850 2900 6400 2900
+Wire Wire Line
+	7050 2900 6850 2900
+Wire Wire Line
+	7450 2900 7050 2900
+Wire Wire Line
+	7050 3500 6850 3500
+Wire Wire Line
+	7450 3500 7050 3500
+Wire Wire Line
+	8500 2900 8300 2900
+Wire Wire Line
+	8500 3500 7450 3500
+Wire Wire Line
+	3550 3200 3150 3200
+Wire Wire Line
+	3150 3200 2950 3200
+Wire Wire Line
+	2950 3200 2600 3200
 $EndSCHEMATC
