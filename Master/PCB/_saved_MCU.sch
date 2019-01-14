@@ -967,8 +967,6 @@ Connection ~ 15500 3350
 Wire Wire Line
 	15500 3350 15500 3650
 Wire Wire Line
-	15500 3350 15800 3350
-Wire Wire Line
 	17250 3650 17250 3500
 Connection ~ 17250 3650
 Connection ~ 17250 3350
@@ -982,29 +980,9 @@ Wire Wire Line
 Wire Wire Line
 	18350 3200 17950 3200
 Connection ~ 17250 3200
-$Comp
-L Device:Jumper_NC_Dual JP?
-U 1 1 5C68B684
-P 15800 3600
-AR Path="/5B4A196B/5C68B684" Ref="JP?"  Part="1" 
-AR Path="/5AB72D4D/5C68B684" Ref="JP3"  Part="1" 
-F 0 "JP3" V 15800 3701 50  0000 L CNN
-F 1 "Jumper_NC_Dual" V 15845 3702 50  0001 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 15800 3600 50  0001 C CNN
-F 3 "~" H 15800 3600 50  0001 C CNN
-	1    15800 3600
-	0    -1   1    0   
-$EndComp
-Connection ~ 15800 3350
-Wire Wire Line
-	15800 3350 16050 3350
-Wire Wire Line
-	15800 3850 15800 3900
 Wire Wire Line
 	15800 3900 16050 3900
 Connection ~ 16050 3900
-Wire Wire Line
-	15900 3600 16000 3600
 Wire Wire Line
 	16000 3600 16000 3500
 Wire Wire Line
@@ -1046,4 +1024,10 @@ Text Label 17650 2600 0    50   ~ 0
 MOSI
 Text Label 24450 10100 0    50   ~ 0
 SS
+Wire Wire Line
+	15500 3350 16050 3350
+Wire Wire Line
+	15800 3600 15800 3900
+Wire Wire Line
+	15800 3600 16000 3600
 $EndSCHEMATC
