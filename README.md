@@ -33,7 +33,7 @@ For cost reasons:
 - Master board will be on a 2 layers PCB 100mm x 100mm 
 - Slave boards will be  on a 2 layers PCB 100mm x 100mm
 
-PCB cost = 10 x (2 boards @ 4.90$ CAD+ + shipping = 9.80$ CAD + shipping :)
+PCB cost = 10 x (2 boards @ 4.90$ CAD + shipping = 9.80$ CAD + peanuts :)
 
 
 
@@ -72,5 +72,6 @@ PCB cost = 10 x (2 boards @ 4.90$ CAD+ + shipping = 9.80$ CAD + shipping :)
 
 ### Schematics - master
 
-![alt text](Master/PIC/MainSchematic.png)
+![alt text](Master/PIC/MaasterSchematic.png)
+![alt text](Master/PIC/MaasterPCB.png)
 
