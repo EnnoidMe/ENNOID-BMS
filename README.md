@@ -70,8 +70,8 @@ PCB cost = 10 x (2 boards @ 4.90$ CAD + shipping = 9.80$ CAD + peanuts :)
 
 
 
-### Schematics - master
+### Master
 
-![alt text](Master/PIC/MasterSchematic.png)
+![alt text](Master/PIC/MasterSchematics.png)
 ![alt text](Master/PIC/MasterPCB.png)
 
