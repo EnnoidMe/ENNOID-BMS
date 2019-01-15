@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 10 21
+Sheet 3 21
 Title "BMS-Slave"
 Date ""
 Rev "V0.1"
@@ -309,7 +309,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 5850 2900 12050
 Wire Wire Line
-	2900 12050 4350 12050
+	2900 12050 4300 12050
 Wire Wire Line
 	4350 12600 4300 12600
 Wire Wire Line
@@ -1265,4 +1265,11 @@ F 3 "" H 14850 3650 50  0001 C CNN
 	1    14850 3650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4350 11700 4300 11700
+Wire Wire Line
+	4300 11700 4300 12050
+Connection ~ 4300 12050
+Wire Wire Line
+	4300 12050 4350 12050
 $EndSCHEMATC
