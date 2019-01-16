@@ -30,11 +30,9 @@ https://endless-sphere.com/forums/viewtopic.php?f=14&t=92952
 
 13/01/2019:
 For cost reasons:
-- Master board will be on a 2 layers PCB 100mm x 100mm 
-- Slave boards will be  on a 2 layers PCB 100mm x 100mm
+- Master & Slave boards will be on a 2 layers PCB 100mm x 100mm 
 
-PCB cost = 10 x (2 boards @ 4.90$ CAD + shipping = 9.80$ CAD + peanuts :)
-
+PCB cost = 10 x 2 Master+ Slave = @ 4.90$ + shipping 
 
 
 ### Features:
@@ -72,6 +70,11 @@ PCB cost = 10 x (2 boards @ 4.90$ CAD + shipping = 9.80$ CAD + peanuts :)
 
 ### Master
 
-![alt text](Master/PIC/MasterSchematics.png)
 ![alt text](Master/PIC/MasterPCB.png)
+
+### Slave
+
+![alt text](Slave/PIC/SlavePCB.png)
+
+
 
