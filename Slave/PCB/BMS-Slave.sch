@@ -267,4 +267,15 @@ F 3 "~" H 1600 1850 50  0001 C CNN
 	1    1600 1850
 	1    0    0    -1  
 $EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO1
+U 1 1 5C544899
+P 12700 10300
+F 0 "LOGO1" H 12700 10575 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 12700 10075 50  0001 C CNN
+F 2 "ENNOID:ENNOID-LOGO" H 12700 10300 50  0001 C CNN
+F 3 "~" H 12700 10300 50  0001 C CNN
+	1    12700 10300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
