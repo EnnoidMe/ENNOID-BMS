@@ -681,9 +681,9 @@ Wire Wire Line
 	8550 3200 8550 3000
 Wire Wire Line
 	8550 3000 8600 3000
-Text HLabel 16650 3450 2    50   Input ~ 0
+Text HLabel 16650 3250 2    50   Input ~ 0
 MB
-Text HLabel 16650 3850 2    50   Input ~ 0
+Text HLabel 16650 2850 2    50   Input ~ 0
 PB
 Wire Wire Line
 	4000 6000 4300 6000
@@ -1120,9 +1120,9 @@ F 3 "" H 16200 3250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	16350 3250 16650 3250
-Text HLabel 16650 2850 2    50   Input ~ 0
+Text HLabel 16650 3850 2    50   Input ~ 0
 MA
-Text HLabel 16650 3250 2    50   Input ~ 0
+Text HLabel 16650 3450 2    50   Input ~ 0
 PA
 Wire Wire Line
 	16350 2850 16650 2850

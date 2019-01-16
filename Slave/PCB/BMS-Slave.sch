@@ -223,4 +223,48 @@ F 3 "" H 6700 6800 50  0001 C CNN
 $EndComp
 Text Notes 5450 3750 0    200  ~ 40
 ISOLATED\nSlave
+$Comp
+L Connector_Generic:Conn_01x01 J1
+U 1 1 5C3FB814
+P 1600 1250
+F 0 "J1" H 1680 1246 50  0000 L CNN
+F 1 "Conn_01x01" H 1680 1201 50  0001 L CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via" H 1600 1250 50  0001 C CNN
+F 3 "~" H 1600 1250 50  0001 C CNN
+	1    1600 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 5C3FC8F0
+P 1600 1450
+F 0 "J2" H 1680 1446 50  0000 L CNN
+F 1 "Conn_01x01" H 1680 1401 50  0001 L CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via" H 1600 1450 50  0001 C CNN
+F 3 "~" H 1600 1450 50  0001 C CNN
+	1    1600 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 5C3FCB0C
+P 1600 1650
+F 0 "J3" H 1680 1646 50  0000 L CNN
+F 1 "Conn_01x01" H 1680 1601 50  0001 L CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via" H 1600 1650 50  0001 C CNN
+F 3 "~" H 1600 1650 50  0001 C CNN
+	1    1600 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 5C3FCED2
+P 1600 1850
+F 0 "J6" H 1680 1846 50  0000 L CNN
+F 1 "Conn_01x01" H 1680 1801 50  0001 L CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via" H 1600 1850 50  0001 C CNN
+F 3 "~" H 1600 1850 50  0001 C CNN
+	1    1600 1850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
