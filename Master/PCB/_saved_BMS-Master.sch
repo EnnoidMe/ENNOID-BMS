@@ -824,17 +824,6 @@ F 3 "" H 9800 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J2
-U 1 1 5C3822E8
-P 14400 1050
-F 0 "J2" H 14480 1042 50  0000 L CNN
-F 1 "Charge" H 14480 951 50  0000 L CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00001_Pitch5.00mm" H 14400 1050 50  0001 C CNN
-F 3 "~" H 14400 1050 50  0001 C CNN
-	1    14400 1050
-	1    0    0    1   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x02 J13
 U 1 1 5C382B94
 P 14400 1250
@@ -1010,6 +999,17 @@ F 1 "Logo_Open_Hardware_Small" H 12550 10025 50  0001 C CNN
 F 2 "ENNOID:ENNOID-LOGO" H 12550 10250 50  0001 C CNN
 F 3 "~" H 12550 10250 50  0001 C CNN
 	1    12550 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5C3822E8
+P 14400 950
+F 0 "J2" H 14480 942 50  0000 L CNN
+F 1 "Charge" H 14480 851 50  0000 L CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00001_Pitch5.00mm" H 14400 950 50  0001 C CNN
+F 3 "~" H 14400 950 50  0001 C CNN
+	1    14400 950 
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
