@@ -32,14 +32,14 @@ https://endless-sphere.com/forums/viewtopic.php?f=14&t=92952
 For cost reasons:
 - Master & Slave boards will be on a 2 layers PCB 100mm x 100mm 
 
-PCB cost = 10 x 2 Master+ Slave = @ 4.90$ + shipping 
+PCB cost = 10 pcs x (Master+ Slave) = 9.80$ + shipping 
 
 
 ### Features:
 
 **Master board**
 - Isolated voltages measurements for Charge, Discharge & Pack buses
-- Current monitoring via external isolated delta-sigma current sensor
+- Isolated bi-directional current monitoring via external delta-sigma current sensor
 - Isolated CAN bus interface for cell voltage monitoring and charger detection, status monitoring + much more with future updates (like state of charge / state of health).
 - Outputs for Charge, Discharge & Precharge contactors
 - USB interface for serial communication and firmware upgrades (no need for a programmer -> HW serial bootloader is used).
@@ -47,15 +47,22 @@ PCB cost = 10 x 2 Master+ Slave = @ 4.90$ + shipping
 - SDCard for logging (to develop a SoC and SoH algorithm)
 
 **Slave boards**
-- 18 Cells balancing/board
+- 18 Cells balancing/board 
+- Cell voltage range 2.5V to 4.5V
 - Stackable for up to 1000V packs 
 - 9 Temperatures sensors/board
 - Daisychain Master/Slave ISOSPI communication 
 - Internal & external balancing circuit mode possible through dedicated jumpers
 
+**Software**
+Firmware, bootloader & configuration tool are very similar to [DieBieMS](https://github.com/DieBieEngineering). 
+Changes are required to support the LTC6813 communication/balancing instead of the LTC6803.
+Isolation layer & schematic changes don't require MCU code modifications on Master board
+
 ### Components:
 
 - LTC6813	-> Battery stack cell voltage monitor.
+- LTC6820	-> ISOSPI communication to Slaves.
 - STM32F303	-> Main microcontroller.
 - AMC1301	-> Isolated voltage measurement
 - AMC1303	-> Current measurement
@@ -64,8 +71,6 @@ PCB cost = 10 x 2 Master+ Slave = @ 4.90$ + shipping
 - LM5165	-> SMPS Buck converter, converting the 24V voltage to +3.3V.
 - ISO1050	-> Isolated CAN-Bus transceiver.
 - CP2104-F03	-> USB to serial converter for bootloader based firmware updates and debugging.
-
-
 
 
 ### Master
