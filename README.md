@@ -25,7 +25,7 @@ https://endless-sphere.com/forums/viewtopic.php?f=14&t=92952
 31/12/2018:
 - Copying DieBieMS schematics into kicad
 - Switching balancing circuit to LTC6813 
-- Adapting the schematics to have the MPU isolated from PSU, Balancing circuit & High voltage measurements.
+- Adapting the schematics to have isolation between MCU, balancing circuit, current & high voltage measurements.
 - Removing high current circuits from the PCB (Traces & FET switches are now removed, the current will flow through external contactor instead. ex: EV-200 contactor)
 
 13/01/2019:
