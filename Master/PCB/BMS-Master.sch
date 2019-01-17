@@ -483,6 +483,7 @@ F7 "Discharge+" I R 6100 1250 50
 F8 "Vbat" I R 6100 1750 50 
 F9 "Vpack" I R 6100 1850 50 
 F10 "ChargeDetect" B R 6100 2350 50 
+F11 "24V" I R 6100 2450 50 
 $EndSheet
 NoConn ~ 4000 2200
 $Comp
@@ -575,7 +576,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 4800 6250 4800
 Wire Wire Line
-	6100 3300 6650 3300
+	6100 3300 6250 3300
 Wire Wire Line
 	6650 3300 6650 2850
 Wire Wire Line
@@ -590,7 +591,7 @@ F3 "PowerButton" I R 6100 4000 50
 F4 "PowerEnable" I R 6100 3900 50 
 F5 "ExternalPower" I L 4350 3600 50 
 F6 "ChargeDetect" I R 6100 3800 50 
-F7 "24V" I R 6100 3300 50 
+F7 "24V" O R 6100 3300 50 
 F8 "EnableFromExt" I R 6100 3500 50 
 $EndSheet
 Wire Wire Line
@@ -824,17 +825,6 @@ F 3 "" H 9800 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J2
-U 1 1 5C3822E8
-P 14400 1050
-F 0 "J2" H 14480 1042 50  0000 L CNN
-F 1 "Charge" H 14480 951 50  0000 L CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00001_Pitch5.00mm" H 14400 1050 50  0001 C CNN
-F 3 "~" H 14400 1050 50  0001 C CNN
-	1    14400 1050
-	1    0    0    1   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x02 J13
 U 1 1 5C382B94
 P 14400 1250
@@ -1012,4 +1002,22 @@ F 3 "~" H 12550 10250 50  0001 C CNN
 	1    12550 10250
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5C3822E8
+P 14400 950
+F 0 "J2" H 14480 942 50  0000 L CNN
+F 1 "Charge" H 14480 851 50  0000 L CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00001_Pitch5.00mm" H 14400 950 50  0001 C CNN
+F 3 "~" H 14400 950 50  0001 C CNN
+	1    14400 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 2450 6250 2450
+Wire Wire Line
+	6250 2450 6250 3300
+Connection ~ 6250 3300
+Wire Wire Line
+	6250 3300 6650 3300
 $EndSCHEMATC

@@ -22,7 +22,7 @@ Text HLabel 13850 10700 2    50   Input ~ 0
 PowerEnable
 Text HLabel 7900 5800 0    50   Input ~ 0
 ExternalPower
-Text HLabel 9250 5800 2    50   Input ~ 0
+Text HLabel 9250 5800 2    50   Output ~ 0
 24V
 $Comp
 L Regulator_Switching:LM5165 U19

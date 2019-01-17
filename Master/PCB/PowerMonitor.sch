@@ -1703,11 +1703,6 @@ Wire Wire Line
 	9200 3700 8900 3700
 Wire Wire Line
 	8550 3700 8550 3650
-Text HLabel 5550 1050 0    50   Input ~ 0
-ISO+3.3V
-Wire Wire Line
-	5550 1050 5950 1050
-Connection ~ 5950 1050
 $Comp
 L power:GNDA #PWR0119
 U 1 1 5C7CE7B9
