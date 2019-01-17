@@ -55,9 +55,10 @@ PCB cost = 10 pcs x (Master+ Slave) = 9.80$ + shipping
 - Internal & external balancing circuit mode possible through dedicated jumpers
 
 **Software**
-Firmware, bootloader & configuration tool are very similar to [DieBieMS](https://github.com/DieBieEngineering). 
-Changes are required to support the LTC6813 communication/balancing instead of the LTC6803.
-Isolation layer & schematic changes don't require MCU code modifications on Master board
+
+- Firmware, bootloader & configuration tool are very similar to [DieBieMS](https://github.com/DieBieEngineering). 
+- Changes from DieBieMS code are only required to support the LTC6813 communication/balancing instead of the LTC6803. (Slave with LTC6803 would not require any changes at all)
+- Isolation layer & schematic changes don't require MCU code modifications on Master board.
 
 ### Components:
 
