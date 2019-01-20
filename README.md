@@ -31,7 +31,7 @@ https://endless-sphere.com/forums/viewtopic.php?f=14&t=92952
 13/01/2019:
 For cost reasons:
 - Master & Slave boards will be on a 2 layers PCB 100mm x 100mm
-- External power supply 12V or 24V is required for master. (Would be nice to have integrated PSU on Master, but HV DC/DC converter are too expensive, a 12V battery with low power HV DC/DC converter is indeed cheaper) 
+- External power supply 12V or 24V is required for master. (Would be nice to have integrated PSU on Master, but high power HV DC/DC converter are too expensive, a 12V battery with low power HV DC/DC converter is indeed cheaper) 
 
 PCB cost = 10 pcs x (Master+ Slave) = 9.80$ + shipping 
 
