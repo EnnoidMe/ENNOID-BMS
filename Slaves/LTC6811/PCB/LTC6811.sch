@@ -1,0 +1,795 @@
+EESchema Schematic File Version 4
+LIBS:LTC6811-cache
+EELAYER 29 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Battery_Management:LTC6803-2 U?
+U 1 1 5C5553BF
+P 8900 5350
+F 0 "U?" H 8900 6931 50  0000 C CNN
+F 1 "LTC6803-2" H 8900 6840 50  0000 C CNN
+F 2 "Package_SO:SSOP-44_5.3x12.8mm_P0.5mm" H 8900 5350 50  0001 C CNN
+F 3 "http://cds.linear.com/docs/en/datasheet/680324fa.pdf" H 9450 6700 50  0001 C CNN
+	1    8900 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C55795A
+P 2250 1450
+F 0 "R?" H 2320 1496 50  0000 L CNN
+F 1 "1M" H 2320 1405 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2180 1450 50  0001 C CNN
+F 3 "~" H 2250 1450 50  0001 C CNN
+	1    2250 1450
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 11100 2100 550  350 
+U 5C4F59F4
+F0 "cell12" 50
+F1 "cell.sch" 50
+F2 "S" I L 11100 2350 50 
+F3 "C" I L 11100 2200 50 
+F4 "C+" I R 11650 2200 50 
+F5 "C-" I R 11650 2350 50 
+$EndSheet
+$Sheet
+S 11100 2650 550  350 
+U 5C4FCBE0
+F0 "cell11" 50
+F1 "cell.sch" 50
+F2 "S" I L 11100 2900 50 
+F3 "C" I L 11100 2750 50 
+F4 "C+" I R 11650 2750 50 
+F5 "C-" I R 11650 2900 50 
+$EndSheet
+$Sheet
+S 11100 3200 550  350 
+U 5C4FCED2
+F0 "cell10" 50
+F1 "cell.sch" 50
+F2 "S" I L 11100 3450 50 
+F3 "C" I L 11100 3300 50 
+F4 "C+" I R 11650 3300 50 
+F5 "C-" I R 11650 3450 50 
+$EndSheet
+$Sheet
+S 11100 3750 550  350 
+U 5C4FCED8
+F0 "cell9" 50
+F1 "cell.sch" 50
+F2 "S" I L 11100 4000 50 
+F3 "C" I L 11100 3850 50 
+F4 "C+" I R 11650 3850 50 
+F5 "C-" I R 11650 4000 50 
+$EndSheet
+$Sheet
+S 11100 4300 550  350 
+U 5C4FD32A
+F0 "cell8" 50
+F1 "cell.sch" 50
+F2 "S" I L 11100 4550 50 
+F3 "C" I L 11100 4400 50 
+F4 "C+" I R 11650 4400 50 
+F5 "C-" I R 11650 4550 50 
+$EndSheet
+$Sheet
+S 11100 4850 550  350 
+U 5C4FD330
+F0 "cell7" 50
+F1 "cell.sch" 50
+F2 "S" I L 11100 5100 50 
+F3 "C" I L 11100 4950 50 
+F4 "C+" I R 11650 4950 50 
+F5 "C-" I R 11650 5100 50 
+$EndSheet
+$Sheet
+S 11100 5400 550  350 
+U 5C4FD336
+F0 "cell6" 50
+F1 "cell.sch" 50
+F2 "S" I L 11100 5650 50 
+F3 "C" I L 11100 5500 50 
+F4 "C+" I R 11650 5500 50 
+F5 "C-" I R 11650 5650 50 
+$EndSheet
+$Sheet
+S 11100 5950 550  350 
+U 5C4FD33C
+F0 "cell5" 50
+F1 "cell.sch" 50
+F2 "S" I L 11100 6200 50 
+F3 "C" I L 11100 6050 50 
+F4 "C+" I R 11650 6050 50 
+F5 "C-" I R 11650 6200 50 
+$EndSheet
+$Sheet
+S 11100 6500 550  350 
+U 5C4FFA25
+F0 "cell4" 50
+F1 "cell.sch" 50
+F2 "S" I L 11100 6750 50 
+F3 "C" I L 11100 6600 50 
+F4 "C+" I R 11650 6600 50 
+F5 "C-" I R 11650 6750 50 
+$EndSheet
+$Sheet
+S 11100 7050 550  350 
+U 5C4FFA2B
+F0 "cell3" 50
+F1 "cell.sch" 50
+F2 "S" I L 11100 7300 50 
+F3 "C" I L 11100 7150 50 
+F4 "C+" I R 11650 7150 50 
+F5 "C-" I R 11650 7300 50 
+$EndSheet
+$Sheet
+S 11100 7600 550  350 
+U 5C4FFA31
+F0 "cell2" 50
+F1 "cell.sch" 50
+F2 "S" I L 11100 7850 50 
+F3 "C" I L 11100 7700 50 
+F4 "C+" I R 11650 7700 50 
+F5 "C-" I R 11650 7850 50 
+$EndSheet
+$Sheet
+S 11100 8150 550  350 
+U 5C4FFA37
+F0 "cell1" 50
+F1 "cell.sch" 50
+F2 "S" I L 11100 8400 50 
+F3 "C" I L 11100 8250 50 
+F4 "C+" I R 11650 8250 50 
+F5 "C-" I R 11650 8400 50 
+$EndSheet
+Wire Wire Line
+	11100 2200 10050 2200
+Wire Wire Line
+	10050 2200 10050 4150
+Wire Wire Line
+	10050 4150 9400 4150
+Wire Wire Line
+	10100 4250 10100 2350
+Wire Wire Line
+	10100 2350 11100 2350
+Wire Wire Line
+	9400 4250 10100 4250
+Wire Wire Line
+	9400 4350 10150 4350
+Wire Wire Line
+	10150 4350 10150 2750
+Wire Wire Line
+	10150 2750 11100 2750
+Wire Wire Line
+	9400 4450 10200 4450
+Wire Wire Line
+	10200 4450 10200 2900
+Wire Wire Line
+	10200 2900 11100 2900
+Wire Wire Line
+	9400 4550 10250 4550
+Wire Wire Line
+	10250 4550 10250 3300
+Wire Wire Line
+	10250 3300 11100 3300
+Wire Wire Line
+	9400 4650 10300 4650
+Wire Wire Line
+	10300 4650 10300 3450
+Wire Wire Line
+	10300 3450 11100 3450
+Wire Wire Line
+	9400 4950 10450 4950
+Wire Wire Line
+	10600 5250 9400 5250
+Wire Wire Line
+	9400 5350 10600 5350
+Wire Wire Line
+	10600 5350 10600 5500
+Wire Wire Line
+	9400 5450 10550 5450
+Wire Wire Line
+	10550 5450 10550 5650
+Wire Wire Line
+	9400 5550 10500 5550
+Wire Wire Line
+	10500 5550 10500 6050
+Wire Wire Line
+	10450 5650 9400 5650
+Wire Wire Line
+	9400 5750 10400 5750
+Wire Wire Line
+	10400 5750 10400 6600
+Wire Wire Line
+	10350 5850 9400 5850
+Wire Wire Line
+	9400 5950 10300 5950
+Wire Wire Line
+	10300 5950 10300 7150
+Wire Wire Line
+	10250 6050 9400 6050
+Wire Wire Line
+	9400 6150 10200 6150
+Wire Wire Line
+	10200 6150 10200 7700
+Wire Wire Line
+	10150 6250 9400 6250
+Wire Wire Line
+	10350 4750 10350 3850
+Wire Wire Line
+	10350 3850 11100 3850
+Wire Wire Line
+	9400 4750 10350 4750
+Wire Wire Line
+	11100 4000 10400 4000
+Wire Wire Line
+	10400 4000 10400 4850
+Wire Wire Line
+	9400 4850 10400 4850
+Wire Wire Line
+	10450 4950 10450 4400
+Wire Wire Line
+	10450 4400 11100 4400
+Wire Wire Line
+	10500 5050 10500 4550
+Wire Wire Line
+	10500 4550 11100 4550
+Wire Wire Line
+	9400 5050 10500 5050
+Wire Wire Line
+	11100 5100 10600 5100
+Wire Wire Line
+	10600 5100 10600 5250
+Wire Wire Line
+	10600 5500 11100 5500
+Wire Wire Line
+	11100 5650 10550 5650
+Wire Wire Line
+	10450 6200 10450 5650
+Wire Wire Line
+	11100 6600 10400 6600
+Wire Wire Line
+	11100 6750 10350 6750
+Wire Wire Line
+	10350 6750 10350 5850
+Wire Wire Line
+	11100 7150 10300 7150
+Wire Wire Line
+	11100 7300 10250 7300
+Wire Wire Line
+	10250 7300 10250 6050
+Wire Wire Line
+	11100 7700 10200 7700
+Wire Wire Line
+	10150 7850 10150 6250
+Wire Wire Line
+	10150 7850 11100 7850
+Wire Wire Line
+	11100 8250 10100 8250
+Wire Wire Line
+	10100 8250 10100 6350
+Wire Wire Line
+	10100 6350 9400 6350
+Wire Wire Line
+	9400 6450 10050 6450
+Wire Wire Line
+	10050 6450 10050 8400
+Wire Wire Line
+	10050 8400 11100 8400
+Wire Wire Line
+	10500 6050 11100 6050
+Wire Wire Line
+	10450 6200 11100 6200
+Wire Wire Line
+	11100 4950 10550 4950
+Wire Wire Line
+	10550 4950 10550 5150
+Wire Wire Line
+	10550 5150 9400 5150
+Wire Wire Line
+	11650 2200 12600 2200
+Wire Wire Line
+	12600 2200 12600 4650
+Wire Wire Line
+	12600 4650 13100 4650
+Wire Wire Line
+	11650 2350 11850 2350
+Wire Wire Line
+	11850 2350 11850 2750
+Wire Wire Line
+	11850 2750 11650 2750
+Wire Wire Line
+	11850 2750 12500 2750
+Wire Wire Line
+	12500 2750 12500 4750
+Connection ~ 11850 2750
+Wire Wire Line
+	11650 2900 11850 2900
+Wire Wire Line
+	11850 2900 11850 3300
+Wire Wire Line
+	11850 3300 11650 3300
+Wire Wire Line
+	11850 3300 12400 3300
+Wire Wire Line
+	12400 3300 12400 4850
+Connection ~ 11850 3300
+Wire Wire Line
+	11650 3850 11850 3850
+Wire Wire Line
+	12300 3850 12300 4950
+Wire Wire Line
+	11650 3450 11850 3450
+Wire Wire Line
+	11850 3450 11850 3850
+Connection ~ 11850 3850
+Wire Wire Line
+	11850 3850 12300 3850
+Wire Wire Line
+	11650 4000 11850 4000
+Wire Wire Line
+	11650 4400 11850 4400
+Wire Wire Line
+	12200 4400 12200 5050
+Wire Wire Line
+	11850 4000 11850 4400
+Connection ~ 11850 4400
+Wire Wire Line
+	11850 4400 12200 4400
+Wire Wire Line
+	11650 4950 11850 4950
+Wire Wire Line
+	12100 4950 12100 5150
+Wire Wire Line
+	11650 4550 11850 4550
+Wire Wire Line
+	11850 4550 11850 4950
+Connection ~ 11850 4950
+Wire Wire Line
+	11850 4950 12100 4950
+Wire Wire Line
+	11650 5500 11850 5500
+Wire Wire Line
+	12100 5500 12100 5250
+Wire Wire Line
+	11850 5100 11850 5500
+Connection ~ 11850 5500
+Wire Wire Line
+	11850 5500 12100 5500
+Wire Wire Line
+	11650 5100 11850 5100
+Wire Wire Line
+	11650 6050 11850 6050
+Wire Wire Line
+	12200 6050 12200 5350
+Wire Wire Line
+	12200 5350 13100 5350
+Wire Wire Line
+	11650 5650 11850 5650
+Wire Wire Line
+	11850 5650 11850 6050
+Connection ~ 11850 6050
+Wire Wire Line
+	11850 6050 12200 6050
+Wire Wire Line
+	12300 6600 12300 5450
+Wire Wire Line
+	12300 5450 13100 5450
+Wire Wire Line
+	11650 6200 11850 6200
+Wire Wire Line
+	11850 6200 11850 6600
+Connection ~ 11850 6600
+Wire Wire Line
+	11850 6600 12300 6600
+Wire Wire Line
+	11650 6600 11850 6600
+Wire Wire Line
+	11650 7150 11850 7150
+Wire Wire Line
+	12400 7150 12400 5550
+Wire Wire Line
+	12400 5550 13100 5550
+Wire Wire Line
+	11850 6750 11850 7150
+Connection ~ 11850 7150
+Wire Wire Line
+	11850 7150 12400 7150
+Wire Wire Line
+	11650 6750 11850 6750
+Wire Wire Line
+	11650 7700 11850 7700
+Wire Wire Line
+	12500 7700 12500 5650
+Wire Wire Line
+	12500 5650 13100 5650
+Wire Wire Line
+	11650 7300 11850 7300
+Wire Wire Line
+	11850 7300 11850 7700
+Connection ~ 11850 7700
+Wire Wire Line
+	11850 7700 12500 7700
+Wire Wire Line
+	11650 8250 11850 8250
+Wire Wire Line
+	12600 8250 12600 5750
+Wire Wire Line
+	12600 5750 13100 5750
+Wire Wire Line
+	11650 7850 11850 7850
+Wire Wire Line
+	11850 7850 11850 8250
+Connection ~ 11850 8250
+Wire Wire Line
+	11850 8250 12600 8250
+Text Label 8150 6150 0    50   ~ 0
+T1
+Wire Wire Line
+	8150 6150 8400 6150
+Text Label 8150 6250 0    50   ~ 0
+T2
+Wire Wire Line
+	8150 6250 8400 6250
+Wire Wire Line
+	14050 3750 14250 3750
+Text Label 14050 3750 0    50   ~ 0
+T1
+Text Label 14050 3950 0    50   ~ 0
+T2
+Wire Wire Line
+	14050 3950 14250 3950
+$Comp
+L power:GND #PWR?
+U 1 1 5C622F89
+P 13800 3850
+F 0 "#PWR?" H 13800 3600 50  0001 C CNN
+F 1 "GND" H 13805 3677 50  0000 C CNN
+F 2 "" H 13800 3850 50  0001 C CNN
+F 3 "" H 13800 3850 50  0001 C CNN
+	1    13800 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13800 3850 14250 3850
+Wire Wire Line
+	14250 5850 12700 5850
+Wire Wire Line
+	12700 5850 12700 8600
+Wire Wire Line
+	12700 8600 9100 8600
+Wire Wire Line
+	9100 8600 9100 6750
+$Comp
+L ENNOID:HM2102NL TR?
+U 1 1 5C4FD464
+P 4300 4150
+F 0 "TR?" H 4100 4875 50  0000 C CNN
+F 1 "HM2102NL" H 4100 4784 50  0000 C CNN
+F 2 "" H 4350 4050 50  0001 C CNN
+F 3 "" H 4350 4050 50  0001 C CNN
+	1    4300 4150
+	1    0    0    -1  
+$EndComp
+Text Label 2000 3650 0    50   ~ 0
+IPB
+Wire Wire Line
+	2000 3650 2400 3650
+Text Label 2000 4050 0    50   ~ 0
+IMB
+Wire Wire Line
+	3700 4050 2400 4050
+Wire Wire Line
+	2000 4250 2400 4250
+Text Label 2000 4250 0    50   ~ 0
+IPA
+Text Label 2000 4650 0    50   ~ 0
+IMA
+Wire Wire Line
+	2000 4650 2400 4650
+$Comp
+L Device:R R?
+U 1 1 5C51D260
+P 2400 3850
+F 0 "R?" H 2470 3896 50  0000 L CNN
+F 1 "100" H 2470 3805 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2330 3850 50  0001 C CNN
+F 3 "~" H 2400 3850 50  0001 C CNN
+	1    2400 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C51D7DB
+P 2400 4450
+F 0 "R?" H 2470 4496 50  0000 L CNN
+F 1 "100" H 2470 4405 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2330 4450 50  0001 C CNN
+F 3 "~" H 2400 4450 50  0001 C CNN
+	1    2400 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 3700 2400 3650
+Connection ~ 2400 3650
+Wire Wire Line
+	2400 3650 3700 3650
+Wire Wire Line
+	2400 4000 2400 4050
+Connection ~ 2400 4050
+Wire Wire Line
+	2400 4050 2000 4050
+Wire Wire Line
+	2400 4300 2400 4250
+Connection ~ 2400 4250
+Wire Wire Line
+	2400 4250 3700 4250
+Wire Wire Line
+	2400 4600 2400 4650
+Connection ~ 2400 4650
+Wire Wire Line
+	2400 4650 3700 4650
+$Comp
+L Device:C C?
+U 1 1 5C538A5E
+P 3300 4450
+F 0 "C?" V 3200 4350 50  0000 C CNN
+F 1 "100p" V 3200 4550 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3338 4300 50  0001 C CNN
+F 3 "~" H 3300 4450 50  0001 C CNN
+	1    3300 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C58085B
+P 3300 3850
+F 0 "C?" V 3200 3750 50  0000 C CNN
+F 1 "100p" V 3200 3950 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3338 3700 50  0001 C CNN
+F 3 "~" H 3300 3850 50  0001 C CNN
+	1    3300 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3450 3850 3700 3850
+Wire Wire Line
+	3700 4450 3450 4450
+$Comp
+L power:GND #PWR?
+U 1 1 5C590000
+P 2950 3850
+F 0 "#PWR?" H 2950 3600 50  0001 C CNN
+F 1 "GND" H 2955 3677 50  0000 C CNN
+F 2 "" H 2950 3850 50  0001 C CNN
+F 3 "" H 2950 3850 50  0001 C CNN
+	1    2950 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C5903E5
+P 2950 4450
+F 0 "#PWR?" H 2950 4200 50  0001 C CNN
+F 1 "GND" H 2955 4277 50  0000 C CNN
+F 2 "" H 2950 4450 50  0001 C CNN
+F 3 "" H 2950 4450 50  0001 C CNN
+	1    2950 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 4450 3150 4450
+Wire Wire Line
+	2950 3850 3150 3850
+NoConn ~ 4500 3850
+NoConn ~ 4500 4450
+Text Label 4700 3650 0    50   ~ 0
+PB
+Wire Wire Line
+	4500 3650 4700 3650
+Text Label 4700 4250 0    50   ~ 0
+PA
+Wire Wire Line
+	4500 4250 4700 4250
+Text Label 4700 4650 0    50   ~ 0
+MA
+Wire Wire Line
+	4500 4650 4700 4650
+Text Label 4700 4050 0    50   ~ 0
+MB
+Wire Wire Line
+	4500 4050 4700 4050
+$Comp
+L Device:Fuse F?
+U 1 1 5C5F48B5
+P 13250 4650
+F 0 "F?" V 13200 4850 50  0000 C CNN
+F 1 "0.25A" V 13200 4400 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering" V 13180 4650 50  0001 C CNN
+F 3 "~" H 13250 4650 50  0001 C CNN
+	1    13250 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13400 4650 14250 4650
+Wire Wire Line
+	12100 5250 13100 5250
+Wire Wire Line
+	12100 5150 13100 5150
+Wire Wire Line
+	12200 5050 13100 5050
+Wire Wire Line
+	12300 4950 13100 4950
+Wire Wire Line
+	12400 4850 13100 4850
+Wire Wire Line
+	12500 4750 13100 4750
+$Comp
+L Device:Fuse F?
+U 1 1 5C5F6C0F
+P 13250 4750
+F 0 "F?" V 13200 4950 50  0000 C CNN
+F 1 "0.25A" V 13200 4500 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering" V 13180 4750 50  0001 C CNN
+F 3 "~" H 13250 4750 50  0001 C CNN
+	1    13250 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13400 4750 14250 4750
+$Comp
+L Device:Fuse F?
+U 1 1 5C5F6DA2
+P 13250 4850
+F 0 "F?" V 13200 5050 50  0000 C CNN
+F 1 "0.25A" V 13200 4600 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering" V 13180 4850 50  0001 C CNN
+F 3 "~" H 13250 4850 50  0001 C CNN
+	1    13250 4850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13400 4850 14250 4850
+$Comp
+L Device:Fuse F?
+U 1 1 5C5F6F63
+P 13250 4950
+F 0 "F?" V 13200 5150 50  0000 C CNN
+F 1 "0.25A" V 13200 4700 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering" V 13180 4950 50  0001 C CNN
+F 3 "~" H 13250 4950 50  0001 C CNN
+	1    13250 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13400 4950 14250 4950
+$Comp
+L Device:Fuse F?
+U 1 1 5C5F71AE
+P 13250 5050
+F 0 "F?" V 13200 5250 50  0000 C CNN
+F 1 "0.25A" V 13200 4800 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering" V 13180 5050 50  0001 C CNN
+F 3 "~" H 13250 5050 50  0001 C CNN
+	1    13250 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13400 5050 14250 5050
+$Comp
+L Device:Fuse F?
+U 1 1 5C5F73A5
+P 13250 5150
+F 0 "F?" V 13200 5350 50  0000 C CNN
+F 1 "0.25A" V 13200 4900 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering" V 13180 5150 50  0001 C CNN
+F 3 "~" H 13250 5150 50  0001 C CNN
+	1    13250 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13400 5150 14250 5150
+$Comp
+L Device:Fuse F?
+U 1 1 5C5F7642
+P 13250 5250
+F 0 "F?" V 13200 5450 50  0000 C CNN
+F 1 "0.25A" V 13200 5000 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering" V 13180 5250 50  0001 C CNN
+F 3 "~" H 13250 5250 50  0001 C CNN
+	1    13250 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13400 5250 14250 5250
+$Comp
+L Device:Fuse F?
+U 1 1 5C5F7924
+P 13250 5350
+F 0 "F?" V 13200 5550 50  0000 C CNN
+F 1 "0.25A" V 13200 5100 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering" V 13180 5350 50  0001 C CNN
+F 3 "~" H 13250 5350 50  0001 C CNN
+	1    13250 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13400 5350 14250 5350
+$Comp
+L Device:Fuse F?
+U 1 1 5C5F7BC6
+P 13250 5450
+F 0 "F?" V 13200 5650 50  0000 C CNN
+F 1 "0.25A" V 13200 5200 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering" V 13180 5450 50  0001 C CNN
+F 3 "~" H 13250 5450 50  0001 C CNN
+	1    13250 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13400 5450 14250 5450
+$Comp
+L Device:Fuse F?
+U 1 1 5C5F7DB0
+P 13250 5550
+F 0 "F?" V 13200 5750 50  0000 C CNN
+F 1 "0.25A" V 13200 5300 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering" V 13180 5550 50  0001 C CNN
+F 3 "~" H 13250 5550 50  0001 C CNN
+	1    13250 5550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13400 5550 14250 5550
+$Comp
+L Device:Fuse F?
+U 1 1 5C5F8073
+P 13250 5650
+F 0 "F?" V 13200 5850 50  0000 C CNN
+F 1 "0.25A" V 13200 5400 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering" V 13180 5650 50  0001 C CNN
+F 3 "~" H 13250 5650 50  0001 C CNN
+	1    13250 5650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13400 5650 14250 5650
+$Comp
+L Device:Fuse F?
+U 1 1 5C5F8327
+P 13250 5750
+F 0 "F?" V 13200 5950 50  0000 C CNN
+F 1 "0.25A" V 13200 5500 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering" V 13180 5750 50  0001 C CNN
+F 3 "~" H 13250 5750 50  0001 C CNN
+	1    13250 5750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13400 5750 14250 5750
+$Comp
+L Connector_Generic:Conn_01x13 J?
+U 1 1 5C51E6F2
+P 14450 5250
+F 0 "J?" H 14530 5292 50  0000 L CNN
+F 1 "Cells" H 14530 5201 50  0000 L CNN
+F 2 "" H 14450 5250 50  0001 C CNN
+F 3 "~" H 14450 5250 50  0001 C CNN
+	1    14450 5250
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
