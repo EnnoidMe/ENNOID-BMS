@@ -24,4 +24,26 @@ F 3 "http://cds.linear.com/docs/en/datasheet/680324fa.pdf" H 5600 4900 50  0001 
 	1    5050 3550
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x16 J?
+U 1 1 5C556888
+P 8550 3350
+F 0 "J?" H 8468 2325 50  0000 C CNN
+F 1 "Cells" H 8468 2416 50  0000 C CNN
+F 2 "" H 8550 3350 50  0001 C CNN
+F 3 "~" H 8550 3350 50  0001 C CNN
+	1    8550 3350
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C55795A
+P 2900 2700
+F 0 "R?" H 2970 2746 50  0000 L CNN
+F 1 "1M" H 2970 2655 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2830 2700 50  0001 C CNN
+F 3 "~" H 2900 2700 50  0001 C CNN
+	1    2900 2700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
