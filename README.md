@@ -31,10 +31,14 @@ https://endless-sphere.com/forums/viewtopic.php?f=14&t=92952
 13/01/2019:
 For cost reasons:
 - Master & Slave boards will be on a 2 layers PCB 100mm x 100mm
-- External power supply 12V or 24V is required for master. (Would be nice to have integrated PSU on Master, but high power HV DC/DC converter are too expensive, a 12V battery with low power HV DC/DC converter is indeed cheaper) 
+- External power supply 12V or 24V is required for master. 
 
 PCB cost = 10 pcs x (Master+ Slave) = 9.80$ + shipping 
 
+28/01/2018:
+- Started LTC6811 slave board design
+- Started power supply board design (Will use EPM1205SJ + AD8280 for charging 3 lithium-ion batteries from HV battery pack. Batteries will be mounted on PCB)
+- Current sensor PCB from paltatech, now in separate folder
 
 ### Features:
 
@@ -63,7 +67,7 @@ PCB cost = 10 pcs x (Master+ Slave) = 9.80$ + shipping
 
 ### Components:
 
-- LTC6813	-> Battery stack cell voltage monitor.
+- LTC6813 or LTC6811	-> Battery stack cell voltage monitor.
 - LTC6820	-> ISOSPI communication to Slaves.
 - STM32F303	-> Main microcontroller.
 - AMC1301	-> Isolated voltage measurement
@@ -81,11 +85,11 @@ PCB cost = 10 pcs x (Master+ Slave) = 9.80$ + shipping
 
 ### Slave LTC6813
 
-![alt text](Slave/LTC6813/PIC/SlavePCB.png)
+![alt text](Slaves/LTC6813/PIC/SlavePCB.png)
 
 ### Slave LTC6811
 
-![alt text](Slave/LTC6811/PIC/SlavePCB.png)
+![alt text](Slaves/LTC6811/PIC/SlavePCB.png)
 
 
 
