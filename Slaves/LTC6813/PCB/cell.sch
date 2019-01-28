@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 21
+Sheet 21 21
 Title ""
 Date ""
 Rev ""
@@ -176,7 +176,7 @@ AR Path="/5B4A196B/5B50AABA/5C6D64D7" Ref="Q22"  Part="1"
 AR Path="/5B4A196B/5B50EED8/5C6D64D7" Ref="Q23"  Part="1" 
 AR Path="/5B4A196B/5B510167/5C6D64D7" Ref="Q24"  Part="1" 
 F 0 "Q25" H 3706 4054 50  0000 L CNN
-F 1 "BSS138" H 3706 4145 50  0000 L CNN
+F 1 "TSM2323" H 3706 4145 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 3700 4025 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 3500 4100 50  0001 L CNN
 	1    3500 4100
