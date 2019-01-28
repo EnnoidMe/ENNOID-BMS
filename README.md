@@ -15,7 +15,7 @@ This repository is part of the open-source project: EVGE - Electric Vehicle Glob
 
 This project aims to create a scalable & modular open source BMS for up to 1000V lithium-ion battery packs.
 
-# Update 
+### Updates 
 
 20/02/2018:
 The idea behind this project has been started on this thread:
@@ -40,7 +40,7 @@ PCB cost = 10 pcs x (Master+ Slave) = 9.80$ + shipping
 - Started power supply board design (Will use EPM1205SJ + AD8280 for charging 3 lithium-ion batteries from HV battery pack. Batteries will be mounted on PCB)
 - Current sensor PCB from paltatech, now in separate folder
 
-### Features:
+## Features:
 
 **Master board**
 - Isolated voltages measurements for Charge, Discharge & Pack buses
@@ -58,13 +58,22 @@ PCB cost = 10 pcs x (Master+ Slave) = 9.80$ + shipping
 - 9 or 2 Temperatures sensors/board (9 for LTC6813 & 2 for LTC6811)
 - Daisychain Master/Slave ISOSPI communication 
 
+**Current sensor**
+- Isolated delta sigma ADC current sensor
+- +- 400A capable
+
+**UPS**
+- Isolated 110-450V to 12V DC/DC converter
+- AD8280 for 3 to 6 lithium-ion cells monitoring
+- Continuous 0.5A @12V or 24V
+- Peak current of several Amps achievable with proper lithium-ion battery mounted on the PCB
+
 **Software**
 
 - Firmware, bootloader & configuration tool are the same as [DieBieMS](https://github.com/DieBieEngineering). 
-- Changes from DieBieMS code are only required to support the LTC6813 communication/balancing instead of the LTC6803. (I might design a slave board in the future with  the LTC6803 that would not require any changes at all)
-- Isolation layer & schematic changes don't require MCU code modifications on Master board.
+- Software for ENNOID-BMS and DieBieMS are almost identical because the schematics changes related to isolation are invisible for the MCU. Only the switch to LTC6813 slave needs some minimal modifications
 
-### Components:
+## Components:
 
 - LTC6813 or LTC6811	-> Battery stack cell voltage monitor.
 - LTC6820	-> ISOSPI communication to Slaves.
@@ -78,15 +87,15 @@ PCB cost = 10 pcs x (Master+ Slave) = 9.80$ + shipping
 - CP2104-F03	-> USB to serial converter for bootloader based firmware updates and debugging.
 
 
-### Master
+## Master
 
 ![alt text](Master/PIC/MasterPCB.png)
 
-### Slave LTC6813
+## Slave LTC6813
 
 ![alt text](Slaves/LTC6813/PIC/SlavePCB.png)
 
-### Slave LTC6811
+## Slave LTC6811
 
 ![alt text](Slaves/LTC6811/PIC/SlavePCB.png)
 
