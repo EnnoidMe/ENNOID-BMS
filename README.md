@@ -52,12 +52,11 @@ PCB cost = 10 pcs x (Master+ Slave) = 9.80$ + shipping
 - SDCard for logging (to develop a SoC and SoH algorithm)
 
 **Slave boards**
-- 18 Cells balancing/board 
+- 18 or 12 Cells balancing/board  (18 for LTC6813 & 12 for LTC6811)
 - Cell voltage range 2.5V to 4.5V
 - Stackable for up to 1000V packs 
-- 9 Temperatures sensors/board
+- 9 or 2 Temperatures sensors/board (9 for LTC6813 & 2 for LTC6811)
 - Daisychain Master/Slave ISOSPI communication 
-- Internal & external balancing circuit mode possible through dedicated jumpers
 
 **Software**
 
