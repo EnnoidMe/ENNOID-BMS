@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 3
 Title "Current sensor"
 Date "2017-08-15"
 Rev ""
@@ -283,34 +283,6 @@ F 9 "" H -2700 1800 50  0001 C CNN "SPURL"
 	1    4350 5000
 	-1   0    0    -1  
 $EndComp
-$Comp
-L current_sensor-rescue:MOUNTING_HOLE HOLE1
-U 1 1 599308D4
-P 10150 6050
-F 0 "HOLE1" H 10278 6103 60  0000 L CNN
-F 1 "MOUNTING_HOLE" H 10278 5997 60  0000 L CNN
-F 2 "mech:PTH-3MM-PLUS-SUPPORTED" H 10278 5944 60  0001 L CNN
-F 3 "" H 10150 6050 60  0000 C CNN
-F 4 "0" H 10150 6050 60  0001 C CNN "Exclude from BOM"
-F 5 "none" H 10150 6050 60  0001 C CNN "version"
-	1    10150 6050
-	1    0    0    -1  
-$EndComp
-NoConn ~ 9950 6050
-$Comp
-L current_sensor-rescue:MOUNTING_HOLE HOLE2
-U 1 1 59930DD5
-P 10150 6300
-F 0 "HOLE2" H 10278 6353 60  0000 L CNN
-F 1 "MOUNTING_HOLE" H 10278 6247 60  0000 L CNN
-F 2 "mech:PTH-3MM-PLUS-SUPPORTED" H 10278 6194 60  0001 L CNN
-F 3 "" H 10150 6300 60  0000 C CNN
-F 4 "0" H 10150 6300 60  0001 C CNN "Exclude from BOM"
-F 5 "none" H 10150 6300 60  0001 C CNN "version"
-	1    10150 6300
-	1    0    0    -1  
-$EndComp
-NoConn ~ 9950 6300
 Text Notes 2400 2150 0    160  ~ 32
 Isolated delta sigma\nADC current sensor
 Wire Notes Line
@@ -471,144 +443,4 @@ Wire Wire Line
 	2400 4250 2400 4300
 Wire Wire Line
 	5450 3250 5450 3300
-Wire Notes Line
-	6800 3250 6800 1500
-Wire Notes Line
-	10400 3250 6800 3250
-Wire Notes Line
-	10400 1500 10400 3250
-Wire Notes Line
-	6800 1500 10400 1500
-Text Notes 7150 1850 0    160  ~ 32
-Delta sigma to analog
-Text Label 7650 2750 0    20   ~ 0
-delta_sigma
-NoConn ~ 7500 2850
-Wire Wire Line
-	9650 2850 9700 2850
-Wire Wire Line
-	9650 2900 9650 2850
-$Comp
-L current_sensor-rescue:GND #PWR09
-U 1 1 5990655D
-P 9650 2900
-F 0 "#PWR09" H 9650 2900 30  0001 C CNN
-F 1 "GND" H 9650 2830 30  0001 C CNN
-F 2 "" H 9650 2900 60  0000 C CNN
-F 3 "" H 9650 2900 60  0000 C CNN
-	1    9650 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L current_sensor-rescue:CONN-100MIL-M-1x3 J3
-U 1 1 59906414
-P 9750 2650
-F 0 "J3" H 9869 2595 50  0000 L CNN
-F 1 "Conn" H 9869 2504 50  0000 L CNN
-F 2 "paltatech:DF13-3P-1.25H_50" H 9750 2650 50  0001 C CNN
-F 3 "" H 9750 2650 50  0000 C CNN
-F 4 "0" H 9750 2650 60  0001 C CNN "Exclude from BOM"
-	1    9750 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9700 2750 8700 2750
-Wire Wire Line
-	9250 2450 9300 2450
-$Comp
-L current_sensor-rescue:GND #PWR08
-U 1 1 599061FE
-P 9250 2450
-F 0 "#PWR08" H 9250 2450 30  0001 C CNN
-F 1 "GND" H 9250 2380 30  0001 C CNN
-F 2 "" H 9250 2450 60  0000 C CNN
-F 3 "" H 9250 2450 60  0000 C CNN
-	1    9250 2450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9600 2650 9700 2650
-Wire Wire Line
-	9600 2450 9600 2650
-Wire Wire Line
-	9600 2400 9600 2450
-Connection ~ 9600 2450
-Wire Wire Line
-	9500 2450 9600 2450
-$Comp
-L current_sensor-rescue:C-0603 C2
-U 1 1 59905D6C
-P 9400 2450
-F 0 "C2" V 9650 2450 50  0000 C CNN
-F 1 "10uF" V 9559 2450 50  0000 C CNN
-F 2 "IPC7351-Nominal:CAPC1608X55" H 9400 2450 50  0001 C CNN
-F 3 "" H 9390 2425 60  0000 C CNN
-F 4 "CAP MLCC 100pF C0G 50V 5% [0603]" H 10200 3000 60  0001 C CNN "BOM"
-	1    9400 2450
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	7550 2950 7500 2950
-Wire Wire Line
-	7550 3000 7550 2950
-$Comp
-L current_sensor-rescue:GND #PWR07
-U 1 1 59905881
-P 7550 3000
-F 0 "#PWR07" H 7550 3000 30  0001 C CNN
-F 1 "GND" H 7550 2930 30  0001 C CNN
-F 2 "" H 7550 3000 60  0000 C CNN
-F 3 "" H 7550 3000 60  0000 C CNN
-	1    7550 3000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8050 2750 7500 2750
-$Sheet
-S 8050 2650 650  200 
-U 59903B4B
-F0 "analog filter" 60
-F1 "deltasigma_filter.sch" 60
-F2 "IN" I L 8050 2750 60 
-F3 "OUT" O R 8700 2750 60 
-$EndSheet
-$Comp
-L current_sensor-rescue:+5 #PWR06
-U 1 1 5990351A
-P 9600 2400
-F 0 "#PWR06" H 9600 2450 30  0001 C CNN
-F 1 "+5" H 9600 2533 50  0000 C CNN
-F 2 "" H 9600 2400 60  0000 C CNN
-F 3 "" H 9600 2400 60  0000 C CNN
-	1    9600 2400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7600 2650 7500 2650
-Wire Wire Line
-	7600 2600 7600 2650
-$Comp
-L current_sensor-rescue:+5 #PWR05
-U 1 1 59903435
-P 7600 2600
-F 0 "#PWR05" H 7600 2650 30  0001 C CNN
-F 1 "+5" H 7600 2733 50  0000 C CNN
-F 2 "" H 7600 2600 60  0000 C CNN
-F 3 "" H 7600 2600 60  0000 C CNN
-	1    7600 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L current_sensor-rescue:CONN-100MIL-F-1x4 J2
-U 1 1 59902ED3
-P 7450 2650
-F 0 "J2" H 7569 2545 50  0000 L CNN
-F 1 "DS conn" H 7569 2454 50  0000 L CNN
-F 2 "conn-100mil:CONN-100MIL-F-1x4" H 7450 2650 50  0001 C CNN
-F 3 "" H 7450 2650 50  0000 C CNN
-F 4 "0" H 7450 2650 60  0001 C CNN "Exclude from BOM"
-F 5 "none" H 7450 2650 60  0001 C CNN "version"
-	1    7450 2650
-	-1   0    0    -1  
-$EndComp
 $EndSCHEMATC
