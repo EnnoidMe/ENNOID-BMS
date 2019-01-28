@@ -99,5 +99,13 @@ PCB cost = 10 pcs x (Master+ Slave) = 9.80$ + shipping
 
 ![alt text](Slaves/LTC6811/PIC/SlavePCB.png)
 
+## UPS
+
+![alt text](UPS/PIC/UPS.png)
+
+## Current sensor
+
+![alt text](Current_Sensor/PIC/Current_Sensor.png)
+
 
 
