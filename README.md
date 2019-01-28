@@ -63,7 +63,7 @@ PCB cost = 10 pcs x (Master+ Slave) = 9.80$ + shipping
 - +- 400A capable
 
 **UPS board**
-- Isolated 110-450V to 12V DC/DC converter
+- Isolated 110-450V to 12EPM1205SJ or 24V DC/DC converter
 - AD8280 for 3 to 6 lithium-ion cells monitoring
 - Continuous 0.5A @12V or 24V
 - Peak current of several Amps achievable with proper lithium-ion battery mounted on the PCB
