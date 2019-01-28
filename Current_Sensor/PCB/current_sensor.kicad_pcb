@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (user_trace_width 1)
     (trace_clearance 0.2)
@@ -997,9 +997,9 @@
     (effects (font (size 1 1) (thickness 0.2)) (justify left mirror))
   )
   (gr_line (start 133 97) (end 133 72) (layer Edge.Cuts) (width 0.2))
-  (gr_line (start 172 97) (end 133 97) (layer Edge.Cuts) (width 0.2))
-  (gr_line (start 172 72) (end 172 97) (layer Edge.Cuts) (width 0.2))
-  (gr_line (start 133 72) (end 172 72) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 173 97) (end 133 97) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 173 72) (end 173 97) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 133 72) (end 173 72) (layer Edge.Cuts) (width 0.2))
 
   (segment (start 163.6 75.35) (end 163.16 75.35) (width 0.5) (layer F.Cu) (net 1) (status 30))
   (segment (start 163.16 75.35) (end 161.57 73.76) (width 0.5) (layer F.Cu) (net 1) (status 30))
@@ -1221,7 +1221,7 @@
   (segment (start 152.3 87.135) (end 150.115 87.135) (width 0.5) (layer F.Cu) (net 19) (status 30))
   (segment (start 150.115 87.135) (end 150 87.25) (width 0.5) (layer F.Cu) (net 19) (status 30))
 
-  (zone (net 15) (net_name ISOGND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 15) (net_name ISOGND) (layer F.Cu) (tstamp 5C4F4A20) (hatch edge 0.508)
     (connect_pads (clearance 0.3))
     (min_thickness 0.25)
     (fill yes (arc_segments 32) (thermal_gap 0.3) (thermal_bridge_width 0.3) (smoothing fillet) (radius 0.25))
@@ -1365,7 +1365,7 @@
       )
     )
   )
-  (zone (net 15) (net_name ISOGND) (layer B.Cu) (tstamp 59908CEC) (hatch edge 0.508)
+  (zone (net 15) (net_name ISOGND) (layer B.Cu) (tstamp 5C4F4A1D) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -1387,7 +1387,7 @@
       )
     )
   )
-  (zone (net 4) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 4) (net_name GND) (layer B.Cu) (tstamp 5C4F4A1A) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -1398,7 +1398,7 @@
     )
     (filled_polygon
       (pts
-        (xy 171.265001 96.265) (xy 161.127 96.265) (xy 161.127 92.487077) (xy 162.455 92.487077) (xy 162.455 92.692923)
+        (xy 172.265001 96.265) (xy 161.127 96.265) (xy 161.127 92.487077) (xy 162.455 92.487077) (xy 162.455 92.692923)
         (xy 162.495159 92.894815) (xy 162.573933 93.084993) (xy 162.688296 93.256148) (xy 162.833852 93.401704) (xy 163.005007 93.516067)
         (xy 163.195185 93.594841) (xy 163.397077 93.635) (xy 163.602923 93.635) (xy 163.804815 93.594841) (xy 163.994993 93.516067)
         (xy 164.166148 93.401704) (xy 164.311704 93.256148) (xy 164.426067 93.084993) (xy 164.504841 92.894815) (xy 164.545 92.692923)
@@ -1422,7 +1422,7 @@
         (xy 170.030589 84.441529) (xy 169.83063 84.481303) (xy 169.642272 84.559324) (xy 169.472754 84.672592) (xy 169.328591 84.816755)
         (xy 169.215323 84.986273) (xy 169.137302 85.174631) (xy 169.115481 85.284334) (xy 166.935357 87.464459) (xy 166.878502 87.475768)
         (xy 166.690144 87.553789) (xy 166.520626 87.667057) (xy 166.376463 87.81122) (xy 166.263195 87.980738) (xy 166.185174 88.169096)
-        (xy 166.1454 88.369055) (xy 161.127 88.369055) (xy 161.127 72.735) (xy 171.265 72.735)
+        (xy 166.1454 88.369055) (xy 161.127 88.369055) (xy 161.127 72.735) (xy 172.265 72.735)
       )
     )
   )
