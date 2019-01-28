@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:LTC6811-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -46,4 +47,10 @@ F 3 "~" H 2900 2700 50  0001 C CNN
 	1    2900 2700
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 2250 3800 1250 900 
+U 5C4F59F4
+F0 "cell" 50
+F1 "cell.sch" 50
+$EndSheet
 $EndSCHEMATC
