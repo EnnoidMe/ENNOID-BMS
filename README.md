@@ -66,7 +66,7 @@ PCB cost = 10 pcs x (Master+ Slave) = 9.80$ + shipping
 - Isolated 110-450V to 12V or 24V DC/DC converter
 - AD8280 for 3 to 6 lithium-ion cells monitoring
 - Continuous 1A @12V or 24V
-- Peak current of several Amps achievable with proper lithium-ion battery mounted on the PCB
+- Peak current of several Amps achievable with proper lithium-ion batteries mounted on the PCB
 
 **Software**
 
