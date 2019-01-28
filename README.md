@@ -58,11 +58,11 @@ PCB cost = 10 pcs x (Master+ Slave) = 9.80$ + shipping
 - 9 or 2 Temperatures sensors/board (9 for LTC6813 & 2 for LTC6811)
 - Daisychain Master/Slave ISOSPI communication 
 
-**Current sensor**
+**Current sensor board**
 - Isolated delta sigma ADC current sensor
 - +- 400A capable
 
-**UPS**
+**UPS board**
 - Isolated 110-450V to 12V DC/DC converter
 - AD8280 for 3 to 6 lithium-ion cells monitoring
 - Continuous 0.5A @12V or 24V
