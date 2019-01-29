@@ -216,12 +216,6 @@ F 3 "" H 2950 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 3500 2950 3600
-Wire Wire Line
-	2950 4050 2950 4100
-Wire Wire Line
-	2950 4500 2950 4600
-Wire Wire Line
 	2950 4950 2950 5150
 NoConn ~ 2550 2050
 $Comp
@@ -287,27 +281,13 @@ $Comp
 L Device:R R?
 U 1 1 5C5303B7
 P 2400 3850
-F 0 "R?" H 2470 3896 50  0000 L CNN
-F 1 "1M" H 2470 3805 50  0000 L CNN
+F 0 "R?" V 2193 3850 50  0000 C CNN
+F 1 "1M" V 2284 3850 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2330 3850 50  0001 C CNN
 F 3 "~" H 2400 3850 50  0001 C CNN
 	1    2400 3850
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2400 3700 2400 3600
-Wire Wire Line
-	2400 3600 2950 3600
-Connection ~ 2950 3600
-Wire Wire Line
-	2950 3600 2950 3750
-Wire Wire Line
-	2400 4000 2400 4100
-Wire Wire Line
-	2400 4100 2950 4100
-Connection ~ 2950 4100
-Wire Wire Line
-	2950 4100 2950 4200
 $Comp
 L Device:R R?
 U 1 1 5C531538
@@ -331,23 +311,16 @@ F 3 "~" H 2400 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 4200 2400 4100
-Connection ~ 2400 4100
-Wire Wire Line
-	2400 4500 2400 4600
-Wire Wire Line
-	2400 4600 2950 4600
-Connection ~ 2400 4600
-Wire Wire Line
-	2400 4600 2400 4650
-Connection ~ 2950 4600
-Wire Wire Line
-	2950 4600 2950 4650
-Wire Wire Line
 	2400 4950 2400 5150
 Wire Wire Line
 	2400 5150 2950 5150
 Connection ~ 2950 5150
 Wire Wire Line
 	2950 5150 2950 5200
+Wire Wire Line
+	2950 4050 2950 4200
+Wire Wire Line
+	2950 4500 2950 4650
+Wire Wire Line
+	2950 3500 2950 3750
 $EndSCHEMATC

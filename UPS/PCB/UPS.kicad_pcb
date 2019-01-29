@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 2)
+    (last_trace_width 0.25)
     (user_trace_width 1)
     (user_trace_width 2)
     (trace_clearance 0.2)
@@ -174,10 +174,10 @@
       (net 1 "Net-(BT1-Pad2)"))
     (pad 1 smd rect (at -39.33 0) (size 7.34 6.35) (layers F.Cu F.Paste F.Mask)
       (net 2 +12V))
-    (model ${KISYS3DMOD}/Battery.3dshapes/Battery_CR1225.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/ENNOID.pretty/3D/18650.step
+      (offset (xyz 32.5 0 9))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 90 0))
     )
   )
 
@@ -230,10 +230,10 @@
     (pad "" np_thru_hole circle (at 27.6 -8) (size 3.45 3.45) (drill 3.45) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -27.6 8) (size 3.45 3.45) (drill 3.45) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -35.93 -8) (size 2.39 2.39) (drill 2.39) (layers *.Cu *.Mask))
-    (model ${KISYS3DMOD}/Battery_Holders.3dshapes/Keystone_1042_1x18650.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/ENNOID.pretty/3D/18650.step
+      (offset (xyz 32.5 0 9))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 90 0))
     )
   )
 
@@ -286,10 +286,10 @@
       (net 4 GND))
     (pad 1 smd rect (at -39.33 0) (size 7.34 6.35) (layers F.Cu F.Paste F.Mask)
       (net 3 "Net-(BT2-Pad2)"))
-    (model ${KISYS3DMOD}/Battery_Holders.3dshapes/Keystone_1042_1x18650.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/ENNOID.pretty/3D/18650.step
+      (offset (xyz 32.5 1 9))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 90 0))
     )
   )
 
