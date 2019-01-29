@@ -1,0 +1,286 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ENNOID:EPM2405SJ U1
+U 1 1 5C507562
+P 3150 1800
+F 0 "U1" H 3150 2965 50  0000 C CNN
+F 1 "EPM2405SJ" H 3150 2874 50  0000 C CNN
+F 2 "ENNOID:EPM2405SJ" H 3150 1800 50  0001 C CNN
+F 3 "" H 3150 1800 50  0001 C CNN
+	1    3150 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5C5079FF
+P 1000 1400
+F 0 "J1" H 918 1075 50  0000 C CNN
+F 1 "BAT" H 918 1166 50  0000 C CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00001_Pitch5.00mm" H 1000 1400 50  0001 C CNN
+F 3 "~" H 1000 1400 50  0001 C CNN
+	1    1000 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5C50813E
+P 6850 1300
+F 0 "J2" H 6930 1292 50  0000 L CNN
+F 1 "ExtPower" H 6930 1201 50  0000 L CNN
+F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 6850 1300 50  0001 C CNN
+F 3 "~" H 6850 1300 50  0001 C CNN
+	1    6850 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5C509124
+P 2250 4400
+F 0 "BT1" H 2368 4496 50  0000 L CNN
+F 1 "Battery_Cell" H 2368 4405 50  0000 L CNN
+F 2 "Battery_Holders:Keystone_1042_1x18650" V 2250 4460 50  0001 C CNN
+F 3 "~" V 2250 4460 50  0001 C CNN
+	1    2250 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT2
+U 1 1 5C509560
+P 2250 4850
+F 0 "BT2" H 2368 4946 50  0000 L CNN
+F 1 "Battery_Cell" H 2368 4855 50  0000 L CNN
+F 2 "Battery_Holders:Keystone_1042_1x18650" V 2250 4910 50  0001 C CNN
+F 3 "~" V 2250 4910 50  0001 C CNN
+	1    2250 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT3
+U 1 1 5C5098B4
+P 2250 5300
+F 0 "BT3" H 2368 5396 50  0000 L CNN
+F 1 "Battery_Cell" H 2368 5305 50  0000 L CNN
+F 2 "Battery_Holders:Keystone_1042_1x18650" V 2250 5360 50  0001 C CNN
+F 3 "~" V 2250 5360 50  0001 C CNN
+	1    2250 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5C50A323
+P 1950 1350
+F 0 "C1" H 2065 1396 50  0000 L CNN
+F 1 "33u 450V" H 2065 1305 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D16.0mm_P7.50mm" H 1988 1200 50  0001 C CNN
+F 3 "~" H 1950 1350 50  0001 C CNN
+	1    1950 1350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2550 900 
+NoConn ~ 2550 1350
+NoConn ~ 2550 1800
+Wire Wire Line
+	1950 1200 1950 1100
+Wire Wire Line
+	1950 1100 2550 1100
+Wire Wire Line
+	2550 1600 1950 1600
+Wire Wire Line
+	1950 1600 1950 1500
+Wire Wire Line
+	1200 1300 1400 1300
+Wire Wire Line
+	1400 1300 1400 1100
+Wire Wire Line
+	1400 1100 1950 1100
+Connection ~ 1950 1100
+Wire Wire Line
+	1950 1600 1400 1600
+Wire Wire Line
+	1400 1600 1400 1400
+Wire Wire Line
+	1400 1400 1200 1400
+Connection ~ 1950 1600
+$Comp
+L Device:C C2
+U 1 1 5C50C059
+P 4200 1350
+F 0 "C2" H 4315 1396 50  0000 L CNN
+F 1 "220u 35V" H 4315 1305 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P7.50mm" H 4238 1200 50  0001 C CNN
+F 3 "~" H 4200 1350 50  0001 C CNN
+	1    4200 1350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3750 900 
+NoConn ~ 3750 1350
+$Comp
+L Device:L L1
+U 1 1 5C50C658
+P 4950 1100
+F 0 "L1" V 5140 1100 50  0000 C CNN
+F 1 "L" V 5049 1100 50  0000 C CNN
+F 2 "ENNOID:TDK_Inductor" H 4950 1100 50  0001 C CNN
+F 3 "~" H 4950 1100 50  0001 C CNN
+	1    4950 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3750 1100 4200 1100
+Wire Wire Line
+	4200 1200 4200 1100
+Connection ~ 4200 1100
+Wire Wire Line
+	4200 1100 4800 1100
+Wire Wire Line
+	4200 1500 4200 1600
+Wire Wire Line
+	4200 1600 3750 1600
+Wire Wire Line
+	5100 1100 5350 1100
+Wire Wire Line
+	5350 1100 5350 1200
+Wire Wire Line
+	5350 1500 5350 1600
+Wire Wire Line
+	5350 1600 4200 1600
+Connection ~ 4200 1600
+Connection ~ 5350 1100
+Connection ~ 5350 1600
+Wire Wire Line
+	6650 1100 6650 1300
+Wire Wire Line
+	6650 1400 6650 1600
+Wire Wire Line
+	6650 1600 6350 1600
+$Comp
+L power:+12V #PWR0101
+U 1 1 5C514254
+P 6350 1100
+F 0 "#PWR0101" H 6350 950 50  0001 C CNN
+F 1 "+12V" H 6365 1273 50  0000 C CNN
+F 2 "" H 6350 1100 50  0001 C CNN
+F 3 "" H 6350 1100 50  0001 C CNN
+	1    6350 1100
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 1100
+Wire Wire Line
+	6350 1100 6650 1100
+$Comp
+L power:GND #PWR0102
+U 1 1 5C514D55
+P 6350 1600
+F 0 "#PWR0102" H 6350 1350 50  0001 C CNN
+F 1 "GND" H 6355 1427 50  0000 C CNN
+F 2 "" H 6350 1600 50  0001 C CNN
+F 3 "" H 6350 1600 50  0001 C CNN
+	1    6350 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 1600
+$Comp
+L power:+12V #PWR0103
+U 1 1 5C515B74
+P 2250 3950
+F 0 "#PWR0103" H 2250 3800 50  0001 C CNN
+F 1 "+12V" H 2265 4123 50  0000 C CNN
+F 2 "" H 2250 3950 50  0001 C CNN
+F 3 "" H 2250 3950 50  0001 C CNN
+	1    2250 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5C515F66
+P 2250 5650
+F 0 "#PWR0104" H 2250 5400 50  0001 C CNN
+F 1 "GND" H 2255 5477 50  0000 C CNN
+F 2 "" H 2250 5650 50  0001 C CNN
+F 3 "" H 2250 5650 50  0001 C CNN
+	1    2250 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 3950 2250 4200
+Wire Wire Line
+	2250 4500 2250 4650
+Wire Wire Line
+	2250 4950 2250 5100
+Wire Wire Line
+	2250 5400 2250 5650
+NoConn ~ 2550 2050
+$Comp
+L Device:C C3
+U 1 1 5C51ABC5
+P 5350 1350
+F 0 "C3" H 5465 1396 50  0000 L CNN
+F 1 "100u 35V" H 5465 1305 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P7.50mm" H 5388 1200 50  0001 C CNN
+F 3 "~" H 5350 1350 50  0001 C CNN
+	1    5350 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1600 6350 1600
+Wire Wire Line
+	5350 1100 6350 1100
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 5C51C403
+P 10600 800
+F 0 "J3" H 10680 796 50  0000 L CNN
+F 1 "Conn_01x01" H 10680 751 50  0001 L CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via" H 10600 800 50  0001 C CNN
+F 3 "~" H 10600 800 50  0001 C CNN
+	1    10600 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 5C51C821
+P 10600 1000
+F 0 "J4" H 10680 996 50  0000 L CNN
+F 1 "Conn_01x01" H 10680 951 50  0001 L CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via" H 10600 1000 50  0001 C CNN
+F 3 "~" H 10600 1000 50  0001 C CNN
+	1    10600 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 5C51C967
+P 10600 1200
+F 0 "J5" H 10680 1196 50  0000 L CNN
+F 1 "Conn_01x01" H 10680 1151 50  0001 L CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via" H 10600 1200 50  0001 C CNN
+F 3 "~" H 10600 1200 50  0001 C CNN
+	1    10600 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 5C51CAB2
+P 10600 1400
+F 0 "J6" H 10680 1396 50  0000 L CNN
+F 1 "Conn_01x01" H 10680 1351 50  0001 L CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via" H 10600 1400 50  0001 C CNN
+F 3 "~" H 10600 1400 50  0001 C CNN
+	1    10600 1400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

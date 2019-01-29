@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ENNOID)(type Legacy)(uri ${KIPRJMOD}/ENNOID.lib)(options "")(descr ""))
+)
