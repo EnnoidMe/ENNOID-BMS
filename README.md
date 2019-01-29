@@ -94,11 +94,11 @@ PCB cost = 10 pcs x (Master+ Slave) = 9.80$ + shipping
 
 ## Slave LTC6813
 
-![alt text](Slaves/LTC6813/PIC/SlavePCB.png)
+![alt text](Slaves/LTC6813/PIC/LTC6813.png)
 
 ## Slave LTC6811
 
-![alt text](Slaves/LTC6811/PIC/SlavePCB.png)
+![alt text](Slaves/LTC6811/PIC/LTC6811.png)
 
 ## UPS
 

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC6811-1
+D Multicell Battery Stack Monitor, 12-cell max, multi-chemistry, integrated balancing, stackable, serial interface
+K battery balance afe
+F http://cds.linear.com/docs/en/datasheet/680324fa.pdf
+$ENDCMP
+#
+#End Doc Library
