@@ -40,10 +40,10 @@ F19 "T1" O L 6850 5950 50
 F20 "T0" O L 6850 5850 50 
 $EndSheet
 $Comp
-L BMS-Slave-rescue:Conn_01x02-Connector_Generic-BMS-Slave-rescue J14
+L BMS-Slave-rescue:Conn_01x02-Connector_Generic-BMS-Slave-rescue J6
 U 1 1 5C30CF47
 P 7500 3350
-F 0 "J14" H 7579 3342 50  0000 L CNN
+F 0 "J6" H 7579 3342 50  0000 L CNN
 F 1 "Slave" H 7579 3251 50  0000 L CNN
 F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 7500 3350 50  0001 C CNN
 F 3 "~" H 7500 3350 50  0001 C CNN
@@ -73,10 +73,10 @@ Wire Wire Line
 Wire Wire Line
 	6850 6650 6600 6650
 $Comp
-L Connector_Generic:Conn_01x19 J4
+L Connector_Generic:Conn_01x19 J7
 U 1 1 5C915AF7
 P 7500 4500
-F 0 "J4" H 7750 4400 50  0000 C CNN
+F 0 "J7" H 7750 4400 50  0000 C CNN
 F 1 "Cells" H 7750 4500 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Angled_1x19_Pitch2.54mm" H 7500 4500 50  0001 C CNN
 F 3 "~" H 7500 4500 50  0001 C CNN
@@ -157,15 +157,15 @@ Wire Wire Line
 Wire Wire Line
 	6700 6750 6600 6750
 $Comp
-L BMS-Slave-rescue:Conn_01x02-Connector_Generic-BMS-Slave-rescue J15
+L BMS-Slave-rescue:Conn_01x02-Connector_Generic-BMS-Slave-rescue J8
 U 1 1 5C6934C8
-P 10250 4000
-F 0 "J15" H 10329 3992 50  0000 L CNN
-F 1 "Master" H 10329 3901 50  0000 L CNN
-F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 10250 4000 50  0001 C CNN
-F 3 "~" H 10250 4000 50  0001 C CNN
-	1    10250 4000
-	1    0    0    -1  
+P 10250 4100
+F 0 "J8" H 10329 4092 50  0000 L CNN
+F 1 "Master" H 10329 4001 50  0000 L CNN
+F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 10250 4100 50  0001 C CNN
+F 3 "~" H 10250 4100 50  0001 C CNN
+	1    10250 4100
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	9900 4000 10050 4000
@@ -211,10 +211,10 @@ F33 "MA" I R 9900 4000 50
 F34 "PA" I R 9900 4100 50 
 $EndSheet
 $Comp
-L power:GNDREF #PWR0114
+L power:GNDREF #PWR01
 U 1 1 5C77B090
 P 6700 6800
-F 0 "#PWR0114" H 6700 6550 50  0001 C CNN
+F 0 "#PWR01" H 6700 6550 50  0001 C CNN
 F 1 "GNDREF" H 6705 6627 50  0000 C CNN
 F 2 "" H 6700 6800 50  0001 C CNN
 F 3 "" H 6700 6800 50  0001 C CNN
@@ -257,10 +257,10 @@ F 3 "~" H 1600 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J6
+L Connector_Generic:Conn_01x01 J4
 U 1 1 5C3FCED2
 P 1600 1850
-F 0 "J6" H 1680 1846 50  0000 L CNN
+F 0 "J4" H 1680 1846 50  0000 L CNN
 F 1 "Conn_01x01" H 1680 1801 50  0001 L CNN
 F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via" H 1600 1850 50  0001 C CNN
 F 3 "~" H 1600 1850 50  0001 C CNN
