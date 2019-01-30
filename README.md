@@ -64,9 +64,10 @@ PCB cost = 10 pcs x (Master+ Slave) = 9.80$ + shipping
 - +- 400A capable
 
 **UPS board**
-- Isolated 110-450V to 12V or 24V DC/DC converter
-- Continuous 1A @12V or 24V
-- Peak current of several Amps achievable with proper lithium-ion batteries mounted on the PCB
+- Isolated 110-450V to 12V DC/DC converter
+- Continuous 1A @12V, sevral amps peak
+- BQ77904 voltage, current & temperature protection circuit
+
 
 **Software**
 
