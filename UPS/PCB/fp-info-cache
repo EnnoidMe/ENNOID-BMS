@@ -1,643 +1,755 @@
-1548778420451
-Mounting_Holes
-MountingHole_2.2mm_M2
+1548866073721
+TO_SOT_Packages_SMD
+Analog_KS-4
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_2.2mm_M2_DIN965
+TO_SOT_Packages_SMD
+ATPAK-2
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_2.2mm_M2_DIN965_Pad
+TO_SOT_Packages_SMD
+HVSOF5
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_2.2mm_M2_ISO7380
+TO_SOT_Packages_SMD
+HVSOF6
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_2.2mm_M2_ISO7380_Pad
+TO_SOT_Packages_SMD
+Infineon_PG-HSOF-8-1
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_2.2mm_M2_ISO14580
+TO_SOT_Packages_SMD
+Infineon_PG-HSOF-8-1_ThermalVias
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_2.2mm_M2_ISO14580_Pad
+TO_SOT_Packages_SMD
+Infineon_PG-TO-220-7Lead_TabPin8
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_2.2mm_M2_Pad
+TO_SOT_Packages_SMD
+PowerMacro_M234_NoHole
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_2.2mm_M2_Pad_Via
+TO_SOT_Packages_SMD
+PowerMacro_M234_WithHole
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_2.5mm
+TO_SOT_Packages_SMD
+PQFN_8x8
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_2.5mm_Pad
+TO_SOT_Packages_SMD
+Rohm_HRP7
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_2.5mm_Pad_Via
+TO_SOT_Packages_SMD
+SC-59
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_2.7mm
+TO_SOT_Packages_SMD
+SC-59_Handsoldering
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_2.7mm_M2.5
+TO_SOT_Packages_SMD
+SC-70-8
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_2.7mm_M2.5_DIN965
+TO_SOT_Packages_SMD
+SC-70-8_Handsoldering
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_2.7mm_M2.5_DIN965_Pad
+TO_SOT_Packages_SMD
+SC-82AA
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_2.7mm_M2.5_ISO7380
+TO_SOT_Packages_SMD
+SC-82AA_Handsoldering
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_2.7mm_M2.5_ISO7380_Pad
+TO_SOT_Packages_SMD
+SC-82AB
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_2.7mm_M2.5_ISO14580
+TO_SOT_Packages_SMD
+SC-82AB_Handsoldering
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_2.7mm_M2.5_ISO14580_Pad
+TO_SOT_Packages_SMD
+SOT-23
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_2.7mm_M2.5_Pad
+TO_SOT_Packages_SMD
+SOT-23-5
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_2.7mm_M2.5_Pad_Via
+TO_SOT_Packages_SMD
+SOT-23-5_HandSoldering
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_2.7mm_Pad
+TO_SOT_Packages_SMD
+SOT-23-6
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_2.7mm_Pad_Via
+TO_SOT_Packages_SMD
+SOT-23-6_Handsoldering
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_3.2mm_M3
+TO_SOT_Packages_SMD
+SOT-23-8
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_3.2mm_M3_DIN965
+TO_SOT_Packages_SMD
+SOT-23-8_Handsoldering
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_3.2mm_M3_DIN965_Pad
+TO_SOT_Packages_SMD
+SOT-23W
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_3.2mm_M3_ISO7380
+TO_SOT_Packages_SMD
+SOT-23W_Handsoldering
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_3.2mm_M3_ISO7380_Pad
+TO_SOT_Packages_SMD
+SOT-23_Handsoldering
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_3.2mm_M3_ISO14580
+TO_SOT_Packages_SMD
+SOT-89-3
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_3.2mm_M3_ISO14580_Pad
+TO_SOT_Packages_SMD
+SOT-89-3_Handsoldering
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_3.2mm_M3_Pad
+TO_SOT_Packages_SMD
+SOT-89-5_Housing
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_3.2mm_M3_Pad_Via
+TO_SOT_Packages_SMD
+SOT-89-5_Housing_Handsoldering
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_3.5mm
+TO_SOT_Packages_SMD
+SOT-143
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_3.5mm_Pad
+TO_SOT_Packages_SMD
+SOT-143R_Reverse
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_3.5mm_Pad_Via
+TO_SOT_Packages_SMD
+SOT-143R_Reverse_Handsoldering
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_3.7mm
+TO_SOT_Packages_SMD
+SOT-143_Handsoldering
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_3.7mm_Pad
+TO_SOT_Packages_SMD
+SOT-223
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_3.7mm_Pad_Via
+TO_SOT_Packages_SMD
+SOT-223-3_TabPin2
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_3mm
+TO_SOT_Packages_SMD
+SOT-223-5
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_3mm_Pad
+TO_SOT_Packages_SMD
+SOT-223-6
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_3mm_Pad_Via
+TO_SOT_Packages_SMD
+SOT-223-6_TabPin3
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_4.3mm_M4
+TO_SOT_Packages_SMD
+SOT-223-8
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_4.3mm_M4_DIN965
+TO_SOT_Packages_SMD
+SOT-323_SC-70
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_4.3mm_M4_DIN965_Pad
+TO_SOT_Packages_SMD
+SOT-323_SC-70_Handsoldering
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_4.3mm_M4_ISO7380
+TO_SOT_Packages_SMD
+SOT-343_SC-70-4
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_4.3mm_M4_ISO7380_Pad
+TO_SOT_Packages_SMD
+SOT-343_SC-70-4_Handsoldering
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_4.3mm_M4_ISO14580
+TO_SOT_Packages_SMD
+SOT-353_SC-70-5
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_4.3mm_M4_ISO14580_Pad
+TO_SOT_Packages_SMD
+SOT-353_SC-70-5_Handsoldering
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_4.3mm_M4_Pad
+TO_SOT_Packages_SMD
+SOT-363_SC-70-6
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_4.3mm_M4_Pad_Via
+TO_SOT_Packages_SMD
+SOT-363_SC-70-6_Handsoldering
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_4.3x6.2mm_M4_Pad
+TO_SOT_Packages_SMD
+SOT-383F
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_4.3x6.2mm_M4_Pad_Via
+TO_SOT_Packages_SMD
+SOT-383FL
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_4.5mm
+TO_SOT_Packages_SMD
+SOT-543
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_4.5mm_Pad
+TO_SOT_Packages_SMD
+SOT-553
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_4.5mm_Pad_Via
+TO_SOT_Packages_SMD
+SOT-665
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_4mm
+TO_SOT_Packages_SMD
+SOT-666
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_4mm_Pad
+TO_SOT_Packages_SMD
+SOT-669_LFPAK
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_4mm_Pad_Via
+TO_SOT_Packages_SMD
+SOT-669_LFPAK_ThermalVias-1
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_5.3mm_M5
+TO_SOT_Packages_SMD
+SOT-669_LFPAK_ThermalVias-2
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_5.3mm_M5_DIN965
+TO_SOT_Packages_SMD
+SOT-886
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_5.3mm_M5_DIN965_Pad
+TO_SOT_Packages_SMD
+SOT-963
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_5.3mm_M5_ISO7380
+TO_SOT_Packages_SMD
+SOT-1333-1
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_5.3mm_M5_ISO7380_Pad
+TO_SOT_Packages_SMD
+SOT-1334-1
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_5.3mm_M5_ISO14580
+TO_SOT_Packages_SMD
+SuperSOT-3
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_5.3mm_M5_ISO14580_Pad
+TO_SOT_Packages_SMD
+SuperSOT-6
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_5.3mm_M5_Pad
+TO_SOT_Packages_SMD
+SuperSOT-8
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_5.3mm_M5_Pad_Via
+TO_SOT_Packages_SMD
+TDSON-8-1
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_5.5mm
+TO_SOT_Packages_SMD
+TDSON-8-1_HandSoldering
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_5.5mm_Pad
+TO_SOT_Packages_SMD
+Texas_DRT-3
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_5.5mm_Pad_Via
+TO_SOT_Packages_SMD
+Texas_R-PDSO-G6
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_5mm
+TO_SOT_Packages_SMD
+TO-50-3_LongPad-NoHole_Housing
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_5mm_Pad
+TO_SOT_Packages_SMD
+TO-50-3_LongPad-WithHole_Housing
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_5mm_Pad_Via
+TO_SOT_Packages_SMD
+TO-50-3_ShortPad-NoHole_Housing
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_6.4mm_M6
+TO_SOT_Packages_SMD
+TO-50-3_ShortPad-WithHole_Housing
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_6.4mm_M6_DIN965
+TO_SOT_Packages_SMD
+TO-50-4_LongPad-NoHole_Housing
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_6.4mm_M6_DIN965_Pad
+TO_SOT_Packages_SMD
+TO-50-4_LongPad-WithHole_Housing
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_6.4mm_M6_ISO7380
+TO_SOT_Packages_SMD
+TO-50-4_ShortPad-NoHole_Housing
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_6.4mm_M6_ISO7380_Pad
+TO_SOT_Packages_SMD
+TO-50-4_ShortPad-WithHole_Housing
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_6.4mm_M6_ISO14580
+TO_SOT_Packages_SMD
+TO-252-2
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_6.4mm_M6_ISO14580_Pad
+TO_SOT_Packages_SMD
+TO-252-2_Rectifier
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_6.4mm_M6_Pad
+TO_SOT_Packages_SMD
+TO-252-3_TabPin2
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_6.4mm_M6_Pad_Via
+TO_SOT_Packages_SMD
+TO-252-3_TabPin4
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_6.5mm
+TO_SOT_Packages_SMD
+TO-252-4
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_6.5mm_Pad
+TO_SOT_Packages_SMD
+TO-252-5_TabPin3
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_6.5mm_Pad_Via
+TO_SOT_Packages_SMD
+TO-252-5_TabPin6
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_6mm
+TO_SOT_Packages_SMD
+TO-263-2
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_6mm_Pad
+TO_SOT_Packages_SMD
+TO-263-3_TabPin2
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_6mm_Pad_Via
+TO_SOT_Packages_SMD
+TO-263-3_TabPin4
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_8.4mm_M8
+TO_SOT_Packages_SMD
+TO-263-4
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_8.4mm_M8_Pad
+TO_SOT_Packages_SMD
+TO-263-5_TabPin3
 
 
 0
 0
 0
-Mounting_Holes
-MountingHole_8.4mm_M8_Pad_Via
+TO_SOT_Packages_SMD
+TO-263-5_TabPin6
+
+
+0
+0
+0
+TO_SOT_Packages_SMD
+TO-263-6
+
+
+0
+0
+0
+TO_SOT_Packages_SMD
+TO-263-7_TabPin4
+
+
+0
+0
+0
+TO_SOT_Packages_SMD
+TO-263-7_TabPin8
+
+
+0
+0
+0
+TO_SOT_Packages_SMD
+TO-263-9_TabPin5
+
+
+0
+0
+0
+TO_SOT_Packages_SMD
+TO-263-9_TabPin10
+
+
+0
+0
+0
+TO_SOT_Packages_SMD
+TO-268-2
+
+
+0
+0
+0
+TO_SOT_Packages_SMD
+TO-277A
+
+
+0
+0
+0
+TO_SOT_Packages_SMD
+TSOT-23
+
+
+0
+0
+0
+TO_SOT_Packages_SMD
+TSOT-23-5
+
+
+0
+0
+0
+TO_SOT_Packages_SMD
+TSOT-23-5_HandSoldering
+
+
+0
+0
+0
+TO_SOT_Packages_SMD
+TSOT-23-6
+
+
+0
+0
+0
+TO_SOT_Packages_SMD
+TSOT-23-6_HandSoldering
+
+
+0
+0
+0
+TO_SOT_Packages_SMD
+TSOT-23-8
+
+
+0
+0
+0
+TO_SOT_Packages_SMD
+TSOT-23-8_HandSoldering
+
+
+0
+0
+0
+TO_SOT_Packages_SMD
+TSOT-23_HandSoldering
+
+
+0
+0
+0
+TO_SOT_Packages_SMD
+VSOF5
 
 
 0
