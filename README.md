@@ -65,7 +65,7 @@ PCB cost = 10 pcs x (Master+ Slave) = 9.80$ + shipping
 
 **UPS board**
 - Isolated 110-450V to 12V DC/DC converter
-- Continuous 1A @12V, sevral amps peak
+- Continuous 1A @12V, several amps peak
 - BQ77904 voltage, current & temperature protection circuit
 
 
@@ -100,13 +100,7 @@ PCB cost = 10 pcs x (Master+ Slave) = 9.80$ + shipping
 
 ![alt text](Slaves/LTC6811/PIC/LTC6811.png)
 
-## UPS
 
-![alt text](UPS/PIC/UPS.png)
-
-## Current sensor
-
-![alt text](Current_Sensor/PIC/Current_Sensor.png)
 
 
 
