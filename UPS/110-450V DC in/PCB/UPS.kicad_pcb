@@ -307,7 +307,7 @@
     (fp_text reference J1 (at -4 -0.5 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value BAT (at 2.5 5.06 90) (layer F.SilkS)
+    (fp_text value "110-450V DC" (at 2.5 6 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_arc (start 0 0) (end 0 1.68) (angle -28) (layer F.SilkS) (width 0.12))
