@@ -44,7 +44,7 @@ PCB cost = 10 pcs x (Master+ Slave) = 9.80$ + shipping
 ## Features:
 
 **Master board**
-- Isolated voltages measurements for Charge, Discharge & Pack buses
+- Isolated voltages measurements for Discharge & Pack buses
 - Isolated bi-directional current monitoring via external delta-sigma current sensor
 - Isolated CAN bus interface for cell voltage monitoring and charger detection, status monitoring + much more with future updates (like state of charge / state of health).
 - Outputs for Charge, Discharge & Precharge contactors

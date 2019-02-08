@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 6.0.0-rc1-unknown-a55d981~66~ubuntu18.10.1)
+(kicad_pcb (version 20171130) (host pcbnew 6.0.0-rc1-unknown-5edf350~66~ubuntu18.10.1)
 
   (general
     (thickness 1.6)
@@ -63,7 +63,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x00030_ffffffff)
+      (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -86,9 +86,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "../Gerber/"))
   )
 
   (net 0 "")
@@ -1221,7 +1221,7 @@
   (segment (start 152.3 87.135) (end 150.115 87.135) (width 0.5) (layer F.Cu) (net 19) (status 30))
   (segment (start 150.115 87.135) (end 150 87.25) (width 0.5) (layer F.Cu) (net 19) (status 30))
 
-  (zone (net 15) (net_name ISOGND) (layer F.Cu) (tstamp 5C4F4A20) (hatch edge 0.508)
+  (zone (net 15) (net_name ISOGND) (layer F.Cu) (tstamp 5C5C4B93) (hatch edge 0.508)
     (connect_pads (clearance 0.3))
     (min_thickness 0.25)
     (fill yes (arc_segments 32) (thermal_gap 0.3) (thermal_bridge_width 0.3) (smoothing fillet) (radius 0.25))
@@ -1365,7 +1365,7 @@
       )
     )
   )
-  (zone (net 15) (net_name ISOGND) (layer B.Cu) (tstamp 5C4F4A1D) (hatch edge 0.508)
+  (zone (net 15) (net_name ISOGND) (layer B.Cu) (tstamp 5C5C4B90) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -1387,7 +1387,7 @@
       )
     )
   )
-  (zone (net 4) (net_name GND) (layer B.Cu) (tstamp 5C4F4A1A) (hatch edge 0.508)
+  (zone (net 4) (net_name GND) (layer B.Cu) (tstamp 5C5C4B8D) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
