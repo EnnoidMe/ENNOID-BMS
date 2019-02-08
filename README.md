@@ -5,7 +5,7 @@ This repository is part of the open-source project: EVGE - Electric Vehicle Glob
   - Charging station
 - EVBE - Electric Vehicle Battery Equipment 
   - **BMS (This repository)**
-  - Scalable Battery Pack
+  - Scalable Battery Pack (https://github.com/EnnoidMe/ENNOID-PACK)
 - EVPE - Electric Vehicle Powertrain Equipment
   - Motor Driver (https://github.com/EnnoidMe/VESC-controller)
   - Gate driver (https://github.com/EnnoidMe/ENNOID-Dual-Gate-Driver)
