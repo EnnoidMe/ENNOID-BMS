@@ -1037,8 +1037,6 @@ Wire Wire Line
 Wire Wire Line
 	16050 2050 15350 2050
 Wire Wire Line
-	13600 2050 13600 2250
-Wire Wire Line
 	16050 2050 16050 2600
 $Comp
 L Device:R R?
@@ -1133,7 +1131,6 @@ Text HLabel 12550 2750 0    50   Input ~ 0
 PA
 Text HLabel 12550 2350 0    50   Input ~ 0
 MA
-Connection ~ 13600 2250
 Wire Wire Line
-	13600 2250 13600 2350
+	13600 2050 13600 2350
 $EndSCHEMATC
