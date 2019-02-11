@@ -46,7 +46,7 @@ PCB cost = 10 pcs x (Master+ Slave) = 9.80$ + shipping
 **Master board**
 - Isolated voltages measurements for Discharge & Pack buses
 - Isolated bi-directional current monitoring via external delta-sigma current sensor
-- Isolated CAN bus interface for cell voltage monitoring and charger detection, status monitoring + much more with future updates (like state of charge / state of health).
+- Isolated CAN bus interface 
 - Outputs for Charge, Discharge & Precharge contactors
 - USB interface for serial communication and firmware upgrades (no need for a programmer -> HW serial bootloader is used).
 - Wireless transceiver

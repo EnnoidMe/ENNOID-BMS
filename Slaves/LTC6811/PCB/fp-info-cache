@@ -1,377 +1,643 @@
-1549585647356
-Capacitors_SMD
-CP_Elec_3x5.3
+1547577257451
+Mounting_Holes
+MountingHole_2.2mm_M2
 
 
 0
 0
 0
-Capacitors_SMD
-CP_Elec_4x4.5
+Mounting_Holes
+MountingHole_2.2mm_M2_DIN965
 
 
 0
 0
 0
-Capacitors_SMD
-CP_Elec_4x5.3
+Mounting_Holes
+MountingHole_2.2mm_M2_DIN965_Pad
 
 
 0
 0
 0
-Capacitors_SMD
-CP_Elec_4x5.7
+Mounting_Holes
+MountingHole_2.2mm_M2_ISO7380
 
 
 0
 0
 0
-Capacitors_SMD
-CP_Elec_4x5.8
+Mounting_Holes
+MountingHole_2.2mm_M2_ISO7380_Pad
 
 
 0
 0
 0
-Capacitors_SMD
-CP_Elec_5x4.5
+Mounting_Holes
+MountingHole_2.2mm_M2_ISO14580
 
 
 0
 0
 0
-Capacitors_SMD
-CP_Elec_5x5.3
+Mounting_Holes
+MountingHole_2.2mm_M2_ISO14580_Pad
 
 
 0
 0
 0
-Capacitors_SMD
-CP_Elec_5x5.7
+Mounting_Holes
+MountingHole_2.2mm_M2_Pad
 
 
 0
 0
 0
-Capacitors_SMD
-CP_Elec_5x5.8
+Mounting_Holes
+MountingHole_2.2mm_M2_Pad_Via
 
 
 0
 0
 0
-Capacitors_SMD
-CP_Elec_6.3x4.5
+Mounting_Holes
+MountingHole_2.5mm
 
 
 0
 0
 0
-Capacitors_SMD
-CP_Elec_6.3x5.3
+Mounting_Holes
+MountingHole_2.5mm_Pad
 
 
 0
 0
 0
-Capacitors_SMD
-CP_Elec_6.3x5.7
+Mounting_Holes
+MountingHole_2.5mm_Pad_Via
 
 
 0
 0
 0
-Capacitors_SMD
-CP_Elec_6.3x5.8
+Mounting_Holes
+MountingHole_2.7mm
 
 
 0
 0
 0
-Capacitors_SMD
-CP_Elec_6.3x7.7
+Mounting_Holes
+MountingHole_2.7mm_M2.5
 
 
 0
 0
 0
-Capacitors_SMD
-CP_Elec_8x5.4
+Mounting_Holes
+MountingHole_2.7mm_M2.5_DIN965
 
 
 0
 0
 0
-Capacitors_SMD
-CP_Elec_8x6.5
+Mounting_Holes
+MountingHole_2.7mm_M2.5_DIN965_Pad
 
 
 0
 0
 0
-Capacitors_SMD
-CP_Elec_8x6.7
+Mounting_Holes
+MountingHole_2.7mm_M2.5_ISO7380
 
 
 0
 0
 0
-Capacitors_SMD
-CP_Elec_8x10
+Mounting_Holes
+MountingHole_2.7mm_M2.5_ISO7380_Pad
 
 
 0
 0
 0
-Capacitors_SMD
-CP_Elec_8x10.5
+Mounting_Holes
+MountingHole_2.7mm_M2.5_ISO14580
 
 
 0
 0
 0
-Capacitors_SMD
-CP_Elec_10x7.7
+Mounting_Holes
+MountingHole_2.7mm_M2.5_ISO14580_Pad
 
 
 0
 0
 0
-Capacitors_SMD
-CP_Elec_10x10
+Mounting_Holes
+MountingHole_2.7mm_M2.5_Pad
 
 
 0
 0
 0
-Capacitors_SMD
-CP_Elec_10x10.5
+Mounting_Holes
+MountingHole_2.7mm_M2.5_Pad_Via
 
 
 0
 0
 0
-Capacitors_SMD
-C_0201
+Mounting_Holes
+MountingHole_2.7mm_Pad
 
 
 0
 0
 0
-Capacitors_SMD
-C_0201_NoSilk
+Mounting_Holes
+MountingHole_2.7mm_Pad_Via
 
 
 0
 0
 0
-Capacitors_SMD
-C_0402
+Mounting_Holes
+MountingHole_3.2mm_M3
 
 
 0
 0
 0
-Capacitors_SMD
-C_0402_NoSilk
+Mounting_Holes
+MountingHole_3.2mm_M3_DIN965
 
 
 0
 0
 0
-Capacitors_SMD
-C_0603
+Mounting_Holes
+MountingHole_3.2mm_M3_DIN965_Pad
 
 
 0
 0
 0
-Capacitors_SMD
-C_0603_HandSoldering
+Mounting_Holes
+MountingHole_3.2mm_M3_ISO7380
 
 
 0
 0
 0
-Capacitors_SMD
-C_0805
+Mounting_Holes
+MountingHole_3.2mm_M3_ISO7380_Pad
 
 
 0
 0
 0
-Capacitors_SMD
-C_0805_HandSoldering
+Mounting_Holes
+MountingHole_3.2mm_M3_ISO14580
 
 
 0
 0
 0
-Capacitors_SMD
-C_1206
+Mounting_Holes
+MountingHole_3.2mm_M3_ISO14580_Pad
 
 
 0
 0
 0
-Capacitors_SMD
-C_1206_HandSoldering
+Mounting_Holes
+MountingHole_3.2mm_M3_Pad
 
 
 0
 0
 0
-Capacitors_SMD
-C_1210
+Mounting_Holes
+MountingHole_3.2mm_M3_Pad_Via
 
 
 0
 0
 0
-Capacitors_SMD
-C_1210_HandSoldering
+Mounting_Holes
+MountingHole_3.5mm
 
 
 0
 0
 0
-Capacitors_SMD
-C_1812
+Mounting_Holes
+MountingHole_3.5mm_Pad
 
 
 0
 0
 0
-Capacitors_SMD
-C_1812_HandSoldering
+Mounting_Holes
+MountingHole_3.5mm_Pad_Via
 
 
 0
 0
 0
-Capacitors_SMD
-C_1825
+Mounting_Holes
+MountingHole_3.7mm
 
 
 0
 0
 0
-Capacitors_SMD
-C_1825_HandSoldering
+Mounting_Holes
+MountingHole_3.7mm_Pad
 
 
 0
 0
 0
-Capacitors_SMD
-C_2220
+Mounting_Holes
+MountingHole_3.7mm_Pad_Via
 
 
 0
 0
 0
-Capacitors_SMD
-C_2220_HandSoldering
+Mounting_Holes
+MountingHole_3mm
 
 
 0
 0
 0
-Capacitors_SMD
-C_2225
+Mounting_Holes
+MountingHole_3mm_Pad
 
 
 0
 0
 0
-Capacitors_SMD
-C_2225_HandSoldering
+Mounting_Holes
+MountingHole_3mm_Pad_Via
 
 
 0
 0
 0
-Capacitors_SMD
-C_Trimmer_Murata_TZB4-A
+Mounting_Holes
+MountingHole_4.3mm_M4
 
 
 0
 0
 0
-Capacitors_SMD
-C_Trimmer_Murata_TZB4-B
+Mounting_Holes
+MountingHole_4.3mm_M4_DIN965
 
 
 0
 0
 0
-Capacitors_SMD
-C_Trimmer_Murata_TZC3
+Mounting_Holes
+MountingHole_4.3mm_M4_DIN965_Pad
 
 
 0
 0
 0
-Capacitors_SMD
-C_Trimmer_Murata_TZR1
+Mounting_Holes
+MountingHole_4.3mm_M4_ISO7380
 
 
 0
 0
 0
-Capacitors_SMD
-C_Trimmer_Murata_TZW4
+Mounting_Holes
+MountingHole_4.3mm_M4_ISO7380_Pad
 
 
 0
 0
 0
-Capacitors_SMD
-C_Trimmer_Murata_TZY2
+Mounting_Holes
+MountingHole_4.3mm_M4_ISO14580
 
 
 0
 0
 0
-Capacitors_SMD
-C_Trimmer_Sprague-Goodman_SGC3
+Mounting_Holes
+MountingHole_4.3mm_M4_ISO14580_Pad
 
 
 0
 0
 0
-Capacitors_SMD
-C_Trimmer_Voltronics_JN
+Mounting_Holes
+MountingHole_4.3mm_M4_Pad
 
 
 0
 0
 0
-Capacitors_SMD
-C_Trimmer_Voltronics_JQ
+Mounting_Holes
+MountingHole_4.3mm_M4_Pad_Via
 
 
 0
 0
 0
-Capacitors_SMD
-C_Trimmer_Voltronics_JR
+Mounting_Holes
+MountingHole_4.3x6.2mm_M4_Pad
 
 
 0
 0
 0
-Capacitors_SMD
-C_Trimmer_Voltronics_JV
+Mounting_Holes
+MountingHole_4.3x6.2mm_M4_Pad_Via
 
 
 0
 0
 0
-Capacitors_SMD
-C_Trimmer_Voltronics_JZ
+Mounting_Holes
+MountingHole_4.5mm
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_4.5mm_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_4.5mm_Pad_Via
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_4mm
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_4mm_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_4mm_Pad_Via
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5.3mm_M5
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5.3mm_M5_DIN965
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5.3mm_M5_DIN965_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5.3mm_M5_ISO7380
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5.3mm_M5_ISO7380_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5.3mm_M5_ISO14580
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5.3mm_M5_ISO14580_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5.3mm_M5_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5.3mm_M5_Pad_Via
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5.5mm
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5.5mm_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5.5mm_Pad_Via
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5mm
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5mm_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_5mm_Pad_Via
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6.4mm_M6
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6.4mm_M6_DIN965
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6.4mm_M6_DIN965_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6.4mm_M6_ISO7380
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6.4mm_M6_ISO7380_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6.4mm_M6_ISO14580
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6.4mm_M6_ISO14580_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6.4mm_M6_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6.4mm_M6_Pad_Via
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6.5mm
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6.5mm_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6.5mm_Pad_Via
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6mm
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6mm_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_6mm_Pad_Via
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_8.4mm_M8
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_8.4mm_M8_Pad
+
+
+0
+0
+0
+Mounting_Holes
+MountingHole_8.4mm_M8_Pad_Via
 
 
 0
