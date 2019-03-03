@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1054</width>
+    <height>642</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DieBieMS Tool</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="res.qrc">
+    <normaloff>:/res/icons/Car Battery-96.png</normaloff>:/res/icons/Car Battery-96.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout" stretch="1">
+    <property name="leftMargin">
+     <number>6</number>
+    </property>
+    <property name="bottomMargin">
+     <number>2</number>
+    </property>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,1">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QLabel" name="pageLabel">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>220</width>
+            <height>56</height>
+           </size>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap resource="res.qrc">:/res/logo.png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QListWidget" name="pageList">
+          <property name="minimumSize">
+           <size>
+            <width>220</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>220</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="editTriggers">
+           <set>QAbstractItemView::NoEditTriggers</set>
+          </property>
+          <property name="selectionBehavior">
+           <enum>QAbstractItemView::SelectRows</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QStackedWidget" name="pageWidget">
+        <property name="currentIndex">
+         <number>-1</number>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1054</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionSaveBMSConfXml"/>
+    <addaction name="actionLoadBMSConfXml"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="actionSaveBMSConfigurationHeader"/>
+    <addaction name="actionSaveBMSConfigurationHeaderWrap"/>
+    <addaction name="separator"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionDieBieMSToolChangelog"/>
+    <addaction name="actionFirmwareChangelog"/>
+    <addaction name="separator"/>
+    <addaction name="actionAbout"/>
+    <addaction name="actionLibrariesUsed"/>
+    <addaction name="actionAboutQt"/>
+    <addaction name="separator"/>
+    <addaction name="actionSafetyInformation"/>
+    <addaction name="actionWarrantyStatement"/>
+    <addaction name="actionLicense"/>
+   </widget>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>Developer</string>
+    </property>
+    <addaction name="actionParameterEditorBMScconf"/>
+    <addaction name="actionParameterEditorInfo"/>
+   </widget>
+   <widget class="QMenu" name="menuTerminal">
+    <property name="title">
+     <string>Terminal</string>
+    </property>
+    <addaction name="actionTerminalShowHelp"/>
+    <addaction name="actionTerminalPrintFaults"/>
+    <addaction name="separator"/>
+    <addaction name="actionTerminalClear"/>
+   </widget>
+   <widget class="QMenu" name="menuCommands">
+    <property name="title">
+     <string>Commands</string>
+    </property>
+    <addaction name="actionReboot"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuCommands"/>
+   <addaction name="menuTerminal"/>
+   <addaction name="menuTools"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>24</width>
+     <height>24</height>
+    </size>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonIconOnly</enum>
+   </property>
+   <property name="floatable">
+    <bool>false</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>RightToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionReconnect"/>
+   <addaction name="actionDisconnect"/>
+   <addaction name="separator"/>
+   <addaction name="actionReadBMScconf"/>
+   <addaction name="actionReadBMScconfDefault"/>
+   <addaction name="actionWriteBMScconf"/>
+   <addaction name="separator"/>
+   <addaction name="actionStoreBMScconf"/>
+   <addaction name="separator"/>
+   <addaction name="actionRtData"/>
+   <addaction name="actionSendAlive"/>
+   <addaction name="actionCanFwd"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionReadBMScconf">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/motor_up.png</normaloff>:/res/icons/motor_up.png</iconset>
+   </property>
+   <property name="text">
+    <string>readBMScconf</string>
+   </property>
+   <property name="toolTip">
+    <string>Read BMS Configuration</string>
+   </property>
+  </action>
+  <action name="actionReadBMScconfDefault">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/motor_default.png</normaloff>:/res/icons/motor_default.png</iconset>
+   </property>
+   <property name="text">
+    <string>readBMScconfDefault</string>
+   </property>
+   <property name="toolTip">
+    <string>Read default BMS configuration</string>
+   </property>
+  </action>
+  <action name="actionWriteBMScconf">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/motor_down.png</normaloff>:/res/icons/motor_down.png</iconset>
+   </property>
+   <property name="text">
+    <string>writeBMScconf</string>
+   </property>
+   <property name="toolTip">
+    <string>Write BMS configuration</string>
+   </property>
+  </action>
+  <action name="actionSaveBMSConfXml">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/Save as-96.png</normaloff>:/res/icons/Save as-96.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save BMS Configuration XML as...</string>
+   </property>
+  </action>
+  <action name="actionLoadBMSConfXml">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/Open Folder-96.png</normaloff>:/res/icons/Open Folder-96.png</iconset>
+   </property>
+   <property name="text">
+    <string>Load BMS Configuration XML</string>
+   </property>
+  </action>
+  <action name="actionDisconnect">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/Disconnected-96.png</normaloff>:/res/icons/Disconnected-96.png</iconset>
+   </property>
+   <property name="text">
+    <string>disconnect</string>
+   </property>
+   <property name="toolTip">
+    <string>Disconnect</string>
+   </property>
+  </action>
+  <action name="actionReboot">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/Restart-96.png</normaloff>:/res/icons/Restart-96.png</iconset>
+   </property>
+   <property name="text">
+    <string>Reboot</string>
+   </property>
+   <property name="toolTip">
+    <string>Reboot</string>
+   </property>
+  </action>
+  <action name="actionCanFwd">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/can_off.png</normaloff>
+     <normalon>:/res/icons/can_on.png</normalon>:/res/icons/can_off.png</iconset>
+   </property>
+   <property name="text">
+    <string>canFwd</string>
+   </property>
+   <property name="toolTip">
+    <string>Forward communication over CAN-bus</string>
+   </property>
+  </action>
+  <action name="actionReconnect">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/Connected-96.png</normaloff>:/res/icons/Connected-96.png</iconset>
+   </property>
+   <property name="text">
+    <string>reconnect</string>
+   </property>
+   <property name="toolTip">
+    <string>Reconnect last connection</string>
+   </property>
+  </action>
+  <action name="actionRtData">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/rt_off.png</normaloff>
+     <normalon>:/res/icons/rt_on.png</normalon>:/res/icons/rt_off.png</iconset>
+   </property>
+   <property name="text">
+    <string>rtData</string>
+   </property>
+   <property name="toolTip">
+    <string>Stream realtime data</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/Shutdown-96.png</normaloff>:/res/icons/Shutdown-96.png</iconset>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/About-96.png</normaloff>:/res/icons/About-96.png</iconset>
+   </property>
+   <property name="text">
+    <string>About DieBieMS Tool</string>
+   </property>
+   <property name="toolTip">
+    <string>About DieBieMS Tool</string>
+   </property>
+  </action>
+  <action name="actionParameterEditorBMScconf">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/Horizontal Settings Mixer-96.png</normaloff>:/res/icons/Horizontal Settings Mixer-96.png</iconset>
+   </property>
+   <property name="text">
+    <string>Parameter Editor BMScconf</string>
+   </property>
+  </action>
+  <action name="actionSaveBMSConfigurationHeader">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/Save as-96.png</normaloff>:/res/icons/Save as-96.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save BMS Configuration C Header as...</string>
+   </property>
+  </action>
+  <action name="actionSaveBMSConfigurationHeaderWrap">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/Save as-96.png</normaloff>:/res/icons/Save as-96.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save BMS Configuration C Header (ifdef wrapped) as...</string>
+   </property>
+   <property name="toolTip">
+    <string>Save BMS Configuration C Header (ifdef wrapped) as</string>
+   </property>
+  </action>
+  <action name="actionRtDataApp">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/rt_app_off.png</normaloff>
+     <normalon>:/res/icons/rt_app_on.png</normalon>:/res/icons/rt_app_off.png</iconset>
+   </property>
+   <property name="text">
+    <string>rtDataApp</string>
+   </property>
+   <property name="toolTip">
+    <string>Stream realtime app data</string>
+   </property>
+  </action>
+  <action name="actionTerminalPrintFaults">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/Console-96.png</normaloff>:/res/icons/Console-96.png</iconset>
+   </property>
+   <property name="text">
+    <string>Print Faults</string>
+   </property>
+   <property name="toolTip">
+    <string>Print Faults</string>
+   </property>
+  </action>
+  <action name="actionTerminalShowHelp">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/Help-96.png</normaloff>:/res/icons/Help-96.png</iconset>
+   </property>
+   <property name="text">
+    <string>Show Help</string>
+   </property>
+  </action>
+  <action name="actionTerminalClear">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/Delete-96.png</normaloff>:/res/icons/Delete-96.png</iconset>
+   </property>
+   <property name="text">
+    <string>Clear Terminal</string>
+   </property>
+  </action>
+  <action name="actionTerminalPrintThreads">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/Electronics-96.png</normaloff>:/res/icons/Electronics-96.png</iconset>
+   </property>
+   <property name="text">
+    <string>Print Threads</string>
+   </property>
+   <property name="toolTip">
+    <string>Print Threads</string>
+   </property>
+  </action>
+  <action name="actionSendAlive">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/alive_off.png</normaloff>
+     <normalon>:/res/icons/alive_on.png</normalon>:/res/icons/alive_off.png</iconset>
+   </property>
+   <property name="text">
+    <string>Send Alive Commands</string>
+   </property>
+   <property name="toolTip">
+    <string>Send alive packets periodically to prevent timeout</string>
+   </property>
+  </action>
+  <action name="actionLibrariesUsed">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/About-96.png</normaloff>:/res/icons/About-96.png</iconset>
+   </property>
+   <property name="text">
+    <string>About Libraries Used</string>
+   </property>
+  </action>
+  <action name="actionAboutQt">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/About-96.png</normaloff>:/res/icons/About-96.png</iconset>
+   </property>
+   <property name="text">
+    <string>About Qt</string>
+   </property>
+   <property name="toolTip">
+    <string>Show the Qt library's About box</string>
+   </property>
+  </action>
+  <action name="actionParameterEditorInfo">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/Horizontal Settings Mixer-96.png</normaloff>:/res/icons/Horizontal Settings Mixer-96.png</iconset>
+   </property>
+   <property name="text">
+    <string>Parameter Editor Info</string>
+   </property>
+  </action>
+  <action name="actionSafetyInformation">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/About-96.png</normaloff>:/res/icons/About-96.png</iconset>
+   </property>
+   <property name="text">
+    <string>Safety Information</string>
+   </property>
+  </action>
+  <action name="actionWarrantyStatement">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/About-96.png</normaloff>:/res/icons/About-96.png</iconset>
+   </property>
+   <property name="text">
+    <string>Limited Warranty Statement</string>
+   </property>
+   <property name="toolTip">
+    <string>Limited Warranty Statement</string>
+   </property>
+  </action>
+  <action name="actionDieBieMSToolChangelog">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/About-96.png</normaloff>:/res/icons/About-96.png</iconset>
+   </property>
+   <property name="text">
+    <string>DieBieMS Tool Changelog</string>
+   </property>
+   <property name="toolTip">
+    <string>DieBieMS Tool Changelog</string>
+   </property>
+  </action>
+  <action name="actionFirmwareChangelog">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/About-96.png</normaloff>:/res/icons/About-96.png</iconset>
+   </property>
+   <property name="text">
+    <string>Firmware Changelog</string>
+   </property>
+  </action>
+  <action name="actionLicense">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/About-96.png</normaloff>:/res/icons/About-96.png</iconset>
+   </property>
+   <property name="text">
+    <string>License</string>
+   </property>
+  </action>
+  <action name="actionStoreBMScconf">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/res/icons/Save-96.png</normaloff>:/res/icons/Save-96.png</iconset>
+   </property>
+   <property name="text">
+    <string>writeBMScconf</string>
+   </property>
+   <property name="toolTip">
+    <string>Store BMS configuration to Flash</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -126,7 +126,7 @@ Text HLabel 5100 3350 2    50   Input ~ 0
 S
 Wire Wire Line
 	4800 3350 5100 3350
-Text HLabel 5650 2700 2    50   Input ~ 0
+Text HLabel 6500 2700 2    50   Input ~ 0
 C
 Wire Wire Line
 	4800 2700 5400 2700
@@ -134,7 +134,7 @@ Wire Wire Line
 	5400 2700 5400 3800
 Connection ~ 5400 2700
 Wire Wire Line
-	5400 2700 5650 2700
+	5400 2700 6000 2700
 $Comp
 L Device:C C13
 U 1 1 5C4F9945
@@ -198,4 +198,28 @@ Wire Wire Line
 	3800 4150 3800 4350
 Wire Wire Line
 	3800 4350 2850 4350
+$Comp
+L Device:D_Zener D?
+U 1 1 5C7C1653
+P 6000 3300
+AR Path="/5C4F59F4/5C7C1653" Ref="D?"  Part="1" 
+AR Path="/5C4FCED2/5C7C1653" Ref="D?"  Part="1" 
+F 0 "D?" V 5954 3379 50  0000 L CNN
+F 1 "PDZ7.5B" V 6045 3379 50  0000 L CNN
+F 2 "" H 6000 3300 50  0001 C CNN
+F 3 "~" H 6000 3300 50  0001 C CNN
+	1    6000 3300
+	0    1    1    0   
+$EndComp
+Text HLabel 6250 4250 2    50   Input ~ 0
+CM
+Wire Wire Line
+	6000 3150 6000 2700
+Connection ~ 6000 2700
+Wire Wire Line
+	6000 2700 6500 2700
+Wire Wire Line
+	6000 3450 6000 4250
+Wire Wire Line
+	6000 4250 6250 4250
 $EndSCHEMATC
