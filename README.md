@@ -1,7 +1,7 @@
 This repository is part of the open-source project: EVGE - Electric Vehicle Global Equipment:
 
 - EVCE - Electric Vehicle Charge Equipment
-  - Onboard Battery Charger
+  - Onboard Battery Charger (https://github.com/EnnoidMe/ENNOID-Charger)
   - Charging station
 - EVBE - Electric Vehicle Battery Equipment 
   - **BMS (This repository)**
