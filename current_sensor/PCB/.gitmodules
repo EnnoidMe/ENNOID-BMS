@@ -1,0 +1,6 @@
+[submodule "schlib"]
+	path = schlib
+	url = git@github.com:cpavlina/kicad-schlib
+[submodule "pcblib"]
+	path = pcblib
+	url = git@github.com:cpavlina/kicad-pcblib

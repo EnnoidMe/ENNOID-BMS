@@ -1604,4 +1604,8 @@ Wire Wire Line
 Wire Wire Line
 	14700 6050 14700 6250
 Connection ~ 14700 6250
+NoConn ~ 1150 2800
+NoConn ~ 1150 3050
+NoConn ~ 1150 3300
+NoConn ~ 1150 3550
 $EndSCHEMATC
