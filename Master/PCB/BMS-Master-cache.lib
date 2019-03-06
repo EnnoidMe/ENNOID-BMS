@@ -172,6 +172,23 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# BMS-Master-rescue_Conn_01x01-Connector_Generic
+#
+DEF BMS-Master-rescue_Conn_01x01-Connector_Generic J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "BMS-Master-rescue_Conn_01x01-Connector_Generic" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # BMS-Master-rescue_Conn_01x02-Connector_Generic
 #
 DEF BMS-Master-rescue_Conn_01x02-Connector_Generic J 0 40 Y N 1 F N

@@ -755,4 +755,15 @@ Wire Wire Line
 Connection ~ 8650 5800
 Wire Wire Line
 	8650 6400 11900 6400
+$Comp
+L BMS-Master-rescue:Conn_01x01-Connector_Generic J20
+U 1 1 5C86E7FA
+P 8650 5600
+F 0 "J20" V 8614 5512 50  0000 R CNN
+F 1 "Jumper" V 8523 5512 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" H 8650 5600 50  0001 C CNN
+F 3 "" H 8650 5600 50  0001 C CNN
+	1    8650 5600
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

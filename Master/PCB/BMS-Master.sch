@@ -474,7 +474,7 @@ S 4350 800  1750 1700
 U 5C519BA0
 F0 "PowerMonitor" 50
 F1 "PowerMonitor.sch" 50
-F2 "I" I L 4350 2100 50 
+F2 "I+" I L 4350 2100 50 
 F3 "SCL" I R 6100 2050 50 
 F4 "SDA" I R 6100 2150 50 
 F5 "BAT+" I L 4350 900 50 
@@ -484,8 +484,8 @@ F8 "Vbat" I R 6100 1750 50
 F9 "Vpack" I R 6100 1850 50 
 F10 "ChargeDetect" B R 6100 2350 50 
 F11 "24V" I R 6100 2450 50 
+F12 "I-" I L 4350 2200 50 
 $EndSheet
-NoConn ~ 4000 2200
 $Comp
 L power:GNDA #PWR0115
 U 1 1 5C8C87E3
@@ -1020,4 +1020,6 @@ Wire Wire Line
 Connection ~ 6250 3300
 Wire Wire Line
 	6250 3300 6650 3300
+Wire Wire Line
+	4000 2200 4350 2200
 $EndSCHEMATC

@@ -71,8 +71,8 @@ F 3 "~" H 9750 12550 50  0001 C CNN
 	1    9750 12550
 	0    -1   -1   0   
 $EndComp
-Text HLabel 6050 12550 0    50   Input ~ 0
-I
+Text HLabel 5550 12550 0    50   Input ~ 0
+I+
 $Comp
 L Device:R R118
 U 1 1 5C521BE6
@@ -894,7 +894,7 @@ Wire Wire Line
 	15300 4150 15300 4250
 Wire Wire Line
 	15300 4250 15000 4250
-Text HLabel 16600 4050 2    50   Input ~ 0
+Text HLabel 17000 4050 2    50   Input ~ 0
 Vbat
 Wire Wire Line
 	15900 4050 16200 4050
@@ -944,7 +944,7 @@ Wire Wire Line
 	16200 3300 16200 4050
 Connection ~ 16200 4050
 Wire Wire Line
-	16200 4050 16600 4050
+	16200 4050 16750 4050
 $Comp
 L Device:R R160
 U 1 1 5C320FC9
@@ -1264,7 +1264,7 @@ Wire Wire Line
 	15300 6350 15300 6450
 Wire Wire Line
 	15300 6450 15000 6450
-Text HLabel 16600 6250 2    50   Input ~ 0
+Text HLabel 16950 6250 2    50   Input ~ 0
 Vpack
 Wire Wire Line
 	15900 6250 16200 6250
@@ -1303,7 +1303,7 @@ Wire Wire Line
 	16200 5500 16200 6250
 Connection ~ 16200 6250
 Wire Wire Line
-	16200 6250 16600 6250
+	16200 6250 16550 6250
 $Comp
 L Device:R R161
 U 1 1 5C34BA99
@@ -1482,7 +1482,7 @@ Connection ~ 16850 12550
 Wire Wire Line
 	16850 12550 17050 12550
 Wire Wire Line
-	6050 12550 6300 12550
+	5550 12550 5750 12550
 Wire Wire Line
 	8850 12550 9600 12550
 Wire Notes Line
@@ -1899,4 +1899,64 @@ F 3 "" H 12200 13150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12200 12950 12200 13150
+$Comp
+L BMS-Master-rescue:Conn_01x01-Connector_Generic J22
+U 1 1 5C878F51
+P 16750 3850
+F 0 "J22" V 16714 3762 50  0000 R CNN
+F 1 "Bypass" V 16623 3762 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" H 16750 3850 50  0001 C CNN
+F 3 "" H 16750 3850 50  0001 C CNN
+	1    16750 3850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 16750 4050
+Wire Wire Line
+	16750 4050 17000 4050
+$Comp
+L BMS-Master-rescue:Conn_01x01-Connector_Generic J21
+U 1 1 5C889B18
+P 16550 6050
+F 0 "J21" V 16514 5962 50  0000 R CNN
+F 1 "Bypass" V 16423 5962 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" H 16550 6050 50  0001 C CNN
+F 3 "" H 16550 6050 50  0001 C CNN
+	1    16550 6050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 16550 6250
+Wire Wire Line
+	16550 6250 16950 6250
+$Comp
+L BMS-Master-rescue:Conn_01x01-Connector_Generic J?
+U 1 1 5C8A4C0B
+P 5750 12350
+F 0 "J?" V 5714 12262 50  0000 R CNN
+F 1 "Bypass" V 5623 12262 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" H 5750 12350 50  0001 C CNN
+F 3 "" H 5750 12350 50  0001 C CNN
+	1    5750 12350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5750 12550
+Wire Wire Line
+	5750 12550 6300 12550
+$Comp
+L BMS-Master-rescue:Conn_01x01-Connector_Generic J?
+U 1 1 5C8B65F7
+P 13850 12200
+F 0 "J?" V 13814 12112 50  0000 R CNN
+F 1 "Bypass" V 13723 12112 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" H 13850 12200 50  0001 C CNN
+F 3 "" H 13850 12200 50  0001 C CNN
+	1    13850 12200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13850 12650 13850 12400
+Text HLabel 14800 12750 0    50   Input ~ 0
+I-
+Wire Wire Line
+	14800 12750 14900 12750
+Connection ~ 14900 12750
 $EndSCHEMATC
