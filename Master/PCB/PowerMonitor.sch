@@ -1928,10 +1928,10 @@ Connection ~ 16550 6250
 Wire Wire Line
 	16550 6250 16950 6250
 $Comp
-L BMS-Master-rescue:Conn_01x01-Connector_Generic J?
+L BMS-Master-rescue:Conn_01x01-Connector_Generic J23
 U 1 1 5C8A4C0B
 P 5750 12350
-F 0 "J?" V 5714 12262 50  0000 R CNN
+F 0 "J23" V 5714 12262 50  0000 R CNN
 F 1 "Bypass" V 5623 12262 50  0000 R CNN
 F 2 "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" H 5750 12350 50  0001 C CNN
 F 3 "" H 5750 12350 50  0001 C CNN
@@ -1942,10 +1942,10 @@ Connection ~ 5750 12550
 Wire Wire Line
 	5750 12550 6300 12550
 $Comp
-L BMS-Master-rescue:Conn_01x01-Connector_Generic J?
+L BMS-Master-rescue:Conn_01x01-Connector_Generic J24
 U 1 1 5C8B65F7
 P 13850 12200
-F 0 "J?" V 13814 12112 50  0000 R CNN
+F 0 "J24" V 13814 12112 50  0000 R CNN
 F 1 "Bypass" V 13723 12112 50  0000 R CNN
 F 2 "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" H 13850 12200 50  0001 C CNN
 F 3 "" H 13850 12200 50  0001 C CNN
