@@ -114,14 +114,14 @@ AR Path="/5C4FFA37/5C4F932B" Ref="R45"  Part="1"
 AR Path="/5C4FFA3D/5C4F932B" Ref="R?"  Part="1" 
 AR Path="/5C4FFA43/5C4F932B" Ref="R?"  Part="1" 
 F 0 "R45" H 3730 3954 50  0000 R CNN
-F 1 "33" H 3730 4045 50  0000 R CNN
+F 1 "15" H 3730 4045 50  0000 R CNN
 F 2 "Resistors_SMD:R_2512" V 3730 4000 50  0001 C CNN
 F 3 "~" H 3800 4000 50  0001 C CNN
 	1    3800 4000
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3800 3550 3800 3850
+	3800 3550 3800 3750
 Text HLabel 5100 3350 2    50   Input ~ 0
 S
 Wire Wire Line
@@ -197,7 +197,7 @@ C-
 Wire Wire Line
 	3800 4150 3800 4350
 Wire Wire Line
-	3800 4350 2850 4350
+	3800 4350 3550 4350
 $Comp
 L Device:D_Zener D1
 U 1 1 5C7C1653
@@ -232,4 +232,41 @@ Wire Wire Line
 	6000 3450 6000 4250
 Wire Wire Line
 	6000 4250 6250 4250
+$Comp
+L Device:R R48
+U 1 1 5C84B4AE
+P 3550 4000
+AR Path="/5C4F59F4/5C84B4AE" Ref="R48"  Part="1" 
+AR Path="/5C4FCBE0/5C84B4AE" Ref="R49"  Part="1" 
+AR Path="/5C4FCED2/5C84B4AE" Ref="R50"  Part="1" 
+AR Path="/5C4FCED8/5C84B4AE" Ref="R51"  Part="1" 
+AR Path="/5C4FD32A/5C84B4AE" Ref="R52"  Part="1" 
+AR Path="/5C4FD330/5C84B4AE" Ref="R53"  Part="1" 
+AR Path="/5C4FD336/5C84B4AE" Ref="R54"  Part="1" 
+AR Path="/5C4FD33C/5C84B4AE" Ref="R55"  Part="1" 
+AR Path="/5C4FFA25/5C84B4AE" Ref="R56"  Part="1" 
+AR Path="/5C4FFA2B/5C84B4AE" Ref="R57"  Part="1" 
+AR Path="/5C4FFA31/5C84B4AE" Ref="R58"  Part="1" 
+AR Path="/5C4FFA37/5C84B4AE" Ref="R59"  Part="1" 
+AR Path="/5C4FFA3D/5C84B4AE" Ref="R?"  Part="1" 
+AR Path="/5C4FFA43/5C84B4AE" Ref="R?"  Part="1" 
+F 0 "R59" H 3480 3954 50  0000 R CNN
+F 1 "15" H 3480 4045 50  0000 R CNN
+F 2 "Resistors_SMD:R_2512" V 3480 4000 50  0001 C CNN
+F 3 "~" H 3550 4000 50  0001 C CNN
+	1    3550 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3550 3850 3550 3750
+Wire Wire Line
+	3550 3750 3800 3750
+Connection ~ 3800 3750
+Wire Wire Line
+	3800 3750 3800 3850
+Wire Wire Line
+	3550 4150 3550 4350
+Connection ~ 3550 4350
+Wire Wire Line
+	3550 4350 2850 4350
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=Tue 29 Jan 2019 09:09:09 AM EST
+update=Fri 08 Mar 2019 02:52:10 PM EST
 version=1
 last_client=kicad
 [general]
@@ -63,7 +63,7 @@ SolderPasteRatio=-0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/1]
 Name=wide
-Clearance=1
+Clearance=0.5
 TrackWidth=0.25
 ViaDiameter=0.8
 ViaDrill=0.4
