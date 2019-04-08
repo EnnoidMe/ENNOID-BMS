@@ -9,31 +9,9 @@ Related ENNOID projects:
 
 This project aims to create a scalable & modular open source BMS for up to 1000V lithium-ion battery packs.
 
-### Updates 
-
-20/02/2018:
 The idea behind this project has been started on this thread:
 
 https://endless-sphere.com/forums/viewtopic.php?f=14&t=92952
-
-31/12/2018:
-- Copying DieBieMS schematics into kicad
-- Switching balancing circuit to LTC6813 
-- Adapting the schematics to have isolation between MCU, balancing circuit, current & high voltage measurements.
-- Removing high current circuits from the PCB (Traces & FET switches are now removed, the current will flow through external contactor instead. ex: EV-200 contactor)
-
-13/01/2019:
-
-For cost reasons:
-- Master & Slave boards will be on a 2 layers PCB 100mm x 100mm
-- External power supply 12V or 24V is required for master. 
-
-PCB cost = 10 pcs x (Master+ Slave) = 9.80$ + shipping 
-
-28/01/2018:
-- Started LTC6811 slave board design
-- Started power supply board design (Will use EPM1205SJ + AD8280 for charging 3 lithium-ion batteries from HV battery pack. Batteries will be mounted on PCB)
-- Current sensor PCB from paltatech, now in separate folder
 
 ## Features:
 
@@ -49,20 +27,10 @@ PCB cost = 10 pcs x (Master+ Slave) = 9.80$ + shipping
 **Slave boards**
 - 18 or 12 Cells balancing/board  (18 for LTC6813 & 12 for LTC6811)
 - Cell voltage range 2.5V to 4.5V
-= 2 watt power dissipation per level
+- 2 watt power dissipation per level
 - Stackable for up to 1000V packs 
 - 9 or 5 Temperatures sensors/board (9 for LTC6813 & 5 for LTC6811)
 - Daisychain Master/Slave ISOSPI communication 
-
-**Current sensor board**
-- Isolated delta sigma ADC current sensor
-- +- 400A capable
-
-**UPS board**
-- Isolated 110-450V to 12V DC/DC converter
-- Continuous 1A @12V, several amps peak
-- BQ77904 voltage, current & temperature protection circuit
-
 
 **Software**
 

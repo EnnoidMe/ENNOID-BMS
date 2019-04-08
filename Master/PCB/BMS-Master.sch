@@ -379,17 +379,6 @@ Wire Wire Line
 	8700 2100 9500 2100
 Wire Wire Line
 	9500 2300 10100 2300
-$Comp
-L BMS-Master-rescue:Fuse-Device F1
-U 1 1 5ACF057B
-P 4050 3600
-F 0 "F1" V 3800 3600 50  0000 C CNN
-F 1 "Fuse" V 3900 3600 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering" V 3980 3600 50  0001 C CNN
-F 3 "~" H 4050 3600 50  0001 C CNN
-	1    4050 3600
-	0    -1   1    0   
-$EndComp
 $Sheet
 S 9250 6450 1600 750 
 U 5C246CA0
@@ -576,24 +565,9 @@ Wire Wire Line
 Wire Wire Line
 	7150 4800 6250 4800
 Wire Wire Line
-	6100 3300 6250 3300
-Wire Wire Line
 	6650 3300 6650 2850
 Wire Wire Line
 	6650 2850 7150 2850
-$Sheet
-S 4350 3200 1750 950 
-U 5AC18063
-F0 "PowerSupply" 50
-F1 "PowerSupply.sch" 50
-F2 "PushButton" I L 4350 3900 50 
-F3 "PowerButton" I R 6100 4000 50 
-F4 "PowerEnable" I R 6100 3900 50 
-F5 "ExternalPower" I L 4350 3600 50 
-F6 "ChargeDetect" I R 6100 3800 50 
-F7 "24V" O R 6100 3300 50 
-F8 "EnableFromExt" I R 6100 3500 50 
-$EndSheet
 Wire Wire Line
 	6150 4950 7150 4950
 Wire Wire Line
@@ -652,8 +626,6 @@ Wire Wire Line
 	6150 4350 4200 4350
 Wire Wire Line
 	6150 4350 6150 4950
-Wire Wire Line
-	3900 3600 3650 3600
 Text Notes 1650 2050 0    200  ~ 40
 ISOLATED
 Wire Notes Line width 20
@@ -1016,10 +988,38 @@ $EndComp
 Wire Wire Line
 	6100 2450 6250 2450
 Wire Wire Line
-	6250 2450 6250 3300
-Connection ~ 6250 3300
-Wire Wire Line
 	6250 3300 6650 3300
 Wire Wire Line
 	4000 2200 4350 2200
+$Comp
+L BMS-Master-rescue:Fuse-Device F1
+U 1 1 5ACF057B
+P 4050 3600
+F 0 "F1" V 3800 3600 50  0000 C CNN
+F 1 "5A" V 3900 3600 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering" V 3980 3600 50  0001 C CNN
+F 3 "~" H 4050 3600 50  0001 C CNN
+	1    4050 3600
+	0    -1   1    0   
+$EndComp
+Connection ~ 6250 3300
+Wire Wire Line
+	6100 3300 6250 3300
+$Sheet
+S 4350 3200 1750 950 
+U 5AC18063
+F0 "PowerSupply" 50
+F1 "PowerSupply.sch" 50
+F2 "PushButton" I L 4350 3900 50 
+F3 "PowerButton" I R 6100 4000 50 
+F4 "PowerEnable" I R 6100 3900 50 
+F5 "ExternalPower" I L 4350 3600 50 
+F6 "ChargeDetect" I R 6100 3800 50 
+F7 "24V" O R 6100 3300 50 
+F8 "EnableFromExt" I R 6100 3500 50 
+$EndSheet
+Wire Wire Line
+	6250 2450 6250 3300
+Wire Wire Line
+	3900 3600 3650 3600
 $EndSCHEMATC

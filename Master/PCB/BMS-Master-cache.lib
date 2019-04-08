@@ -555,6 +555,24 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_Fuse
+#
+DEF Device_Fuse F 0 0 N Y 1 F N
+F0 "F" 80 0 50 V V C CNN
+F1 "Device_Fuse" -75 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *Fuse*
+$ENDFPLIST
+DRAW
+S -30 -100 30 100 0 1 10 N
+P 2 0 1 0 0 100 0 -100 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_L
 #
 DEF Device_L L 0 40 N N 1 F N
@@ -1295,7 +1313,6 @@ F0 "#PWR" 0 -150 50 H I C CNN
 F1 "power_+3.3V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-ALIAS +3.3V
 DRAW
 P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
@@ -1311,6 +1328,7 @@ F0 "#PWR" 0 -150 50 H I C CNN
 F1 "power_+3V3" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
 DRAW
 P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
