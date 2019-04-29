@@ -21,7 +21,7 @@ PowerButton
 Text HLabel 13850 10700 2    50   Input ~ 0
 PowerEnable
 Text HLabel 7900 5800 0    50   Input ~ 0
-ExternalPower
+12V
 $Comp
 L Regulator_Switching:LM5165 U19
 U 1 1 5C600D32
@@ -749,8 +749,6 @@ $EndComp
 Wire Wire Line
 	8650 5800 8650 6400
 Connection ~ 8650 5800
-Wire Wire Line
-	8650 6400 10050 6400
 $Comp
 L BMS-Master-rescue:Conn_01x01-Connector_Generic J20
 U 1 1 5C86E7FA
@@ -763,20 +761,5 @@ F 3 "" H 8650 5600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8650 5800 9250 5800
-Text HLabel 9250 5800 2    50   Output ~ 0
-24V
-$Comp
-L Device:Fuse F2
-U 1 1 5CA89223
-P 10200 6400
-F 0 "F2" V 10003 6400 50  0000 C CNN
-F 1 "500mA" V 10094 6400 50  0000 C CNN
-F 2 "" V 10130 6400 50  0001 C CNN
-F 3 "~" H 10200 6400 50  0001 C CNN
-	1    10200 6400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10350 6400 11900 6400
+	8650 6400 11900 6400
 $EndSCHEMATC

@@ -494,7 +494,7 @@ Wire Wire Line
 Wire Notes Line
 	12600 8100 12550 8100
 Text HLabel 1850 1250 0    50   Input ~ 0
-24V
+12V
 Text Label 2200 1250 0    50   ~ 0
 12-24V
 Wire Wire Line

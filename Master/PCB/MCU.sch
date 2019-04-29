@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
-Sheet 8 8
+Sheet 7 8
 Title ""
 Date ""
 Rev ""
@@ -805,7 +805,7 @@ L BMS-Master-rescue:R-Device R170
 U 1 1 5C34B363
 P 24600 9550
 F 0 "R170" H 24670 9596 50  0000 L CNN
-F 1 "1k" H 24670 9505 50  0000 L CNN
+F 1 "100k" H 24670 9505 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 24530 9550 50  0001 C CNN
 F 3 "~" H 24600 9550 50  0001 C CNN
 	1    24600 9550

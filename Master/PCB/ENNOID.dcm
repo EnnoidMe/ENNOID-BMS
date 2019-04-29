@@ -5,4 +5,9 @@ D EMI 2-inductor-filter
 K EMI filter
 $ENDCMP
 #
+$CMP SN74LVC2G17DBVR
+D Dual Gate Schmitt Trigger buffer, Low-Voltage CMOS
+F http://www.ti.com/lit/ds/symlink/sn74lvc2g17.pdf
+$ENDCMP
+#
 #End Doc Library
