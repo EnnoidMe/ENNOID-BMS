@@ -1,4 +1,4 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 5
 LIBS:BMS-Master-cache
 EELAYER 29 0
 EELAYER END
@@ -1941,12 +1941,14 @@ Wire Wire Line
 	14800 12750 14900 12750
 Connection ~ 14900 12750
 $Comp
-L 74xGxx:74LVC2G17 U6
+L BMS-Master-rescue:74LVC2G17-74xGxx U6
 U 1 1 5CC920D9
 P 8400 12550
+AR Path="/5CC920D9" Ref="U6"  Part="1" 
+AR Path="/5C519BA0/5CC920D9" Ref="U6"  Part="1" 
 F 0 "U6" H 8375 12817 50  0000 C CNN
 F 1 "74LVC2G17" H 8375 12726 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 8400 12550 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 8400 12550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 8400 12550 50  0001 C CNN
 	1    8400 12550
 	1    0    0    -1  

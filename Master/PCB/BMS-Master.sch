@@ -1,4 +1,4 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 5
 LIBS:BMS-Master-cache
 EELAYER 29 0
 EELAYER END
@@ -212,7 +212,7 @@ U 1 1 5ABE6776
 P 3500 4250
 F 0 "J6" V 3700 4050 50  0000 C CNN
 F 1 "Power Button" V 3600 4250 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_PicoBlade_53398-0571_05x1.25mm_Straight" H 3500 4250 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-05_05x2.54mm_Straight" H 3500 4250 50  0001 C CNN
 F 3 "~" H 3500 4250 50  0001 C CNN
 	1    3500 4250
 	-1   0    0    -1  
@@ -411,7 +411,7 @@ U 1 1 5C2681C9
 P 11600 7950
 F 0 "J11" H 11680 7992 50  0000 L CNN
 F 1 "CAN" H 11680 7901 50  0000 L CNN
-F 2 "Connectors_Molex:Molex_PicoBlade_53261-0571_05x1.25mm_Angled" H 11600 7950 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-05_05x2.54mm_Straight" H 11600 7950 50  0001 C CNN
 F 3 "" H 11600 7950 50  0001 C CNN
 	1    11600 7950
 	1    0    0    -1  
@@ -641,7 +641,7 @@ U 1 1 5C37653F
 P 11150 9250
 F 0 "J18" H 11230 9292 50  0000 L CNN
 F 1 "OLED" H 11230 9201 50  0000 L CNN
-F 2 "Connectors_Molex:Molex_PicoBlade_53398-0571_05x1.25mm_Straight" H 11150 9250 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-05_05x2.54mm_Straight" H 11150 9250 50  0001 C CNN
 F 3 "" H 11150 9250 50  0001 C CNN
 	1    11150 9250
 	1    0    0    -1  
