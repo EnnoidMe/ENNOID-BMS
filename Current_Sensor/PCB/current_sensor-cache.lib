@@ -195,7 +195,7 @@ ENDDEF
 #
 # current_sensor-rescue_GND
 #
-DEF ~current_sensor-rescue_GND #PWR 0 0 Y Y 1 L P
+DEF current_sensor-rescue_GND #PWR 0 0 Y Y 1 L P
 F0 "#PWR" 0 0 30 H I C CNN
 F1 "current_sensor-rescue_GND" 0 -70 30 H I C CNN
 F2 "" 0 0 60 H V C CNN
@@ -208,7 +208,7 @@ ENDDEF
 #
 # current_sensor-rescue_ISOGND
 #
-DEF ~current_sensor-rescue_ISOGND #PWR 0 0 Y Y 1 L P
+DEF current_sensor-rescue_ISOGND #PWR 0 0 Y Y 1 L P
 F0 "#PWR" 0 0 30 H I C CNN
 F1 "current_sensor-rescue_ISOGND" 0 0 30 H I C CNN
 F2 "" 0 0 60 H V C CNN

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 5
 LIBS:current_sensor-cache
 EELAYER 29 0
 EELAYER END
@@ -76,7 +76,7 @@ U 1 1 59900007
 P 6000 3750
 F 0 "J4" H 6119 3645 50  0000 L CNN
 F 1 "DS conn" H 6119 3554 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6000 3750 50  0001 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight" H 6000 3750 50  0001 C CNN
 F 3 "" H 6000 3750 50  0000 C CNN
 F 4 "DF13-4P-1.25H(50)" H 6000 3750 60  0001 C CNN "MPN"
 F 5 "0" H 6000 3750 60  0001 C CNN "Exclude from BOM"
