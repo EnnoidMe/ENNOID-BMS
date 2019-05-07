@@ -510,7 +510,7 @@
     (descr "Through hole angled pin header, 1x03, 2.54mm pitch, 6mm pin length, single row")
     (tags "Through hole angled pin header THT 1x03 2.54mm single row")
     (path "/5CCE74BE")
-    (fp_text reference "J10" (at 4.385 -2.27) (layer "F.SilkS")
+    (fp_text reference "J10" (at 4.385 -2.27) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "Conn_01x03" (at 4.385 7.35) (layer "F.Fab")
@@ -593,7 +593,7 @@
     (descr "Through hole angled pin header, 1x03, 2.54mm pitch, 6mm pin length, single row")
     (tags "Through hole angled pin header THT 1x03 2.54mm single row")
     (path "/5CCE6461")
-    (fp_text reference "J9" (at 4.385 -2.27) (layer "F.SilkS")
+    (fp_text reference "J9" (at 4.385 -2.27) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "Conn_01x03" (at 4.385 7.35) (layer "F.Fab")
@@ -676,7 +676,7 @@
     (descr "Through hole angled pin header, 1x04, 2.54mm pitch, 6mm pin length, single row")
     (tags "Through hole angled pin header THT 1x04 2.54mm single row")
     (path "/5CCE4863")
-    (fp_text reference "J4" (at 4.385 -2.27) (layer "F.SilkS")
+    (fp_text reference "J4" (at 4.385 -2.27) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "Conn_01x04" (at 4.385 9.89) (layer "F.Fab")

@@ -29,7 +29,7 @@ https://endless-sphere.com/forums/viewtopic.php?f=14&t=92952
 - Cell voltage range 2.5V to 4.5V
 - 2 watt power dissipation per level
 - Stackable for up to 1000V packs 
-- 9 or 5 Temperatures sensors/board (9 for LTC6813 & 5 for LTC6811)
+- 1 Analog input, 1 GPIO port, & 1 I2C communication channel available for external sensors
 - Daisychain Master/Slave ISOSPI communication 
 
 **Software**

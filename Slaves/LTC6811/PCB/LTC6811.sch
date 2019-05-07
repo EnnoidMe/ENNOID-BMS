@@ -1438,7 +1438,7 @@ Vref2
 Wire Wire Line
 	13800 9200 13800 9300
 Wire Wire Line
-	14300 9200 13800 9200
+	14400 9200 14250 9200
 Connection ~ 13800 9200
 Wire Wire Line
 	13800 9000 13800 9200
@@ -1483,7 +1483,7 @@ F 3 "~" H 13800 9450 50  0001 C CNN
 	1    13800 9450
 	1    0    0    -1  
 $EndComp
-Text Label 14300 9200 2    50   ~ 0
+Text Label 14400 9200 2    50   ~ 0
 T1
 Wire Wire Line
 	13650 5650 13900 5650
@@ -1630,4 +1630,23 @@ Wire Wire Line
 Connection ~ 11800 2250
 Wire Wire Line
 	11800 2250 12050 2250
+$Comp
+L Device:Thermistor TH?
+U 1 1 5CD17B07
+P 14250 9450
+F 0 "TH?" H 14355 9496 50  0000 L CNN
+F 1 "100k" H 14355 9405 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 14250 9450 50  0001 C CNN
+F 3 "~" H 14250 9450 50  0001 C CNN
+	1    14250 9450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14250 9250 14250 9200
+Connection ~ 14250 9200
+Wire Wire Line
+	14250 9200 13800 9200
+Wire Wire Line
+	14250 9650 13800 9650
+Connection ~ 13800 9650
 $EndSCHEMATC
