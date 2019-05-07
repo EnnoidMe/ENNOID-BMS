@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name ENNOID)(type Legacy)(uri ${KIPRJMOD}/ENNOID.lib)(options "")(descr ""))
+  (lib (name "ENNOID")(type "Legacy")(uri "${KIPRJMOD}/ENNOID.lib")(options "")(descr ""))
+  (lib (name "LTC6811-rescue")(type "Legacy")(uri "${KIPRJMOD}/LTC6811-rescue.lib")(options "")(descr ""))
 )
