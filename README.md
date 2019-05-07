@@ -13,6 +13,10 @@ The idea behind this project has been started on this thread:
 
 https://endless-sphere.com/forums/viewtopic.php?f=14&t=92952
 
+For order request, please visit:
+
+https://www.ennoid.me
+
 ## Features:
 
 **Master board**
