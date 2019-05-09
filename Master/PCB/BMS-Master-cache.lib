@@ -929,7 +929,7 @@ ENDDEF
 #
 # Graphic_Logo_Open_Hardware_Small
 #
-DEF Graphic_Logo_Open_Hardware_Small #LOGO 0 40 Y Y 1 F N
+DEF ~Graphic_Logo_Open_Hardware_Small #LOGO 0 40 Y Y 1 F N
 F0 "#LOGO" 0 275 50 H I C CNN
 F1 "Graphic_Logo_Open_Hardware_Small" 0 -225 50 H I C CNN
 F2 "" 0 0 50 H I C CNN

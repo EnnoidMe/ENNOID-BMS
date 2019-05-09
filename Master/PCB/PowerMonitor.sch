@@ -1,4 +1,4 @@
-EESchema Schematic File Version 5
+EESchema Schematic File Version 4
 LIBS:BMS-Master-cache
 EELAYER 29 0
 EELAYER END
@@ -784,12 +784,6 @@ Wire Wire Line
 	12200 3900 12200 3950
 Wire Wire Line
 	12500 3900 12200 3900
-Connection ~ 12200 3900
-Wire Wire Line
-	10400 3900 12200 3900
-Wire Wire Line
-	10400 4250 12200 4250
-Connection ~ 12200 4250
 Wire Wire Line
 	12200 4250 12500 4250
 $Comp
@@ -1154,12 +1148,6 @@ Wire Wire Line
 	12200 6100 12200 6150
 Wire Wire Line
 	12500 6100 12200 6100
-Connection ~ 12200 6100
-Wire Wire Line
-	10400 6100 12200 6100
-Wire Wire Line
-	10400 6450 12200 6450
-Connection ~ 12200 6450
 Wire Wire Line
 	12200 6450 12500 6450
 $Comp
@@ -1959,4 +1947,40 @@ Wire Wire Line
 	8650 12550 9600 12550
 Wire Wire Line
 	8400 11850 8400 12450
+Wire Wire Line
+	10400 6100 11450 6100
+Wire Wire Line
+	11450 6100 11450 6450
+Wire Wire Line
+	11450 6450 12200 6450
+Connection ~ 12200 6450
+Wire Wire Line
+	10400 6450 11200 6450
+Wire Wire Line
+	11200 6450 11200 6250
+Wire Wire Line
+	11200 6250 11700 6250
+Wire Wire Line
+	11700 6250 11700 6100
+Wire Wire Line
+	11700 6100 12200 6100
+Connection ~ 12200 6100
+Wire Wire Line
+	10400 4250 11300 4250
+Wire Wire Line
+	11300 4250 11300 3900
+Wire Wire Line
+	11300 3900 12200 3900
+Connection ~ 12200 3900
+Wire Wire Line
+	10400 3900 11050 3900
+Wire Wire Line
+	11050 3900 11050 4050
+Wire Wire Line
+	11050 4050 11550 4050
+Wire Wire Line
+	11550 4050 11550 4250
+Wire Wire Line
+	11550 4250 12200 4250
+Connection ~ 12200 4250
 $EndSCHEMATC
