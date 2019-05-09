@@ -542,7 +542,7 @@
       (net 134 "/MCU/OLED_SCL"))
     (pad "5" thru_hole oval (at 10.16 0 90) (size 2 2.6) (drill 1.2) (layers *.Cu *.Mask)
       (net 4 "GND"))
-    (model "${KISYS3DMOD}/Connectors_Molex.3dshapes/Molex_KK-6410-05_05x2.54mm_Straight.wrl"
+    (model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -608,7 +608,7 @@
       (net 116 "/CAN/CANL"))
     (pad "5" thru_hole oval (at 10.16 0 90) (size 2 2.6) (drill 1.2) (layers *.Cu *.Mask)
       (net 108 "/CAN/CAN_GND"))
-    (model "${KISYS3DMOD}/Connectors_Molex.3dshapes/Molex_KK-6410-05_05x2.54mm_Straight.wrl"
+    (model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -674,7 +674,7 @@
       (net 34 "Net-(J6-Pad4)"))
     (pad "5" thru_hole oval (at 10.16 0 90) (size 2 2.6) (drill 1.2) (layers *.Cu *.Mask)
       (net 4 "GND"))
-    (model "${KISYS3DMOD}/Connectors_Molex.3dshapes/Molex_KK-6410-05_05x2.54mm_Straight.wrl"
+    (model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
