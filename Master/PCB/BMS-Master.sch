@@ -298,8 +298,7 @@ F9 "Safety" I L 7150 2600 50
 F10 "Vpack" I L 7150 1850 50 
 F11 "Vbat" I L 7150 1750 50 
 F12 "12V" I L 7150 2850 50 
-F13 "VoutSense" I R 8700 2900 50 
-F14 "NTC_Switch" I R 8700 2800 50 
+F13 "NTC_Switch" I R 8700 2800 50 
 $EndSheet
 $Comp
 L BMS-Master-rescue:Conn_01x02-Connector_Generic J3
@@ -538,8 +537,6 @@ Wire Wire Line
 Wire Wire Line
 	6100 1750 7150 1750
 Wire Wire Line
-	6100 1850 7150 1850
-Wire Wire Line
 	14200 950  6100 950 
 Wire Wire Line
 	6100 1250 14200 1250
@@ -577,12 +574,6 @@ Wire Wire Line
 Wire Wire Line
 	9150 7800 9250 7800
 Connection ~ 9150 6700
-Wire Wire Line
-	8700 4100 8800 4100
-Wire Wire Line
-	8800 4100 8800 2900
-Wire Wire Line
-	8800 2900 8700 2900
 Wire Wire Line
 	8700 2800 8850 2800
 Wire Wire Line
@@ -853,7 +844,7 @@ F12 "BUZZER" I R 8700 9950 50
 F13 "TX_USB" I R 8700 6800 50 
 F14 "RX_USB" I R 8700 6900 50 
 F15 "Safety" I L 7150 3700 50 
-F16 "VoutSense" B R 8700 4100 50 
+F16 "Vpack" B L 7150 4200 50 
 F17 "SCK" I L 7150 9200 50 
 F18 "MISO" I L 7150 9300 50 
 F19 "MOSI" I L 7150 9400 50 
@@ -1022,4 +1013,13 @@ Wire Wire Line
 Connection ~ 4200 3600
 Wire Wire Line
 	4200 3600 4150 3600
+Wire Wire Line
+	6100 1850 6650 1850
+Wire Wire Line
+	7150 4200 6650 4200
+Wire Wire Line
+	6650 4200 6650 1850
+Connection ~ 6650 1850
+Wire Wire Line
+	6650 1850 7150 1850
 $EndSCHEMATC

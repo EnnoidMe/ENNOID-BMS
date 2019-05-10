@@ -792,6 +792,11 @@
       (net 1 "+3V3"))
     (pad "2" thru_hole circle (at 2.5 0 90) (size 2.49936 2.49936) (drill 1.00076) (layers *.Cu *.Mask)
       (net 64 "Net-(BZ1-Pad2)"))
+    (model "${KISYS3DMOD}/Buzzer_Beeper.3dshapes/MagneticBuzzer_ProSignal_ABT-410-RC.wrl"
+      (offset (xyz -2.5 0 0))
+      (scale (xyz 0.75 0.75 0.8))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module "Housings_DIP:SMDIP-4_W9.53mm_Clearance8mm" (layer "F.Cu") (tedit 59C77894) (tstamp 5C37CABC)

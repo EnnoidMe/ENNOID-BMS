@@ -57,7 +57,7 @@ F 3 "~" H 12050 5550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3450 4250 4700 4250
-Text HLabel 2300 2700 0    50   Input ~ 0
+Text HLabel 2700 2750 0    50   Input ~ 0
 Enable
 $Comp
 L Transistor_FET:BSS138 Q3
@@ -316,32 +316,14 @@ $EndComp
 Wire Wire Line
 	13600 7300 13500 7300
 Connection ~ 13500 7300
-$Comp
-L 74xGxx:74AUC2G08 U?
-U 1 1 5CE2405B
-P 3350 2800
-F 0 "U?" H 3325 3067 50  0000 C CNN
-F 1 "74AUC2G08" H 3325 2976 50  0000 C CNN
-F 2 "" H 3350 2800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3350 2800 50  0001 C CNN
-	1    3350 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xGxx:74AUC2G08 U?
-U 2 1 5CE24C47
-P 3350 3250
-F 0 "U?" H 3325 3517 50  0000 C CNN
-F 1 "74AUC2G08" H 3325 3426 50  0000 C CNN
-F 2 "" H 3350 3250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3350 3250 50  0001 C CNN
-	2    3350 3250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3450 3750 11900 3750
 Wire Wire Line
 	4700 4250 8900 4250
 Wire Wire Line
 	5800 5050 8600 5050
+Wire Wire Line
+	2700 2750 2850 2750
+Wire Wire Line
+	2850 2750 2850 3200
 $EndSCHEMATC

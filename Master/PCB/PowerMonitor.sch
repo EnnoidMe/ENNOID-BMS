@@ -1758,10 +1758,6 @@ Wire Wire Line
 Connection ~ 11250 1050
 Wire Wire Line
 	17300 5050 17550 5050
-Text HLabel 17300 4800 0    50   Input ~ 0
-12V
-Wire Wire Line
-	17300 4800 17550 4800
 Wire Wire Line
 	17550 4800 17550 5050
 Connection ~ 17550 5050
@@ -1983,4 +1979,15 @@ Wire Wire Line
 Wire Wire Line
 	11550 4250 12200 4250
 Connection ~ 12200 4250
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5CDA7E97
+P 17550 4800
+F 0 "#PWR?" H 17550 4650 50  0001 C CNN
+F 1 "+3.3V" H 17565 4973 50  0000 C CNN
+F 2 "" H 17550 4800 50  0001 C CNN
+F 3 "" H 17550 4800 50  0001 C CNN
+	1    17550 4800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -37,23 +37,8 @@ https://www.ennoid.me
 - Daisychain Master/Slave ISOSPI communication 
 
 **Software**
-
 - Firmware, bootloader & configuration tool are the same as [DieBieMS](https://github.com/DieBieEngineering). 
 - Software for ENNOID-BMS and DieBieMS are almost identical because the schematics changes related to isolation are invisible for the MCU. Only the switch to LTC6813 slave needs some minimal modifications.
-
-## Components:
-
-- LTC6813 or LTC6811	-> Battery stack cell voltage monitor.
-- LTC6820	-> ISOSPI communication.
-- STM32F303	-> Microcontroller.
-- AMC1301	-> Isolated voltage measurement
-- AMC1303	-> Isolated current measurement
-- INA226	-> Isolated power measurement.
-- BQ76200	-> Driver for Discharge, Charge and Precharge switches.
-- LM5165	-> SMPS Buck converter, converting the 24V or 12V voltage to +3.3V.
-- ISO1050	-> Isolated CAN-Bus transceiver.
-- CP2104-F03	-> USB to serial converter for bootloader based firmware updates and debugging.
-
 
 ## Master
 

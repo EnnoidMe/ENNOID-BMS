@@ -387,7 +387,7 @@ $EndComp
 Wire Wire Line
 	22400 7600 22400 7500
 Text HLabel 24450 9800 2    50   BiDi ~ 0
-VoutSense
+Vpack
 Text HLabel 24450 10800 2    50   Input ~ 0
 CAN_RX
 Text HLabel 24450 10900 2    50   Input ~ 0
