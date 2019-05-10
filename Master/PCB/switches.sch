@@ -16,11 +16,11 @@ Comment4 ""
 $EndDescr
 Text HLabel 3450 4250 0    50   Input ~ 0
 ChargeEnable
-Text HLabel 14150 7950 2    50   Input ~ 0
+Text HLabel 14550 7150 2    50   Input ~ 0
 Discharge
-Text HLabel 14550 4250 2    50   Input ~ 0
+Text HLabel 14550 3550 2    50   Input ~ 0
 Precharge
-Text HLabel 14700 6000 2    50   Input ~ 0
+Text HLabel 14650 4950 2    50   Input ~ 0
 Charge
 $Comp
 L BMS-Master-rescue:R-Device R24
@@ -57,8 +57,6 @@ F 3 "~" H 12050 5550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3450 4250 4700 4250
-Text HLabel 2300 2700 0    50   Input ~ 0
-Enable
 $Comp
 L Transistor_FET:BSS138 Q3
 U 1 1 5C8FBD98
@@ -160,8 +158,6 @@ Wire Wire Line
 	3300 9500 3300 9700
 Wire Notes Line
 	12700 10450 12650 10450
-Text HLabel 15650 4950 2    50   Input ~ 0
-12V
 Wire Wire Line
 	12200 3750 12850 3750
 $Comp
@@ -176,12 +172,9 @@ F 3 "~" H 12950 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12950 6000 13500 6000
+	12950 6000 13200 6000
 Wire Wire Line
 	13500 6000 13500 5750
-Wire Wire Line
-	13500 6000 14700 6000
-Connection ~ 13500 6000
 Wire Wire Line
 	12950 5950 12950 6000
 Wire Wire Line
@@ -210,12 +203,9 @@ Wire Wire Line
 Wire Wire Line
 	12850 4150 12850 4250
 Wire Wire Line
-	12850 4250 13500 4250
+	12850 4250 13150 4250
 Wire Wire Line
 	13500 3950 13500 4250
-Connection ~ 13500 4250
-Wire Wire Line
-	13500 4250 14550 4250
 $Comp
 L BMS-Master-rescue:R-Device R?
 U 1 1 5CD9342C
@@ -228,12 +218,9 @@ F 3 "~" H 12950 7750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12950 7950 13500 7950
+	12950 7950 13250 7950
 Wire Wire Line
 	13500 7950 13500 7700
-Wire Wire Line
-	13500 7950 14150 7950
-Connection ~ 13500 7950
 Wire Wire Line
 	12950 7900 12950 7950
 Wire Wire Line
@@ -246,20 +233,9 @@ Wire Wire Line
 Wire Wire Line
 	13500 7300 13500 7150
 Wire Wire Line
-	13500 7150 15400 7150
+	13500 7150 14550 7150
 Wire Wire Line
 	13500 5350 13500 4950
-Wire Wire Line
-	13500 4950 15400 4950
-Wire Wire Line
-	15400 4950 15400 7150
-Connection ~ 15400 4950
-Wire Wire Line
-	15400 4950 15650 4950
-Text HLabel 2250 2000 0    50   Input ~ 0
-Vbat
-Text HLabel 2250 2250 0    50   Input ~ 0
-Vpack
 Wire Wire Line
 	8900 5550 11900 5550
 Wire Wire Line
@@ -284,7 +260,7 @@ F 3 "~" H 13400 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13600 3550 15400 3550
+	13600 3550 14550 3550
 Wire Wire Line
 	13500 3550 13600 3550
 Connection ~ 13600 3550
@@ -316,32 +292,60 @@ $EndComp
 Wire Wire Line
 	13600 7300 13500 7300
 Connection ~ 13500 7300
-$Comp
-L 74xGxx:74AUC2G08 U?
-U 1 1 5CE2405B
-P 3350 2800
-F 0 "U?" H 3325 3067 50  0000 C CNN
-F 1 "74AUC2G08" H 3325 2976 50  0000 C CNN
-F 2 "" H 3350 2800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3350 2800 50  0001 C CNN
-	1    3350 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xGxx:74AUC2G08 U?
-U 2 1 5CE24C47
-P 3350 3250
-F 0 "U?" H 3325 3517 50  0000 C CNN
-F 1 "74AUC2G08" H 3325 3426 50  0000 C CNN
-F 2 "" H 3350 3250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3350 3250 50  0001 C CNN
-	2    3350 3250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3450 3750 11900 3750
 Wire Wire Line
 	4700 4250 8900 4250
 Wire Wire Line
 	5800 5050 8600 5050
+Wire Wire Line
+	13500 4950 14650 4950
+$Comp
+L BMS-Master-rescue:GND-power #PWR?
+U 1 1 5CEA362F
+P 13250 8100
+F 0 "#PWR?" H 13250 7850 50  0001 C CNN
+F 1 "GND" H 13255 7927 50  0000 C CNN
+F 2 "" H 13250 8100 50  0001 C CNN
+F 3 "" H 13250 8100 50  0001 C CNN
+	1    13250 8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13250 8100 13250 7950
+Connection ~ 13250 7950
+Wire Wire Line
+	13250 7950 13500 7950
+$Comp
+L BMS-Master-rescue:GND-power #PWR?
+U 1 1 5CEA4D93
+P 13200 6100
+F 0 "#PWR?" H 13200 5850 50  0001 C CNN
+F 1 "GND" H 13205 5927 50  0000 C CNN
+F 2 "" H 13200 6100 50  0001 C CNN
+F 3 "" H 13200 6100 50  0001 C CNN
+	1    13200 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13200 6100 13200 6000
+Connection ~ 13200 6000
+Wire Wire Line
+	13200 6000 13500 6000
+$Comp
+L BMS-Master-rescue:GND-power #PWR?
+U 1 1 5CEA5FC7
+P 13150 4350
+F 0 "#PWR?" H 13150 4100 50  0001 C CNN
+F 1 "GND" H 13155 4177 50  0000 C CNN
+F 2 "" H 13150 4350 50  0001 C CNN
+F 3 "" H 13150 4350 50  0001 C CNN
+	1    13150 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13150 4350 13150 4250
+Connection ~ 13150 4250
+Wire Wire Line
+	13150 4250 13500 4250
 $EndSCHEMATC

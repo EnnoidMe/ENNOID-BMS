@@ -20,8 +20,6 @@ Text HLabel 24450 10000 2    50   Input ~ 0
 RX_USB
 Text HLabel 9100 9300 0    50   Input ~ 0
 Safety
-Text HLabel 8100 9900 0    50   Input ~ 0
-SwitchEnable
 Wire Wire Line
 	16300 11600 16300 11900
 Wire Wire Line
@@ -554,8 +552,6 @@ Wire Wire Line
 	7800 9600 7800 9650
 Wire Wire Line
 	23800 9800 24450 9800
-Wire Wire Line
-	9200 9900 8200 9900
 Text HLabel 25050 9700 2    50   BiDi ~ 0
 NTC_Switch
 Wire Wire Line
@@ -745,33 +741,6 @@ Wire Wire Line
 	4000 12300 6550 12300
 Wire Wire Line
 	6550 12300 6550 12450
-$Comp
-L BMS-Master-rescue:R-Device R169
-U 1 1 5C6988CA
-P 8200 10050
-F 0 "R169" H 8270 10096 50  0000 L CNN
-F 1 "10k" H 8270 10005 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8130 10050 50  0001 C CNN
-F 3 "~" H 8200 10050 50  0001 C CNN
-	1    8200 10050
-	1    0    0    -1  
-$EndComp
-Connection ~ 8200 9900
-Wire Wire Line
-	8200 9900 8100 9900
-$Comp
-L BMS-Master-rescue:GND-power #PWR0247
-U 1 1 5C699041
-P 8200 10250
-F 0 "#PWR0247" H 8200 10000 50  0001 C CNN
-F 1 "GND" H 8205 10077 50  0000 C CNN
-F 2 "" H 8200 10250 50  0001 C CNN
-F 3 "" H 8200 10250 50  0001 C CNN
-	1    8200 10250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8200 10200 8200 10250
 Wire Wire Line
 	7200 9950 7400 9950
 Wire Wire Line

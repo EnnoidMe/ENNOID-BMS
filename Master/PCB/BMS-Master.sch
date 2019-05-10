@@ -290,15 +290,13 @@ F1 "switches.sch" 50
 F2 "DischargeEnable" I L 7150 2400 50 
 F3 "ChargeEnable" I L 7150 2200 50 
 F4 "PrechargeEnable" I L 7150 2500 50 
-F5 "Discharge" I R 8700 1800 50 
-F6 "Precharge" I R 8700 1950 50 
-F7 "Charge" I R 8700 2100 50 
-F8 "Enable" I L 7150 2300 50 
-F9 "Safety" I L 7150 2600 50 
-F10 "Vpack" I L 7150 1850 50 
-F11 "Vbat" I L 7150 1750 50 
-F12 "12V" I L 7150 2850 50 
-F13 "NTC_Switch" I R 8700 2800 50 
+F5 "Discharge" I R 8700 1900 50 
+F6 "Precharge" I R 8700 2250 50 
+F7 "Charge" I R 8700 2600 50 
+F8 "Safety" I L 7150 2600 50 
+F9 "Vpack" I L 7150 1850 50 
+F10 "Vbat" I L 7150 1750 50 
+F11 "NTC_Switch" I L 7150 2300 50 
 $EndSheet
 $Comp
 L BMS-Master-rescue:Conn_01x02-Connector_Generic J3
@@ -329,55 +327,36 @@ Wire Wire Line
 $Comp
 L BMS-Master-rescue:Conn_01x02-Connector_Generic J8
 U 1 1 5ABBEF45
-P 10300 1600
-F 0 "J8" H 10380 1592 50  0000 L CNN
-F 1 "Discharge" H 10380 1501 50  0000 L CNN
-F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 10300 1600 50  0001 C CNN
-F 3 "~" H 10300 1600 50  0001 C CNN
-	1    10300 1600
+P 10300 1800
+F 0 "J8" H 10380 1792 50  0000 L CNN
+F 1 "Discharge" H 10380 1701 50  0000 L CNN
+F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 10300 1800 50  0001 C CNN
+F 3 "~" H 10300 1800 50  0001 C CNN
+	1    10300 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L BMS-Master-rescue:Conn_01x02-Connector_Generic J9
 U 1 1 5ABBF131
-P 10300 1950
-F 0 "J9" H 10379 1942 50  0000 L CNN
-F 1 "Precharge" H 10379 1851 50  0000 L CNN
-F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 10300 1950 50  0001 C CNN
-F 3 "~" H 10300 1950 50  0001 C CNN
-	1    10300 1950
+P 10300 2150
+F 0 "J9" H 10379 2142 50  0000 L CNN
+F 1 "Precharge" H 10379 2051 50  0000 L CNN
+F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 10300 2150 50  0001 C CNN
+F 3 "~" H 10300 2150 50  0001 C CNN
+	1    10300 2150
 	1    0    0    -1  
 $EndComp
 $Comp
 L BMS-Master-rescue:Conn_01x02-Connector_Generic J10
 U 1 1 5ABBF293
-P 10300 2300
-F 0 "J10" H 10379 2292 50  0000 L CNN
-F 1 "Charge" H 10379 2201 50  0000 L CNN
-F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 10300 2300 50  0001 C CNN
-F 3 "~" H 10300 2300 50  0001 C CNN
-	1    10300 2300
+P 10300 2500
+F 0 "J10" H 10379 2492 50  0000 L CNN
+F 1 "Charge" H 10379 2401 50  0000 L CNN
+F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 10300 2500 50  0001 C CNN
+F 3 "~" H 10300 2500 50  0001 C CNN
+	1    10300 2500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9800 2500 9800 2400
-Wire Wire Line
-	9800 2400 10100 2400
-Wire Wire Line
-	9800 2050 10100 2050
-Connection ~ 9800 2400
-Wire Wire Line
-	9800 1700 10100 1700
-Wire Wire Line
-	8700 1800 9500 1800
-Wire Wire Line
-	9500 1800 9500 1600
-Wire Wire Line
-	9500 1600 10100 1600
-Wire Wire Line
-	8700 2100 9500 2100
-Wire Wire Line
-	9500 2300 10100 2300
 $Sheet
 S 9250 6450 1600 750 
 U 5C246CA0
@@ -471,8 +450,7 @@ F7 "Discharge+" I R 6100 1250 50
 F8 "Vbat" I R 6100 1750 50 
 F9 "Vpack" I R 6100 1850 50 
 F10 "ChargeDetect" B R 6100 2350 50 
-F11 "12V" I R 6100 2450 50 
-F12 "I-" I L 4350 2200 50 
+F11 "I-" I L 4350 2200 50 
 $EndSheet
 $Comp
 L power:GNDA #PWR0115
@@ -485,8 +463,6 @@ F 3 "" H 1950 1100 50  0001 C CNN
 	1    1950 1100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4350 3600 4200 3600
 $Comp
 L power:GNDA #PWR0116
 U 1 1 5C377052
@@ -516,12 +492,6 @@ Wire Wire Line
 	6850 2400 7150 2400
 Wire Wire Line
 	6850 3900 7150 3900
-Wire Wire Line
-	7150 4000 6800 4000
-Wire Wire Line
-	6800 4000 6800 2300
-Wire Wire Line
-	6800 2300 7150 2300
 Wire Wire Line
 	6750 4100 6750 2200
 Wire Wire Line
@@ -574,12 +544,6 @@ Wire Wire Line
 Wire Wire Line
 	9150 7800 9250 7800
 Connection ~ 9150 6700
-Wire Wire Line
-	8700 2800 8850 2800
-Wire Wire Line
-	8850 2800 8850 4200
-Wire Wire Line
-	8850 4200 8700 4200
 $Sheet
 S 4350 8950 1750 850 
 U 5C8805C1
@@ -617,15 +581,6 @@ Text Notes 1650 2050 0    200  ~ 40
 ISOLATED
 Wire Notes Line width 20
 	950  600  14950 600 
-Wire Wire Line
-	8700 1950 10100 1950
-Wire Wire Line
-	9800 1700 9800 2050
-Wire Wire Line
-	9500 2100 9500 2300
-Wire Wire Line
-	9800 2050 9800 2400
-Connection ~ 9800 2050
 $Comp
 L BMS-Master-rescue:Conn_01x05-Connector_Generic J18
 U 1 1 5C37653F
@@ -773,17 +728,6 @@ Wire Wire Line
 Wire Wire Line
 	6300 3900 6300 4700
 $Comp
-L power:GND #PWR0113
-U 1 1 5C686A2F
-P 9800 2500
-F 0 "#PWR0113" H 9800 2250 50  0001 C CNN
-F 1 "GND" H 9805 2327 50  0000 C CNN
-F 2 "" H 9800 2500 50  0001 C CNN
-F 3 "" H 9800 2500 50  0001 C CNN
-	1    9800 2500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x02 J13
 U 1 1 5C382B94
 P 14400 1250
@@ -855,10 +799,9 @@ F23 "OLED_SCL" I R 8700 9350 50
 F24 "OLED_SDA" I R 8700 9250 50 
 F25 "OLED_RST" I R 8700 9150 50 
 F26 "Wireless_GDO0" I L 7150 9600 50 
-F27 "SwitchEnable" I L 7150 4000 50 
-F28 "NTC_Switch" B R 8700 4200 50 
-F29 "MA" I L 7150 5800 50 
-F30 "PA" I L 7150 5900 50 
+F27 "NTC_Switch" B L 7150 4000 50 
+F28 "MA" I L 7150 5800 50 
+F29 "PA" I L 7150 5900 50 
 $EndSheet
 Wire Wire Line
 	7100 5800 7150 5800
@@ -973,8 +916,6 @@ F 3 "~" H 14400 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6100 2450 6250 2450
-Wire Wire Line
 	4000 2200 4350 2200
 $Comp
 L BMS-Master-rescue:Fuse-Device F1
@@ -987,7 +928,6 @@ F 3 "~" H 4000 3600 50  0001 C CNN
 	1    4000 3600
 	0    -1   1    0   
 $EndComp
-Connection ~ 6250 2850
 $Sheet
 S 4350 3200 1750 950 
 U 5AC18063
@@ -1001,18 +941,7 @@ F6 "ChargeDetect" I R 6100 3800 50
 F7 "EnableFromExt" I R 6100 3500 50 
 $EndSheet
 Wire Wire Line
-	6250 2450 6250 2850
-Wire Wire Line
 	3850 3600 3650 3600
-Wire Wire Line
-	6250 2850 7150 2850
-Wire Wire Line
-	4200 2850 4200 3600
-Wire Wire Line
-	4200 2850 6250 2850
-Connection ~ 4200 3600
-Wire Wire Line
-	4200 3600 4150 3600
 Wire Wire Line
 	6100 1850 6650 1850
 Wire Wire Line
@@ -1022,4 +951,32 @@ Wire Wire Line
 Connection ~ 6650 1850
 Wire Wire Line
 	6650 1850 7150 1850
+Wire Wire Line
+	4150 3600 4350 3600
+Text Label 4150 3600 0    50   ~ 0
+12V
+Text Label 9900 1800 0    50   ~ 0
+12V
+Text Label 9900 2150 0    50   ~ 0
+12V
+Text Label 9900 2500 0    50   ~ 0
+12V
+Wire Wire Line
+	9900 2500 10100 2500
+Wire Wire Line
+	9900 2150 10100 2150
+Wire Wire Line
+	9900 1800 10100 1800
+Wire Wire Line
+	8700 2600 10100 2600
+Wire Wire Line
+	8700 2250 10100 2250
+Wire Wire Line
+	8700 1900 10100 1900
+Wire Wire Line
+	7150 2300 6800 2300
+Wire Wire Line
+	6800 2300 6800 4000
+Wire Wire Line
+	6800 4000 7150 4000
 $EndSCHEMATC
