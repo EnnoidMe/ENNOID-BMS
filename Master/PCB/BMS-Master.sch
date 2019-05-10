@@ -294,9 +294,7 @@ F5 "Discharge" I R 8700 1900 50
 F6 "Precharge" I R 8700 2250 50 
 F7 "Charge" I R 8700 2600 50 
 F8 "Safety" I L 7150 2600 50 
-F9 "Vpack" I L 7150 1850 50 
-F10 "Vbat" I L 7150 1750 50 
-F11 "NTC_Switch" I L 7150 2300 50 
+F9 "NTC_Switch" I L 7150 2300 50 
 $EndSheet
 $Comp
 L BMS-Master-rescue:Conn_01x02-Connector_Generic J3
@@ -447,10 +445,9 @@ F4 "SDA" I R 6100 2150 50
 F5 "BAT+" I L 4350 900 50 
 F6 "Charge+" I R 6100 950 50 
 F7 "Discharge+" I R 6100 1250 50 
-F8 "Vbat" I R 6100 1750 50 
-F9 "Vpack" I R 6100 1850 50 
-F10 "ChargeDetect" B R 6100 2350 50 
-F11 "I-" I L 4350 2200 50 
+F8 "Vpack" I R 6100 1850 50 
+F9 "ChargeDetect" B R 6100 2350 50 
+F10 "I-" I L 4350 2200 50 
 $EndSheet
 $Comp
 L power:GNDA #PWR0115
@@ -504,8 +501,6 @@ Wire Wire Line
 	6550 2050 6550 4300
 Wire Wire Line
 	6550 4300 7150 4300
-Wire Wire Line
-	6100 1750 7150 1750
 Wire Wire Line
 	14200 950  6100 950 
 Wire Wire Line
@@ -948,9 +943,6 @@ Wire Wire Line
 	7150 4200 6650 4200
 Wire Wire Line
 	6650 4200 6650 1850
-Connection ~ 6650 1850
-Wire Wire Line
-	6650 1850 7150 1850
 Wire Wire Line
 	4150 3600 4350 3600
 Text Label 4150 3600 0    50   ~ 0

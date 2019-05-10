@@ -873,8 +873,6 @@ Wire Wire Line
 	15300 4150 15300 4250
 Wire Wire Line
 	15300 4250 15000 4250
-Text HLabel 17000 4050 2    50   Input ~ 0
-Vbat
 Wire Wire Line
 	15900 4050 16200 4050
 $Comp
@@ -1875,9 +1873,6 @@ F 3 "" H 16750 3850 50  0001 C CNN
 	1    16750 3850
 	0    -1   -1   0   
 $EndComp
-Connection ~ 16750 4050
-Wire Wire Line
-	16750 4050 17000 4050
 $Comp
 L BMS-Master-rescue:Conn_01x01-Connector_Generic J21
 U 1 1 5C889B18
@@ -1980,10 +1975,10 @@ Wire Wire Line
 	11550 4250 12200 4250
 Connection ~ 12200 4250
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0135
 U 1 1 5CDA7E97
 P 17550 4800
-F 0 "#PWR?" H 17550 4650 50  0001 C CNN
+F 0 "#PWR0135" H 17550 4650 50  0001 C CNN
 F 1 "+3.3V" H 17565 4973 50  0000 C CNN
 F 2 "" H 17550 4800 50  0001 C CNN
 F 3 "" H 17550 4800 50  0001 C CNN
