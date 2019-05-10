@@ -1,4 +1,4 @@
-EESchema Schematic File Version 5
+EESchema Schematic File Version 4
 LIBS:LTC6811-cache
 EELAYER 29 0
 EELAYER END
@@ -872,7 +872,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 4950 8350 4950
 Wire Wire Line
-	8350 4950 8350 5250
+	8350 4950 8350 5050
 Wire Wire Line
 	7650 5250 8350 5250
 Wire Wire Line
@@ -1020,74 +1020,8 @@ Wire Wire Line
 	12850 1650 13500 1650
 NoConn ~ 7650 4550
 NoConn ~ 7650 4650
-Text Label 8000 5050 0    50   ~ 0
-WDT
-Wire Wire Line
-	8000 5050 7650 5050
-Text Label 2150 1450 0    50   ~ 0
-WDT
-Text Label 8000 5350 0    50   ~ 0
-DTEN
 Wire Wire Line
 	8900 4450 8900 5850
-Wire Wire Line
-	8000 5350 7650 5350
-Text Label 850  1400 0    50   ~ 0
-DTEN
-$Comp
-L power:GND #PWR0121
-U 1 1 5CD4DCEC
-P 1850 1900
-F 0 "#PWR0121" H 1850 1650 50  0001 C CNN
-F 1 "GND" H 1855 1727 50  0000 C CNN
-F 2 "" H 1850 1900 50  0001 C CNN
-F 3 "" H 1850 1900 50  0001 C CNN
-	1    1850 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper_NC_Dual JP1
-U 1 1 5CD4E774
-P 1300 1400
-F 0 "JP1" V 1300 1502 50  0000 L CNN
-F 1 "Jumper_NC_Dual" V 1345 1502 50  0001 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 1300 1400 50  0001 C CNN
-F 3 "~" H 1300 1400 50  0001 C CNN
-	1    1300 1400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1300 1650 1300 1900
-Wire Wire Line
-	1300 1900 1850 1900
-$Comp
-L Device:Jumper_NC_Dual JP2
-U 1 1 5CD79FAF
-P 2550 1450
-F 0 "JP2" V 2550 1552 50  0000 L CNN
-F 1 "Jumper_NC_Dual" V 2595 1552 50  0001 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2550 1450 50  0001 C CNN
-F 3 "~" H 2550 1450 50  0001 C CNN
-	1    2550 1450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2550 1700 2550 1900
-Wire Wire Line
-	2550 1900 1850 1900
-Connection ~ 1850 1900
-Wire Wire Line
-	850  1400 1200 1400
-Wire Wire Line
-	2150 1450 2450 1450
-Text Label 2550 950  0    50   ~ 0
-Vreg
-Wire Wire Line
-	2550 950  2550 1200
-Text Label 1300 950  0    50   ~ 0
-Vreg
-Wire Wire Line
-	1300 950  1300 1150
 Wire Wire Line
 	4400 8500 4200 8500
 Wire Wire Line
@@ -1631,10 +1565,10 @@ Connection ~ 11800 2250
 Wire Wire Line
 	11800 2250 12050 2250
 $Comp
-L Device:Thermistor TH?
+L Device:Thermistor TH1
 U 1 1 5CD17B07
 P 14250 9450
-F 0 "TH?" H 14355 9496 50  0000 L CNN
+F 0 "TH1" H 14355 9496 50  0000 L CNN
 F 1 "100k" H 14355 9405 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 14250 9450 50  0001 C CNN
 F 3 "~" H 14250 9450 50  0001 C CNN
@@ -1649,4 +1583,37 @@ Wire Wire Line
 Wire Wire Line
 	14250 9650 13800 9650
 Connection ~ 13800 9650
+$Comp
+L power:GND #PWR0105
+U 1 1 5CDC06E6
+P 8650 5400
+F 0 "#PWR0105" H 8650 5150 50  0001 C CNN
+F 1 "GND" H 8655 5227 50  0000 C CNN
+F 2 "" H 8650 5400 50  0001 C CNN
+F 3 "" H 8650 5400 50  0001 C CNN
+	1    8650 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 5350 8650 5400
+Wire Wire Line
+	7650 5350 8650 5350
+Wire Wire Line
+	7650 5050 7750 5050
+Connection ~ 8350 5050
+Wire Wire Line
+	8350 5050 8350 5250
+$Comp
+L Device:R R7
+U 1 1 5CE23298
+P 7900 5050
+F 0 "R7" V 7950 5200 50  0000 L CNN
+F 1 "1k" V 7950 4800 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7830 5050 50  0001 C CNN
+F 3 "~" H 7900 5050 50  0001 C CNN
+	1    7900 5050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 5050 8350 5050
 $EndSCHEMATC

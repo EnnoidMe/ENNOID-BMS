@@ -1,4 +1,4 @@
-EESchema Schematic File Version 5
+EESchema Schematic File Version 4
 LIBS:LTC6811-cache
 EELAYER 29 0
 EELAYER END
