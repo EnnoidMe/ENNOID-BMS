@@ -434,7 +434,7 @@ Wire Wire Line
 	4200 8350 3450 8350
 Wire Wire Line
 	7900 6150 7650 6150
-Text Label 7900 6150 2    50   ~ 0
+Text Label 7900 6250 2    50   ~ 0
 Analog
 Wire Wire Line
 	3350 5950 3350 8700
@@ -870,7 +870,7 @@ Connection ~ 9850 5450
 Wire Wire Line
 	9850 5450 9850 5350
 Wire Wire Line
-	7650 4950 8350 4950
+	7650 4950 7750 4950
 Wire Wire Line
 	8350 4950 8350 5050
 Wire Wire Line
@@ -974,7 +974,7 @@ Wire Wire Line
 Connection ~ 9850 4950
 Wire Wire Line
 	9850 4950 9950 4950
-Text Label 7900 5450 2    50   ~ 0
+Text Label 8050 5550 2    50   ~ 0
 Vref2
 Wire Notes Line
 	12550 700  12550 2500
@@ -1092,18 +1092,7 @@ F 3 "~" H 950 3550 50  0001 C CNN
 	1    950  3550
 	-1   0    0    1   
 $EndComp
-$Comp
-L ENNOID:LTC6811-1 U1
-U 1 1 5C543572
-P 7150 5350
-F 0 "U1" H 7150 6800 50  0000 C CNN
-F 1 "LTC6811-1" H 7150 6700 50  0000 C CNN
-F 2 "Housings_SSOP:TSSOP-48_6.1x12.5mm_Pitch0.5mm" H 7150 3750 50  0001 C CNN
-F 3 "http://cds.linear.com/docs/en/datasheet/680324fa.pdf" H 7700 6700 50  0001 C CNN
-	1    7150 5350
-	1    0    0    -1  
-$EndComp
-Text Label 7900 6250 2    50   ~ 0
+Text Label 7900 6150 2    50   ~ 0
 T1
 Wire Wire Line
 	7650 6250 7900 6250
@@ -1368,7 +1357,7 @@ Wire Wire Line
 Wire Wire Line
 	13650 5350 13900 5350
 Text Label 13650 5350 2    50   ~ 0
-Vref2
+Vreg
 Wire Wire Line
 	13800 9200 13800 9300
 Wire Wire Line
@@ -1478,12 +1467,8 @@ Wire Wire Line
 	13450 7550 13450 7500
 Wire Wire Line
 	13450 7500 13550 7500
-Text Label 13350 6600 2    50   ~ 0
-Vref2
 Wire Wire Line
 	13350 6600 13550 6600
-Text Label 13350 7300 2    50   ~ 0
-Vref2
 Wire Wire Line
 	13350 7300 13550 7300
 $Comp
@@ -1597,7 +1582,7 @@ $EndComp
 Wire Wire Line
 	8650 5350 8650 5400
 Wire Wire Line
-	7650 5350 8650 5350
+	7650 5350 7750 5350
 Wire Wire Line
 	7650 5050 7750 5050
 Connection ~ 8350 5050
@@ -1616,4 +1601,86 @@ F 3 "~" H 7900 5050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8050 5050 8350 5050
+$Comp
+L ENNOID:LTC6811-1 U1
+U 1 1 5CDAC12A
+P 7150 5350
+F 0 "U1" H 7150 6931 50  0000 C CNN
+F 1 "LTC6811-1" H 7150 6840 50  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-48_6.1x12.5mm_Pitch0.5mm" H 7150 3750 50  0001 C CNN
+F 3 "http://cds.linear.com/docs/en/datasheet/680324fa.pdf" H 7700 6700 50  0001 C CNN
+	1    7150 5350
+	1    0    0    -1  
+$EndComp
+Text Label 13350 6600 2    50   ~ 0
+Vreg
+Text Label 13350 7300 2    50   ~ 0
+Vreg
+$Comp
+L Device:R R8
+U 1 1 5CDCF63B
+P 7900 4950
+F 0 "R8" V 7950 5100 50  0000 L CNN
+F 1 "0" V 7950 4700 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7830 4950 50  0001 C CNN
+F 3 "~" H 7900 4950 50  0001 C CNN
+	1    7900 4950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 4950 8350 4950
+$Comp
+L Device:R R9
+U 1 1 5CDCF7AC
+P 7900 5350
+F 0 "R9" V 7950 5500 50  0000 L CNN
+F 1 "0" V 7950 5100 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7830 5350 50  0001 C CNN
+F 3 "~" H 7900 5350 50  0001 C CNN
+	1    7900 5350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 5350 8650 5350
+Text Label 13800 3150 2    50   ~ 0
+Vreg
+$Comp
+L power:GND #PWR0106
+U 1 1 5CDCFAF1
+P 13800 4050
+F 0 "#PWR0106" H 13800 3800 50  0001 C CNN
+F 1 "GND" H 13805 3877 50  0000 C CNN
+F 2 "" H 13800 4050 50  0001 C CNN
+F 3 "" H 13800 4050 50  0001 C CNN
+	1    13800 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5CDCFD18
+P 13800 3750
+F 0 "R10" H 13900 3800 50  0000 L CNN
+F 1 "1.2k" H 13900 3700 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 13730 3750 50  0001 C CNN
+F 3 "~" H 13800 3750 50  0001 C CNN
+	1    13800 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13800 4050 13800 3900
+$Comp
+L Device:LED D16
+U 1 1 5CDF0873
+P 13800 3400
+F 0 "D16" V 13839 3283 50  0000 R CNN
+F 1 "LED" V 13748 3283 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 13800 3400 50  0001 C CNN
+F 3 "~" H 13800 3400 50  0001 C CNN
+	1    13800 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13800 3550 13800 3600
+Wire Wire Line
+	13800 3250 13800 3150
 $EndSCHEMATC
