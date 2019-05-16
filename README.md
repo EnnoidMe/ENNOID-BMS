@@ -1,19 +1,14 @@
-Related ENNOID projects:
-  - [Onboard Battery Charger](https://github.com/EnnoidMe/ENNOID-Charger)
-  - [BMS](https://github.com/EnnoidMe/ENNOID-BMS)
+Related ENNOID project:
   - [Scalable Battery Pack](https://github.com/EnnoidMe/ENNOID-PACK)
-  - [Motor Drive](https://github.com/EnnoidMe/VESC-controller)
-  - [Dual Isolated Gate driver](https://github.com/EnnoidMe/ENNOID-Dual-Gate-Driver)
 
 # ENNOID - BMS
 
 This project aims to create a scalable & modular open source BMS for up to 1000V lithium-ion battery packs.
-
 The idea behind this project has been started on this thread:
 
 https://endless-sphere.com/forums/viewtopic.php?f=14&t=92952
 
-For order request, please visit:
+For ordering assembled BMS or battery packs, please visit:
 
 https://www.ennoid.me
 
@@ -29,7 +24,7 @@ https://www.ennoid.me
 - SDCard for logging (to develop a SoC and SoH algorithm)
 
 **Slave boards**
-- 18 or 12 Cells balancing/board  (18 for LTC6813 & 12 for LTC6811)
+- 12 Cells balancing/board 
 - Cell voltage range 2.5V to 4.5V
 - 2 watt power dissipation per level
 - Stackable for up to 1000V packs 
@@ -38,7 +33,6 @@ https://www.ennoid.me
 
 **Software**
 - Firmware, bootloader & configuration tool are the same as [DieBieMS](https://github.com/DieBieEngineering). 
-- Software for ENNOID-BMS and DieBieMS are almost identical because the schematics changes related to isolation are invisible for the MCU. Only the switch to LTC6813 slave needs some minimal modifications.
 
 ## Master
 
