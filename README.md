@@ -10,7 +10,7 @@ https://endless-sphere.com/forums/viewtopic.php?f=14&t=92952
 
 For ordering assembled BMS or battery packs, please visit:
 
-https://www.ennoid.me
+https://www.ennoid.me/battery/bms
 
 ## Features:
 
