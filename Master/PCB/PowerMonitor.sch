@@ -1,4 +1,4 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 5
 LIBS:BMS-Master-cache
 EELAYER 29 0
 EELAYER END
@@ -1319,7 +1319,7 @@ U 1 1 5C3A3939
 P 8300 7700
 F 0 "R131" V 8093 7700 50  0000 C CNN
 F 1 "3.3k" V 8184 7700 50  0000 C CNN
-F 2 "Resistor_SMD:R_2512_6332Metric" V 8230 7700 50  0001 C CNN
+F 2 "Resistors_SMD:R_2512" V 8230 7700 50  0001 C CNN
 F 3 "~" H 8300 7700 50  0001 C CNN
 	1    8300 7700
 	0    1    1    0   
