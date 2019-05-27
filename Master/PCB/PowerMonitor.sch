@@ -1,4 +1,4 @@
-EESchema Schematic File Version 5
+EESchema Schematic File Version 4
 LIBS:BMS-Master-cache
 EELAYER 29 0
 EELAYER END
@@ -311,7 +311,7 @@ L Analog_ADC:INA226 U16
 U 1 1 5C3F5EBF
 P 15950 12550
 F 0 "U16" H 15650 13100 50  0000 C CNN
-F 1 "INA226" H 15750 13000 50  0000 C CNN
+F 1 "ISL28022" H 15750 13000 50  0000 C CNN
 F 2 "Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm" H 16000 12650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ina226.pdf" H 16300 12450 50  0001 C CNN
 	1    15950 12550
