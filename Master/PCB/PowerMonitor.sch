@@ -1,4 +1,4 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 5
 LIBS:BMS-Master-cache
 EELAYER 29 0
 EELAYER END
@@ -1027,17 +1027,6 @@ Wire Wire Line
 	7800 6450 7800 6400
 Wire Wire Line
 	7800 6450 8000 6450
-$Comp
-L power:GNDA #PWR0208
-U 1 1 5C34B9FF
-P 7450 6450
-F 0 "#PWR0208" H 7450 6200 50  0001 C CNN
-F 1 "GNDA" H 7455 6277 50  0000 C CNN
-F 2 "" H 7450 6450 50  0001 C CNN
-F 3 "" H 7450 6450 50  0001 C CNN
-	1    7450 6450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7450 6450 7800 6450
 Connection ~ 7800 6450
@@ -1312,17 +1301,6 @@ F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 15600 6250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/opa376.pdf" H 15600 6250 50  0001 C CNN
 	2    15600 6250
 	1    0    0    1   
-$EndComp
-$Comp
-L Device:R R131
-U 1 1 5C3A3939
-P 8300 7700
-F 0 "R131" V 8093 7700 50  0000 C CNN
-F 1 "3.3k" V 8184 7700 50  0000 C CNN
-F 2 "Resistors_SMD:R_2512" V 8230 7700 50  0001 C CNN
-F 3 "~" H 8300 7700 50  0001 C CNN
-	1    8300 7700
-	0    1    1    0   
 $EndComp
 Text HLabel 10750 7700 2    50   Input ~ 0
 ChargeDetect
@@ -1773,34 +1751,11 @@ F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 9450 8100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8450 7700 8700 7700
-Wire Wire Line
 	9300 7900 9500 7900
-$Comp
-L Diode:1N4148W D16
-U 1 1 5C457071
-P 8700 8000
-F 0 "D16" V 8654 8080 50  0000 L CNN
-F 1 "1N4148W" V 8745 8080 50  0000 L CNN
-F 2 "Diodes_SMD:D_SOD-123" H 8700 7825 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8700 8000 50  0001 C CNN
-	1    8700 8000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8700 7850 8700 7700
-Connection ~ 8700 7700
-Wire Wire Line
-	8700 7700 9500 7700
 Wire Wire Line
 	8150 7700 7500 7700
 Wire Wire Line
-	5050 8150 8700 8150
-Wire Wire Line
 	9300 7900 9300 8150
-Wire Wire Line
-	8700 8150 9300 8150
-Connection ~ 8700 8150
 $Comp
 L power:GND #PWR0122
 U 1 1 5C536D00
@@ -1818,13 +1773,6 @@ Wire Wire Line
 	10100 7900 10600 7900
 Wire Wire Line
 	10600 7900 10600 8000
-Wire Wire Line
-	4750 3900 5050 3900
-Wire Wire Line
-	5050 8150 5050 3900
-Connection ~ 5050 3900
-Wire Wire Line
-	5050 3900 6400 3900
 $Comp
 L Amplifier_Operational:OPA376xxD U14
 U 1 1 5C5D6F75
@@ -1984,5 +1932,70 @@ F 2 "" H 17550 4800 50  0001 C CNN
 F 3 "" H 17550 4800 50  0001 C CNN
 	1    17550 4800
 	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0208
+U 1 1 5C34B9FF
+P 7450 6450
+F 0 "#PWR0208" H 7450 6200 50  0001 C CNN
+F 1 "GNDA" H 7455 6277 50  0000 C CNN
+F 2 "" H 7450 6450 50  0001 C CNN
+F 3 "" H 7450 6450 50  0001 C CNN
+	1    7450 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R131
+U 1 1 5C3A3939
+P 8300 7700
+F 0 "R131" V 8093 7700 50  0000 C CNN
+F 1 "10k" V 8184 7700 50  0000 C CNN
+F 2 "Resistors_SMD:R_2512" V 8230 7700 50  0001 C CNN
+F 3 "~" H 8300 7700 50  0001 C CNN
+	1    8300 7700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 3900 6400 3900
+Wire Wire Line
+	4750 3900 5050 3900
+Connection ~ 5050 3900
+Wire Wire Line
+	5050 8150 5050 3900
+Wire Wire Line
+	5050 8150 8150 8150
+$Comp
+L Device:D D17
+U 1 1 5CF40176
+P 8300 8150
+F 0 "D17" H 8300 8366 50  0000 C CNN
+F 1 "S5GC-13-F" H 8300 8275 50  0000 C CNN
+F 2 "Diodes_SMD:D_SMB" H 8300 8150 50  0001 C CNN
+F 3 "~" H 8300 8150 50  0001 C CNN
+	1    8300 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 7700 9500 7700
+Wire Wire Line
+	8450 7700 8700 7700
+Connection ~ 8700 7700
+Wire Wire Line
+	8700 7850 8700 7700
+Wire Wire Line
+	8450 8150 8700 8150
+Wire Wire Line
+	8700 8150 9300 8150
+Connection ~ 8700 8150
+$Comp
+L Diode:1N4148W D16
+U 1 1 5C457071
+P 8700 8000
+F 0 "D16" V 8654 8080 50  0000 L CNN
+F 1 "1N4148W" V 8745 8080 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" H 8700 7825 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 8700 8000 50  0001 C CNN
+	1    8700 8000
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
