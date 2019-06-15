@@ -22,7 +22,8 @@ https://www.ennoid.me/battery/bms
 - Outputs for Charge, Discharge & Precharge contactors
 - USB interface for serial communication and firmware upgrades (no need for a programmer -> HW serial bootloader is used).
 - Wireless transceiver
-- SDCard for logging (to develop a SoC and SoH algorithm)
+- SDCard for logging
+
 (External isolated 12V power supply is required)
 
 **Slave boards**
@@ -32,6 +33,7 @@ https://www.ennoid.me/battery/bms
 - Stackable for up to 1000V packs 
 - 1 Analog input, 1 GPIO port, & 1 I2C communication channel available for external sensors
 - Daisychain Master/Slave ISOSPI communication
+
 (Board is self powered from the monitored cells)
 
 **Software**
