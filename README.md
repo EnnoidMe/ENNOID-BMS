@@ -15,7 +15,8 @@ https://www.ennoid.me/battery/bms
 ## Features:
 
 **Master board**
-- Isolated voltages measurements for Discharge & Pack buses
+- Isolated measurements for Battery & DC-Link voltages
+- Isolated charger detection
 - Isolated bi-directional current monitoring via external delta-sigma current sensor
 - Isolated CAN bus interface 
 - Outputs for Charge, Discharge & Precharge contactors
