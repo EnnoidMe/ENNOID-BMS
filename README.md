@@ -23,6 +23,7 @@ https://www.ennoid.me/battery/bms
 - USB interface for serial communication and firmware upgrades (no need for a programmer -> HW serial bootloader is used).
 - Wireless transceiver
 - SDCard for logging (to develop a SoC and SoH algorithm)
+(External isolated 12V power supply is required)
 
 **Slave boards**
 - 12 Cells balancing/board 
@@ -30,7 +31,8 @@ https://www.ennoid.me/battery/bms
 - 2 watt power dissipation per level (24W total)
 - Stackable for up to 1000V packs 
 - 1 Analog input, 1 GPIO port, & 1 I2C communication channel available for external sensors
-- Daisychain Master/Slave ISOSPI communication 
+- Daisychain Master/Slave ISOSPI communication
+(Board is self powered from the monitored cells)
 
 **Software**
 - Firmware, bootloader & configuration tool are the same as [DieBieMS](https://github.com/DieBieEngineering). 
