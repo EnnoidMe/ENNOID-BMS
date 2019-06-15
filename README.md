@@ -39,6 +39,10 @@ https://www.ennoid.me/battery/bms
 **Software**
 - Firmware, bootloader & configuration tool are the same as [DieBieMS](https://github.com/DieBieEngineering). 
 
+For already compiled ENNOID-BMS enabled .bin file use this link:
+
+[ENNOID-BMS firmware](https://github.com/EnnoidMe/DieBieMS-Firmware/blob/master/MDK-ARM/DieBieMS/DieBieMS.bin)
+
 ## Master
 
 ![alt text](Master/PIC/MasterPCB.png)
