@@ -51,6 +51,11 @@ For already compiled ENNOID-BMS enabled .bin file (Work in-progress):
 
 ![alt text](Slaves/LTC6811/PIC/LTC6811.png)
 
+## Wiring
+
+![alt text](Master/PIC/Wiring.png)
+
+
 
 
 
