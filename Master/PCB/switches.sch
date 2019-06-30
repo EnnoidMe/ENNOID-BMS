@@ -159,7 +159,7 @@ Wire Wire Line
 Wire Notes Line
 	12700 10450 12650 10450
 Wire Wire Line
-	12200 3750 12850 3750
+	12200 3750 12450 3750
 $Comp
 L BMS-Master-rescue:R-Device R28
 U 1 1 5C76C82D
@@ -178,7 +178,7 @@ Wire Wire Line
 Wire Wire Line
 	12950 5950 12950 6000
 Wire Wire Line
-	12200 5550 12950 5550
+	12200 5550 12450 5550
 Wire Wire Line
 	12950 5650 12950 5550
 Connection ~ 12950 5550
@@ -224,7 +224,7 @@ Wire Wire Line
 Wire Wire Line
 	12950 7900 12950 7950
 Wire Wire Line
-	12200 7500 12950 7500
+	12200 7500 12450 7500
 Wire Wire Line
 	12950 7600 12950 7500
 Connection ~ 12950 7500
@@ -348,4 +348,61 @@ Wire Wire Line
 Connection ~ 13150 4250
 Wire Wire Line
 	13150 4250 13500 4250
+$Comp
+L Device:D_Zener D?
+U 1 1 5D161E24
+P 12450 3900
+F 0 "D?" V 12404 3979 50  0000 L CNN
+F 1 "D_Zener" V 12495 3979 50  0000 L CNN
+F 2 "" H 12450 3900 50  0001 C CNN
+F 3 "~" H 12450 3900 50  0001 C CNN
+	1    12450 3900
+	0    1    1    0   
+$EndComp
+Connection ~ 12450 3750
+Wire Wire Line
+	12450 3750 12850 3750
+Wire Wire Line
+	12450 4050 12450 4250
+Wire Wire Line
+	12450 4250 12850 4250
+Connection ~ 12850 4250
+$Comp
+L Device:D_Zener D?
+U 1 1 5D163B03
+P 12450 5700
+F 0 "D?" V 12404 5779 50  0000 L CNN
+F 1 "D_Zener" V 12495 5779 50  0000 L CNN
+F 2 "" H 12450 5700 50  0001 C CNN
+F 3 "~" H 12450 5700 50  0001 C CNN
+	1    12450 5700
+	0    1    1    0   
+$EndComp
+Connection ~ 12450 5550
+Wire Wire Line
+	12450 5550 12950 5550
+Wire Wire Line
+	12450 5850 12450 6000
+Wire Wire Line
+	12450 6000 12950 6000
+Connection ~ 12950 6000
+$Comp
+L Device:D_Zener D?
+U 1 1 5D165203
+P 12450 7650
+F 0 "D?" V 12404 7729 50  0000 L CNN
+F 1 "D_Zener" V 12495 7729 50  0000 L CNN
+F 2 "" H 12450 7650 50  0001 C CNN
+F 3 "~" H 12450 7650 50  0001 C CNN
+	1    12450 7650
+	0    1    1    0   
+$EndComp
+Connection ~ 12450 7500
+Wire Wire Line
+	12450 7500 12950 7500
+Wire Wire Line
+	12450 7800 12450 7950
+Wire Wire Line
+	12450 7950 12950 7950
+Connection ~ 12950 7950
 $EndSCHEMATC
