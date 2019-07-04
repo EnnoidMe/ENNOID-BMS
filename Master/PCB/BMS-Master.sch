@@ -1,4 +1,4 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 5
 LIBS:BMS-Master-cache
 EELAYER 29 0
 EELAYER END
@@ -282,20 +282,6 @@ Wire Wire Line
 	4100 2300 4100 2350
 Wire Wire Line
 	9650 10600 10050 10600
-$Sheet
-S 7150 1600 1550 1400
-U 5AC7323C
-F0 "switches" 50
-F1 "switches.sch" 50
-F2 "DischargeEnable" I L 7150 2400 50 
-F3 "ChargeEnable" I L 7150 2200 50 
-F4 "PrechargeEnable" I L 7150 2500 50 
-F5 "Discharge" I R 8700 1900 50 
-F6 "Precharge" I R 8700 2250 50 
-F7 "Charge" I R 8700 2600 50 
-F8 "Safety" I L 7150 2600 50 
-F9 "NTC_Switch" I L 7150 2300 50 
-$EndSheet
 $Comp
 L BMS-Master-rescue:Conn_01x02-Connector_Generic J3
 U 1 1 5AB7AB5E
@@ -463,12 +449,12 @@ $EndComp
 $Comp
 L power:GNDA #PWR0116
 U 1 1 5C377052
-P 13600 1700
-F 0 "#PWR0116" H 13600 1450 50  0001 C CNN
-F 1 "GNDA" H 13605 1527 50  0000 C CNN
-F 2 "" H 13600 1700 50  0001 C CNN
-F 3 "" H 13600 1700 50  0001 C CNN
-	1    13600 1700
+P 13600 1350
+F 0 "#PWR0116" H 13600 1100 50  0001 C CNN
+F 1 "GNDA" H 13400 1300 50  0000 C CNN
+F 2 "" H 13600 1350 50  0001 C CNN
+F 3 "" H 13600 1350 50  0001 C CNN
+	1    13600 1350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -561,7 +547,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 4150 4200 4150
 Wire Notes Line width 20
-	14950 600  14950 1700
+	14950 600  14950 1500
 Wire Wire Line
 	6500 4400 7150 4400
 Wire Wire Line
@@ -572,7 +558,7 @@ Wire Wire Line
 	6150 4350 4200 4350
 Wire Wire Line
 	6150 4350 6150 4950
-Text Notes 1650 2050 0    200  ~ 40
+Text Notes 2500 1350 0    200  ~ 40
 ISOLATED
 Wire Notes Line width 20
 	950  600  14950 600 
@@ -711,8 +697,6 @@ $EndComp
 Wire Wire Line
 	10000 9750 10000 9850
 Wire Notes Line width 20
-	9950 7550 9950 8400
-Wire Notes Line width 20
 	10100 7550 10100 8400
 Wire Wire Line
 	6250 4800 6250 4000
@@ -735,8 +719,6 @@ F 3 "~" H 14400 1250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	13600 1350 14200 1350
-Wire Wire Line
-	13600 1350 13600 1700
 Wire Wire Line
 	13600 1350 13600 1050
 Wire Wire Line
@@ -803,7 +785,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 5900 7150 5900
 Wire Notes Line width 20
-	950  600  950  1650
+	950  600  950  1500
 Wire Wire Line
 	6100 9400 7150 9400
 Wire Wire Line
@@ -813,7 +795,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 900  4350 900 
 Wire Notes Line width 20
-	950  1650 14950 1700
+	950  1500 14950 1500
 $Comp
 L Connector_Generic:Conn_01x01 J4
 U 1 1 5C3F429D
@@ -971,4 +953,36 @@ Wire Wire Line
 	6800 2300 6800 4000
 Wire Wire Line
 	6800 4000 7150 4000
+$Sheet
+S 7150 1600 1550 1400
+U 5AC7323C
+F0 "switches" 50
+F1 "switches.sch" 50
+F2 "DischargeEnable" I L 7150 2400 50 
+F3 "ChargeEnable" I L 7150 2200 50 
+F4 "PrechargeEnable" I L 7150 2500 50 
+F5 "Discharge" I R 8700 1900 50 
+F6 "Precharge" I R 8700 2250 50 
+F7 "Charge" I R 8700 2600 50 
+F8 "Safety" I L 7150 2600 50 
+F9 "NTC_Switch" I L 7150 2300 50 
+$EndSheet
+Wire Notes Line width 20
+	5500 5400 7500 5400
+Wire Notes Line width 20
+	7500 5400 7500 6400
+Wire Notes Line width 20
+	7500 6400 5500 6400
+Wire Notes Line width 20
+	5500 6400 5500 5400
+Text Notes 5650 6350 0    200  ~ 40
+ISOLATED
+Text Notes 12100 8100 0    200  ~ 40
+ISOLATED
+Wire Notes Line width 20
+	10100 7550 13750 7550
+Wire Notes Line width 20
+	13750 7550 13750 8400
+Wire Notes Line width 20
+	13750 8400 10100 8400
 $EndSCHEMATC

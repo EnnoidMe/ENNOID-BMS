@@ -1,4 +1,4 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 5
 LIBS:BMS-Master-cache
 EELAYER 29 0
 EELAYER END
@@ -307,9 +307,11 @@ Wire Wire Line
 Text HLabel 17050 12550 2    50   Input ~ 0
 SDA
 $Comp
-L Analog_ADC:INA226 U16
+L BMS-Master-rescue:INA226-Analog_ADC U16
 U 1 1 5C3F5EBF
 P 15950 12550
+AR Path="/5C3F5EBF" Ref="U16"  Part="1" 
+AR Path="/5C519BA0/5C3F5EBF" Ref="U16"  Part="1" 
 F 0 "U16" H 15650 13100 50  0000 C CNN
 F 1 "ISL28022" H 15750 13000 50  0000 C CNN
 F 2 "Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm" H 16000 12650 50  0001 C CNN

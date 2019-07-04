@@ -1,10 +1,10 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 5
 LIBS:BMS-Master-cache
 EELAYER 29 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
-Sheet 7 8
+Sheet 6 8
 Title ""
 Date ""
 Rev ""
@@ -1131,4 +1131,8 @@ Wire Wire Line
 	17950 3200 18350 3200
 Wire Wire Line
 	17250 3900 17900 3900
+Wire Notes Line width 20
+	13450 1250 13450 3600
+Wire Notes Line width 20
+	12950 1250 12950 3600
 $EndSCHEMATC
