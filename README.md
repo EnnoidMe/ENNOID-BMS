@@ -1,5 +1,3 @@
-View this project on [CADLAB.io](https://cadlab.io/project/1987). 
-
 Related ENNOID project:
   - [Scalable Battery Pack](https://github.com/EnnoidMe/ENNOID-PACK)
 
@@ -58,7 +56,7 @@ For already compiled ENNOID-BMS enabled .bin file (Work in-progress):
 ![alt text](Master/PIC/Wiring.png)
 
 
-
+View this project on [CADLAB.io](https://cadlab.io/project/1987). 
 
 
 

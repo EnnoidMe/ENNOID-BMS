@@ -1,4 +1,4 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 5
 LIBS:LTC6811-cache
 EELAYER 29 0
 EELAYER END
@@ -505,8 +505,6 @@ Wire Wire Line
 Wire Wire Line
 	10750 2200 10750 2250
 Connection ~ 10750 2250
-Wire Wire Line
-	10750 2250 11800 2250
 $Comp
 L Device:C C7
 U 1 1 5C538A5E
@@ -529,8 +527,6 @@ F 3 "~" H 11450 1450 50  0001 C CNN
 	1    11450 1450
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	12050 2050 11850 2050
 $Comp
 L power:GND #PWR0101
 U 1 1 5C590000
@@ -1069,17 +1065,6 @@ F 3 "~" H 950 3050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J7
-U 1 1 5CE4B7E2
-P 950 3300
-F 0 "J7" H 868 3167 50  0000 C CNN
-F 1 "Conn_01x01" H 868 3166 50  0001 C CNN
-F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via" H 950 3300 50  0001 C CNN
-F 3 "~" H 950 3300 50  0001 C CNN
-	1    950  3300
-	-1   0    0    1   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x01 J8
 U 1 1 5CE4BA04
 P 950 3550
@@ -1211,7 +1196,6 @@ Wire Wire Line
 	3100 5950 3350 5950
 NoConn ~ 1150 2800
 NoConn ~ 1150 3050
-NoConn ~ 1150 3300
 NoConn ~ 1150 3550
 $Comp
 L Diode:BZT52Bxx D15
@@ -1509,43 +1493,6 @@ SCL
 Wire Wire Line
 	7650 5650 7900 5650
 $Comp
-L Connector_Generic:Conn_01x04 J11
-U 1 1 5CDB7EDD
-P 12250 2650
-F 0 "J11" H 12330 2642 50  0000 L CNN
-F 1 "Conn_01x04" H 12330 2551 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 12250 2650 50  0001 C CNN
-F 3 "~" H 12250 2650 50  0001 C CNN
-	1    12250 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12000 1250 12000 2550
-Wire Wire Line
-	12000 2550 12050 2550
-Connection ~ 12000 1250
-Wire Wire Line
-	12000 1250 12050 1250
-Wire Wire Line
-	11950 1450 11950 2650
-Wire Wire Line
-	11950 2650 12050 2650
-Connection ~ 11950 1450
-Wire Wire Line
-	11950 1450 12050 1450
-Wire Wire Line
-	11850 2050 11850 2750
-Wire Wire Line
-	11850 2750 12050 2750
-Connection ~ 11850 2050
-Wire Wire Line
-	11800 2250 11800 2850
-Wire Wire Line
-	11800 2850 12050 2850
-Connection ~ 11800 2250
-Wire Wire Line
-	11800 2250 12050 2250
-$Comp
 L Device:Thermistor TH1
 U 1 1 5CD17B07
 P 14250 9450
@@ -1679,21 +1626,23 @@ Wire Wire Line
 	13800 3550 13800 3600
 Wire Wire Line
 	13800 3250 13800 3150
-Wire Wire Line
-	11600 1450 11950 1450
-Wire Wire Line
-	11550 2050 11850 2050
 $Comp
-L Device:Jumper JP?
+L Device:Jumper JP1
 U 1 1 5D1AE0DE
 P 11450 1250
-F 0 "JP?" H 11650 1400 50  0000 C CNN
+F 0 "JP1" H 11650 1400 50  0000 C CNN
 F 1 "~Last?" H 11450 1400 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 11450 1250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 11450 1250 50  0001 C CNN
 F 3 "~" H 11450 1250 50  0001 C CNN
 	1    11450 1250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11750 1250 12000 1250
+	11750 1250 12050 1250
+Wire Wire Line
+	11600 1450 12050 1450
+Wire Wire Line
+	11550 2050 12050 2050
+Wire Wire Line
+	10750 2250 12050 2250
 $EndSCHEMATC
