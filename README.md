@@ -37,10 +37,12 @@ https://www.ennoid.me/battery/bms
 (Board is self powered from the monitored cells)
 
 **Software**
-- Firmware, bootloader & configuration tool are the same as [DieBieMS](https://github.com/DieBieEngineering). 
 
-For already compiled ENNOID-BMS enabled .bin file (Work in-progress): 
-[ENNOID-BMS firmware](https://github.com/EnnoidMe/DieBieMS-Firmware/blob/master/MDK-ARM/DieBieMS/DieBieMS.bin)
+ENNOID-BMS firmware .bin file:
+[ENNOID-BMS.bin](https://github.com/EnnoidMe/ENNOID-BMS-Firmware/blob/master/MDK-ARM/DieBieMS/ENNOID-BMS.bin)
+
+ENNOID-BMS GUI configuration tool:
+[ENNOID-BMS tool](https://github.com/EnnoidMe/ENNOID-BMS-Tool/releases/download/Windows_V0.30/ENNOID-BMS.Tool.V0.30.zip)
 
 ## Master
 
