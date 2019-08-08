@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name ENNOID)(type KiCad)(uri ${KIPRJMOD}/ENNOID.pretty)(options "")(descr ""))
-)
