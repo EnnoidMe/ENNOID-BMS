@@ -26,3 +26,5 @@ _autosave-*
 *.drl
 *.zip
 
+Slaves/LTC6813/
+
