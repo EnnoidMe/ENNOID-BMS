@@ -42,7 +42,7 @@ ENNOID-BMS firmware .bin file:
 [ENNOID-BMS.bin](https://github.com/EnnoidMe/ENNOID-BMS-Firmware/blob/master/MDK-ARM/DieBieMS/ENNOID-BMS.bin)
 
 ENNOID-BMS GUI configuration tool:
-[ENNOID-BMS tool](https://github.com/EnnoidMe/ENNOID-BMS-Tool/releases/download/Windows_V0.30/ENNOID-BMS.Tool.V0.30.zip)
+[ENNOID-BMS tool](https://github.com/EnnoidMe/ENNOID-BMS-Tool/releases/download/Windows_V0.30/Windows-V0.30.zip)
 
 ## Master
 
