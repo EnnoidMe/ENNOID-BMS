@@ -20,6 +20,9 @@ _autosave-*
 *.xml
 *.csv
 
+# PCB files
+*.kicad_pcb
+*.gbr
+*.drl
+*.zip
 
-
-V0\.2-LTC6813/BMS-Master/power\.sch
