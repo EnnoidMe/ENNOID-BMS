@@ -1,10 +1,110 @@
-EESchema Schematic File Version 5
+EESchema Schematic File Version 2
+LIBS:paltatech
+LIBS:Abracon
+LIBS:ActiveSemi
+LIBS:Altera
+LIBS:AMS
+LIBS:AnalogDevices
+LIBS:AOS
+LIBS:Atmel
+LIBS:Bosch
+LIBS:conn-100mil
+LIBS:conn-2mm
+LIBS:conn-amphenol
+LIBS:conn-assmann
+LIBS:conn-cui
+LIBS:conn-fci
+LIBS:conn-jae
+LIBS:conn-linx
+LIBS:conn-molex
+LIBS:conn-special-headers
+LIBS:conn-tagconnect
+LIBS:conn-te
+LIBS:conn-test
+LIBS:DiodesInc
+LIBS:display
+LIBS:electomech-misc
+LIBS:_electromech
+LIBS:Fairchild
+LIBS:FTDI
+LIBS:Infineon
+LIBS:Intersil
+LIBS:Lattice
+LIBS:_linear
+LIBS:LinearTech
+LIBS:Littelfuse
+LIBS:logic-4000
+LIBS:logic-7400
+LIBS:logic-7400-new
+LIBS:_logic
+LIBS:MACOM
+LIBS:Macrofab
+LIBS:maxim
+LIBS:mechanical
+LIBS:Microchip
+LIBS:Micron
+LIBS:Murata
+LIBS:NXP
+LIBS:OceanOptics
+LIBS:onsemi
+LIBS:_passive
+LIBS:pasv-BelFuse
+LIBS:pasv-BiTech
+LIBS:pasv-Bourns
+LIBS:pasv-cap
+LIBS:pasv-ind
+LIBS:pasv-Murata
+LIBS:pasv-res
+LIBS:pasv-TDK
+LIBS:pasv-xtal
+LIBS:pcb
+LIBS:power
+LIBS:Recom
+LIBS:Richtek
+LIBS:semi-diode-DiodesInc
+LIBS:semi-diode-generic
+LIBS:semi-diode-MCC
+LIBS:semi-diode-NXP
+LIBS:semi-diode-OnSemi
+LIBS:semi-diode-Semtech
+LIBS:semi-diode-ST
+LIBS:semi-diode-Toshiba
+LIBS:_semi
+LIBS:semi-opto-generic
+LIBS:semi-opto-liteon
+LIBS:semi-thyristor-generic
+LIBS:semi-trans-AOS
+LIBS:semi-trans-DiodesInc
+LIBS:semi-trans-EPC
+LIBS:semi-trans-Fairchild
+LIBS:semi-trans-generic
+LIBS:semi-trans-Infineon
+LIBS:semi-trans-IRF
+LIBS:semi-trans-IXYS
+LIBS:semi-trans-NXP
+LIBS:semi-trans-OnSemi
+LIBS:semi-trans-Panasonic
+LIBS:semi-trans-ST
+LIBS:semi-trans-TI
+LIBS:semi-trans-Toshiba
+LIBS:semi-trans-Vishay
+LIBS:silabs
+LIBS:skyworks
+LIBS:st_ic
+LIBS:ST
+LIBS:supertex
+LIBS:symbol
+LIBS:TexasInstruments
+LIBS:u-blox
+LIBS:Vishay
+LIBS:Winbond
+LIBS:Xilinx
 LIBS:current_sensor-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title ""
 Date "2017-08-15"
 Rev ""
@@ -15,7 +115,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L current_sensor-rescue:AMC1200 U3
+L AMC1200 U3
 U 1 1 585AEFF8
 P 5900 3850
 AR Path="/589B4343/585AEFF8" Ref="U3"  Part="1" 
@@ -24,8 +124,8 @@ AR Path="/589D1961/585AEFF8" Ref="U9"  Part="1"
 AR Path="/589D4558/585AEFF8" Ref="U12"  Part="1" 
 AR Path="/598FD705/585AEFF8" Ref="U3"  Part="1" 
 F 0 "U3" H 5900 4537 60  0000 C CNN
-F 1 "AMC1303E0510" H 5900 4431 60  0000 C CNN
-F 2 "Housings_SOIC:SSO-8_6.8x5.9mm_Pitch1.27mm_Clearance8mm" H 5800 3200 60  0001 C CNN
+F 1 "AMC1303" H 5900 4431 60  0000 C CNN
+F 2 "IPC7351-Nominal:SOIC127P1032X265-8" H 5800 3200 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/amc1301.pdf" H 5900 3850 60  0001 C CNN
 F 4 "AMC1303M0510DWVR" H 6000 3400 60  0001 C CNN "MPN"
 F 5 "0" H 5900 3850 60  0001 C CNN "Exclude from BOM"
@@ -36,7 +136,7 @@ F 8 "1:$6.71; 10:$6.04; 25:$5.50; 100:$4.97;250:$4.51;500:$3.97" H 5900 3850 60 
 	1    0    0    -1  
 $EndComp
 $Comp
-L current_sensor-rescue:C-0603 C21
+L C-0603 C21
 U 1 1 585AF5E7
 P 5100 4100
 AR Path="/589CF239/585AF5E7" Ref="C21"  Part="1" 
@@ -58,7 +158,7 @@ F 9 "" H 0   0   50  0001 C CNN "SPURL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L current_sensor-rescue:R-0603 R10
+L R-0603 R10
 U 1 1 585AF780
 P 4700 4250
 AR Path="/589CF239/585AF780" Ref="R10"  Part="1" 
@@ -80,7 +180,7 @@ F 9 "" H 0   0   50  0001 C CNN "SPURL"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L current_sensor-rescue:C-1206 C22
+L C-1206 C22
 U 1 1 585B1E88
 P 6700 3600
 AR Path="/589CF239/585B1E88" Ref="C22"  Part="1" 
@@ -102,7 +202,7 @@ F 9 "" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L current_sensor-rescue:C-1206 C23
+L C-1206 C23
 U 1 1 585B2111
 P 7150 3600
 AR Path="/589CF239/585B2111" Ref="C23"  Part="1" 
@@ -125,7 +225,7 @@ F 9 "" H 0   0   50  0001 C CNN "SPURL"
 $EndComp
 $Bitmap
 Pos 1300 3850
-Scale 1.000000
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 01 E5 00 00 02 56 08 02 00 00 00 E9 E4 08 
 73 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0E 74 00 00 0E 74 
@@ -3224,7 +3324,7 @@ EndData
 $EndBitmap
 $Bitmap
 Pos 9200 6000
-Scale 1.000000
+Scale 1,000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 04 A0 00 00 02 55 08 02 00 00 00 66 B4 1A 
 7B 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 0E 74 00 00 0E 74 
@@ -4919,6 +5019,10 @@ Text HLabel 4000 3950 0    60   Input ~ 0
 Vin+
 Text HLabel 4100 4250 0    60   Input ~ 0
 Vin-
+Text HLabel 6700 3950 2    60   Output ~ 0
+DATA
+Text HLabel 6700 4250 2    60   Output ~ 0
+CLK
 Text HLabel 7450 3450 2    60   Input ~ 0
 VDD1
 Text HLabel 7450 3750 2    60   Input ~ 0
@@ -4932,19 +5036,19 @@ Text Notes 900  1550 0    260  ~ 52
 Wire Wire Line
 	5100 3450 5100 3500
 Wire Wire Line
-	4550 3450 5100 3450
+	4550 3450 5300 3450
 Wire Wire Line
 	5100 3750 5100 3700
 Wire Wire Line
-	4550 3750 5100 3750
+	4550 3750 5300 3750
 Wire Wire Line
 	4000 3950 4600 3950
 Wire Wire Line
-	4800 3950 5100 3950
+	4800 3950 5300 3950
 Wire Wire Line
 	5100 3950 5100 4000
 Wire Wire Line
-	4800 4250 5100 4250
+	4800 4250 5300 4250
 Wire Wire Line
 	5100 4250 5100 4200
 Wire Wire Line
@@ -4952,11 +5056,11 @@ Wire Wire Line
 Wire Wire Line
 	6700 3500 6700 3450
 Wire Wire Line
-	6500 3450 6700 3450
+	6500 3450 7450 3450
 Wire Wire Line
 	6700 3700 6700 3750
 Wire Wire Line
-	6500 3750 6700 3750
+	6500 3750 7450 3750
 Wire Wire Line
 	7150 3750 7150 3700
 Wire Wire Line
@@ -4974,7 +5078,7 @@ Connection ~ 6700 3450
 Connection ~ 7150 3750
 Connection ~ 7150 3450
 $Comp
-L current_sensor-rescue:R-0603 R?
+L R-0603 R?
 U 1 1 598FDE22
 P 4700 3950
 AR Path="/589CF239/598FDE22" Ref="R?"  Part="1" 
@@ -4996,7 +5100,7 @@ F 9 "" H 0   -300 50  0001 C CNN "SPURL"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L current_sensor-rescue:C-1206 C?
+L C-1206 C?
 U 1 1 5991F9FE
 P 5100 3600
 AR Path="/589CF239/5991F9FE" Ref="C?"  Part="1" 
@@ -5017,24 +5121,4 @@ F 9 "" H -1600 0   50  0001 C CNN "SPURL"
 	1    5100 3600
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	5100 3750 5300 3750
-Wire Wire Line
-	5100 3450 5300 3450
-Wire Wire Line
-	5100 3950 5300 3950
-Wire Wire Line
-	5100 4250 5300 4250
-Wire Wire Line
-	6700 3750 7150 3750
-Wire Wire Line
-	6700 3450 7150 3450
-Wire Wire Line
-	7150 3750 7450 3750
-Wire Wire Line
-	7150 3450 7450 3450
-Text HLabel 6700 3950 2    60   Output ~ 0
-DATA
-Text HLabel 6700 4250 2    60   Output ~ 0
-CLK
 $EndSCHEMATC

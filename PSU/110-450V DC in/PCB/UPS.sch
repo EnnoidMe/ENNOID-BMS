@@ -1,6 +1,6 @@
 EESchema Schematic File Version 5
 LIBS:UPS-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -142,7 +142,7 @@ U 1 1 5C51C403
 P 10600 800
 F 0 "J3" H 10680 796 50  0000 L CNN
 F 1 "Conn_01x01" H 10680 751 50  0001 L CNN
-F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via" H 10600 800 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad" H 10600 800 50  0001 C CNN
 F 3 "~" H 10600 800 50  0001 C CNN
 	1    10600 800 
 	1    0    0    -1  
@@ -153,7 +153,7 @@ U 1 1 5C51C821
 P 10600 1000
 F 0 "J4" H 10680 996 50  0000 L CNN
 F 1 "Conn_01x01" H 10680 951 50  0001 L CNN
-F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via" H 10600 1000 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad" H 10600 1000 50  0001 C CNN
 F 3 "~" H 10600 1000 50  0001 C CNN
 	1    10600 1000
 	1    0    0    -1  
@@ -164,7 +164,7 @@ U 1 1 5C51C967
 P 10600 1200
 F 0 "J5" H 10680 1196 50  0000 L CNN
 F 1 "Conn_01x01" H 10680 1151 50  0001 L CNN
-F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via" H 10600 1200 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad" H 10600 1200 50  0001 C CNN
 F 3 "~" H 10600 1200 50  0001 C CNN
 	1    10600 1200
 	1    0    0    -1  
@@ -175,7 +175,7 @@ U 1 1 5C51CAB2
 P 10600 1400
 F 0 "J6" H 10680 1396 50  0000 L CNN
 F 1 "Conn_01x01" H 10680 1351 50  0001 L CNN
-F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via" H 10600 1400 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad" H 10600 1400 50  0001 C CNN
 F 3 "~" H 10600 1400 50  0001 C CNN
 	1    10600 1400
 	1    0    0    -1  
@@ -263,8 +263,6 @@ Wire Wire Line
 	6650 1100 7400 1100
 Wire Wire Line
 	7400 1100 7400 2300
-Wire Wire Line
-	7400 2300 6100 2300
 Connection ~ 6650 1100
 $Comp
 L Device:C C4
@@ -295,11 +293,6 @@ Wire Wire Line
 Wire Wire Line
 	3400 3450 6100 3450
 Wire Wire Line
-	6100 3450 6100 2300
-Connection ~ 6100 2300
-Wire Wire Line
-	6100 2300 3750 2300
-Wire Wire Line
 	700  3950 3100 3950
 Wire Wire Line
 	700  750  700  3950
@@ -311,7 +304,6 @@ Wire Wire Line
 	3400 3950 6100 3950
 Wire Wire Line
 	6100 3950 6100 3450
-Connection ~ 6100 3450
 $Comp
 L Device:C C6
 U 1 1 5D4113AE
@@ -338,4 +330,12 @@ F 3 "~" H 1600 1100 50  0001 C CNN
 	1    1600 1100
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	3750 2300 7400 2300
+Wire Wire Line
+	5850 2900 6100 2900
+Wire Wire Line
+	6100 2900 6100 3450
+Connection ~ 5850 2900
+Connection ~ 6100 3450
 $EndSCHEMATC

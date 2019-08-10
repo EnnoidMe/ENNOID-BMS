@@ -896,6 +896,8 @@ Wire Wire Line
 	7150 4200 6650 4200
 Wire Wire Line
 	6650 4200 6650 1850
+Wire Wire Line
+	4150 3600 4350 3600
 Text Label 4150 3600 0    50   ~ 0
 12V
 Text Label 9900 1800 0    50   ~ 0
@@ -955,6 +957,4 @@ Wire Notes Line width 20
 Wire Notes Line width 20
 	13750 8400 10100 8400
 NoConn ~ 4000 2200
-Wire Wire Line
-	4150 3600 4350 3600
 $EndSCHEMATC

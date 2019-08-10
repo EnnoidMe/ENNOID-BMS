@@ -1,10 +1,110 @@
-EESchema Schematic File Version 5
+EESchema Schematic File Version 2
+LIBS:paltatech
+LIBS:Abracon
+LIBS:ActiveSemi
+LIBS:Altera
+LIBS:AMS
+LIBS:AnalogDevices
+LIBS:AOS
+LIBS:Atmel
+LIBS:Bosch
+LIBS:conn-100mil
+LIBS:conn-2mm
+LIBS:conn-amphenol
+LIBS:conn-assmann
+LIBS:conn-cui
+LIBS:conn-fci
+LIBS:conn-jae
+LIBS:conn-linx
+LIBS:conn-molex
+LIBS:conn-special-headers
+LIBS:conn-tagconnect
+LIBS:conn-te
+LIBS:conn-test
+LIBS:DiodesInc
+LIBS:display
+LIBS:electomech-misc
+LIBS:_electromech
+LIBS:Fairchild
+LIBS:FTDI
+LIBS:Infineon
+LIBS:Intersil
+LIBS:Lattice
+LIBS:_linear
+LIBS:LinearTech
+LIBS:Littelfuse
+LIBS:logic-4000
+LIBS:logic-7400
+LIBS:logic-7400-new
+LIBS:_logic
+LIBS:MACOM
+LIBS:Macrofab
+LIBS:maxim
+LIBS:mechanical
+LIBS:Microchip
+LIBS:Micron
+LIBS:Murata
+LIBS:NXP
+LIBS:OceanOptics
+LIBS:onsemi
+LIBS:_passive
+LIBS:pasv-BelFuse
+LIBS:pasv-BiTech
+LIBS:pasv-Bourns
+LIBS:pasv-cap
+LIBS:pasv-ind
+LIBS:pasv-Murata
+LIBS:pasv-res
+LIBS:pasv-TDK
+LIBS:pasv-xtal
+LIBS:pcb
+LIBS:power
+LIBS:Recom
+LIBS:Richtek
+LIBS:semi-diode-DiodesInc
+LIBS:semi-diode-generic
+LIBS:semi-diode-MCC
+LIBS:semi-diode-NXP
+LIBS:semi-diode-OnSemi
+LIBS:semi-diode-Semtech
+LIBS:semi-diode-ST
+LIBS:semi-diode-Toshiba
+LIBS:_semi
+LIBS:semi-opto-generic
+LIBS:semi-opto-liteon
+LIBS:semi-thyristor-generic
+LIBS:semi-trans-AOS
+LIBS:semi-trans-DiodesInc
+LIBS:semi-trans-EPC
+LIBS:semi-trans-Fairchild
+LIBS:semi-trans-generic
+LIBS:semi-trans-Infineon
+LIBS:semi-trans-IRF
+LIBS:semi-trans-IXYS
+LIBS:semi-trans-NXP
+LIBS:semi-trans-OnSemi
+LIBS:semi-trans-Panasonic
+LIBS:semi-trans-ST
+LIBS:semi-trans-TI
+LIBS:semi-trans-Toshiba
+LIBS:semi-trans-Vishay
+LIBS:silabs
+LIBS:skyworks
+LIBS:st_ic
+LIBS:ST
+LIBS:supertex
+LIBS:symbol
+LIBS:TexasInstruments
+LIBS:u-blox
+LIBS:Vishay
+LIBS:Winbond
+LIBS:Xilinx
 LIBS:current_sensor-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 4
 Title ""
 Date "2017-08-15"
 Rev ""
@@ -15,7 +115,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L current_sensor-rescue:SN6501DBV U2
+L SN6501DBV U2
 U 1 1 589DB317
 P 4000 3050
 AR Path="/589DB170/589DB317" Ref="U2"  Part="1" 
@@ -34,7 +134,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L current_sensor-rescue:C-1206 C?
+L C-1206 C?
 U 1 1 589DB323
 P 2950 3050
 AR Path="/589CF239/589DB323" Ref="C?"  Part="1" 
@@ -58,7 +158,7 @@ F 9 "" H 0   0   50  0001 C CNN "SPURL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L current_sensor-rescue:C-1206 C?
+L C-1206 C?
 U 1 1 589DB32B
 P 3150 3050
 AR Path="/589CF239/589DB32B" Ref="C?"  Part="1" 
@@ -82,7 +182,7 @@ F 9 "" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L current_sensor-rescue:MBR0520 D1
+L MBR0520 D1
 U 1 1 589DB33A
 P 5750 2900
 AR Path="/589DB170/589DB33A" Ref="D1"  Part="1" 
@@ -103,7 +203,7 @@ F 10 "" H 0   0   50  0001 C CNN "SPURL"
 	0    -1   1    0   
 $EndComp
 $Comp
-L current_sensor-rescue:MBR0520 D2
+L MBR0520 D2
 U 1 1 589DB343
 P 5750 3200
 AR Path="/589DB170/589DB343" Ref="D2"  Part="1" 
@@ -124,7 +224,7 @@ F 10 "" H 0   0   50  0001 C CNN "SPURL"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L current_sensor-rescue:C-0805 C?
+L C-0805 C?
 U 1 1 589DB351
 P 6850 3200
 AR Path="/589B4343/589DB351" Ref="C?"  Part="1" 
@@ -148,7 +248,7 @@ F 9 "" H 0   0   50  0001 C CNN "SPURL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L current_sensor-rescue:C-1206 C?
+L C-1206 C?
 U 1 1 589DB35A
 P 7050 3200
 AR Path="/589CF239/589DB35A" Ref="C?"  Part="1" 
@@ -172,7 +272,7 @@ F 9 "" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L current_sensor-rescue:TPS76350 U4
+L TPS76350 U4
 U 1 1 589DB363
 P 7950 3000
 AR Path="/589DB170/589DB363" Ref="U4"  Part="1" 
@@ -191,7 +291,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L current_sensor-rescue:C-0805 C?
+L C-0805 C?
 U 1 1 589DB375
 P 8500 3200
 AR Path="/589B4343/589DB375" Ref="C?"  Part="1" 
@@ -215,7 +315,7 @@ F 9 "" H 0   0   50  0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L current_sensor-rescue:TRANS-2CT T?
+L TRANS-2CT T?
 U 1 1 589DB385
 P 4800 3050
 AR Path="/589CF239/589DB385" Ref="T?"  Part="1" 
@@ -238,7 +338,7 @@ F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	-1   0    0    1   
 $EndComp
 $Comp
-L current_sensor-rescue:TRANS-2CT T?
+L TRANS-2CT T?
 U 2 1 589DB38D
 P 5200 3050
 AR Path="/589CF239/589DB38D" Ref="T?"  Part="2" 
@@ -273,13 +373,13 @@ VDD2
 Text HLabel 8600 3500 2    60   Input ~ 0
 GND2
 Wire Wire Line
-	3650 3200 3550 3200
+	3650 3200 2600 3200
 Wire Wire Line
 	3550 3200 3550 3100
 Wire Wire Line
 	3550 3100 3650 3100
 Wire Wire Line
-	3650 2900 3150 2900
+	3650 2900 2600 2900
 Wire Wire Line
 	5650 2900 5200 2900
 Wire Wire Line
@@ -289,7 +389,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 3200 6400 2900
 Wire Wire Line
-	7550 2900 7450 2900
+	7550 2900 5850 2900
 Wire Wire Line
 	6850 3100 6850 2900
 Wire Wire Line
@@ -303,7 +403,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 3100 7450 3500
 Wire Wire Line
-	8600 3500 8500 3500
+	8600 3500 6850 3500
 Wire Wire Line
 	6850 3500 6850 3300
 Wire Wire Line
@@ -311,7 +411,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 3100 8500 2900
 Wire Wire Line
-	8600 2900 8500 2900
+	8600 2900 8300 2900
 Wire Wire Line
 	8500 3300 8500 3500
 Wire Wire Line
@@ -362,30 +462,4 @@ Wire Notes Line
 	4950 2300 4950 3850
 Wire Notes Line
 	5050 2300 5050 3850
-Wire Wire Line
-	3150 2900 2950 2900
-Wire Wire Line
-	2950 2900 2600 2900
-Wire Wire Line
-	6400 2900 5850 2900
-Wire Wire Line
-	6850 2900 6400 2900
-Wire Wire Line
-	7050 2900 6850 2900
-Wire Wire Line
-	7450 2900 7050 2900
-Wire Wire Line
-	7050 3500 6850 3500
-Wire Wire Line
-	7450 3500 7050 3500
-Wire Wire Line
-	8500 2900 8300 2900
-Wire Wire Line
-	8500 3500 7450 3500
-Wire Wire Line
-	3550 3200 3150 3200
-Wire Wire Line
-	3150 3200 2950 3200
-Wire Wire Line
-	2950 3200 2600 3200
 $EndSCHEMATC

@@ -77,55 +77,6 @@ X VDD2 8 600 400 200 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# current_sensor-rescue_BUF-Schmitt-Dual
-#
-DEF current_sensor-rescue_BUF-Schmitt-Dual U 0 40 Y Y 3 L N
-F0 "U" 0 300 50 H V C CNN
-F1 "current_sensor-rescue_BUF-Schmitt-Dual" 0 200 50 H V C CNN
-F2 "footprint" 0 -1000 50 H I C CNN
-F3 "datasheet" 0 -1100 50 H I C CNN
-F4 "0" 0 0 60 H I C CNN "Exclude from BOM"
-F5 "SN74LVC2G17DBVR" 100 400 60 H I C CNN "MPN"
-F6 "bom" 0 -1200 50 H I C CNN "BOM"
-DRAW
-T 0 50 0 60 0 1 2 1 Normal 0 C C
-T 0 50 0 60 0 2 2 1 Normal 0 C C
-T 0 50 0 60 0 3 2 1 Normal 0 C C
-S -50 50 50 -50 3 1 0 f
-S -100 100 100 -100 1 2 10 f
-S -100 100 100 -100 2 2 10 f
-S -100 100 100 -100 3 2 10 f
-P 2 0 1 0 25 -75 75 -75 N
-P 2 0 1 0 25 100 75 100 N
-P 3 0 1 0 50 75 50 125 50 75 N
-P 2 1 1 0 -100 -50 -100 -50 N
-P 3 1 1 0 -25 50 -50 50 -75 -50 N
-P 4 1 1 0 -100 -50 -50 -50 -25 50 0 50 N
-P 4 1 1 10 150 0 -150 150 -150 -150 150 0 f
-P 3 2 1 0 -25 50 -50 50 -75 -50 N
-P 4 2 1 10 -150 -150 -150 150 150 0 -150 -150 f
-P 4 2 1 0 -100 -50 -50 -50 -25 50 0 50 N
-P 3 1 2 0 -25 25 -50 25 -50 -25 N
-P 4 1 2 0 -75 -25 -25 -25 -25 25 0 25 N
-P 3 2 2 0 -25 25 -50 25 -50 -25 N
-P 4 2 2 0 -75 -25 -25 -25 -25 25 0 25 N
-P 3 3 2 0 -25 25 -50 25 -50 -25 N
-P 4 3 2 0 -75 -25 -25 -25 -25 25 0 25 N
-X 1A 1 -300 0 150 R 50 0 1 1 I
-X 1Y 6 300 0 150 L 50 0 1 1 O
-X 2A 3 -300 0 150 R 50 0 2 1 I
-X 2Y 4 300 0 150 L 50 0 2 1 O
-X GND 2 0 -200 150 U 50 0 3 1 I
-X VCC 5 0 200 150 D 50 0 3 1 I
-X DA ~ -300 0 200 R 50 0 1 2 I
-X QA ~ 300 0 200 L 50 0 1 2 O
-X DB ~ -300 0 200 R 50 0 2 2 I
-X QB ~ 300 0 200 L 50 0 2 2 O
-X DC ~ -300 0 200 R 50 0 3 2 I
-X QC ~ 300 0 200 L 50 0 3 2 O
-ENDDRAW
-ENDDEF
-#
 # current_sensor-rescue_C-0603
 #
 DEF current_sensor-rescue_C-0603 C 0 0 N Y 1 L N

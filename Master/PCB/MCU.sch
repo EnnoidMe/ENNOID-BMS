@@ -1,10 +1,10 @@
 EESchema Schematic File Version 5
 LIBS:BMS-Master-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
-Sheet 6 8
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -499,14 +499,6 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9200 10600 8450 10600
-Text HLabel 24450 10200 2    50   Input ~ 0
-SCK
-Text HLabel 24450 10400 2    50   Input ~ 0
-MOSI
-Text HLabel 24450 10500 2    50   Input ~ 0
-SPI_WT_SS
-Wire Wire Line
 	23800 9900 24450 9900
 Wire Wire Line
 	23800 10000 24450 10000
@@ -516,8 +508,6 @@ Wire Wire Line
 	23800 10200 24450 10200
 Wire Wire Line
 	23800 10400 24450 10400
-Wire Wire Line
-	23800 10500 24450 10500
 Text HLabel 24450 10600 2    50   Input ~ 0
 SCL
 Wire Wire Line
@@ -542,10 +532,6 @@ Wire Wire Line
 	9200 10400 8950 10400
 Wire Wire Line
 	8950 10300 9200 10300
-Text HLabel 9100 9500 0    50   Input ~ 0
-Wireless_GDO0
-Wire Wire Line
-	9200 9500 9100 9500
 Wire Wire Line
 	7800 9200 8600 9200
 Wire Wire Line
@@ -586,119 +572,6 @@ Wire Wire Line
 	23900 9150 24100 9150
 Wire Wire Line
 	24100 9150 24100 9400
-Text Label 8450 10600 2    50   ~ 0
-SDCardDetect
-Text Label 6500 11900 2    50   ~ 0
-SDCardDetect
-Wire Wire Line
-	7050 12000 7050 11300
-Wire Wire Line
-	7350 12000 7050 12000
-Wire Wire Line
-	7650 12000 7900 12000
-$Comp
-L BMS-Master-rescue:L-Device L1
-U 1 1 5A93EB70
-P 7500 12000
-F 0 "L1" V 7690 12000 50  0000 C CNN
-F 1 "BLM18PG330SN1D" V 7599 12000 50  0000 C CNN
-F 2 "Inductors_SMD:L_0603_HandSoldering" H 7500 12000 50  0001 C CNN
-F 3 "~" H 7500 12000 50  0001 C CNN
-	1    7500 12000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7050 12400 7050 12450
-$Comp
-L BMS-Master-rescue:GND-power #PWR0243
-U 1 1 5A9358DF
-P 7050 12450
-F 0 "#PWR0243" H 7050 12200 50  0001 C CNN
-F 1 "GND" H 7055 12277 50  0000 C CNN
-F 2 "" H 7050 12450 50  0001 C CNN
-F 3 "" H 7050 12450 50  0001 C CNN
-	1    7050 12450
-	1    0    0    -1  
-$EndComp
-$Comp
-L BMS-Master-rescue:+3.3V-power #PWR0244
-U 1 1 5A9358BF
-P 7900 12000
-F 0 "#PWR0244" H 7900 11850 50  0001 C CNN
-F 1 "+3.3V" H 7915 12173 50  0000 C CNN
-F 2 "" H 7900 12000 50  0001 C CNN
-F 3 "" H 7900 12000 50  0001 C CNN
-	1    7900 12000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7050 11300 5700 11300
-Connection ~ 7050 12000
-Wire Wire Line
-	7050 12100 7050 12000
-$Comp
-L BMS-Master-rescue:C-Device C79
-U 1 1 5A934D3C
-P 7050 12250
-F 0 "C79" H 7165 12296 50  0000 L CNN
-F 1 "10u" H 7165 12205 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7088 12100 50  0001 C CNN
-F 3 "~" H 7050 12250 50  0001 C CNN
-	1    7050 12250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7400 11100 5700 11100
-Wire Wire Line
-	7400 10900 7400 11100
-Wire Wire Line
-	9200 10900 7400 10900
-$Comp
-L BMS-Master-rescue:GND-power #PWR0245
-U 1 1 5A933A6F
-P 6550 12450
-F 0 "#PWR0245" H 6550 12200 50  0001 C CNN
-F 1 "GND" H 6555 12277 50  0000 C CNN
-F 2 "" H 6550 12450 50  0001 C CNN
-F 3 "" H 6550 12450 50  0001 C CNN
-	1    6550 12450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 12300 4000 11900
-Wire Wire Line
-	6900 12300 6550 12300
-Wire Wire Line
-	6900 11500 6900 12300
-Wire Wire Line
-	5700 11500 6900 11500
-Wire Wire Line
-	7500 11400 5700 11400
-Wire Wire Line
-	7500 11000 7500 11400
-Wire Wire Line
-	9200 11000 7500 11000
-Wire Wire Line
-	5700 11200 9200 11200
-Wire Wire Line
-	7600 11600 5700 11600
-Wire Wire Line
-	7600 11100 7600 11600
-Wire Wire Line
-	9200 11100 7600 11100
-$Comp
-L BMS-Master-rescue:Micro_SD_Card_Det_Hirose_DM3AT-Connector_Specialized J16
-U 1 1 5A92F51A
-P 4800 11400
-F 0 "J16" H 4750 12217 50  0000 C CNN
-F 1 "SD" H 4750 12126 50  0000 C CNN
-F 2 "Connectors_Card:Hirose_DM3AT-SF-PEJM5" H 6850 12100 50  0001 C CNN
-F 3 "" H 4800 11500 50  0001 C CNN
-	1    4800 11400
-	-1   0    0    -1  
-$EndComp
-Text HLabel 26350 10300 2    50   Input ~ 0
-MISO
 $Comp
 L BMS-Master-rescue:+3.3V-power #PWR0246
 U 1 1 5C66533B
@@ -731,24 +604,11 @@ Wire Wire Line
 Wire Wire Line
 	8500 8600 9200 8600
 Wire Wire Line
-	5700 11900 6500 11900
-Wire Wire Line
-	5700 11800 6550 11800
-Wire Wire Line
-	6550 11800 6550 12300
-Connection ~ 6550 12300
-Wire Wire Line
-	4000 12300 6550 12300
-Wire Wire Line
-	6550 12300 6550 12450
-Wire Wire Line
 	7200 9950 7400 9950
 Wire Wire Line
 	7400 9950 7400 9400
 Wire Wire Line
 	7400 9400 7500 9400
-NoConn ~ 5700 11000
-NoConn ~ 5700 11700
 NoConn ~ 9200 8800
 NoConn ~ 7250 10350
 Wire Wire Line
@@ -1135,4 +995,10 @@ Wire Notes Line width 20
 	13450 1250 13450 3600
 Wire Notes Line width 20
 	12950 1250 12950 3600
+Text Label 24450 10400 0    50   ~ 0
+MOSI
+Text Label 26350 10300 0    50   ~ 0
+MISO
+Text Label 24450 10200 0    50   ~ 0
+SCK
 $EndSCHEMATC

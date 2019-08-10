@@ -1,6 +1,6 @@
 EESchema Schematic File Version 5
 LIBS:UPS-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -20,7 +20,7 @@ U 1 1 5C5079FF
 P 1000 1400
 F 0 "J1" H 918 1075 50  0000 C CNN
 F 1 "110-450V DC" H 918 1166 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 1000 1400 50  0001 C CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_2-G_1x02_P5.00mm_Vertical" H 1000 1400 50  0001 C CNN
 F 3 "~" H 1000 1400 50  0001 C CNN
 	1    1000 1400
 	-1   0    0    1   
@@ -57,8 +57,6 @@ Wire Wire Line
 	1200 1300 1400 1300
 Wire Wire Line
 	1400 1300 1400 1100
-Wire Wire Line
-	1400 1100 1450 1100
 Connection ~ 1950 1100
 Wire Wire Line
 	1950 1700 1400 1700
@@ -183,19 +181,6 @@ F 3 "~" H 10600 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Fuse F1
-U 1 1 5C536A4A
-P 1600 1100
-F 0 "F1" V 1403 1100 50  0000 C CNN
-F 1 "Fuse" V 1494 1100 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_open_universal_Type-III" V 1530 1100 50  0001 C CNN
-F 3 "~" H 1600 1100 50  0001 C CNN
-	1    1600 1100
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1750 1100 1950 1100
-$Comp
 L Graphic:Logo_Open_Hardware_Small LOGO1
 U 1 1 5C527562
 P 12250 10300
@@ -278,8 +263,6 @@ Wire Wire Line
 	6650 1100 7400 1100
 Wire Wire Line
 	7400 1100 7400 2300
-Wire Wire Line
-	7400 2300 6100 2300
 Connection ~ 6650 1100
 $Comp
 L Device:C C4
@@ -310,11 +293,6 @@ Wire Wire Line
 Wire Wire Line
 	3400 3450 6100 3450
 Wire Wire Line
-	6100 3450 6100 2300
-Connection ~ 6100 2300
-Wire Wire Line
-	6100 2300 3750 2300
-Wire Wire Line
 	700  3950 3100 3950
 Wire Wire Line
 	700  750  700  3950
@@ -326,16 +304,38 @@ Wire Wire Line
 	3400 3950 6100 3950
 Wire Wire Line
 	6100 3950 6100 3450
-Connection ~ 6100 3450
 $Comp
-L Device:C C?
+L Device:C C6
 U 1 1 5D4113AE
 P 4900 1350
-F 0 "C?" H 5015 1396 50  0000 L CNN
+F 0 "C6" H 5015 1396 50  0000 L CNN
 F 1 "1500u 25V" H 5015 1305 50  0000 L CNN
 F 2 "Capacitor_THT:C_Radial_D12.5mm_H20.0mm_P5.00mm" H 4938 1200 50  0001 C CNN
 F 3 "EEU-FP1E152 " H 4900 1350 50  0001 C CNN
 	1    4900 1350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1750 1100 1950 1100
+Wire Wire Line
+	1400 1100 1450 1100
+$Comp
+L Device:Fuse F1
+U 1 1 5C536A4A
+P 1600 1100
+F 0 "F1" V 1403 1100 50  0000 C CNN
+F 1 "0ADAC0200-BE" V 1494 1100 50  0000 C CNN
+F 2 "Fuse:Fuse_SunFuse-6HP" V 1530 1100 50  0001 C CNN
+F 3 "~" H 1600 1100 50  0001 C CNN
+	1    1600 1100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 2300 7400 2300
+Wire Wire Line
+	5850 2900 6100 2900
+Wire Wire Line
+	6100 2900 6100 3450
+Connection ~ 5850 2900
+Connection ~ 6100 3450
 $EndSCHEMATC
