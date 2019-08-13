@@ -8,7 +8,7 @@ F0 "U" 0 200 50 H V L CNN
 F1 "Amplifier_Operational_OPA2376xxD" 0 -200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-ALIAS LM358 AD8620 LMC6062 LMC6082 TL062 TL072 TL082 NE5532 SA5532 RC4558 RC4560 RC4580 LMV358 TS912 TSV912IDT TSV912IST TLC272 TLC277 MCP602 OPA1678 OPA2134 OPA2340 OPA2376xxD OPA2376xxDGK MC33078 MC33178 LM4562 OP249 OP275 ADA4075-2 MCP6002-xP MCP6002-xSN MCP6002-xMS LM7332 OPA2333xxD OPA2333xxDGK LMC6482 LT1492 LTC6081xMS8 LM6172 MCP6L92 NJM2043 NJM2114 NJM4556A NJM4558 NJM4559 NJM4560 NJM4580 NJM5532 ADA4807-2ARM OPA2691 LT6234 OPA2356xxD OPA2356xxDGK OPA1612AxD MC33172 OPA1602 TLV2372 LT6237 OPA2277
+ALIAS LM358 AD8620 LMC6062 LMC6082 TL062 TL072 TL082 NE5532 SA5532 RC4558 RC4560 RC4580 LMV358 TS912 TSV912IDT TSV912IST TLC272 TLC277 MCP602 OPA1678 OPA2134 OPA2340 OPA2376xxD OPA2376xxDGK MC33078 MC33178 LM4562 OP249 OP275 ADA4075-2 MCP6002-xP MCP6002-xSN MCP6002-xMS LM7332 OPA2333xxD OPA2333xxDGK LMC6482 LT1492 LTC6081xMS8 LM6172 MCP6L92 NJM2043 NJM2114 NJM4556A NJM4558 NJM4559 NJM4560 NJM4580 NJM5532 ADA4807-2ARM OPA2691 LT6234 OPA2356xxD OPA2356xxDGK OPA1612AxD MC33172 OPA1602 TLV2372 LT6237
 $FPLIST
  SOIC*3.9x4.9mm*P1.27mm*
  DIP*W7.62mm*
@@ -36,11 +36,11 @@ X V+ 8 -100 300 150 D 50 50 3 1 W
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue_+3.3V-power
+# BMS-Master-rescue_+3.3V-power-BMS-Master-rescue
 #
-DEF BMS-Master-rescue_+3.3V-power #PWR 0 0 Y Y 1 F P
+DEF BMS-Master-rescue_+3.3V-power-BMS-Master-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "BMS-Master-rescue_+3.3V-power" 0 140 50 H V C CNN
+F1 "BMS-Master-rescue_+3.3V-power-BMS-Master-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -51,11 +51,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue_74LVC2G17-74xGxx
+# BMS-Master-rescue_74LVC2G17-74xGxx-BMS-Master-rescue
 #
-DEF BMS-Master-rescue_74LVC2G17-74xGxx U 0 40 Y Y 2 F N
+DEF BMS-Master-rescue_74LVC2G17-74xGxx-BMS-Master-rescue U 0 40 Y Y 2 F N
 F0 "U" -100 150 50 H V C CNN
-F1 "BMS-Master-rescue_74LVC2G17-74xGxx" 0 -150 50 H V C CNN
+F1 "BMS-Master-rescue_74LVC2G17-74xGxx-BMS-Master-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -75,11 +75,11 @@ X ~ 4 250 0 150 L 40 40 2 1 O
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue_BSS138-Transistor_FET
+# BMS-Master-rescue_BSS138-Transistor_FET-BMS-Master-rescue
 #
-DEF BMS-Master-rescue_BSS138-Transistor_FET Q 0 0 Y N 1 F N
+DEF BMS-Master-rescue_BSS138-Transistor_FET-BMS-Master-rescue Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "BMS-Master-rescue_BSS138-Transistor_FET" 200 0 50 H V L CNN
+F1 "BMS-Master-rescue_BSS138-Transistor_FET-BMS-Master-rescue" 200 0 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -109,11 +109,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue_Buzzer-Device
+# BMS-Master-rescue_Buzzer-Device-BMS-Master-rescue
 #
-DEF BMS-Master-rescue_Buzzer-Device BZ 0 1 Y N 1 F N
+DEF BMS-Master-rescue_Buzzer-Device-BMS-Master-rescue BZ 0 1 Y N 1 F N
 F0 "BZ" 150 50 50 H V L CNN
-F1 "BMS-Master-rescue_Buzzer-Device" 150 -50 50 H V L CNN
+F1 "BMS-Master-rescue_Buzzer-Device-BMS-Master-rescue" 150 -50 50 H V L CNN
 F2 "" -25 100 50 V I C CNN
 F3 "" -25 100 50 V I C CNN
 $FPLIST
@@ -129,11 +129,11 @@ X + 2 -100 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue_C-Device
+# BMS-Master-rescue_C-Device-BMS-Master-rescue
 #
-DEF BMS-Master-rescue_C-Device C 0 10 N Y 1 F N
+DEF BMS-Master-rescue_C-Device-BMS-Master-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "BMS-Master-rescue_C-Device" 25 -100 50 H V L CNN
+F1 "BMS-Master-rescue_C-Device-BMS-Master-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -147,11 +147,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue_Conn_01x01-Connector_Generic
+# BMS-Master-rescue_Conn_01x01-Connector_Generic-BMS-Master-rescue
 #
-DEF BMS-Master-rescue_Conn_01x01-Connector_Generic J 0 40 Y N 1 F N
+DEF BMS-Master-rescue_Conn_01x01-Connector_Generic-BMS-Master-rescue J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "BMS-Master-rescue_Conn_01x01-Connector_Generic" 0 -100 50 H V C CNN
+F1 "BMS-Master-rescue_Conn_01x01-Connector_Generic-BMS-Master-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -164,11 +164,11 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue_Conn_01x02-Connector_Generic
+# BMS-Master-rescue_Conn_01x02-Connector_Generic-BMS-Master-rescue
 #
-DEF BMS-Master-rescue_Conn_01x02-Connector_Generic J 0 40 Y N 1 F N
+DEF BMS-Master-rescue_Conn_01x02-Connector_Generic-BMS-Master-rescue J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "BMS-Master-rescue_Conn_01x02-Connector_Generic" 0 -200 50 H V C CNN
+F1 "BMS-Master-rescue_Conn_01x02-Connector_Generic-BMS-Master-rescue" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -183,11 +183,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue_Conn_01x04-Connector_Generic
+# BMS-Master-rescue_Conn_01x04-Connector_Generic-BMS-Master-rescue
 #
-DEF BMS-Master-rescue_Conn_01x04-Connector_Generic J 0 40 Y N 1 F N
+DEF BMS-Master-rescue_Conn_01x04-Connector_Generic-BMS-Master-rescue J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "BMS-Master-rescue_Conn_01x04-Connector_Generic" 0 -300 50 H V C CNN
+F1 "BMS-Master-rescue_Conn_01x04-Connector_Generic-BMS-Master-rescue" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -206,11 +206,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue_Conn_01x05-Connector_Generic
+# BMS-Master-rescue_Conn_01x05-Connector_Generic-BMS-Master-rescue
 #
-DEF BMS-Master-rescue_Conn_01x05-Connector_Generic J 0 40 Y N 1 F N
+DEF BMS-Master-rescue_Conn_01x05-Connector_Generic-BMS-Master-rescue J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "BMS-Master-rescue_Conn_01x05-Connector_Generic" 0 -300 50 H V C CNN
+F1 "BMS-Master-rescue_Conn_01x05-Connector_Generic-BMS-Master-rescue" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -231,11 +231,11 @@ X Pin_5 5 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue_Crystal-Device
+# BMS-Master-rescue_Crystal-Device-BMS-Master-rescue
 #
-DEF BMS-Master-rescue_Crystal-Device Y 0 40 N N 1 F N
+DEF BMS-Master-rescue_Crystal-Device-BMS-Master-rescue Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "BMS-Master-rescue_Crystal-Device" 0 -150 50 H V C CNN
+F1 "BMS-Master-rescue_Crystal-Device-BMS-Master-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -252,11 +252,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue_Fuse-Device
+# BMS-Master-rescue_Fuse-Device-BMS-Master-rescue
 #
-DEF BMS-Master-rescue_Fuse-Device F 0 0 N Y 1 F N
+DEF BMS-Master-rescue_Fuse-Device-BMS-Master-rescue F 0 0 N Y 1 F N
 F0 "F" 80 0 50 V V C CNN
-F1 "BMS-Master-rescue_Fuse-Device" -75 0 50 V V C CNN
+F1 "BMS-Master-rescue_Fuse-Device-BMS-Master-rescue" -75 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -270,11 +270,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue_GND-power
+# BMS-Master-rescue_GND-power-BMS-Master-rescue
 #
-DEF BMS-Master-rescue_GND-power #PWR 0 0 Y Y 1 F P
+DEF BMS-Master-rescue_GND-power-BMS-Master-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "BMS-Master-rescue_GND-power" 0 -150 50 H V C CNN
+F1 "BMS-Master-rescue_GND-power-BMS-Master-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -283,11 +283,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue_INA226-Analog_ADC
+# BMS-Master-rescue_INA226-Analog_ADC-BMS-Master-rescue
 #
-DEF BMS-Master-rescue_INA226-Analog_ADC U 0 20 Y Y 1 F N
+DEF BMS-Master-rescue_INA226-Analog_ADC-BMS-Master-rescue U 0 20 Y Y 1 F N
 F0 "U" 150 450 50 H V C CNN
-F1 "BMS-Master-rescue_INA226-Analog_ADC" 200 -450 50 H V C CNN
+F1 "BMS-Master-rescue_INA226-Analog_ADC-BMS-Master-rescue" 200 -450 50 H V C CNN
 F2 "Package_SO:MSOP-10_3x3mm_P0.5mm" 50 100 50 H I C CNN
 F3 "" 350 -100 50 H I C CNN
 $FPLIST
@@ -308,11 +308,11 @@ X Vin- 9 -400 -200 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue_LED-Device
+# BMS-Master-rescue_LED-Device-BMS-Master-rescue
 #
-DEF BMS-Master-rescue_LED-Device D 0 40 Y N 1 F N
+DEF BMS-Master-rescue_LED-Device-BMS-Master-rescue D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "BMS-Master-rescue_LED-Device" 0 -100 50 H V C CNN
+F1 "BMS-Master-rescue_LED-Device-BMS-Master-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -331,11 +331,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue_R-Device
+# BMS-Master-rescue_R-Device-BMS-Master-rescue
 #
-DEF BMS-Master-rescue_R-Device R 0 0 N Y 1 F N
+DEF BMS-Master-rescue_R-Device-BMS-Master-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "BMS-Master-rescue_R-Device" 0 0 50 V V C CNN
+F1 "BMS-Master-rescue_R-Device-BMS-Master-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -348,11 +348,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue_STM32F303CCTx-MCU_ST_STM32
+# BMS-Master-rescue_STM32F303CCTx-MCU_ST_STM32-BMS-Master-rescue
 #
-DEF BMS-Master-rescue_STM32F303CCTx-MCU_ST_STM32 U 0 40 Y Y 1 L N
+DEF BMS-Master-rescue_STM32F303CCTx-MCU_ST_STM32-BMS-Master-rescue U 0 40 Y Y 1 L N
 F0 "U" -7200 1725 50 H V L BNN
-F1 "BMS-Master-rescue_STM32F303CCTx-MCU_ST_STM32" 7200 1725 50 H V R BNN
+F1 "BMS-Master-rescue_STM32F303CCTx-MCU_ST_STM32-BMS-Master-rescue" 7200 1725 50 H V R BNN
 F2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" 7200 1675 50 H I R TNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -408,11 +408,11 @@ X VDDA 9 100 1800 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# BMS-Master-rescue_USB_B_Micro-Connector_Specialized
+# BMS-Master-rescue_USB_B_Micro-Connector_Specialized-BMS-Master-rescue
 #
-DEF BMS-Master-rescue_USB_B_Micro-Connector_Specialized J 0 40 Y Y 1 F N
+DEF BMS-Master-rescue_USB_B_Micro-Connector_Specialized-BMS-Master-rescue J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "BMS-Master-rescue_USB_B_Micro-Connector_Specialized" -200 350 50 H V L CNN
+F1 "BMS-Master-rescue_USB_B_Micro-Connector_Specialized-BMS-Master-rescue" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST

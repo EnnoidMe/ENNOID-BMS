@@ -1,6 +1,6 @@
 EESchema Schematic File Version 5
 LIBS:BMS-Master-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -307,7 +307,7 @@ Wire Wire Line
 Text HLabel 17050 12550 2    50   Input ~ 0
 SDA
 $Comp
-L BMS-Master-rescue:INA226-Analog_ADC U16
+L BMS-Master-rescue:INA226-Analog_ADC-BMS-Master-rescue U16
 U 1 1 5C3F5EBF
 P 15950 12550
 AR Path="/5C3F5EBF" Ref="U16"  Part="1" 
@@ -505,7 +505,7 @@ Wire Wire Line
 Text HLabel 4750 3900 0    50   Input ~ 0
 BAT+
 $Comp
-L BMS-Master-rescue:R-Device R?
+L BMS-Master-rescue:R-Device-BMS-Master-rescue R?
 U 1 1 5C6D6B90
 P 7000 3900
 AR Path="/5AC18063/5C6D6B90" Ref="R?"  Part="1" 
@@ -518,7 +518,7 @@ F 3 "~" H 7000 3900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BMS-Master-rescue:R-Device R?
+L BMS-Master-rescue:R-Device-BMS-Master-rescue R?
 U 1 1 5C6D6B96
 P 6550 3900
 AR Path="/5AC18063/5C6D6B96" Ref="R?"  Part="1" 
@@ -535,7 +535,7 @@ Wire Wire Line
 Text HLabel 6000 7700 0    50   Input ~ 0
 Charge+
 $Comp
-L BMS-Master-rescue:R-Device R?
+L BMS-Master-rescue:R-Device-BMS-Master-rescue R?
 U 1 1 5C6FEE93
 P 7450 3900
 AR Path="/5AC18063/5C6FEE93" Ref="R?"  Part="1" 
@@ -552,7 +552,7 @@ Wire Wire Line
 Text HLabel 6250 6100 0    50   Input ~ 0
 Discharge+
 $Comp
-L BMS-Master-rescue:R-Device R?
+L BMS-Master-rescue:R-Device-BMS-Master-rescue R?
 U 1 1 5C7037BF
 P 7000 6100
 AR Path="/5AC18063/5C7037BF" Ref="R?"  Part="1" 
@@ -565,7 +565,7 @@ F 3 "~" H 7000 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BMS-Master-rescue:R-Device R?
+L BMS-Master-rescue:R-Device-BMS-Master-rescue R?
 U 1 1 5C7037C5
 P 6550 6100
 AR Path="/5AC18063/5C7037C5" Ref="R?"  Part="1" 
@@ -925,7 +925,7 @@ $EndComp
 Wire Wire Line
 	15000 4550 15000 4650
 $Comp
-L BMS-Master-rescue:R-Device R?
+L BMS-Master-rescue:R-Device-BMS-Master-rescue R?
 U 1 1 5C34B9D5
 P 7450 6100
 AR Path="/5AC18063/5C34B9D5" Ref="R?"  Part="1" 
@@ -1743,7 +1743,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 7900 10600 8000
 $Comp
-L BMS-Master-rescue:74LVC2G17-74xGxx U6
+L BMS-Master-rescue:74LVC2G17-74xGxx-BMS-Master-rescue U6
 U 1 1 5CC920D9
 P 4100 12700
 AR Path="/5CC920D9" Ref="U6"  Part="1" 

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 5
 LIBS:BMS-Master-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
@@ -37,7 +37,7 @@ Connection ~ 16400 11900
 Wire Wire Line
 	16400 11900 16450 11900
 $Comp
-L BMS-Master-rescue:GND-power #PWR0224
+L BMS-Master-rescue:GND-power-BMS-Master-rescue #PWR0224
 U 1 1 5A921A89
 P 16450 12100
 F 0 "#PWR0224" H 16450 11850 50  0001 C CNN
@@ -53,7 +53,7 @@ Connection ~ 16450 11900
 Wire Wire Line
 	16450 11900 16500 11900
 $Comp
-L BMS-Master-rescue:C-Device C77
+L BMS-Master-rescue:C-Device-BMS-Master-rescue C77
 U 1 1 5A921BA9
 P 7000 9400
 F 0 "C77" H 7115 9446 50  0000 L CNN
@@ -65,7 +65,7 @@ F 4 "50V" H 7000 9400 50  0001 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS-Master-rescue:C-Device C76
+L BMS-Master-rescue:C-Device-BMS-Master-rescue C76
 U 1 1 5A921C07
 P 6000 9400
 F 0 "C76" H 6115 9446 50  0000 L CNN
@@ -77,7 +77,7 @@ F 4 "50V" H 6000 9400 50  0001 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS-Master-rescue:Crystal-Device Y1
+L BMS-Master-rescue:Crystal-Device-BMS-Master-rescue Y1
 U 1 1 5A921CE8
 P 6500 9200
 F 0 "Y1" H 6500 9350 50  0000 C CNN
@@ -102,7 +102,7 @@ Connection ~ 7000 9200
 Wire Wire Line
 	7000 9200 7000 9100
 $Comp
-L BMS-Master-rescue:GND-power #PWR0225
+L BMS-Master-rescue:GND-power-BMS-Master-rescue #PWR0225
 U 1 1 5A92281A
 P 6000 9600
 F 0 "#PWR0225" H 6000 9350 50  0001 C CNN
@@ -113,7 +113,7 @@ F 3 "" H 6000 9600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS-Master-rescue:GND-power #PWR0226
+L BMS-Master-rescue:GND-power-BMS-Master-rescue #PWR0226
 U 1 1 5A92287D
 P 7000 9600
 F 0 "#PWR0226" H 7000 9350 50  0001 C CNN
@@ -138,7 +138,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 9000 6000 9000
 $Comp
-L BMS-Master-rescue:GND-power #PWR0227
+L BMS-Master-rescue:GND-power-BMS-Master-rescue #PWR0227
 U 1 1 5A9256C5
 P 7800 9650
 F 0 "#PWR0227" H 7800 9400 50  0001 C CNN
@@ -179,7 +179,7 @@ ChargeEnable
 Wire Wire Line
 	8950 9700 9200 9700
 $Comp
-L BMS-Master-rescue:C-Device C78
+L BMS-Master-rescue:C-Device-BMS-Master-rescue C78
 U 1 1 5A95E11B
 P 7050 8350
 F 0 "C78" H 7165 8396 50  0000 L CNN
@@ -190,7 +190,7 @@ F 3 "~" H 7050 8350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS-Master-rescue:GND-power #PWR0228
+L BMS-Master-rescue:GND-power-BMS-Master-rescue #PWR0228
 U 1 1 5A95E15B
 P 7050 8550
 F 0 "#PWR0228" H 7050 8300 50  0001 C CNN
@@ -203,9 +203,11 @@ $EndComp
 Wire Wire Line
 	7050 8500 7050 8550
 $Comp
-L BMS-Master-rescue:+3.3V-power #PWR0229
+L BMS-Master-rescue:+3.3V-power-BMS-Master-rescue #PWR0229
 U 1 1 5A964008
 P 16450 7650
+AR Path="/5A964008" Ref="#PWR0229"  Part="1" 
+AR Path="/5AB72D4D/5A964008" Ref="#PWR0229"  Part="1" 
 F 0 "#PWR0229" H 16450 7500 50  0001 C CNN
 F 1 "+3.3V" H 16465 7823 50  0000 C CNN
 F 2 "" H 16450 7650 50  0001 C CNN
@@ -233,9 +235,11 @@ Wire Wire Line
 Wire Wire Line
 	24500 11000 23800 11000
 $Comp
-L BMS-Master-rescue:+3.3V-power #PWR0230
+L BMS-Master-rescue:+3.3V-power-BMS-Master-rescue #PWR0230
 U 1 1 5AA4D323
 P 20600 7150
+AR Path="/5AA4D323" Ref="#PWR0230"  Part="1" 
+AR Path="/5AB72D4D/5AA4D323" Ref="#PWR0230"  Part="1" 
 F 0 "#PWR0230" H 20600 7000 50  0001 C CNN
 F 1 "+3.3V" H 20615 7323 50  0000 C CNN
 F 2 "" H 20600 7150 50  0001 C CNN
@@ -244,7 +248,7 @@ F 3 "" H 20600 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS-Master-rescue:C-Device C80
+L BMS-Master-rescue:C-Device-BMS-Master-rescue C80
 U 1 1 5AA4D32A
 P 20600 7350
 F 0 "C80" H 20715 7441 50  0000 L CNN
@@ -258,7 +262,7 @@ $EndComp
 Wire Wire Line
 	20600 7200 20600 7150
 $Comp
-L BMS-Master-rescue:GND-power #PWR0231
+L BMS-Master-rescue:GND-power-BMS-Master-rescue #PWR0231
 U 1 1 5AA51178
 P 20600 7600
 F 0 "#PWR0231" H 20600 7350 50  0001 C CNN
@@ -271,9 +275,11 @@ $EndComp
 Wire Wire Line
 	20600 7600 20600 7500
 $Comp
-L BMS-Master-rescue:+3.3V-power #PWR0232
+L BMS-Master-rescue:+3.3V-power-BMS-Master-rescue #PWR0232
 U 1 1 5AA550BE
 P 21200 7150
+AR Path="/5AA550BE" Ref="#PWR0232"  Part="1" 
+AR Path="/5AB72D4D/5AA550BE" Ref="#PWR0232"  Part="1" 
 F 0 "#PWR0232" H 21200 7000 50  0001 C CNN
 F 1 "+3.3V" H 21215 7323 50  0000 C CNN
 F 2 "" H 21200 7150 50  0001 C CNN
@@ -282,7 +288,7 @@ F 3 "" H 21200 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS-Master-rescue:C-Device C81
+L BMS-Master-rescue:C-Device-BMS-Master-rescue C81
 U 1 1 5AA550C5
 P 21200 7350
 F 0 "C81" H 21315 7441 50  0000 L CNN
@@ -296,7 +302,7 @@ $EndComp
 Wire Wire Line
 	21200 7200 21200 7150
 $Comp
-L BMS-Master-rescue:GND-power #PWR0233
+L BMS-Master-rescue:GND-power-BMS-Master-rescue #PWR0233
 U 1 1 5AA550CC
 P 21200 7600
 F 0 "#PWR0233" H 21200 7350 50  0001 C CNN
@@ -309,9 +315,11 @@ $EndComp
 Wire Wire Line
 	21200 7600 21200 7500
 $Comp
-L BMS-Master-rescue:+3.3V-power #PWR0234
+L BMS-Master-rescue:+3.3V-power-BMS-Master-rescue #PWR0234
 U 1 1 5AA591BA
 P 21800 7150
+AR Path="/5AA591BA" Ref="#PWR0234"  Part="1" 
+AR Path="/5AB72D4D/5AA591BA" Ref="#PWR0234"  Part="1" 
 F 0 "#PWR0234" H 21800 7000 50  0001 C CNN
 F 1 "+3.3V" H 21815 7323 50  0000 C CNN
 F 2 "" H 21800 7150 50  0001 C CNN
@@ -320,7 +328,7 @@ F 3 "" H 21800 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS-Master-rescue:C-Device C82
+L BMS-Master-rescue:C-Device-BMS-Master-rescue C82
 U 1 1 5AA591C1
 P 21800 7350
 F 0 "C82" H 21915 7441 50  0000 L CNN
@@ -334,7 +342,7 @@ $EndComp
 Wire Wire Line
 	21800 7200 21800 7150
 $Comp
-L BMS-Master-rescue:GND-power #PWR0235
+L BMS-Master-rescue:GND-power-BMS-Master-rescue #PWR0235
 U 1 1 5AA591C8
 P 21800 7600
 F 0 "#PWR0235" H 21800 7350 50  0001 C CNN
@@ -347,9 +355,11 @@ $EndComp
 Wire Wire Line
 	21800 7600 21800 7500
 $Comp
-L BMS-Master-rescue:+3.3V-power #PWR0236
+L BMS-Master-rescue:+3.3V-power-BMS-Master-rescue #PWR0236
 U 1 1 5AA591CF
 P 22400 7150
+AR Path="/5AA591CF" Ref="#PWR0236"  Part="1" 
+AR Path="/5AB72D4D/5AA591CF" Ref="#PWR0236"  Part="1" 
 F 0 "#PWR0236" H 22400 7000 50  0001 C CNN
 F 1 "+3.3V" H 22415 7323 50  0000 C CNN
 F 2 "" H 22400 7150 50  0001 C CNN
@@ -358,7 +368,7 @@ F 3 "" H 22400 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS-Master-rescue:C-Device C83
+L BMS-Master-rescue:C-Device-BMS-Master-rescue C83
 U 1 1 5AA591D6
 P 22400 7350
 F 0 "C83" H 22515 7441 50  0000 L CNN
@@ -372,7 +382,7 @@ $EndComp
 Wire Wire Line
 	22400 7200 22400 7150
 $Comp
-L BMS-Master-rescue:GND-power #PWR0237
+L BMS-Master-rescue:GND-power-BMS-Master-rescue #PWR0237
 U 1 1 5AA591DD
 P 22400 7600
 F 0 "#PWR0237" H 22400 7350 50  0001 C CNN
@@ -397,7 +407,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 8200 9200 8200
 $Comp
-L BMS-Master-rescue:GND-power #PWR0238
+L BMS-Master-rescue:GND-power-BMS-Master-rescue #PWR0238
 U 1 1 5AA7B2E6
 P 8500 8650
 F 0 "#PWR0238" H 8500 8400 50  0001 C CNN
@@ -408,7 +418,7 @@ F 3 "" H 8500 8650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS-Master-rescue:Conn_01x05-Connector_Generic J17
+L BMS-Master-rescue:Conn_01x05-Connector_Generic-BMS-Master-rescue J17
 U 1 1 5A92BF2C
 P 27400 11350
 F 0 "J17" H 27480 11392 50  0000 L CNN
@@ -437,7 +447,7 @@ NRST
 Wire Wire Line
 	27000 11550 27200 11550
 $Comp
-L BMS-Master-rescue:GND-power #PWR0239
+L BMS-Master-rescue:GND-power-BMS-Master-rescue #PWR0239
 U 1 1 5A959924
 P 26600 11400
 F 0 "#PWR0239" H 26600 11150 50  0001 C CNN
@@ -452,9 +462,11 @@ Wire Wire Line
 Wire Wire Line
 	26600 11350 27200 11350
 $Comp
-L BMS-Master-rescue:+3.3V-power #PWR0240
+L BMS-Master-rescue:+3.3V-power-BMS-Master-rescue #PWR0240
 U 1 1 5A95ED28
 P 26600 11150
+AR Path="/5A95ED28" Ref="#PWR0240"  Part="1" 
+AR Path="/5AB72D4D/5A95ED28" Ref="#PWR0240"  Part="1" 
 F 0 "#PWR0240" H 26600 11000 50  0001 C CNN
 F 1 "+3.3V" H 26615 11323 50  0000 C CNN
 F 2 "" H 26600 11150 50  0001 C CNN
@@ -477,7 +489,7 @@ Wire Wire Line
 Text Notes 27350 11050 0    50   ~ 0
 DEBUG\n
 $Comp
-L BMS-Master-rescue:BSS138-Transistor_FET Q27
+L BMS-Master-rescue:BSS138-Transistor_FET-BMS-Master-rescue Q27
 U 1 1 5ABE0CA0
 P 7700 9400
 F 0 "Q27" H 7905 9446 50  0000 L CNN
@@ -488,7 +500,7 @@ F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 7700 9400 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS-Master-rescue:STM32F303CCTx-MCU_ST_STM32 U17
+L BMS-Master-rescue:STM32F303CCTx-MCU_ST_STM32-BMS-Master-rescue U17
 U 1 1 5A92186F
 P 16500 9800
 F 0 "U17" H 17300 11700 50  0000 C CNN
@@ -543,7 +555,7 @@ NTC_Switch
 Wire Wire Line
 	23800 9700 24100 9700
 $Comp
-L BMS-Master-rescue:C-Device C84
+L BMS-Master-rescue:C-Device-BMS-Master-rescue C84
 U 1 1 5C347219
 P 24100 9550
 F 0 "C84" H 24215 9641 50  0000 L CNN
@@ -556,7 +568,7 @@ F 4 "25V" H 24215 9459 50  0000 L CNN "Voltage"
 $EndComp
 Connection ~ 24100 9700
 $Comp
-L BMS-Master-rescue:GND-power #PWR0242
+L BMS-Master-rescue:GND-power-BMS-Master-rescue #PWR0242
 U 1 1 5C35346F
 P 23900 9200
 F 0 "#PWR0242" H 23900 8950 50  0001 C CNN
@@ -573,9 +585,11 @@ Wire Wire Line
 Wire Wire Line
 	24100 9150 24100 9400
 $Comp
-L BMS-Master-rescue:+3.3V-power #PWR0246
+L BMS-Master-rescue:+3.3V-power-BMS-Master-rescue #PWR0246
 U 1 1 5C66533B
 P 7050 7550
+AR Path="/5C66533B" Ref="#PWR0246"  Part="1" 
+AR Path="/5AB72D4D/5C66533B" Ref="#PWR0246"  Part="1" 
 F 0 "#PWR0246" H 7050 7400 50  0001 C CNN
 F 1 "+3.3V" H 7065 7723 50  0000 C CNN
 F 2 "" H 7050 7550 50  0001 C CNN
@@ -584,7 +598,7 @@ F 3 "" H 7050 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS-Master-rescue:R-Device R168
+L BMS-Master-rescue:R-Device-BMS-Master-rescue R168
 U 1 1 5C665C3A
 P 7050 7800
 F 0 "R168" H 7120 7846 50  0000 L CNN
@@ -614,9 +628,11 @@ NoConn ~ 7250 10350
 Wire Wire Line
 	24600 9350 24600 9400
 $Comp
-L BMS-Master-rescue:+3.3V-power #PWR0241
+L BMS-Master-rescue:+3.3V-power-BMS-Master-rescue #PWR0241
 U 1 1 5C34F8D4
 P 24600 9350
+AR Path="/5C34F8D4" Ref="#PWR0241"  Part="1" 
+AR Path="/5AB72D4D/5C34F8D4" Ref="#PWR0241"  Part="1" 
 F 0 "#PWR0241" H 24600 9200 50  0001 C CNN
 F 1 "+3.3V" H 24615 9523 50  0000 C CNN
 F 2 "" H 24600 9350 50  0001 C CNN
@@ -630,7 +646,7 @@ Wire Wire Line
 	24100 9700 24600 9700
 Connection ~ 24600 9700
 $Comp
-L BMS-Master-rescue:R-Device R170
+L BMS-Master-rescue:R-Device-BMS-Master-rescue R170
 U 1 1 5C34B363
 P 24600 9550
 F 0 "R170" H 24670 9596 50  0000 L CNN
@@ -961,7 +977,7 @@ MA
 Wire Wire Line
 	13600 2050 13600 2350
 $Comp
-L BMS-Master-rescue:C-Device C8
+L BMS-Master-rescue:C-Device-BMS-Master-rescue C8
 U 1 1 5D11D55C
 P 17900 4050
 F 0 "C8" H 18015 4141 50  0000 L CNN
