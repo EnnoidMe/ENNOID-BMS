@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "PSU-rescue")(type "Legacy")(uri "${KIPRJMOD}/PSU-rescue.lib")(options "")(descr ""))
+)

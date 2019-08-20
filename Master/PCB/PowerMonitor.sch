@@ -1,6 +1,6 @@
 EESchema Schematic File Version 5
 LIBS:BMS-Master-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -2288,4 +2288,14 @@ F 3 "" H 17550 4800 50  0001 C CNN
 	1    17550 4800
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	15050 10650 17850 10650
+Wire Notes Line
+	17850 10650 17850 13250
+Wire Notes Line
+	17850 13250 15050 13250
+Wire Notes Line
+	15050 13250 15050 10650
+Text Notes 15050 10850 0    50   ~ 0
+Using this non-ideal device to keep compatibility with DieBieMS software.\n
 $EndSCHEMATC

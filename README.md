@@ -3,7 +3,7 @@ Related ENNOID project:
 
 # ENNOID - BMS
 
-This project aims to create a scalable & modular open source BMS for up to 1000V lithium-ion battery packs.
+This project aims to create a scalable & modular open source BMS for up to 400V lithium-ion battery packs.
 The idea behind this project has been started on this thread:
 
 https://endless-sphere.com/forums/viewtopic.php?f=14&t=92952
@@ -30,7 +30,7 @@ https://www.ennoid.me/battery/bms
 - 12 Cells balancing/board 
 - Cell voltage range 2.5V to 4.5V
 - 2 watt power dissipation per level (24W total)
-- Stackable for up to 1000V packs 
+- Stackable for up to 400V packs 
 - 1 Analog input, 1 GPIO port, & 1 I2C communication channel available for external sensors
 - Daisychain Master/Slave ISOSPI communication
 
