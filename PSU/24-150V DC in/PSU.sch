@@ -575,7 +575,7 @@ F 3 "" H 1650 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PSU-rescue:LTC7801-moje-besc-g2-rescue U1
+L PSU-rescue:LTC7801-moje-besc-g2-rescue-PSU-rescue U1
 U 1 1 5D5ACCCE
 P 4550 4750
 F 0 "U1" H 4525 6065 50  0000 C CNN

@@ -21,8 +21,6 @@ https://www.ennoid.me/battery/bms
 - Isolated CAN bus interface 
 - Outputs for Charge, Discharge & Precharge contactors
 - USB interface for serial communication and firmware upgrades (no need for a programmer -> HW serial bootloader is used).
-- Wireless transceiver
-- SDCard for logging
 
 (External isolated 12V power supply is required)
 
@@ -43,6 +41,9 @@ ENNOID-BMS firmware .bin file:
 
 ENNOID-BMS GUI configuration tool:
 [ENNOID-BMS tool](https://github.com/EnnoidMe/ENNOID-BMS-Tool/releases/download/Windows_V0.30/Windows-V0.30.zip)
+
+Datasheet:
+[ENNOID-BMS Datasheet](https://www.dropbox.com/s/f0ceev75hfsckzv/Datasheet.docx?dl=0)
 
 ## Master
 
