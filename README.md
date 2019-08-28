@@ -1,6 +1,7 @@
 # ENNOID - BMS
 
 ENNOID-BMS is a configurable battery management system consisting of a Master board based on an STM32 microcontroller connected through an ISOSPI interface to several modular slave boards. ENNOID-BMS can monitor the specifics temperatures, currents & voltages that are critical for any lithium-ion battery packs. Based on the monitored inputs & the configured parameters, the master board can allow or interrupt the flow of energy from the battery pack by switching the state of external heavy-duty contactors. ENNOID-BMS can measure each cell voltage level & can trigger the passive balancing function during charging for cells above the configured limit to ensure that all cells have a similar State-Of-Charge (SOC). Parameters can be configured through the ENNOID-BMS-Tool software running on a USB connected host computer.
+
 ## Block diagram
 
 ![alt text](Master/PIC/Wiring.png)
@@ -32,20 +33,24 @@ https://www.ennoid.me/battery/bms
 - OLED Display & power button
 - 2.5V to 4.5V cell voltage operation
 
-(Board is self powered from the monitored cells)
+##Documentation:
 
-**Software**
+[ENNOID-BMS Datasheet](https://www.dropbox.com/s/f0ceev75hfsckzv/Datasheet.docx?dl=0)
+
+##Software:
 
 ![alt text](Master/PIC/Tool.png)
 
 ENNOID-BMS GUI configuration tool:
 [ENNOID-BMS tool](https://github.com/EnnoidMe/ENNOID-BMS-Tool/releases/download/Windows_V0.30/Windows-V0.30.zip)
 
+##Firmware:
+
 ENNOID-BMS firmware .bin file:
 [ENNOID-BMS.bin](https://github.com/EnnoidMe/ENNOID-BMS-Firmware/blob/master/MDK-ARM/DieBieMS/ENNOID-BMS.bin)
 
 Datasheet:
-[ENNOID-BMS Datasheet](https://www.dropbox.com/s/f0ceev75hfsckzv/Datasheet.docx?dl=0)
+
 
 ## Master board
 
