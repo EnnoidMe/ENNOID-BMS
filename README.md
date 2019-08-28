@@ -33,24 +33,21 @@ https://www.ennoid.me/battery/bms
 - OLED Display & power button
 - 2.5V to 4.5V cell voltage operation
 
-##Documentation:
+## Documentation:
 
 [ENNOID-BMS Datasheet](https://www.dropbox.com/s/f0ceev75hfsckzv/Datasheet.docx?dl=0)
 
-##Software:
+## Software:
 
 ![alt text](Master/PIC/Tool.png)
 
 ENNOID-BMS GUI configuration tool:
 [ENNOID-BMS tool](https://github.com/EnnoidMe/ENNOID-BMS-Tool/releases/download/Windows_V0.30/Windows-V0.30.zip)
 
-##Firmware:
+## Firmware:
 
 ENNOID-BMS firmware .bin file:
 [ENNOID-BMS.bin](https://github.com/EnnoidMe/ENNOID-BMS-Firmware/blob/master/MDK-ARM/DieBieMS/ENNOID-BMS.bin)
-
-Datasheet:
-
 
 ## Master board
 
