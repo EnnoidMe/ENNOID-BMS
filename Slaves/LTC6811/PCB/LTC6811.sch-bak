@@ -1,6 +1,6 @@
 EESchema Schematic File Version 5
 LIBS:LTC6811-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -1045,34 +1045,34 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J5
 U 1 1 5CE4AD37
-P 900 1050
-F 0 "J5" H 818 917 50  0000 C CNN
-F 1 "Conn_01x01" H 818 916 50  0001 C CNN
-F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via" H 900 1050 50  0001 C CNN
-F 3 "~" H 900 1050 50  0001 C CNN
-	1    900  1050
+P 950 2800
+F 0 "J5" H 868 2667 50  0000 C CNN
+F 1 "Conn_01x01" H 868 2666 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via" H 950 2800 50  0001 C CNN
+F 3 "~" H 950 2800 50  0001 C CNN
+	1    950  2800
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J6
 U 1 1 5CE4B697
-P 900 1300
-F 0 "J6" H 818 1167 50  0000 C CNN
-F 1 "Conn_01x01" H 818 1166 50  0001 C CNN
-F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via" H 900 1300 50  0001 C CNN
-F 3 "~" H 900 1300 50  0001 C CNN
-	1    900  1300
+P 950 3050
+F 0 "J6" H 868 2917 50  0000 C CNN
+F 1 "Conn_01x01" H 868 2916 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via" H 950 3050 50  0001 C CNN
+F 3 "~" H 950 3050 50  0001 C CNN
+	1    950  3050
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J8
 U 1 1 5CE4BA04
-P 900 1550
-F 0 "J8" H 818 1417 50  0000 C CNN
-F 1 "Conn_01x01" H 818 1416 50  0001 C CNN
-F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via" H 900 1550 50  0001 C CNN
-F 3 "~" H 900 1550 50  0001 C CNN
-	1    900  1550
+P 950 3550
+F 0 "J8" H 868 3417 50  0000 C CNN
+F 1 "Conn_01x01" H 868 3416 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via" H 950 3550 50  0001 C CNN
+F 3 "~" H 950 3550 50  0001 C CNN
+	1    950  3550
 	-1   0    0    1   
 $EndComp
 Text Label 7900 6150 2    50   ~ 0
@@ -1194,9 +1194,9 @@ Wire Wire Line
 Connection ~ 3100 5950
 Wire Wire Line
 	3100 5950 3350 5950
-NoConn ~ 1100 1050
-NoConn ~ 1100 1300
-NoConn ~ 1100 1550
+NoConn ~ 1150 2800
+NoConn ~ 1150 3050
+NoConn ~ 1150 3550
 $Comp
 L Diode:BZT52Bxx D15
 U 1 1 5CCBA78B
