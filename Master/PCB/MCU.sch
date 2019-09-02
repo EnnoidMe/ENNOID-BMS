@@ -1,6 +1,6 @@
 EESchema Schematic File Version 5
 LIBS:BMS-Master-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
@@ -515,8 +515,6 @@ Wire Wire Line
 Wire Wire Line
 	23800 10000 24450 10000
 Wire Wire Line
-	23800 10100 24450 10100
-Wire Wire Line
 	23800 10200 24450 10200
 Wire Wire Line
 	23800 10400 24450 10400
@@ -656,8 +654,6 @@ F 3 "~" H 24600 9550 50  0001 C CNN
 	1    24600 9550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	23800 10300 26350 10300
 Wire Wire Line
 	17250 2600 17650 2600
 Wire Wire Line
@@ -851,8 +847,6 @@ Text Label 18200 2750 0    50   ~ 0
 MISO
 Text Label 17650 2600 0    50   ~ 0
 MOSI
-Text Label 24450 10100 0    50   ~ 0
-SS
 Wire Wire Line
 	15500 3350 16050 3350
 Wire Wire Line
@@ -1013,8 +1007,14 @@ Wire Notes Line width 20
 	12950 1250 12950 3600
 Text Label 24450 10400 0    50   ~ 0
 MOSI
-Text Label 26350 10300 0    50   ~ 0
-MISO
 Text Label 24450 10200 0    50   ~ 0
 SCK
+Wire Wire Line
+	23800 10300 24450 10300
+Text Label 24450 10300 0    50   ~ 0
+MISO
+Wire Wire Line
+	23800 10100 24450 10100
+Text Label 24450 10100 0    50   ~ 0
+SS
 $EndSCHEMATC
