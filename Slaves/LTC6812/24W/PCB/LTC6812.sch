@@ -431,15 +431,7 @@ Wire Wire Line
 Wire Wire Line
 	8550 3000 8600 3000
 Wire Wire Line
-	10350 5450 10550 5450
-Wire Wire Line
-	10350 5350 10550 5350
-Wire Wire Line
-	10350 5250 10550 5250
-Wire Wire Line
-	10550 5150 10350 5150
-Wire Wire Line
-	10350 5050 10550 5050
+	10350 5450 11100 5450
 Wire Wire Line
 	8600 3950 8600 4100
 Wire Wire Line
@@ -1143,122 +1135,8 @@ F 3 "~" H 16450 12650 50  0001 C CNN
 	1    16450 12650
 	1    0    0    -1  
 $EndComp
-Text Label 10550 5350 0    50   ~ 0
+Text Label 11100 5450 0    50   ~ 0
 T1
-Text Label 15950 8650 2    50   ~ 0
-Vreg
-Text Label 15950 8850 2    50   ~ 0
-SDA
-Text Label 15650 10000 2    50   ~ 0
-GPIO
-Text Label 15650 10700 2    50   ~ 0
-Analog
-$Comp
-L power:GND #PWR017
-U 1 1 5D6B7B21
-P 15750 10200
-F 0 "#PWR017" H 15750 9950 50  0001 C CNN
-F 1 "GND" H 15755 10027 50  0000 C CNN
-F 2 "" H 15750 10200 50  0001 C CNN
-F 3 "" H 15750 10200 50  0001 C CNN
-	1    15750 10200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR018
-U 1 1 5D6B7B22
-P 15750 10850
-F 0 "#PWR018" H 15750 10600 50  0001 C CNN
-F 1 "GND" H 15755 10677 50  0000 C CNN
-F 2 "" H 15750 10850 50  0001 C CNN
-F 3 "" H 15750 10850 50  0001 C CNN
-	1    15750 10850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J9
-U 1 1 5D6B7B23
-P 16400 8750
-F 0 "J9" H 16480 8742 50  0000 L CNN
-F 1 "Conn_01x04" H 16480 8651 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x04_Pitch2.54mm" H 16400 8750 50  0001 C CNN
-F 3 "~" H 16400 8750 50  0001 C CNN
-	1    16400 8750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x03 J7
-U 1 1 5D6B7B24
-P 16050 10000
-F 0 "J7" H 16130 10042 50  0000 L CNN
-F 1 "Conn_01x03" H 16130 9951 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm" H 16050 10000 50  0001 C CNN
-F 3 "~" H 16050 10000 50  0001 C CNN
-	1    16050 10000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR019
-U 1 1 5D6B7B25
-P 15950 9100
-F 0 "#PWR019" H 15950 8850 50  0001 C CNN
-F 1 "GND" H 15955 8927 50  0000 C CNN
-F 2 "" H 15950 9100 50  0001 C CNN
-F 3 "" H 15950 9100 50  0001 C CNN
-	1    15950 9100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	15950 8650 16200 8650
-Wire Wire Line
-	16200 8850 15950 8850
-Wire Wire Line
-	15950 9100 15950 8950
-Wire Wire Line
-	15650 10600 15850 10600
-Wire Wire Line
-	16200 8750 15950 8750
-Wire Wire Line
-	15650 10700 15850 10700
-Wire Wire Line
-	15750 10200 15750 10100
-Wire Wire Line
-	15750 10800 15850 10800
-Wire Wire Line
-	15650 10000 15850 10000
-Wire Wire Line
-	15650 9900 15850 9900
-Wire Wire Line
-	15750 10850 15750 10800
-Wire Wire Line
-	15950 8950 16200 8950
-Wire Wire Line
-	15750 10100 15850 10100
-$Comp
-L Connector_Generic:Conn_01x03 J8
-U 1 1 5D6B7B26
-P 16050 10700
-F 0 "J8" H 16130 10742 50  0000 L CNN
-F 1 "Conn_01x03" H 16130 10651 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm" H 16050 10700 50  0001 C CNN
-F 3 "~" H 16050 10700 50  0001 C CNN
-	1    16050 10700
-	1    0    0    -1  
-$EndComp
-Text Label 15650 10600 2    50   ~ 0
-Vreg
-Text Label 15650 9900 2    50   ~ 0
-Vreg
-Text Label 15950 8750 2    50   ~ 0
-SCL
-Text Label 10550 5250 0    50   ~ 0
-GPIO
-Text Label 10550 5450 0    50   ~ 0
-Analog
-Text Label 10550 5150 0    50   ~ 0
-SDA
-Text Label 10550 5050 0    50   ~ 0
-SCL
 Wire Wire Line
 	15300 2850 15550 2850
 Connection ~ 16000 12850
@@ -1745,43 +1623,7 @@ Wire Wire Line
 Wire Wire Line
 	9600 3250 9600 3300
 Wire Wire Line
-	10350 4650 12900 4650
-Wire Wire Line
-	10350 4750 12900 4750
-Wire Wire Line
-	10350 4850 12900 4850
-Wire Wire Line
-	10350 4950 12900 4950
-Text Label 12850 4550 2    50   ~ 0
-Vref2
-Wire Wire Line
-	12850 4550 12900 4550
-$Comp
-L power:GND #PWR014
-U 1 1 5D6C0B3A
-P 12650 5050
-F 0 "#PWR014" H 12650 4800 50  0001 C CNN
-F 1 "GND" H 12655 4877 50  0000 C CNN
-F 2 "" H 12650 5050 50  0001 C CNN
-F 3 "" H 12650 5050 50  0001 C CNN
-	1    12650 5050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12900 5050 12650 5050
-Wire Wire Line
 	1250 6450 1600 6450
-$Comp
-L Connector_Generic:Conn_01x06 J6
-U 1 1 5D685F5E
-P 13100 4750
-F 0 "J6" H 13180 4742 50  0000 L CNN
-F 1 "Conn_01x06" H 13180 4651 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x06_Pitch2.54mm" H 13100 4750 50  0001 C CNN
-F 3 "~" H 13100 4750 50  0001 C CNN
-	1    13100 4750
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J11
 U 1 1 5D68828C
@@ -1848,9 +1690,9 @@ $Comp
 L ENNOID:LTC6812 U1
 U 1 1 5D6D517B
 P 9150 5300
-F 0 "U1" H 9100 5400 50  0000 L CNN
+F 0 "U1" H 9150 5400 50  0000 L CNN
 F 1 "LTC6812" H 9050 5300 50  0000 L CNN
-F 2 "" H 9100 5100 50  0001 C CNN
+F 2 "Housings_QFP:TQFP-64-1EP_10x10mm_Pitch0.5mm" H 9100 5100 50  0001 C CNN
 F 3 "" H 9100 5100 50  0001 C CNN
 	1    9150 5300
 	1    0    0    -1  
@@ -1921,14 +1763,74 @@ NoConn ~ 7950 5950
 NoConn ~ 9300 6500
 NoConn ~ 9400 6500
 $Comp
-L Connector:Conn_01x16_Male J5
-U 1 1 5D6E1FA4
+L Connector_Generic:Conn_01x16 J5
+U 1 1 5D6D84FA
 P 1050 5750
-F 0 "J5" H 1158 6631 50  0000 C CNN
-F 1 "Cells" H 1158 6540 50  0000 C CNN
-F 2 "" H 1050 5750 50  0001 C CNN
+F 0 "J5" H 968 4725 50  0000 C CNN
+F 1 "Cells" H 968 4816 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x16_Pitch2.54mm" H 1050 5750 50  0001 C CNN
 F 3 "~" H 1050 5750 50  0001 C CNN
 	1    1050 5750
-	1    0    0    1   
+	-1   0    0    1   
 $EndComp
+Text Label 10550 5350 0    50   ~ 0
+T2
+Text Label 10550 5250 0    50   ~ 0
+T3
+Text Label 10550 5150 0    50   ~ 0
+T4
+Text Label 10550 5050 0    50   ~ 0
+T5
+Text Label 10550 4950 0    50   ~ 0
+T6
+Text Label 10550 4850 0    50   ~ 0
+T7
+Text Label 10550 4750 0    50   ~ 0
+T8
+Text Label 10550 4650 0    50   ~ 0
+T9
+$Comp
+L Connector:Conn_01x10_Male J?
+U 1 1 5D6FE021
+P 13200 5050
+F 0 "J?" H 13172 4932 50  0000 R CNN
+F 1 "Temp" H 13172 5023 50  0000 R CNN
+F 2 "" H 13200 5050 50  0001 C CNN
+F 3 "~" H 13200 5050 50  0001 C CNN
+	1    13200 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D70079F
+P 11550 5450
+F 0 "#PWR?" H 11550 5200 50  0001 C CNN
+F 1 "GND" H 11555 5277 50  0000 C CNN
+F 2 "" H 11550 5450 50  0001 C CNN
+F 3 "" H 11550 5450 50  0001 C CNN
+	1    11550 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 5350 13000 5350
+Wire Wire Line
+	10350 5250 13000 5250
+Wire Wire Line
+	10350 5150 13000 5150
+Wire Wire Line
+	10350 5050 13000 5050
+Wire Wire Line
+	10350 4950 13000 4950
+Wire Wire Line
+	10350 4850 13000 4850
+Wire Wire Line
+	10350 4750 13000 4750
+Wire Wire Line
+	10350 4650 13000 4650
+Text Label 11600 4550 2    50   ~ 0
+Vref2
+Wire Wire Line
+	11600 4550 13000 4550
+Wire Wire Line
+	11550 5450 13000 5450
 $EndSCHEMATC
