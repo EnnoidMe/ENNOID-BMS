@@ -13,6 +13,11 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
 $Comp
 L BMS-Master-rescue:USB_B_Micro-Connector_Specialized-BMS-Master-rescue J12
@@ -265,21 +270,6 @@ Wire Wire Line
 	3950 4000 3950 4250
 Wire Wire Line
 	3950 4250 3700 4250
-$Comp
-L BMS-Master-rescue:Conn_01x04-Connector_Generic-BMS-Master-rescue J7
-U 1 1 5AB6317C
-P 3800 2100
-F 0 "J7" H 3880 2092 50  0000 L CNN
-F 1 "Current" H 3880 2001 50  0000 L CNN
-F 2 "Connectors_Molex:Molex_KK-6410-04_04x2.54mm_Straight" H 3800 2100 50  0001 C CNN
-F 3 "~" H 3800 2100 50  0001 C CNN
-	1    3800 2100
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 2300 4100 2300
-Wire Wire Line
-	4100 2300 4100 2350
 Wire Wire Line
 	9650 10600 10050 10600
 $Comp
@@ -309,36 +299,25 @@ Wire Wire Line
 Wire Wire Line
 	3700 3700 3650 3700
 $Comp
-L BMS-Master-rescue:Conn_01x02-Connector_Generic-BMS-Master-rescue J8
-U 1 1 5ABBEF45
-P 10300 1800
-F 0 "J8" H 10380 1792 50  0000 L CNN
-F 1 "Discharge" H 10380 1701 50  0000 L CNN
-F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 10300 1800 50  0001 C CNN
-F 3 "~" H 10300 1800 50  0001 C CNN
-	1    10300 1800
-	1    0    0    -1  
-$EndComp
-$Comp
 L BMS-Master-rescue:Conn_01x02-Connector_Generic-BMS-Master-rescue J9
 U 1 1 5ABBF131
-P 10300 2150
-F 0 "J9" H 10379 2142 50  0000 L CNN
-F 1 "Precharge" H 10379 2051 50  0000 L CNN
-F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 10300 2150 50  0001 C CNN
-F 3 "~" H 10300 2150 50  0001 C CNN
-	1    10300 2150
+P 10300 2350
+F 0 "J9" H 10379 2342 50  0000 L CNN
+F 1 "Precharge" H 10379 2251 50  0000 L CNN
+F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 10300 2350 50  0001 C CNN
+F 3 "~" H 10300 2350 50  0001 C CNN
+	1    10300 2350
 	1    0    0    -1  
 $EndComp
 $Comp
 L BMS-Master-rescue:Conn_01x02-Connector_Generic-BMS-Master-rescue J10
 U 1 1 5ABBF293
-P 10300 2500
-F 0 "J10" H 10379 2492 50  0000 L CNN
-F 1 "Charge" H 10379 2401 50  0000 L CNN
-F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 10300 2500 50  0001 C CNN
-F 3 "~" H 10300 2500 50  0001 C CNN
-	1    10300 2500
+P 10300 2700
+F 0 "J10" H 10379 2692 50  0000 L CNN
+F 1 "Charge" H 10379 2601 50  0000 L CNN
+F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 10300 2700 50  0001 C CNN
+F 3 "~" H 10300 2700 50  0001 C CNN
+	1    10300 2700
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -389,8 +368,6 @@ Wire Wire Line
 Wire Wire Line
 	10850 8150 11400 8150
 Wire Wire Line
-	1950 1000 1950 1100
-Wire Wire Line
 	8700 6800 9250 6800
 Wire Wire Line
 	8700 6900 9250 6900
@@ -425,37 +402,15 @@ S 4350 800  1750 1700
 U 5C519BA0
 F0 "PowerMonitor" 50
 F1 "PowerMonitor.sch" 50
-F2 "I+" I L 4350 2100 50 
-F3 "SCL" I R 6100 2050 50 
-F4 "SDA" I R 6100 2150 50 
-F5 "BAT+" I L 4350 900 50 
-F6 "Charge+" I R 6100 950 50 
-F7 "Discharge+" I R 6100 1250 50 
-F8 "Vpack" I R 6100 1850 50 
-F9 "ChargeDetect" B R 6100 2350 50 
+F2 "SCL" I R 6100 2050 50 
+F3 "SDA" I R 6100 2150 50 
+F4 "BAT+" I L 4350 900 50 
+F5 "Load+" I L 4350 1000 50 
+F6 "Vpack" I R 6100 1850 50 
+F7 "ChargeDetect" B R 6100 2350 50 
+F8 "Current" I L 4350 2050 50 
+F9 "BAT-" I L 4350 2250 50 
 $EndSheet
-$Comp
-L power:GNDA #PWR0115
-U 1 1 5C8C87E3
-P 1950 1100
-F 0 "#PWR0115" H 1950 850 50  0001 C CNN
-F 1 "GNDA" H 1955 927 50  0000 C CNN
-F 2 "" H 1950 1100 50  0001 C CNN
-F 3 "" H 1950 1100 50  0001 C CNN
-	1    1950 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDA #PWR0116
-U 1 1 5C377052
-P 13600 1350
-F 0 "#PWR0116" H 13600 1100 50  0001 C CNN
-F 1 "GNDA" H 13400 1300 50  0000 C CNN
-F 2 "" H 13600 1350 50  0001 C CNN
-F 3 "" H 13600 1350 50  0001 C CNN
-	1    13600 1350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7150 3700 6950 3700
 Wire Wire Line
@@ -486,12 +441,6 @@ Wire Wire Line
 	6550 2050 6550 4300
 Wire Wire Line
 	6550 4300 7150 4300
-Wire Wire Line
-	14200 950  6100 950 
-Wire Wire Line
-	6100 1250 14200 1250
-Wire Wire Line
-	1550 1000 1950 1000
 Wire Wire Line
 	6500 2150 6100 2150
 Wire Wire Line
@@ -527,11 +476,9 @@ Connection ~ 9150 6700
 Wire Wire Line
 	6800 9950 7150 9950
 Wire Wire Line
-	4000 2100 4350 2100
-Wire Wire Line
 	3700 4150 4200 4150
 Wire Notes Line width 20
-	14950 600  14950 1500
+	5100 600  5100 3000
 Wire Wire Line
 	6500 4400 7150 4400
 Wire Wire Line
@@ -545,7 +492,7 @@ Wire Wire Line
 Text Notes 2500 1350 0    200  ~ 40
 ISOLATED
 Wire Notes Line width 20
-	950  600  14950 600 
+	650  600  5100 600 
 $Comp
 L BMS-Master-rescue:Conn_01x05-Connector_Generic-BMS-Master-rescue J18
 U 1 1 5C37653F
@@ -691,33 +638,15 @@ Wire Wire Line
 Wire Wire Line
 	6300 3900 6300 4700
 $Comp
-L Connector_Generic:Conn_01x02 J13
-U 1 1 5C382B94
-P 14400 1250
-F 0 "J13" H 14480 1242 50  0000 L CNN
-F 1 "Discharge" H 14480 1151 50  0000 L CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00001_Pitch5.00mm" H 14400 1250 50  0001 C CNN
-F 3 "~" H 14400 1250 50  0001 C CNN
-	1    14400 1250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13600 1350 14200 1350
-Wire Wire Line
-	13600 1350 13600 1050
-Wire Wire Line
-	13600 1050 14200 1050
-Connection ~ 13600 1350
-$Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5C39EE7F
-P 1350 900
-F 0 "J1" H 1268 1117 50  0000 C CNN
-F 1 "BAT" H 1268 1026 50  0000 C CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00001_Pitch5.00mm" H 1350 900 50  0001 C CNN
-F 3 "~" H 1350 900 50  0001 C CNN
-	1    1350 900 
-	-1   0    0    -1  
+P 1350 1000
+F 0 "J1" H 1350 800 50  0000 C CNN
+F 1 "Contactor+" H 1300 700 50  0000 C CNN
+F 2 "ENNOID:EVC500" H 1350 1000 50  0001 C CNN
+F 3 "~" H 1350 1000 50  0001 C CNN
+	1    1350 1000
+	-1   0    0    1   
 $EndComp
 $Comp
 L BMS-Master-rescue:Conn_01x02-Connector_Generic-BMS-Master-rescue J19
@@ -730,8 +659,108 @@ F 3 "~" H 6900 5800 50  0001 C CNN
 	1    6900 5800
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	7100 5800 7150 5800
+Wire Wire Line
+	7100 5900 7150 5900
+Wire Notes Line width 20
+	650  600  650  3000
+Wire Wire Line
+	1550 900  4350 900 
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO1
+U 1 1 5C3FA689
+P 12550 10250
+F 0 "LOGO1" H 12550 10525 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 12550 10025 50  0001 C CNN
+F 2 "ENNOID:ENNOID-LOGO" H 12550 10250 50  0001 C CNN
+F 3 "~" H 12550 10250 50  0001 C CNN
+	1    12550 10250
+	1    0    0    -1  
+$EndComp
 $Sheet
-S 7150 3650 1550 6450
+S 4350 3200 1750 950 
+U 5AC18063
+F0 "PowerSupply" 50
+F1 "PowerSupply.sch" 50
+F2 "PushButton" I L 4350 3900 50 
+F3 "PowerButton" I R 6100 4000 50 
+F4 "PowerEnable" I R 6100 3900 50 
+F5 "12V" I L 4350 3600 50 
+F6 "ChargeDetect" I R 6100 3800 50 
+F7 "EnableFromExt" I R 6100 3500 50 
+$EndSheet
+Wire Wire Line
+	6100 1850 6650 1850
+Wire Wire Line
+	7150 4200 6650 4200
+Wire Wire Line
+	6650 4200 6650 1850
+Wire Wire Line
+	9900 2700 10100 2700
+Wire Wire Line
+	9900 2350 10100 2350
+Wire Wire Line
+	8700 2800 10100 2800
+Wire Wire Line
+	8700 2450 10100 2450
+Wire Wire Line
+	7150 2300 6800 2300
+Wire Wire Line
+	6800 2300 6800 4000
+Wire Wire Line
+	6800 4000 7150 4000
+Wire Notes Line width 20
+	5500 5400 7500 5400
+Wire Notes Line width 20
+	7500 5400 7500 6400
+Wire Notes Line width 20
+	7500 6400 5500 6400
+Wire Notes Line width 20
+	5500 6400 5500 5400
+Text Notes 5650 6350 0    200  ~ 40
+ISOLATED
+Text Notes 12100 8100 0    200  ~ 40
+ISOLATED
+Wire Notes Line width 20
+	10100 7550 13750 7550
+Wire Notes Line width 20
+	13750 7550 13750 8400
+Wire Notes Line width 20
+	13750 8400 10100 8400
+$Sheet
+S 7150 1600 1550 1400
+U 5AC7323C
+F0 "switches" 50
+F1 "switches.sch" 50
+F2 "DischargeEnable" I L 7150 2400 50 
+F3 "ChargeEnable" I L 7150 2200 50 
+F4 "PrechargeEnable" I L 7150 2500 50 
+F5 "Discharge" I R 8700 2100 50 
+F6 "Precharge" I R 8700 2450 50 
+F7 "Charge" I R 8700 2800 50 
+F8 "Safety" I L 7150 2600 50 
+F9 "NTC_Switch" I L 7150 2300 50 
+F10 "Cooling" I R 8700 1750 50 
+F11 "CoolingEnable" I L 7150 2700 50 
+$EndSheet
+$Comp
+L BMS-Master-rescue:Conn_01x02-Connector_Generic-BMS-Master-rescue J2
+U 1 1 5D7605C4
+P 10300 1650
+F 0 "J2" H 10380 1642 50  0000 L CNN
+F 1 "Cooling" H 10380 1551 50  0000 L CNN
+F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 10300 1650 50  0001 C CNN
+F 3 "~" H 10300 1650 50  0001 C CNN
+	1    10300 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 1650 10100 1650
+Wire Wire Line
+	8700 1750 10100 1750
+$Sheet
+S 7150 3400 1550 6700
 U 5AB72D4D
 F0 "MCU" 50
 F1 "MCU.sch" 50
@@ -758,203 +787,183 @@ F21 "OLED_RST" I R 8700 9150 50
 F22 "NTC_Switch" B L 7150 4000 50 
 F23 "MA" I L 7150 5800 50 
 F24 "PA" I L 7150 5900 50 
+F25 "CoolingEnable" I L 7150 3550 50 
 $EndSheet
 Wire Wire Line
-	7100 5800 7150 5800
+	7150 2700 7000 2700
 Wire Wire Line
-	7100 5900 7150 5900
-Wire Notes Line width 20
-	950  600  950  1500
+	7000 2700 7000 3550
 Wire Wire Line
-	1550 900  4350 900 
+	7000 3550 7150 3550
 Wire Notes Line width 20
-	950  1500 14950 1500
+	650  3000 5100 3000
+Wire Wire Line
+	8700 2100 10100 2100
+Wire Wire Line
+	9900 2000 10100 2000
 $Comp
-L Connector_Generic:Conn_01x01 J4
-U 1 1 5C3F429D
-P 650 800
-F 0 "J4" H 568 575 50  0000 C CNN
-F 1 "Corner" H 568 666 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad" H 650 800 50  0001 C CNN
-F 3 "~" H 650 800 50  0001 C CNN
-	1    650  800 
-	-1   0    0    1   
+L BMS-Master-rescue:Conn_01x02-Connector_Generic-BMS-Master-rescue J8
+U 1 1 5ABBEF45
+P 10300 2000
+F 0 "J8" H 10380 1992 50  0000 L CNN
+F 1 "Discharge" H 10380 1901 50  0000 L CNN
+F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 10300 2000 50  0001 C CNN
+F 3 "~" H 10300 2000 50  0001 C CNN
+	1    10300 2000
+	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1550 1000 4350 1000
 $Comp
-L Connector_Generic:Conn_01x01 J5
-U 1 1 5C3F5593
-P 650 1150
-F 0 "J5" H 568 925 50  0000 C CNN
-F 1 "Corner" H 568 1016 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad" H 650 1150 50  0001 C CNN
-F 3 "~" H 650 1150 50  0001 C CNN
-	1    650  1150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J14
-U 1 1 5C3F5D5A
-P 650 1450
-F 0 "J14" H 568 1225 50  0000 C CNN
-F 1 "Corner" H 568 1316 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad" H 650 1450 50  0001 C CNN
-F 3 "~" H 650 1450 50  0001 C CNN
-	1    650  1450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J15
-U 1 1 5C3F5F67
-P 650 1750
-F 0 "J15" H 568 1525 50  0000 C CNN
-F 1 "Corner" H 568 1616 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad" H 650 1750 50  0001 C CNN
-F 3 "~" H 650 1750 50  0001 C CNN
-	1    650  1750
-	-1   0    0    1   
-$EndComp
-NoConn ~ 850  800 
-NoConn ~ 850  1150
-NoConn ~ 850  1450
-NoConn ~ 850  1750
-$Comp
-L BMS-Master-rescue:GND-power-BMS-Master-rescue #PWR0110
-U 1 1 5C44BDEC
-P 4100 2350
-F 0 "#PWR0110" H 4100 2100 50  0001 C CNN
-F 1 "GND" H 4105 2177 50  0000 C CNN
-F 2 "" H 4100 2350 50  0001 C CNN
-F 3 "" H 4100 2350 50  0001 C CNN
-	1    4100 2350
+L Connector_Generic:Conn_01x02 J4
+U 1 1 5D864A94
+P 1000 2400
+F 0 "J4" H 900 2100 50  0000 L CNN
+F 1 "Contactor-" H 750 2200 50  0000 L CNN
+F 2 "ENNOID:EVC500" H 1000 2400 50  0001 C CNN
+F 3 "~" H 1000 2400 50  0001 C CNN
+	1    1000 2400
 	-1   0    0    -1  
 $EndComp
 $Comp
-L BMS-Master-rescue:+3.3V-power-BMS-Master-rescue #PWR0123
-U 1 1 5C44C08D
-P 4100 1950
-F 0 "#PWR0123" H 4100 1800 50  0001 C CNN
-F 1 "+3.3V" H 4115 2123 50  0000 C CNN
-F 2 "" H 4100 1950 50  0001 C CNN
-F 3 "" H 4100 1950 50  0001 C CNN
-	1    4100 1950
+L BMS-Master-rescue:R-Device-BMS-Master-rescue R34
+U 1 1 5D864A96
+P 2950 2500
+F 0 "R34" V 3150 2500 50  0000 C CNN
+F 1 "30k" V 3050 2500 50  0000 C CNN
+F 2 "Resistors_SMD:R_2512" V 2880 2500 50  0001 C CNN
+F 3 "~" H 2950 2500 50  0001 C CNN
+	1    2950 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3150 2500 3100 2500
+$Comp
+L BMS-Master-rescue:R-Device-BMS-Master-rescue R12
+U 1 1 5DA351AF
+P 3300 2500
+F 0 "R12" V 3500 2500 50  0000 C CNN
+F 1 "30k" V 3400 2500 50  0000 C CNN
+F 2 "Resistors_SMD:R_2512" V 3230 2500 50  0001 C CNN
+F 3 "~" H 3300 2500 50  0001 C CNN
+	1    3300 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 2500 2750 2500
+$Comp
+L power:+12V #PWR0124
+U 1 1 5DA3A93C
+P 4200 3400
+F 0 "#PWR0124" H 4200 3250 50  0001 C CNN
+F 1 "+12V" H 4215 3573 50  0000 C CNN
+F 2 "" H 4200 3400 50  0001 C CNN
+F 3 "" H 4200 3400 50  0001 C CNN
+	1    4200 3400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 2000 4100 2000
+	4200 3400 4200 3600
+Connection ~ 4200 3600
 Wire Wire Line
-	4100 2000 4100 1950
+	4200 3600 4350 3600
 $Comp
-L Graphic:Logo_Open_Hardware_Small LOGO1
-U 1 1 5C3FA689
-P 12550 10250
-F 0 "LOGO1" H 12550 10525 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 12550 10025 50  0001 C CNN
-F 2 "ENNOID:ENNOID-LOGO" H 12550 10250 50  0001 C CNN
-F 3 "~" H 12550 10250 50  0001 C CNN
-	1    12550 10250
+L power:+12V #PWR0125
+U 1 1 5DA3BE8B
+P 9900 1650
+F 0 "#PWR0125" H 9900 1500 50  0001 C CNN
+F 1 "+12V" H 9915 1823 50  0000 C CNN
+F 2 "" H 9900 1650 50  0001 C CNN
+F 3 "" H 9900 1650 50  0001 C CNN
+	1    9900 1650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J2
-U 1 1 5C3822E8
-P 14400 950
-F 0 "J2" H 14480 942 50  0000 L CNN
-F 1 "Charge" H 14480 851 50  0000 L CNN
-F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00001_Pitch5.00mm" H 14400 950 50  0001 C CNN
-F 3 "~" H 14400 950 50  0001 C CNN
-	1    14400 950 
+L power:+12V #PWR0135
+U 1 1 5DA3D25A
+P 9900 2000
+F 0 "#PWR0135" H 9900 1850 50  0001 C CNN
+F 1 "+12V" H 9915 2173 50  0000 C CNN
+F 2 "" H 9900 2000 50  0001 C CNN
+F 3 "" H 9900 2000 50  0001 C CNN
+	1    9900 2000
 	1    0    0    -1  
 $EndComp
 $Comp
-L BMS-Master-rescue:Fuse-Device-BMS-Master-rescue F1
-U 1 1 5ACF057B
-P 4000 3600
-F 0 "F1" V 3750 3600 50  0000 C CNN
-F 1 "10A" V 3850 3600 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering" V 3930 3600 50  0001 C CNN
-F 3 "~" H 4000 3600 50  0001 C CNN
-	1    4000 3600
-	0    -1   1    0   
+L power:+12V #PWR0139
+U 1 1 5DA3D693
+P 9900 2700
+F 0 "#PWR0139" H 9900 2550 50  0001 C CNN
+F 1 "+12V" H 9915 2873 50  0000 C CNN
+F 2 "" H 9900 2700 50  0001 C CNN
+F 3 "" H 9900 2700 50  0001 C CNN
+	1    9900 2700
+	1    0    0    -1  
 $EndComp
-$Sheet
-S 4350 3200 1750 950 
-U 5AC18063
-F0 "PowerSupply" 50
-F1 "PowerSupply.sch" 50
-F2 "PushButton" I L 4350 3900 50 
-F3 "PowerButton" I R 6100 4000 50 
-F4 "PowerEnable" I R 6100 3900 50 
-F5 "12V" I L 4350 3600 50 
-F6 "ChargeDetect" I R 6100 3800 50 
-F7 "EnableFromExt" I R 6100 3500 50 
-$EndSheet
+$Comp
+L power:+12V #PWR0141
+U 1 1 5DA3E14C
+P 9900 2350
+F 0 "#PWR0141" H 9900 2200 50  0001 C CNN
+F 1 "+12V" H 9915 2523 50  0000 C CNN
+F 2 "" H 9900 2350 50  0001 C CNN
+F 3 "" H 9900 2350 50  0001 C CNN
+	1    9900 2350
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	3850 3600 3650 3600
+	3650 3600 4200 3600
 Wire Wire Line
-	6100 1850 6650 1850
+	1200 2400 1250 2400
 Wire Wire Line
-	7150 4200 6650 4200
+	1250 2400 1250 2050
+Wire Notes Line
+	3650 2250 3650 2850
+Wire Notes Line
+	3650 2850 2450 2850
+Wire Notes Line
+	2450 2850 2450 2250
+Wire Notes Line
+	2450 2250 3650 2250
+Text Notes 3000 2350 2    39   ~ 8
+Precharge
+$Comp
+L BMS-Master-rescue:R-Device-BMS-Master-rescue R18
+U 1 1 5DA5710C
+P 2600 2500
+F 0 "R18" V 2800 2500 50  0000 C CNN
+F 1 "30k" V 2700 2500 50  0000 C CNN
+F 2 "Resistors_SMD:R_2512" V 2530 2500 50  0001 C CNN
+F 3 "~" H 2600 2500 50  0001 C CNN
+	1    2600 2500
+	0    1    1    0   
+$EndComp
+Text Label 1600 2500 0    50   ~ 0
+LOAD-
+$Comp
+L power:GNDA #PWR0110
+U 1 1 5DA725E5
+P 3950 2650
+F 0 "#PWR0110" H 3950 2400 50  0001 C CNN
+F 1 "GNDA" H 3955 2477 50  0000 C CNN
+F 2 "" H 3950 2650 50  0001 C CNN
+F 3 "" H 3950 2650 50  0001 C CNN
+	1    3950 2650
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	6650 4200 6650 1850
-Text Label 4150 3600 0    50   ~ 0
-12V
-Text Label 9900 1800 0    50   ~ 0
-12V
-Text Label 9900 2150 0    50   ~ 0
-12V
-Text Label 9900 2500 0    50   ~ 0
-12V
+	4350 2250 3950 2250
 Wire Wire Line
-	9900 2500 10100 2500
+	1250 2050 3750 2050
 Wire Wire Line
-	9900 2150 10100 2150
+	1200 2500 2450 2500
 Wire Wire Line
-	9900 1800 10100 1800
+	3950 2250 3950 2650
 Wire Wire Line
-	8700 2600 10100 2600
+	3450 2500 3750 2500
 Wire Wire Line
-	8700 2250 10100 2250
+	3750 2500 3750 2050
+Connection ~ 3750 2050
 Wire Wire Line
-	8700 1900 10100 1900
-Wire Wire Line
-	7150 2300 6800 2300
-Wire Wire Line
-	6800 2300 6800 4000
-Wire Wire Line
-	6800 4000 7150 4000
-$Sheet
-S 7150 1600 1550 1400
-U 5AC7323C
-F0 "switches" 50
-F1 "switches.sch" 50
-F2 "DischargeEnable" I L 7150 2400 50 
-F3 "ChargeEnable" I L 7150 2200 50 
-F4 "PrechargeEnable" I L 7150 2500 50 
-F5 "Discharge" I R 8700 1900 50 
-F6 "Precharge" I R 8700 2250 50 
-F7 "Charge" I R 8700 2600 50 
-F8 "Safety" I L 7150 2600 50 
-F9 "NTC_Switch" I L 7150 2300 50 
-$EndSheet
-Wire Notes Line width 20
-	5500 5400 7500 5400
-Wire Notes Line width 20
-	7500 5400 7500 6400
-Wire Notes Line width 20
-	7500 6400 5500 6400
-Wire Notes Line width 20
-	5500 6400 5500 5400
-Text Notes 5650 6350 0    200  ~ 40
-ISOLATED
-Text Notes 12100 8100 0    200  ~ 40
-ISOLATED
-Wire Notes Line width 20
-	10100 7550 13750 7550
-Wire Notes Line width 20
-	13750 7550 13750 8400
-Wire Notes Line width 20
-	13750 8400 10100 8400
-NoConn ~ 4000 2200
-Wire Wire Line
-	4150 3600 4350 3600
+	3750 2050 4350 2050
 $EndSCHEMATC

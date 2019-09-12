@@ -39,7 +39,7 @@ https://www.ennoid.me/battery/bms
 
 ## Software:
 
-![alt text](Master/PIC/Tool.png)
+![alt text](Master/HV/PIC/Tool.png)
 
 ENNOID-BMS GUI configuration tool:
 [ENNOID-BMS tool](https://github.com/EnnoidMe/ENNOID-BMS-Tool/releases/download/Windows_V0.30/Windows-V0.30.zip)
@@ -51,7 +51,7 @@ ENNOID-BMS firmware .bin file:
 
 ## Master board
 
-![alt text](Master/PIC/MasterPCB.png)
+![alt text](Master/HV/PIC/MasterPCB.png)
 
 
 ## Slave board LTC6811

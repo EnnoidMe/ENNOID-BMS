@@ -1,10 +1,10 @@
 EESchema Schematic File Version 5
 LIBS:BMS-Master-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 7 7
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -13,6 +13,11 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
 Text HLabel 3450 4250 0    50   Input ~ 0
 ChargeEnable
@@ -55,8 +60,6 @@ F 3 "~" H 12050 5550 50  0001 C CNN
 	1    12050 5550
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3450 4250 4700 4250
 $Comp
 L Transistor_FET:BSS138 Q3
 U 1 1 5C8FBD98
@@ -68,43 +71,16 @@ F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 5700 6700 50  000
 	1    5700 6700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Transistor_FET:BSS138 Q2
-U 1 1 5C8FD0C2
-P 4800 6700
-F 0 "Q2" H 5006 6746 50  0000 L CNN
-F 1 "BSS138" H 5006 6655 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 5000 6625 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 4800 6700 50  0001 L CNN
-	1    4800 6700
-	-1   0    0    -1  
-$EndComp
 Text HLabel 3450 7450 0    50   Input ~ 0
 Safety
 Wire Wire Line
 	3450 7450 3800 7450
 Wire Wire Line
 	5250 7450 5250 7100
-Connection ~ 5250 7100
 Wire Wire Line
 	5250 7100 5500 7100
 Wire Wire Line
-	5000 6700 5000 7100
-Wire Wire Line
-	5000 7100 5250 7100
-Wire Wire Line
 	5500 6700 5500 7100
-$Comp
-L BMS-Master-rescue:GND-power-BMS-Master-rescue #PWR0133
-U 1 1 5C9072B4
-P 4700 7050
-F 0 "#PWR0133" H 4700 6800 50  0001 C CNN
-F 1 "GND" H 4705 6877 50  0000 C CNN
-F 2 "" H 4700 7050 50  0001 C CNN
-F 3 "" H 4700 7050 50  0001 C CNN
-	1    4700 7050
-	1    0    0    -1  
-$EndComp
 $Comp
 L BMS-Master-rescue:GND-power-BMS-Master-rescue #PWR0134
 U 1 1 5C9075D0
@@ -119,12 +95,7 @@ $EndComp
 Wire Wire Line
 	5800 6900 5800 7050
 Wire Wire Line
-	4700 6900 4700 7050
-Wire Wire Line
 	3450 5050 5800 5050
-Wire Wire Line
-	4700 6500 4700 4250
-Connection ~ 4700 4250
 Wire Wire Line
 	5800 6500 5800 5050
 Connection ~ 5800 5050
@@ -289,8 +260,6 @@ Connection ~ 13500 7300
 Wire Wire Line
 	3450 3750 11900 3750
 Wire Wire Line
-	4700 4250 8900 4250
-Wire Wire Line
 	5800 5050 8600 5050
 Wire Wire Line
 	13500 4950 14650 4950
@@ -373,4 +342,79 @@ Wire Wire Line
 	12200 5550 12950 5550
 Wire Wire Line
 	12200 7500 12950 7500
+$Comp
+L BMS-Master-rescue:GND-power-BMS-Master-rescue #PWR0144
+U 1 1 5D758D76
+P 13150 2450
+F 0 "#PWR0144" H 13150 2200 50  0001 C CNN
+F 1 "GND" H 13155 2277 50  0000 C CNN
+F 2 "" H 13150 2450 50  0001 C CNN
+F 3 "" H 13150 2450 50  0001 C CNN
+	1    13150 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDSD Q7
+U 1 1 5D758D86
+P 13400 1850
+F 0 "Q7" H 13688 1896 50  0000 L CNN
+F 1 "BUK98150-55A" H 13688 1805 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 13600 1950 50  0001 C CNN
+F 3 "~" H 13400 1850 50  0001 C CNN
+	1    13400 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L BMS-Master-rescue:R-Device-BMS-Master-rescue R32
+U 1 1 5D758D94
+P 12050 1850
+F 0 "R32" V 12257 1850 50  0000 C CNN
+F 1 "10" V 12166 1850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 11980 1850 50  0001 C CNN
+F 3 "~" H 12050 1850 50  0001 C CNN
+	1    12050 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BMS-Master-rescue:R-Device-BMS-Master-rescue R33
+U 1 1 5D758DA2
+P 12850 2100
+F 0 "R33" V 13057 2100 50  0000 C CNN
+F 1 "4.7M" V 12966 2100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 12780 2100 50  0001 C CNN
+F 3 "~" H 12850 2100 50  0001 C CNN
+	1    12850 2100
+	1    0    0    -1  
+$EndComp
+Connection ~ 13150 2350
+Connection ~ 12850 1850
+Connection ~ 13600 1650
+Wire Wire Line
+	13150 2450 13150 2350
+Wire Wire Line
+	3450 1850 11900 1850
+Wire Wire Line
+	13500 2050 13500 2350
+Wire Wire Line
+	12200 1850 12850 1850
+Wire Wire Line
+	13600 1650 14550 1650
+Wire Wire Line
+	13150 2350 13500 2350
+Wire Wire Line
+	12850 1950 12850 1850
+Wire Wire Line
+	12850 1850 13200 1850
+Wire Wire Line
+	12850 2250 12850 2350
+Wire Wire Line
+	12850 2350 13150 2350
+Wire Wire Line
+	13500 1650 13600 1650
+Text HLabel 14550 1650 2    50   Input ~ 0
+Cooling
+Text HLabel 3450 1850 0    50   Input ~ 0
+CoolingEnable
+Wire Wire Line
+	3450 4250 8900 4250
 $EndSCHEMATC

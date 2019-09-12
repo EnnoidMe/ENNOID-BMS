@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
-Sheet 5 7
+Sheet 7 7
 Title ""
 Date ""
 Rev ""
@@ -13,6 +13,11 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
 Text HLabel 24450 9900 2    50   Input ~ 0
 TX_USB
@@ -1017,4 +1022,8 @@ Wire Wire Line
 	23800 10100 24450 10100
 Text Label 24450 10100 0    50   ~ 0
 SS
+Text HLabel 8950 9500 0    50   Input ~ 0
+CoolingEnable
+Wire Wire Line
+	8950 9500 9200 9500
 $EndSCHEMATC
