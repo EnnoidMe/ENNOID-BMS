@@ -13,11 +13,6 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
-Comment5 ""
-Comment6 ""
-Comment7 ""
-Comment8 ""
-Comment9 ""
 $EndDescr
 $Comp
 L BMS-Master-rescue:USB_B_Micro-Connector_Specialized-BMS-Master-rescue J12
@@ -397,20 +392,6 @@ Wire Wire Line
 Wire Wire Line
 	9650 9950 9300 9950
 Connection ~ 9300 9950
-$Sheet
-S 4350 800  1750 1700
-U 5C519BA0
-F0 "PowerMonitor" 50
-F1 "PowerMonitor.sch" 50
-F2 "SCL" I R 6100 2050 50 
-F3 "SDA" I R 6100 2150 50 
-F4 "BAT+" I L 4350 900 50 
-F5 "Load+" I L 4350 1000 50 
-F6 "Vpack" I R 6100 1850 50 
-F7 "ChargeDetect" B R 6100 2350 50 
-F8 "Current" I L 4350 2050 50 
-F9 "BAT-" I L 4350 2250 50 
-$EndSheet
 Wire Wire Line
 	7150 3700 6950 3700
 Wire Wire Line
@@ -489,7 +470,7 @@ Wire Wire Line
 	6150 4350 4200 4350
 Wire Wire Line
 	6150 4350 6150 4950
-Text Notes 2500 1350 0    200  ~ 40
+Text Notes 2900 1650 0    200  ~ 40
 ISOLATED
 Wire Notes Line width 20
 	650  600  5100 600 
@@ -638,17 +619,6 @@ Wire Wire Line
 Wire Wire Line
 	6300 3900 6300 4700
 $Comp
-L Connector_Generic:Conn_01x02 J1
-U 1 1 5C39EE7F
-P 1350 1000
-F 0 "J1" H 1350 800 50  0000 C CNN
-F 1 "Contactor+" H 1300 700 50  0000 C CNN
-F 2 "ENNOID:EVC500" H 1350 1000 50  0001 C CNN
-F 3 "~" H 1350 1000 50  0001 C CNN
-	1    1350 1000
-	-1   0    0    1   
-$EndComp
-$Comp
 L BMS-Master-rescue:Conn_01x02-Connector_Generic-BMS-Master-rescue J19
 U 1 1 5C6B096E
 P 6900 5800
@@ -665,8 +635,6 @@ Wire Wire Line
 	7100 5900 7150 5900
 Wire Notes Line width 20
 	650  600  650  3000
-Wire Wire Line
-	1550 900  4350 900 
 $Comp
 L Graphic:Logo_Open_Hardware_Small LOGO1
 U 1 1 5C3FA689
@@ -812,19 +780,6 @@ F 3 "~" H 10300 2000 50  0001 C CNN
 	1    10300 2000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1550 1000 4350 1000
-$Comp
-L Connector_Generic:Conn_01x02 J4
-U 1 1 5D864A94
-P 1000 2400
-F 0 "J4" H 900 2100 50  0000 L CNN
-F 1 "Contactor-" H 750 2200 50  0000 L CNN
-F 2 "ENNOID:EVC500" H 1000 2400 50  0001 C CNN
-F 3 "~" H 1000 2400 50  0001 C CNN
-	1    1000 2400
-	-1   0    0    -1  
-$EndComp
 $Comp
 L BMS-Master-rescue:R-Device-BMS-Master-rescue R34
 U 1 1 5D864A96
@@ -913,10 +868,6 @@ F 3 "" H 9900 2350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3650 3600 4200 3600
-Wire Wire Line
-	1200 2400 1250 2400
-Wire Wire Line
-	1250 2400 1250 2050
 Wire Notes Line
 	3650 2250 3650 2850
 Wire Notes Line
@@ -938,30 +889,113 @@ F 3 "~" H 2600 2500 50  0001 C CNN
 	1    2600 2500
 	0    1    1    0   
 $EndComp
-Text Label 1600 2500 0    50   ~ 0
-LOAD-
+Wire Wire Line
+	4350 2250 3900 2250
+Wire Wire Line
+	3450 2500 3750 2500
+Wire Wire Line
+	3750 2500 3750 2050
+Connection ~ 3750 2050
+Wire Wire Line
+	3750 2050 4350 2050
+$Comp
+L Device:CircuitBreaker_1P J1
+U 1 1 5D86B4B7
+P 2250 1600
+F 0 "J1" V 1985 1600 50  0000 C CNN
+F 1 "Contactor+" V 2076 1600 50  0000 C CNN
+F 2 "ENNOID:EVC500" H 2250 1600 50  0001 C CNN
+F 3 "~" H 2250 1600 50  0001 C CNN
+	1    2250 1600
+	0    1    1    0   
+$EndComp
 $Comp
 L power:GNDA #PWR0110
 U 1 1 5DA725E5
-P 3950 2650
-F 0 "#PWR0110" H 3950 2400 50  0001 C CNN
-F 1 "GNDA" H 3955 2477 50  0000 C CNN
-F 2 "" H 3950 2650 50  0001 C CNN
-F 3 "" H 3950 2650 50  0001 C CNN
-	1    3950 2650
+P 3900 2550
+F 0 "#PWR0110" H 3900 2300 50  0001 C CNN
+F 1 "GNDA" H 3905 2377 50  0000 C CNN
+F 2 "" H 3900 2550 50  0001 C CNN
+F 3 "" H 3900 2550 50  0001 C CNN
+	1    3900 2550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4350 2250 3950 2250
+	3900 2250 3900 2550
 Wire Wire Line
-	3950 2250 3950 2500
+	3150 2050 3750 2050
+$Sheet
+S 4350 800  1750 1700
+U 5C519BA0
+F0 "PowerMonitor" 50
+F1 "PowerMonitor.sch" 50
+F2 "SCL" I R 6100 2050 50 
+F3 "SDA" I R 6100 2150 50 
+F4 "BAT+" I L 4350 900 50 
+F5 "Load+" I L 4350 1000 50 
+F6 "Vpack" I R 6100 1850 50 
+F7 "ChargeDetect" B R 6100 2350 50 
+F8 "Current" I L 4350 2050 50 
+F9 "BAT-" I L 4350 2250 50 
+$EndSheet
 Wire Wire Line
-	1250 2050 4350 2050
+	2800 1000 4350 1000
 Wire Wire Line
-	3450 2500 3950 2500
-Connection ~ 3950 2500
+	2800 1600 2800 1000
 Wire Wire Line
-	3950 2500 3950 2650
+	2550 1600 2800 1600
+$Comp
+L Device:CircuitBreaker_1P J4
+U 1 1 5D86D019
+P 2850 2050
+F 0 "J4" V 2585 2050 50  0000 C CNN
+F 1 "Contactor-" V 2676 2050 50  0000 C CNN
+F 2 "ENNOID:EVC500" H 2850 2050 50  0001 C CNN
+F 3 "~" H 2850 2050 50  0001 C CNN
+	1    2850 2050
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	1200 2500 2450 2500
+	2200 2500 2200 2050
+Wire Wire Line
+	2200 2050 2550 2050
+Wire Wire Line
+	2200 2500 2450 2500
+Wire Wire Line
+	1850 1600 1850 1550
+Wire Wire Line
+	1850 1600 1950 1600
+Wire Wire Line
+	1850 900  4350 900 
+$Comp
+L BMS-Master-rescue:Conn_01x02-Connector_Generic-BMS-Master-rescue J5
+U 1 1 5D85B7DC
+P 1300 1550
+F 0 "J5" H 1379 1542 50  0000 L CNN
+F 1 "ExtPower" H 1379 1451 50  0000 L CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_2-G_1x02_P5.00mm_Vertical" H 1300 1550 50  0001 C CNN
+F 3 "~" H 1300 1550 50  0001 C CNN
+	1    1300 1550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1550 1850 1550
+Connection ~ 1850 1550
+Wire Wire Line
+	1850 1550 1850 900 
+$Comp
+L power:GNDA #PWR0146
+U 1 1 5D85CF0A
+P 1600 1700
+F 0 "#PWR0146" H 1600 1450 50  0001 C CNN
+F 1 "GNDA" H 1605 1527 50  0000 C CNN
+F 2 "" H 1600 1700 50  0001 C CNN
+F 3 "" H 1600 1700 50  0001 C CNN
+	1    1600 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1650 1600 1650
+Wire Wire Line
+	1600 1650 1600 1700
 $EndSCHEMATC
