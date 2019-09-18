@@ -142,7 +142,7 @@ U 1 1 5C51C403
 P 10600 800
 F 0 "J3" H 10680 796 50  0000 L CNN
 F 1 "Conn_01x01" H 10680 751 50  0001 L CNN
-F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via" H 10600 800 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad" H 10600 800 50  0001 C CNN
 F 3 "~" H 10600 800 50  0001 C CNN
 	1    10600 800 
 	1    0    0    -1  
@@ -153,7 +153,7 @@ U 1 1 5C51C821
 P 10600 1000
 F 0 "J4" H 10680 996 50  0000 L CNN
 F 1 "Conn_01x01" H 10680 951 50  0001 L CNN
-F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via" H 10600 1000 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad" H 10600 1000 50  0001 C CNN
 F 3 "~" H 10600 1000 50  0001 C CNN
 	1    10600 1000
 	1    0    0    -1  
@@ -164,7 +164,7 @@ U 1 1 5C51C967
 P 10600 1200
 F 0 "J5" H 10680 1196 50  0000 L CNN
 F 1 "Conn_01x01" H 10680 1151 50  0001 L CNN
-F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via" H 10600 1200 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad" H 10600 1200 50  0001 C CNN
 F 3 "~" H 10600 1200 50  0001 C CNN
 	1    10600 1200
 	1    0    0    -1  
@@ -175,7 +175,7 @@ U 1 1 5C51CAB2
 P 10600 1400
 F 0 "J6" H 10680 1396 50  0000 L CNN
 F 1 "Conn_01x01" H 10680 1351 50  0001 L CNN
-F 2 "Mounting_Holes:MountingHole_2.7mm_M2.5_Pad_Via" H 10600 1400 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_DIN965_Pad" H 10600 1400 50  0001 C CNN
 F 3 "~" H 10600 1400 50  0001 C CNN
 	1    10600 1400
 	1    0    0    -1  

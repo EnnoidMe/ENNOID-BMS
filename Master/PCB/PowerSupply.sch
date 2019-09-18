@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
-Sheet 5 7
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -13,11 +13,6 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
-Comment5 ""
-Comment6 ""
-Comment7 ""
-Comment8 ""
-Comment9 ""
 $EndDescr
 Text HLabel 9400 9800 0    50   Input ~ 0
 PushButton
@@ -167,7 +162,7 @@ U 1 1 5C627140
 P 13750 6800
 F 0 "R177" H 13680 6754 50  0000 R CNN
 F 1 "4.7M" H 13680 6845 50  0000 R CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 13680 6800 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 13680 6800 50  0001 C CNN
 F 3 "~" H 13750 6800 50  0001 C CNN
 	1    13750 6800
 	-1   0    0    1   
@@ -178,7 +173,7 @@ U 1 1 5C623C3B
 P 13350 6800
 F 0 "R175" H 13280 6754 50  0000 R CNN
 F 1 "4.7M" H 13280 6845 50  0000 R CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 13280 6800 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 13280 6800 50  0001 C CNN
 F 3 "~" H 13350 6800 50  0001 C CNN
 	1    13350 6800
 	-1   0    0    1   
@@ -753,18 +748,6 @@ F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 13200 10700 50  0
 $EndComp
 Wire Wire Line
 	8650 5800 8650 6400
-Connection ~ 8650 5800
-$Comp
-L BMS-Master-rescue:Conn_01x01-Connector_Generic-BMS-Master-rescue J20
-U 1 1 5C86E7FA
-P 8650 5600
-F 0 "J20" V 8614 5512 50  0000 R CNN
-F 1 "Jumper" V 8523 5512 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded" H 8650 5600 50  0001 C CNN
-F 3 "" H 8650 5600 50  0001 C CNN
-	1    8650 5600
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	8650 6400 11900 6400
 $EndSCHEMATC

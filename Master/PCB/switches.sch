@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 6 7
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -13,11 +13,6 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
-Comment5 ""
-Comment6 ""
-Comment7 ""
-Comment8 ""
-Comment9 ""
 $EndDescr
 Text HLabel 3450 4250 0    50   Input ~ 0
 ChargeEnable
@@ -75,12 +70,6 @@ Text HLabel 3450 7450 0    50   Input ~ 0
 Safety
 Wire Wire Line
 	3450 7450 3800 7450
-Wire Wire Line
-	5250 7450 5250 7100
-Wire Wire Line
-	5250 7100 5500 7100
-Wire Wire Line
-	5500 6700 5500 7100
 $Comp
 L BMS-Master-rescue:GND-power-BMS-Master-rescue #PWR0134
 U 1 1 5C9075D0
@@ -417,4 +406,8 @@ Text HLabel 3450 1850 0    50   Input ~ 0
 CoolingEnable
 Wire Wire Line
 	3450 4250 8900 4250
+Wire Wire Line
+	5250 6700 5500 6700
+Wire Wire Line
+	5250 6700 5250 7450
 $EndSCHEMATC

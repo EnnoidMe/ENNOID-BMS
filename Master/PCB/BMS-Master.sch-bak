@@ -623,7 +623,7 @@ L BMS-Master-rescue:Conn_01x02-Connector_Generic-BMS-Master-rescue J19
 U 1 1 5C6B096E
 P 6900 5800
 F 0 "J19" H 6979 5792 50  0000 L CNN
-F 1 "Master" H 6979 5701 50  0000 L CNN
+F 1 "ISOSPI" H 6979 5701 50  0000 L CNN
 F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 6900 5800 50  0001 C CNN
 F 3 "~" H 6900 5800 50  0001 C CNN
 	1    6900 5800
@@ -972,8 +972,8 @@ L BMS-Master-rescue:Conn_01x02-Connector_Generic-BMS-Master-rescue J5
 U 1 1 5D85B7DC
 P 1300 1550
 F 0 "J5" H 1379 1542 50  0000 L CNN
-F 1 "ExtPower" H 1379 1451 50  0000 L CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_2-G_1x02_P5.00mm_Vertical" H 1300 1550 50  0001 C CNN
+F 1 "Power" H 1379 1451 50  0000 L CNN
+F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBVA_2,5_2-G_1x02_P7.50mm_Vertical" H 1300 1550 50  0001 C CNN
 F 3 "~" H 1300 1550 50  0001 C CNN
 	1    1300 1550
 	-1   0    0    -1  
@@ -998,4 +998,16 @@ Wire Wire Line
 	1500 1650 1600 1650
 Wire Wire Line
 	1600 1650 1600 1700
+$Comp
+L BMS-Master-rescue:Conn_01x01-Connector_Generic-BMS-Master-rescue J?
+U 1 1 5DB0031C
+P 1450 5400
+F 0 "J?" H 1530 5396 50  0000 L CNN
+F 1 "Conn_01x01-Connector_Generic-BMS-Master-rescue" H 1530 5351 50  0001 L CNN
+F 2 "MountingHole:MountingHole_8.4mm_M8_Pad" H 1450 5400 50  0001 C CNN
+F 3 "" H 1450 5400 50  0001 C CNN
+	1    1450 5400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1250 5400
 $EndSCHEMATC
