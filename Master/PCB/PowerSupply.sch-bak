@@ -193,8 +193,6 @@ Wire Wire Line
 	13350 7550 13350 7600
 Text HLabel 14650 8500 2    50   Input ~ 0
 EnableFromExt
-Text HLabel 14600 9800 2    50   Input ~ 0
-ChargeDetect
 Wire Wire Line
 	13350 7150 13100 7150
 Wire Wire Line
@@ -203,21 +201,6 @@ Wire Wire Line
 	13100 8500 13400 8500
 Wire Wire Line
 	13700 8500 14650 8500
-$Comp
-L BMS-Master-rescue:R-Device-BMS-Master-rescue R178
-U 1 1 5C6F3B76
-P 14150 9100
-F 0 "R178" H 14080 9054 50  0000 R CNN
-F 1 "10k" H 14080 9145 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 14080 9100 50  0001 C CNN
-F 3 "~" H 14150 9100 50  0001 C CNN
-	1    14150 9100
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	13750 9800 14600 9800
-Wire Wire Line
-	14600 9800 14600 9100
 Wire Wire Line
 	14600 9100 14300 9100
 Wire Wire Line
@@ -749,5 +732,121 @@ $EndComp
 Wire Wire Line
 	8650 5800 8650 6400
 Wire Wire Line
-	8650 6400 11900 6400
+	8650 6400 10250 6400
+$Comp
+L BMS-Master-rescue:Conn_01x02-Connector_Generic-BMS-Master-rescue J13
+U 1 1 5D833BBD
+P 8650 7550
+F 0 "J13" H 8729 7542 50  0000 L CNN
+F 1 "Charger 12V" H 8729 7451 50  0000 L CNN
+F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 8650 7550 50  0001 C CNN
+F 3 "~" H 8650 7550 50  0001 C CNN
+	1    8650 7550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L BMS-Master-rescue:GND-power-BMS-Master-rescue #PWR0147
+U 1 1 5D833BBE
+P 8950 7650
+F 0 "#PWR0147" H 8950 7400 50  0001 C CNN
+F 1 "GND" H 8955 7477 50  0000 C CNN
+F 2 "" H 8950 7650 50  0001 C CNN
+F 3 "" H 8950 7650 50  0001 C CNN
+	1    8950 7650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 7650 8950 7650
+Wire Wire Line
+	10250 7550 10250 6400
+Connection ~ 10250 6400
+Wire Wire Line
+	10250 6400 11900 6400
+$Comp
+L BMS-Master-rescue:R-Device-BMS-Master-rescue R178
+U 1 1 5C6F3B76
+P 14150 9100
+F 0 "R178" H 14080 9054 50  0000 R CNN
+F 1 "10k" H 14080 9145 50  0000 R CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 14080 9100 50  0001 C CNN
+F 3 "~" H 14150 9100 50  0001 C CNN
+	1    14150 9100
+	0    -1   -1   0   
+$EndComp
+Text HLabel 14600 9800 2    50   Input ~ 0
+ChargeDetect
+Wire Wire Line
+	14600 9800 14600 9100
+Wire Wire Line
+	13750 9800 14600 9800
+Wire Wire Line
+	9850 7550 10250 7550
+$Comp
+L Diode:B220 D6
+U 1 1 5D83524C
+P 9700 7550
+F 0 "D6" H 9700 7334 50  0000 C CNN
+F 1 "B220" H 9700 7425 50  0000 C CNN
+F 2 "Diode_SMD:D_SMB" H 9700 7375 50  0001 C CNN
+F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 9700 7550 50  0001 C CNN
+	1    9700 7550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8850 7550 9250 7550
+$Comp
+L Transistor_FET:BSS138 Q2
+U 1 1 5D859451
+P 9600 8200
+F 0 "Q2" H 9806 8246 50  0000 L CNN
+F 1 "BSS138" H 9806 8155 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 9800 8125 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 9600 8200 50  0001 L CNN
+	1    9600 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L BMS-Master-rescue:GND-power-BMS-Master-rescue #PWR0148
+U 1 1 5D861B52
+P 9700 8550
+F 0 "#PWR0148" H 9700 8300 50  0001 C CNN
+F 1 "GND" H 9705 8377 50  0000 C CNN
+F 2 "" H 9700 8550 50  0001 C CNN
+F 3 "" H 9700 8550 50  0001 C CNN
+	1    9700 8550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 8400 9700 8500
+Wire Wire Line
+	9250 7550 9250 8200
+Wire Wire Line
+	9250 8200 9400 8200
+Connection ~ 9250 7550
+Wire Wire Line
+	9250 7550 9550 7550
+$Comp
+L BMS-Master-rescue:R-Device-BMS-Master-rescue R41
+U 1 1 5D862412
+P 9250 8350
+F 0 "R41" H 9180 8304 50  0000 R CNN
+F 1 "10k" H 9180 8395 50  0000 R CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 9180 8350 50  0001 C CNN
+F 3 "~" H 9250 8350 50  0001 C CNN
+	1    9250 8350
+	1    0    0    -1  
+$EndComp
+Connection ~ 9250 8200
+Wire Wire Line
+	9250 8450 9250 8500
+Wire Wire Line
+	9250 8500 9700 8500
+Connection ~ 9250 8500
+Connection ~ 9700 8500
+Wire Wire Line
+	9700 8500 9700 8550
+Text Label 10050 8000 0    50   ~ 0
+ChargeDetect
+Wire Wire Line
+	9700 8000 10050 8000
 $EndSCHEMATC

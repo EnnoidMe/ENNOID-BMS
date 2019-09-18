@@ -999,10 +999,10 @@ Wire Wire Line
 Wire Wire Line
 	1600 1650 1600 1700
 $Comp
-L BMS-Master-rescue:Conn_01x01-Connector_Generic-BMS-Master-rescue J?
+L BMS-Master-rescue:Conn_01x01-Connector_Generic-BMS-Master-rescue J7
 U 1 1 5DB0031C
 P 1450 5400
-F 0 "J?" H 1530 5396 50  0000 L CNN
+F 0 "J7" H 1530 5396 50  0000 L CNN
 F 1 "Conn_01x01-Connector_Generic-BMS-Master-rescue" H 1530 5351 50  0001 L CNN
 F 2 "MountingHole:MountingHole_8.4mm_M8_Pad" H 1450 5400 50  0001 C CNN
 F 3 "" H 1450 5400 50  0001 C CNN
