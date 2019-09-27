@@ -42,21 +42,21 @@ https://www.ennoid.me/battery/bms
 ![alt text](Master/HV/PIC/Tool.png)
 
 ENNOID-BMS GUI configuration tool:
-[ENNOID-BMS tool](https://github.com/EnnoidMe/ENNOID-BMS-Tool/releases/download/Windows_V0.30/Windows-V0.30.zip)
+[ENNOID-BMS tool](https://github.com/EnnoidMe/ENNOID-BMS-Tool)
 
 ## Firmware:
 
 ENNOID-BMS firmware .bin file:
-[ENNOID-BMS.bin](https://github.com/EnnoidMe/ENNOID-BMS-Firmware/blob/master/MDK-ARM/DieBieMS/ENNOID-BMS.bin)
+[ENNOID-BMS.bin](https://github.com/EnnoidMe/ENNOID-BMS-Firmware)
 
 ## Master board
 
-![alt text](Master/HV/PIC/MasterPCB.png)
+![alt text](Master/PIC/MasterPCB.png)
 
 
 ## Slave board LTC6811
 
-![alt text](Slaves/LTC6811/PIC/LTC6811.png)
+![alt text](Slaves/LTC6811/PIC/24W/LTC6811.png)
 
 
 View this project on [CADLAB.io](https://cadlab.io/project/1987). 

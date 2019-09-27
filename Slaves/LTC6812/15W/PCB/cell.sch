@@ -1,5 +1,5 @@
 EESchema Schematic File Version 5
-LIBS:LTC6812-12W-cache
+LIBS:LTC6812-15W-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,11 +13,6 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
-Comment5 ""
-Comment6 ""
-Comment7 ""
-Comment8 ""
-Comment9 ""
 $EndDescr
 $Comp
 L Device:C C?
