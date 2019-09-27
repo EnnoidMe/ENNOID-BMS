@@ -39,7 +39,7 @@ https://www.ennoid.me/battery/bms
 
 ## Software:
 
-![alt text](Master/HV/PIC/Tool.png)
+![alt text](Master/PIC/Tool.png)
 
 ENNOID-BMS GUI configuration tool:
 [ENNOID-BMS tool](https://github.com/EnnoidMe/ENNOID-BMS-Tool)
@@ -56,7 +56,7 @@ ENNOID-BMS firmware .bin file:
 
 ## Slave board LTC6811
 
-![alt text](Slaves/LTC6811/PIC/24W/LTC6811.png)
+![alt text](Slaves/LTC6811/24W/PIC/LTC6811.png)
 
 
 View this project on [CADLAB.io](https://cadlab.io/project/1987). 
