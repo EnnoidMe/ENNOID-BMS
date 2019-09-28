@@ -35,7 +35,7 @@ https://www.ennoid.me/battery/bms
 
 ## Documentation:
 
-[ENNOID-BMS Datasheet](https://github.com/EnnoidMe/ENNOID-BMS/Datasheet.pdf)
+[ENNOID-BMS Datasheet](https://github.com/EnnoidMe/ENNOID-BMS/blob/master/Datasheet.pdf)
 
 ## Software:
 
