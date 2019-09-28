@@ -35,7 +35,7 @@ https://www.ennoid.me/battery/bms
 
 ## Documentation:
 
-[ENNOID-BMS Datasheet](https://www.dropbox.com/s/f0ceev75hfsckzv/Datasheet.docx?dl=0)
+[ENNOID-BMS Datasheet](https://github.com/EnnoidMe/ENNOID-BMS/Datasheet.pdf)
 
 ## Software:
 
@@ -56,7 +56,7 @@ ENNOID-BMS firmware .bin file:
 
 ## Slave board LTC6811
 
-![alt text](Slaves/LTC6811/24W/PIC/LTC6811.png)
+![alt text](Slaves/LTC6812/15W/PIC/LTC6812-15W.png)
 
 
 View this project on [CADLAB.io](https://cadlab.io/project/1987). 

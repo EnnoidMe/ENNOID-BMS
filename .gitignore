@@ -26,5 +26,8 @@ _autosave-*
 *.drl
 *.zip
 
+#DOC files
+*.docx
+
 Slaves/LTC6813/
 
