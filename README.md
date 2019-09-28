@@ -19,19 +19,19 @@ https://www.ennoid.me/battery/bms
 
 ## Features:
 
+- Modular with master/slave topology
+- 12S, 15S & 18S slaves board options
 - Up to 400V operation
 - Up to 500A continuous operation
-- Modular with master/slave topology
-- Isolation between battery pack & components
+- Bolt-on isolated bi-directional current sensor
+- Bolt-on heavy duty contactors & direct 12V outputs for charge, discharge & pre-charge circuits 
+- Isolation between high voltage &  control circuits
 - Communication between slaves & master through a two-wire daisy chained ISOSPI interface
 - Isolated CAN bus interface
-- Isolated charger detection circuit
-- Isolated voltage measurement for battery & load 
-- Isolated bi-directional current monitoring via external delta-sigma current sensor
-- 12V contactor coil outputs for charge, discharge & pre-charge circuits
+- Isolated voltage measurement for battery, load & charger
 - USB interface for programming and firmware upgrades through an easy to use graphical user interface
 - OLED Display & power button
-- 2.5V to 4.5V cell voltage operation
+- 0V to 5V cell voltage operation
 
 ## Documentation:
 
