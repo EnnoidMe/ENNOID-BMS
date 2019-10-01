@@ -54,7 +54,7 @@ ENNOID-BMS firmware .bin file:
 ![alt text](Master/PIC/MasterPCB.png)
 
 
-## Slave board LTC6811
+## Slave board
 
 ![alt text](Slaves/LTC6812/15W/PIC/LTC6812-15W.png)
 
