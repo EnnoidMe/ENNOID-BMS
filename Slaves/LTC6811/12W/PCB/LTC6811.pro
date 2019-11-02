@@ -1,4 +1,4 @@
-update=2019-09-17 12:07:45 PM
+update=2019-10-25 4:55:59 PM
 version=1
 last_client=kicad
 [general]
@@ -32,7 +32,7 @@ ERC_CheckBusToNetConflicts=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=LTC6811.net
-LastSTEPExportPath=../../../../../ENNOID-PACK/CAD/Module/LTC6811/LTC6811/LTC6811.step
+LastSTEPExportPath=../../../../../ENNOID-PACK/CAD/Slave Casing/LTC6811/LTC6811.step
 LastIDFExportPath=
 LastVRMLExportPath=
 LastSpecctraDSNExportPath=

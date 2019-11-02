@@ -59,8 +59,6 @@ Wire Wire Line
 	1400 1300 1400 1100
 Connection ~ 1950 1100
 Wire Wire Line
-	1950 1700 1400 1700
-Wire Wire Line
 	1400 1400 1200 1400
 Connection ~ 1950 1700
 $Comp
@@ -338,4 +336,6 @@ Wire Wire Line
 	6100 2900 6100 3450
 Connection ~ 5850 2900
 Connection ~ 6100 3450
+Wire Wire Line
+	1950 1700 1400 1700
 $EndSCHEMATC

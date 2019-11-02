@@ -1,4 +1,4 @@
-update=Mon 02 Sep 2019 03:32:09 PM EDT
+update=2019-10-28 12:10:12 PM
 version=1
 last_client=kicad
 [general]
@@ -32,7 +32,7 @@ ERC_CheckBusToNetConflicts=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=BMS-Slave.net
-LastSTEPExportPath=
+LastSTEPExportPath=../../../../../../../Desktop/LTC6812-15W.step
 LastIDFExportPath=
 LastVRMLExportPath=
 LastSpecctraDSNExportPath=

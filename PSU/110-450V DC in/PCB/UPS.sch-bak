@@ -20,7 +20,7 @@ U 1 1 5C5079FF
 P 1000 1400
 F 0 "J1" H 918 1075 50  0000 C CNN
 F 1 "110-450V DC" H 918 1166 50  0000 C CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_2-G_1x02_P5.00mm_Vertical" H 1000 1400 50  0001 C CNN
+F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBVA_2,5_2-G_1x02_P7.50mm_Vertical" H 1000 1400 50  0001 C CNN
 F 3 "~" H 1000 1400 50  0001 C CNN
 	1    1000 1400
 	-1   0    0    1   

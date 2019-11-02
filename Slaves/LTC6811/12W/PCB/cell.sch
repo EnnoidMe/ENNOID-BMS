@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 13
+Sheet 12 13
 Title ""
 Date ""
 Rev ""
@@ -13,11 +13,6 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
-Comment5 ""
-Comment6 ""
-Comment7 ""
-Comment8 ""
-Comment9 ""
 $EndDescr
 $Comp
 L Device:R R13
@@ -41,6 +36,7 @@ F 0 "R46" V 4443 2700 50  0000 C CNN
 F 1 "100" V 4534 2700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4580 2700 50  0001 C CNN
 F 3 "~" H 4650 2700 50  0001 C CNN
+F 4 "RC0603FR-07100RL" H 4650 2700 50  0001 C CNN "MPN"
 	1    4650 2700
 	0    1    1    0   
 $EndComp
@@ -160,8 +156,9 @@ AR Path="/5C4FFA3D/5D2EBE9F" Ref="C?"  Part="1"
 AR Path="/5C4FFA43/5D2EBE9F" Ref="C?"  Part="1" 
 F 0 "C24" H 5515 3996 50  0000 L CNN
 F 1 "100n" H 5515 3905 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5438 3800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad0.99x1.00mm_HandSolder" H 5438 3800 50  0001 C CNN
 F 3 "~" H 5400 3950 50  0001 C CNN
+F 4 "CC0603KRX7R0BB104" H 5400 3950 50  0001 C CNN "MPN"
 	1    5400 3950
 	1    0    0    -1  
 $EndComp
@@ -223,6 +220,7 @@ F 0 "D12" V 5954 3379 50  0000 L CNN
 F 1 "PDZ7.5B" V 6045 3379 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6000 3300 50  0001 C CNN
 F 3 "~" H 6000 3300 50  0001 C CNN
+F 4 "PDZ7.5BZ" H 6000 3300 50  0001 C CNN "MPN"
 	1    6000 3300
 	0    1    1    0   
 $EndComp

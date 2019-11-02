@@ -784,7 +784,7 @@ L Device:R R4
 U 1 1 5C652329
 P 8600 4450
 F 0 "R4" V 8650 4600 50  0000 L CNN
-F 1 "1.2k" V 8650 4200 50  0000 L CNN
+F 1 "1.2k" V 8650 4150 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 8530 4450 50  0001 C CNN
 F 3 "~" H 8600 4450 50  0001 C CNN
 	1    8600 4450
@@ -1347,8 +1347,6 @@ Wire Wire Line
 	14850 6650 14850 6750
 Wire Wire Line
 	14750 6650 14850 6650
-Text Label 14750 6650 2    50   ~ 0
-Vref2
 Wire Wire Line
 	14850 7650 14850 7700
 $Comp
@@ -1564,8 +1562,6 @@ Text Label 13350 7100 2    50   ~ 0
 T5
 Wire Wire Line
 	13350 7000 13550 7000
-Text Label 13350 7000 2    50   ~ 0
-Vreg
 $Comp
 L Connector_Generic:Conn_01x06 J4
 U 1 1 5D75B9B0
@@ -1657,10 +1653,10 @@ Connection ~ 11800 6450
 Wire Wire Line
 	11800 6450 12150 6450
 $Comp
-L Device:C C?
+L Device:C C8
 U 1 1 5D87F397
 P 11800 7950
-F 0 "C?" H 11915 7996 50  0000 L CNN
+F 0 "C8" H 11915 7996 50  0000 L CNN
 F 1 "100n" H 11915 7905 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 11838 7800 50  0001 C CNN
 F 3 "~" H 11800 7950 50  0001 C CNN
@@ -1668,10 +1664,10 @@ F 3 "~" H 11800 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C9
 U 1 1 5D87FAE4
 P 12150 7950
-F 0 "C?" H 12265 7996 50  0000 L CNN
+F 0 "C9" H 12265 7996 50  0000 L CNN
 F 1 "100n" H 12265 7905 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 12188 7800 50  0001 C CNN
 F 3 "~" H 12150 7950 50  0001 C CNN
@@ -1679,10 +1675,10 @@ F 3 "~" H 12150 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C10
 U 1 1 5D87FE65
 P 12500 7950
-F 0 "C?" H 12615 7996 50  0000 L CNN
+F 0 "C10" H 12615 7996 50  0000 L CNN
 F 1 "100n" H 12615 7905 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 12538 7800 50  0001 C CNN
 F 3 "~" H 12500 7950 50  0001 C CNN
@@ -1690,10 +1686,10 @@ F 3 "~" H 12500 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C11
 U 1 1 5D88010E
 P 12850 7950
-F 0 "C?" H 12965 7996 50  0000 L CNN
+F 0 "C11" H 12965 7996 50  0000 L CNN
 F 1 "100n" H 12965 7905 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 12888 7800 50  0001 C CNN
 F 3 "~" H 12850 7950 50  0001 C CNN
@@ -1736,4 +1732,20 @@ Wire Wire Line
 Connection ~ 12850 8350
 Wire Wire Line
 	12850 8350 12500 8350
+Text Label 14750 6650 2    50   ~ 0
+Vref2
+Text Label 13350 7000 2    50   ~ 0
+Vref2
+$Comp
+L Connector_Generic:Conn_01x01 J7
+U 1 1 5DA7880A
+P 900 850
+F 0 "J7" H 818 717 50  0000 C CNN
+F 1 "Conn_01x01" H 818 716 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO7380_Pad" H 900 850 50  0001 C CNN
+F 3 "~" H 900 850 50  0001 C CNN
+	1    900  850 
+	-1   0    0    1   
+$EndComp
+NoConn ~ 1100 850 
 $EndSCHEMATC
