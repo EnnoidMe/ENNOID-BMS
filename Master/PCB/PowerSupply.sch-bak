@@ -478,8 +478,6 @@ F 3 "" H 18000 6400 50  0001 C CNN
 	1    18000 6400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	17450 6400 17800 6400
 Connection ~ 17450 6400
 $Comp
 L power:+3V3 #PWR0263
@@ -773,8 +771,6 @@ Wire Wire Line
 Wire Wire Line
 	10250 7550 10250 6400
 Connection ~ 10250 6400
-Wire Wire Line
-	10250 6400 11400 6400
 $Comp
 L BMS-Master-rescue:R-Device-BMS-Master-rescue R178
 U 1 1 5C6F3B76
@@ -868,65 +864,8 @@ Wire Wire Line
 	9700 8000 10050 8000
 Wire Wire Line
 	17450 6400 17450 7200
-$Comp
-L BMS-Master-rescue:C-Device-BMS-Master-rescue C?
-U 1 1 5DBDAA88
-P 11400 6850
-F 0 "C?" H 11200 6800 50  0000 L CNN
-F 1 "22u" H 11200 6900 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 11438 6700 50  0001 C CNN
-F 3 "~" H 11400 6850 50  0001 C CNN
-F 4 "CL21A226MOQNNNE" H 11400 6850 50  0001 C CNN "MPN"
-	1    11400 6850
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
-	11400 6700 11400 6400
-$Comp
-L BMS-Master-rescue:GND-power-BMS-Master-rescue #PWR?
-U 1 1 5DBDAEEB
-P 11400 7350
-F 0 "#PWR?" H 11400 7100 50  0001 C CNN
-F 1 "GND" H 11405 7177 50  0000 C CNN
-F 2 "" H 11400 7350 50  0001 C CNN
-F 3 "" H 11400 7350 50  0001 C CNN
-	1    11400 7350
-	1    0    0    -1  
-$EndComp
+	10250 6400 11900 6400
 Wire Wire Line
-	11400 7000 11400 7350
-Connection ~ 11400 6400
-Wire Wire Line
-	11400 6400 11900 6400
-$Comp
-L BMS-Master-rescue:C-Device-BMS-Master-rescue C?
-U 1 1 5DBDB905
-P 17800 7350
-F 0 "C?" H 17600 7300 50  0000 L CNN
-F 1 "10u" H 17600 7400 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 17838 7200 50  0001 C CNN
-F 3 "~" H 17800 7350 50  0001 C CNN
-F 4 "" H 17800 7350 50  0001 C CNN "Volatge"
-F 5 "CL10A106MQ8NNNC" H 17800 7350 50  0001 C CNN "MPN"
-	1    17800 7350
-	-1   0    0    1   
-$EndComp
-$Comp
-L BMS-Master-rescue:GND-power-BMS-Master-rescue #PWR?
-U 1 1 5DBDB912
-P 17800 7700
-F 0 "#PWR?" H 17800 7450 50  0001 C CNN
-F 1 "GND" H 17805 7527 50  0000 C CNN
-F 2 "" H 17800 7700 50  0001 C CNN
-F 3 "" H 17800 7700 50  0001 C CNN
-	1    17800 7700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	17800 7500 17800 7700
-Wire Wire Line
-	17800 6400 17800 7200
-Connection ~ 17800 6400
-Wire Wire Line
-	17800 6400 18000 6400
+	17450 6400 18000 6400
 $EndSCHEMATC
