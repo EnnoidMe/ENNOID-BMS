@@ -1,0 +1,442 @@
+EESchema Schematic File Version 5
+LIBS:BMS-Master-LV-cache
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 6 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 3450 4250 0    50   Input ~ 0
+ChargeEnable
+Text HLabel 14550 7150 2    50   Input ~ 0
+Discharge
+Text HLabel 14550 3550 2    50   Input ~ 0
+Precharge
+Text HLabel 14650 4950 2    50   Input ~ 0
+Charge
+$Comp
+L Transistor_FET:BSS138 Q3
+U 1 1 5C8FBD98
+P 5700 6700
+F 0 "Q3" H 5906 6746 50  0000 L CNN
+F 1 "BSS138" H 5906 6655 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5900 6625 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 5700 6700 50  0001 L CNN
+	1    5700 6700
+	1    0    0    -1  
+$EndComp
+Text HLabel 3450 7450 0    50   Input ~ 0
+Safety
+Wire Wire Line
+	5250 7450 5250 7100
+Wire Wire Line
+	5250 7100 5500 7100
+Wire Wire Line
+	5500 6700 5500 7100
+Wire Wire Line
+	5800 6900 5800 7050
+Wire Wire Line
+	3450 5050 5800 5050
+Wire Wire Line
+	5800 6500 5800 5050
+Connection ~ 5800 5050
+$Comp
+L Device:Thermistor_NTC TH1
+U 1 1 5C84F4B0
+P 3300 9350
+F 0 "TH1" H 3147 9304 50  0000 R CNN
+F 1 "Thermistor_NTC 100k" H 3147 9395 50  0000 R CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3300 9400 50  0001 C CNN
+F 3 "~" H 3300 9400 50  0001 C CNN
+	1    3300 9350
+	-1   0    0    1   
+$EndComp
+Text HLabel 3300 8850 1    50   Input ~ 0
+NTC_Switch
+Wire Wire Line
+	3300 8850 3300 9200
+Wire Wire Line
+	3300 9500 3300 9700
+Wire Notes Line
+	12700 10450 12650 10450
+Wire Wire Line
+	12950 6000 13200 6000
+Wire Wire Line
+	13500 6000 13500 5750
+Wire Wire Line
+	12950 5950 12950 6000
+Wire Wire Line
+	12950 5650 12950 5550
+Connection ~ 12950 5550
+Wire Wire Line
+	12950 5550 13200 5550
+Wire Wire Line
+	12850 3850 12850 3750
+Connection ~ 12850 3750
+Wire Wire Line
+	12850 3750 13200 3750
+Wire Wire Line
+	12850 4150 12850 4250
+Wire Wire Line
+	12850 4250 13150 4250
+Wire Wire Line
+	13500 3950 13500 4250
+Wire Wire Line
+	12950 7950 13250 7950
+Wire Wire Line
+	13500 7950 13500 7700
+Wire Wire Line
+	12950 7900 12950 7950
+Wire Wire Line
+	12950 7600 12950 7500
+Connection ~ 12950 7500
+Wire Wire Line
+	12950 7500 13200 7500
+Wire Wire Line
+	13500 7300 13500 7150
+Wire Wire Line
+	13500 7150 14550 7150
+Wire Wire Line
+	13500 5350 13500 4950
+Wire Wire Line
+	8900 5550 11900 5550
+Wire Wire Line
+	8900 4250 8900 5550
+Wire Wire Line
+	8600 5050 8600 7500
+Wire Wire Line
+	8600 7500 11900 7500
+Text HLabel 3450 5050 0    50   Input ~ 0
+DischargeEnable
+Text HLabel 3450 3750 0    50   Input ~ 0
+PrechargeEnable
+$Comp
+L Device:Q_NMOS_GDSD Q4
+U 1 1 5CE173EF
+P 13400 3750
+F 0 "Q4" H 13688 3796 50  0000 L CNN
+F 1 "BUK98150-55A" H 13688 3705 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 13600 3850 50  0001 C CNN
+F 3 "~" H 13400 3750 50  0001 C CNN
+	1    13400 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13600 3550 14550 3550
+Wire Wire Line
+	13500 3550 13600 3550
+Connection ~ 13600 3550
+$Comp
+L Device:Q_NMOS_GDSD Q5
+U 1 1 5CE1A7AE
+P 13400 5550
+F 0 "Q5" H 13688 5596 50  0000 L CNN
+F 1 "BUK98150-55A" H 13688 5505 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 13600 5650 50  0001 C CNN
+F 3 "~" H 13400 5550 50  0001 C CNN
+	1    13400 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13500 5350 13600 5350
+Connection ~ 13500 5350
+$Comp
+L Device:Q_NMOS_GDSD Q6
+U 1 1 5CE1C95F
+P 13400 7500
+F 0 "Q6" H 13688 7546 50  0000 L CNN
+F 1 "BUK98150-55A" H 13688 7455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 13600 7600 50  0001 C CNN
+F 3 "~" H 13400 7500 50  0001 C CNN
+	1    13400 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13600 7300 13500 7300
+Connection ~ 13500 7300
+Wire Wire Line
+	3450 3750 11900 3750
+Wire Wire Line
+	5800 5050 8600 5050
+Wire Wire Line
+	13500 4950 14650 4950
+Wire Wire Line
+	13250 8100 13250 7950
+Connection ~ 13250 7950
+Wire Wire Line
+	13250 7950 13500 7950
+Wire Wire Line
+	13200 6100 13200 6000
+Connection ~ 13200 6000
+Wire Wire Line
+	13200 6000 13500 6000
+Wire Wire Line
+	13150 4350 13150 4250
+Connection ~ 13150 4250
+Wire Wire Line
+	13150 4250 13500 4250
+$Comp
+L power:+3.3V #PWR0138
+U 1 1 5D4B45BC
+P 3800 7150
+F 0 "#PWR0138" H 3800 7000 50  0001 C CNN
+F 1 "+3.3V" H 3815 7323 50  0000 C CNN
+F 2 "" H 3800 7150 50  0001 C CNN
+F 3 "" H 3800 7150 50  0001 C CNN
+	1    3800 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12200 3750 12850 3750
+Wire Wire Line
+	12200 5550 12950 5550
+Wire Wire Line
+	12200 7500 12950 7500
+$Comp
+L Device:Q_NMOS_GDSD Q7
+U 1 1 5D758D86
+P 13400 1850
+F 0 "Q7" H 13688 1896 50  0000 L CNN
+F 1 "BUK98150-55A" H 13688 1805 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 13600 1950 50  0001 C CNN
+F 3 "~" H 13400 1850 50  0001 C CNN
+	1    13400 1850
+	1    0    0    -1  
+$EndComp
+Connection ~ 13150 2350
+Connection ~ 12850 1850
+Connection ~ 13600 1650
+Wire Wire Line
+	13150 2450 13150 2350
+Wire Wire Line
+	3450 1850 11900 1850
+Wire Wire Line
+	13500 2050 13500 2350
+Wire Wire Line
+	12200 1850 12850 1850
+Wire Wire Line
+	13600 1650 14550 1650
+Wire Wire Line
+	13150 2350 13500 2350
+Wire Wire Line
+	12850 1950 12850 1850
+Wire Wire Line
+	12850 1850 13200 1850
+Wire Wire Line
+	12850 2250 12850 2350
+Wire Wire Line
+	12850 2350 13150 2350
+Wire Wire Line
+	13500 1650 13600 1650
+Text HLabel 14550 1650 2    50   Input ~ 0
+Cooling
+Text HLabel 3450 1850 0    50   Input ~ 0
+CoolingEnable
+Wire Wire Line
+	3450 4250 8900 4250
+Wire Wire Line
+	3450 7450 3800 7450
+$Comp
+L power:GND #PWR0116
+U 1 1 5DC38AB9
+P 3300 9700
+F 0 "#PWR0116" H 3300 9450 50  0001 C CNN
+F 1 "GND" H 3305 9527 50  0000 C CNN
+F 2 "" H 3300 9700 50  0001 C CNN
+F 3 "" H 3300 9700 50  0001 C CNN
+	1    3300 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 5DC39276
+P 13250 8100
+F 0 "#PWR0117" H 13250 7850 50  0001 C CNN
+F 1 "GND" H 13255 7927 50  0000 C CNN
+F 2 "" H 13250 8100 50  0001 C CNN
+F 3 "" H 13250 8100 50  0001 C CNN
+	1    13250 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 5DC3A463
+P 13200 6100
+F 0 "#PWR0118" H 13200 5850 50  0001 C CNN
+F 1 "GND" H 13205 5927 50  0000 C CNN
+F 2 "" H 13200 6100 50  0001 C CNN
+F 3 "" H 13200 6100 50  0001 C CNN
+	1    13200 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 5DC3ACD0
+P 13150 4350
+F 0 "#PWR0119" H 13150 4100 50  0001 C CNN
+F 1 "GND" H 13155 4177 50  0000 C CNN
+F 2 "" H 13150 4350 50  0001 C CNN
+F 3 "" H 13150 4350 50  0001 C CNN
+	1    13150 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 5DC6A302
+P 5800 7050
+F 0 "#PWR0120" H 5800 6800 50  0001 C CNN
+F 1 "GND" H 5805 6877 50  0000 C CNN
+F 2 "" H 5800 7050 50  0001 C CNN
+F 3 "" H 5800 7050 50  0001 C CNN
+	1    5800 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DC6C211
+P 3800 7300
+AR Path="/5C519BA0/5DC6C211" Ref="R?"  Part="1" 
+AR Path="/5D7DC460/5DC6C211" Ref="R?"  Part="1" 
+AR Path="/5AC7323C/5DC6C211" Ref="R19"  Part="1" 
+F 0 "R19" V 4007 7300 50  0000 C CNN
+F 1 "10k" V 3916 7300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3730 7300 50  0001 C CNN
+F 3 "~" H 3800 7300 50  0001 C CNN
+	1    3800 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DC6CA0C
+P 12050 7500
+AR Path="/5C519BA0/5DC6CA0C" Ref="R?"  Part="1" 
+AR Path="/5D7DC460/5DC6CA0C" Ref="R?"  Part="1" 
+AR Path="/5AC7323C/5DC6CA0C" Ref="R23"  Part="1" 
+F 0 "R23" V 12257 7500 50  0000 C CNN
+F 1 "10" V 12166 7500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 11980 7500 50  0001 C CNN
+F 3 "~" H 12050 7500 50  0001 C CNN
+	1    12050 7500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DC6E7DB
+P 12050 5550
+AR Path="/5C519BA0/5DC6E7DB" Ref="R?"  Part="1" 
+AR Path="/5D7DC460/5DC6E7DB" Ref="R?"  Part="1" 
+AR Path="/5AC7323C/5DC6E7DB" Ref="R25"  Part="1" 
+F 0 "R25" V 12257 5550 50  0000 C CNN
+F 1 "10" V 12166 5550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 11980 5550 50  0001 C CNN
+F 3 "~" H 12050 5550 50  0001 C CNN
+	1    12050 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DC6ECA1
+P 12050 3750
+AR Path="/5C519BA0/5DC6ECA1" Ref="R?"  Part="1" 
+AR Path="/5D7DC460/5DC6ECA1" Ref="R?"  Part="1" 
+AR Path="/5AC7323C/5DC6ECA1" Ref="R24"  Part="1" 
+F 0 "R24" V 12257 3750 50  0000 C CNN
+F 1 "10" V 12166 3750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 11980 3750 50  0001 C CNN
+F 3 "~" H 12050 3750 50  0001 C CNN
+	1    12050 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DC6F8A5
+P 12050 1850
+AR Path="/5C519BA0/5DC6F8A5" Ref="R?"  Part="1" 
+AR Path="/5D7DC460/5DC6F8A5" Ref="R?"  Part="1" 
+AR Path="/5AC7323C/5DC6F8A5" Ref="R32"  Part="1" 
+F 0 "R32" V 12257 1850 50  0000 C CNN
+F 1 "10" V 12166 1850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 11980 1850 50  0001 C CNN
+F 3 "~" H 12050 1850 50  0001 C CNN
+	1    12050 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 5DC6FE37
+P 13150 2450
+F 0 "#PWR0121" H 13150 2200 50  0001 C CNN
+F 1 "GND" H 13155 2277 50  0000 C CNN
+F 2 "" H 13150 2450 50  0001 C CNN
+F 3 "" H 13150 2450 50  0001 C CNN
+	1    13150 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DC704FE
+P 12850 2100
+AR Path="/5C519BA0/5DC704FE" Ref="R?"  Part="1" 
+AR Path="/5D7DC460/5DC704FE" Ref="R?"  Part="1" 
+AR Path="/5AC7323C/5DC704FE" Ref="R33"  Part="1" 
+F 0 "R33" V 13057 2100 50  0000 C CNN
+F 1 "4.7M" V 12966 2100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 12780 2100 50  0001 C CNN
+F 3 "~" H 12850 2100 50  0001 C CNN
+	1    12850 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DC70E40
+P 12850 4000
+AR Path="/5C519BA0/5DC70E40" Ref="R?"  Part="1" 
+AR Path="/5D7DC460/5DC70E40" Ref="R?"  Part="1" 
+AR Path="/5AC7323C/5DC70E40" Ref="R27"  Part="1" 
+F 0 "R27" V 13057 4000 50  0000 C CNN
+F 1 "4.7M" V 12966 4000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 12780 4000 50  0001 C CNN
+F 3 "~" H 12850 4000 50  0001 C CNN
+	1    12850 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DC71516
+P 12950 5800
+AR Path="/5C519BA0/5DC71516" Ref="R?"  Part="1" 
+AR Path="/5D7DC460/5DC71516" Ref="R?"  Part="1" 
+AR Path="/5AC7323C/5DC71516" Ref="R28"  Part="1" 
+F 0 "R28" V 13157 5800 50  0000 C CNN
+F 1 "4.7M" V 13066 5800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 12880 5800 50  0001 C CNN
+F 3 "~" H 12950 5800 50  0001 C CNN
+	1    12950 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DC71D6A
+P 12950 7750
+AR Path="/5C519BA0/5DC71D6A" Ref="R?"  Part="1" 
+AR Path="/5D7DC460/5DC71D6A" Ref="R?"  Part="1" 
+AR Path="/5AC7323C/5DC71D6A" Ref="R8"  Part="1" 
+F 0 "R8" V 13157 7750 50  0000 C CNN
+F 1 "4.7M" V 13066 7750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 12880 7750 50  0001 C CNN
+F 3 "~" H 12950 7750 50  0001 C CNN
+	1    12950 7750
+	-1   0    0    1   
+$EndComp
+Connection ~ 3800 7450
+Wire Wire Line
+	3800 7450 5250 7450
+$EndSCHEMATC

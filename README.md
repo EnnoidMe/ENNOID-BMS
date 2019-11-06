@@ -49,15 +49,6 @@ ENNOID-BMS GUI configuration tool:
 ENNOID-BMS firmware .bin file:
 [ENNOID-BMS.bin](https://github.com/EnnoidMe/ENNOID-BMS-Firmware)
 
-## Master board
-
-![alt text](Master/PIC/MasterPCB.png)
-
-
-## Slave board
-
-![alt text](Slaves/LTC6812/15W/PIC/LTC6812-15W.png)
-
 
 View this project on [CADLAB.io](https://cadlab.io/project/1987). 
 

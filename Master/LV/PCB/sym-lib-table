@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "BMS-Master-rescue")(type "Legacy")(uri "${KIPRJMOD}/BMS-Master-rescue.lib")(options "")(descr ""))
+  (lib (name "ENNOID")(type "Legacy")(uri "${KIPRJMOD}/ENNOID.lib")(options "")(descr ""))
+  (lib (name "BMS-Master-LV-rescue")(type "Legacy")(uri "${KIPRJMOD}/BMS-Master-LV-rescue.lib")(options "")(descr ""))
+)

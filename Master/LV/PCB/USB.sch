@@ -1,5 +1,5 @@
 EESchema Schematic File Version 5
-LIBS:BMS-Master-cache
+LIBS:BMS-Master-LV-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -22,7 +22,6 @@ F 0 "U7" H 5900 4700 50  0000 C CNN
 F 1 "CP2104" H 5800 4600 50  0000 C CNN
 F 2 "Housings_DFN_QFN:QFN-24-1EP_4x4mm_Pitch0.5mm" H 5500 2650 50  0001 L CNN
 F 3 "https://www.silabs.com/Support%20Documents/TechnicalDocs/cp2104.pdf" H 4800 4850 50  0001 C CNN
-F 4 "CP2104-F03-GM" H 5350 3600 50  0001 C CNN "MPN"
 	1    5350 3600
 	-1   0    0    -1  
 $EndComp
@@ -54,7 +53,6 @@ F 0 "R111" V 3850 3700 50  0000 C CNN
 F 1 "240" V 3850 3300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3830 3500 50  0001 C CNN
 F 3 "~" H 3900 3500 50  0001 C CNN
-F 4 "RC0603FR-07240RL" H 3900 3500 50  0001 C CNN "MPN"
 	1    3900 3500
 	0    1    1    0   
 $EndComp
@@ -66,7 +64,6 @@ F 0 "R112" V 3850 3800 50  0000 C CNN
 F 1 "240" V 3850 3400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3830 3600 50  0001 C CNN
 F 3 "~" H 3900 3600 50  0001 C CNN
-F 4 "RC0603FR-07240RL" H 3900 3600 50  0001 C CNN "MPN"
 	1    3900 3600
 	0    1    1    0   
 $EndComp
@@ -79,9 +76,9 @@ RXD
 Text HLabel 2650 3600 0    50   Input ~ 0
 TXD
 Wire Wire Line
-	3750 3600 2650 3600
+	3750 3600 2950 3600
 Wire Wire Line
-	2650 3500 3750 3500
+	2650 3500 2850 3500
 Text HLabel 7850 3500 2    50   Input ~ 0
 D-
 Wire Wire Line
@@ -100,7 +97,6 @@ F 0 "D3" H 7005 4196 50  0000 L CNN
 F 1 "SP0502BAHT" H 7005 4105 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 7025 4100 50  0001 L CNN
 F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 6925 4275 50  0001 C CNN
-F 4 "SP0502BAHTG" H 6800 4150 50  0001 C CNN "MPN"
 	1    6800 4150
 	1    0    0    -1  
 $EndComp
@@ -135,7 +131,6 @@ F 0 "R113" V 4000 4300 50  0000 C CNN
 F 1 "10k" V 4000 3900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3980 4100 50  0001 C CNN
 F 3 "~" H 4050 4100 50  0001 C CNN
-F 4 "RC0603FR-0710KL" H 4050 4100 50  0001 C CNN "MPN"
 	1    4050 4100
 	0    -1   -1   0   
 $EndComp
@@ -149,7 +144,6 @@ F 0 "C40" H 6265 4646 50  0000 L CNN
 F 1 "2.2u" H 6265 4555 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6188 4450 50  0001 C CNN
 F 3 "~" H 6150 4600 50  0001 C CNN
-F 4 "GRM188R61A225KE34D" H 6150 4600 50  0001 C CNN "MPN"
 	1    6150 4600
 	1    0    0    -1  
 $EndComp
@@ -178,7 +172,6 @@ F 0 "C39" H 4415 2096 50  0000 L CNN
 F 1 "2.2u" H 4415 2005 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4338 1900 50  0001 C CNN
 F 3 "~" H 4300 2050 50  0001 C CNN
-F 4 "GRM188R61A225KE34D" H 4300 2050 50  0001 C CNN "MPN"
 	1    4300 2050
 	1    0    0    -1  
 $EndComp
@@ -239,7 +232,6 @@ F 0 "C42" H 6915 1946 50  0000 L CNN
 F 1 "2.2u" H 6915 1855 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6838 1750 50  0001 C CNN
 F 3 "~" H 6800 1900 50  0001 C CNN
-F 4 "GRM188R61A225KE34D" H 6800 1900 50  0001 C CNN "MPN"
 	1    6800 1900
 	1    0    0    -1  
 $EndComp
@@ -251,7 +243,6 @@ F 0 "C41" H 6515 1946 50  0000 L CNN
 F 1 "100n" H 6515 1855 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6438 1750 50  0001 C CNN
 F 3 "~" H 6400 1900 50  0001 C CNN
-F 4 "GRM188R71E104KA01D" H 6400 1900 50  0001 C CNN "MPN"
 	1    6400 1900
 	1    0    0    -1  
 $EndComp
@@ -281,7 +272,6 @@ F 0 "R114" H 7500 1950 50  0000 C CNN
 F 1 "10k" H 7500 1850 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 7280 1900 50  0001 C CNN
 F 3 "~" H 7350 1900 50  0001 C CNN
-F 4 "RC0603FR-0710KL" H 7350 1900 50  0001 C CNN "MPN"
 	1    7350 1900
 	1    0    0    -1  
 $EndComp
@@ -371,8 +361,58 @@ F 0 "Q26" H 8856 1796 50  0000 L CNN
 F 1 "BSS138" H 8856 1705 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 8850 1675 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 8650 1750 50  0001 L CNN
-F 4 "BSS138" H 8650 1750 50  0001 C CNN "MPN"
 	1    8650 1750
 	1    0    0    -1  
 $EndComp
+$Comp
+L BMS-Master-LV-rescue:Conn_01x05-Connector_Generic-BMS-Master-rescue-BMS-Master-rescue J3
+U 1 1 5DC6F7A5
+P 3500 5050
+F 0 "J3" H 3580 5092 50  0000 L CNN
+F 1 "SERIAL" H 3580 5001 50  0000 L CNN
+F 2 "Connectors_Molex:Molex_KK-6410-05_05x2.54mm_Straight" H 3500 5050 50  0001 C CNN
+F 3 "" H 3500 5050 50  0001 C CNN
+	1    3500 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 3600 2950 5050
+Wire Wire Line
+	2950 5050 3300 5050
+Connection ~ 2950 3600
+Wire Wire Line
+	2950 3600 2650 3600
+Wire Wire Line
+	3300 5150 2850 5150
+Wire Wire Line
+	2850 5150 2850 3500
+Connection ~ 2850 3500
+Wire Wire Line
+	2850 3500 3750 3500
+$Comp
+L BMS-Master-LV-rescue:+3.3V-power-BMS-Master-rescue-BMS-Master-rescue #PWR02
+U 1 1 5DC714EE
+P 3300 4850
+F 0 "#PWR02" H 3300 4700 50  0001 C CNN
+F 1 "+3.3V" H 3315 5023 50  0000 C CNN
+F 2 "" H 3300 4850 50  0001 C CNN
+F 3 "" H 3300 4850 50  0001 C CNN
+	1    3300 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5DC71CC2
+P 3250 5350
+F 0 "#PWR01" H 3250 5100 50  0001 C CNN
+F 1 "GND" H 3255 5177 50  0000 C CNN
+F 2 "" H 3250 5350 50  0001 C CNN
+F 3 "" H 3250 5350 50  0001 C CNN
+	1    3250 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 5350 3250 5250
+Wire Wire Line
+	3250 5250 3300 5250
 $EndSCHEMATC
