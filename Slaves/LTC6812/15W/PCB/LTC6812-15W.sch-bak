@@ -402,7 +402,7 @@ L Device:R R5
 U 1 1 5BA809B4
 P 9300 3000
 F 0 "R5" V 9093 3000 50  0000 C CNN
-F 1 "2.2k" V 9184 3000 50  0000 C CNN
+F 1 "1.2" V 9184 3000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 9230 3000 50  0001 C CNN
 F 3 "~" H 9300 3000 50  0001 C CNN
 	1    9300 3000
@@ -597,8 +597,6 @@ Wire Wire Line
 Wire Wire Line
 	8150 3700 8150 4100
 Wire Wire Line
-	19150 3000 19500 3000
-Wire Wire Line
 	19150 3400 20350 3400
 Wire Wire Line
 	19150 3600 20350 3600
@@ -658,17 +656,6 @@ Wire Wire Line
 	1900 6350 2400 6350
 Wire Wire Line
 	1600 6600 2300 6600
-$Comp
-L Device:Jumper JP1
-U 1 1 5D6846A9
-P 19800 3000
-F 0 "JP1" H 20000 3150 50  0000 C CNN
-F 1 "~Last?" H 19800 3150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 19800 3000 50  0001 C CNN
-F 3 "~" H 19800 3000 50  0001 C CNN
-	1    19800 3000
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR020
 U 1 1 5D685939
@@ -1145,8 +1132,6 @@ F 3 "~" H 16450 12650 50  0001 C CNN
 $EndComp
 Text Label 11100 5450 0    50   ~ 0
 T1
-Wire Wire Line
-	20100 3000 20350 3000
 Connection ~ 16000 12850
 $Comp
 L Connector_Generic:Conn_01x01 J1
@@ -1478,10 +1463,10 @@ L Diode:BZT52Bxx D3
 U 1 1 5D68F435
 P 4200 2850
 F 0 "D3" V 4154 2929 50  0000 L CNN
-F 1 "BZT52H-C62" V 4245 2929 50  0000 L CNN
+F 1 "MMSZ5268BT1G " V 4245 2929 50  0000 L CNN
 F 2 "Diodes_SMD:D_SOD-123" H 4200 2675 50  0001 C CNN
 F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf" H 4200 2850 50  0001 C CNN
-F 4 "BZT52H-C62" H 4200 2850 50  0001 C CNN "MPN"
+F 4 "MMSZ5268BT1G" H 4200 2850 50  0001 C CNN "MPN"
 	1    4200 2850
 	0    1    1    0   
 $EndComp
@@ -1641,24 +1626,24 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x02 J11
 U 1 1 5D68828C
-P 21600 3750
-F 0 "J11" H 21680 3742 50  0000 L CNN
-F 1 "Master" H 21680 3651 50  0000 L CNN
-F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 21600 3750 50  0001 C CNN
-F 3 "~" H 21600 3750 50  0001 C CNN
-	1    21600 3750
-	1    0    0    -1  
+P 21600 3850
+F 0 "J11" H 21680 3842 50  0000 L CNN
+F 1 "Master" H 21680 3751 50  0000 L CNN
+F 2 "ENNOID:Pin_1x02-XL" H 21600 3850 50  0001 C CNN
+F 3 "~" H 21600 3850 50  0001 C CNN
+	1    21600 3850
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J10
 U 1 1 5D68871A
-P 21600 3150
-F 0 "J10" H 21680 3142 50  0000 L CNN
-F 1 "Slave" H 21680 3051 50  0000 L CNN
-F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 21600 3150 50  0001 C CNN
-F 3 "~" H 21600 3150 50  0001 C CNN
-	1    21600 3150
-	1    0    0    -1  
+P 21600 3250
+F 0 "J10" H 21680 3242 50  0000 L CNN
+F 1 "Slave" H 21680 3151 50  0000 L CNN
+F 2 "ENNOID:Pin_1x02-XL" H 21600 3250 50  0001 C CNN
+F 3 "~" H 21600 3250 50  0001 C CNN
+	1    21600 3250
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:C C8
@@ -1834,17 +1819,6 @@ Vref2
 Wire Wire Line
 	15500 5450 15950 5450
 $Comp
-L Connector_Generic:Conn_01x10 J6
-U 1 1 5D6ECCD4
-P 16150 5050
-F 0 "J6" H 16068 4325 50  0000 C CNN
-F 1 "Conn_01x10" H 16068 4416 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x10_Pitch2.54mm" H 16150 5050 50  0001 C CNN
-F 3 "~" H 16150 5050 50  0001 C CNN
-	1    16150 5050
-	1    0    0    1   
-$EndComp
-$Comp
 L Device:R R36
 U 1 1 5D9D7A39
 P 14650 4100
@@ -1861,10 +1835,6 @@ Wire Wire Line
 	14650 3550 14650 3950
 Wire Wire Line
 	14650 3550 15000 3550
-Wire Wire Line
-	15700 3550 15700 4550
-Wire Wire Line
-	15700 4550 15950 4550
 Connection ~ 14650 3550
 $Comp
 L Device:R R32
@@ -1952,9 +1922,6 @@ Wire Wire Line
 	14300 3550 14650 3550
 Wire Wire Line
 	15000 3950 15000 3550
-Connection ~ 15000 3550
-Wire Wire Line
-	15000 3550 15700 3550
 Wire Wire Line
 	13950 3950 13950 3550
 Connection ~ 13950 3550
@@ -2176,4 +2143,17 @@ Wire Wire Line
 Connection ~ 15000 6150
 Wire Wire Line
 	15000 6150 14650 6150
+Wire Wire Line
+	19150 3000 20350 3000
+$Comp
+L Connector:Conn_01x09_Male J6
+U 1 1 5DE3DD60
+P 16150 5050
+F 0 "J6" H 16122 4982 50  0000 R CNN
+F 1 "Temp" H 16122 5073 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Horizontal" H 16150 5050 50  0001 C CNN
+F 3 "~" H 16150 5050 50  0001 C CNN
+	1    16150 5050
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

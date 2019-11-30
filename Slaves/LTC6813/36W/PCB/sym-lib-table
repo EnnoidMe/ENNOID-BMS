@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "BMS-Master-rescue")(type "Legacy")(uri "${KIPRJMOD}/BMS-Master-rescue.lib")(options "")(descr ""))
+  (lib (name "ENNOID")(type "Legacy")(uri "${KIPRJMOD}/ENNOID.lib")(options "")(descr ""))
+  (lib (name "BMS-Slave-rescue")(type "Legacy")(uri "${KIPRJMOD}/BMS-Slave-rescue.lib")(options "")(descr ""))
+  (lib (name "LTC6813-rescue")(type "Legacy")(uri "${KIPRJMOD}/LTC6813-rescue.lib")(options "")(descr ""))
+)

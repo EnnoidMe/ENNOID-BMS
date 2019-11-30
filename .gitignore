@@ -29,7 +29,5 @@ _autosave-*
 #DOC files
 *.docx
 
-Slaves/LTC6813/
-
 Private/ENNOID/
 
