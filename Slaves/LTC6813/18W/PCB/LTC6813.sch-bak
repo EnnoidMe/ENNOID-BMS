@@ -1705,9 +1705,9 @@ L Diode:BZT52Bxx D3
 U 1 1 5D68F435
 P 4200 2850
 F 0 "D3" V 4154 2929 50  0000 L CNN
-F 1 "BZT52H-C62" V 4245 2929 50  0000 L CNN
+F 1 "MMSZ5268BT1G " V 4245 2929 50  0000 L CNN
 F 2 "Diodes_SMD:D_SOD-123" H 4200 2675 50  0001 C CNN
-F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf" H 4200 2850 50  0001 C CNN
+F 3 "" H 4200 2850 50  0001 C CNN
 	1    4200 2850
 	0    1    1    0   
 $EndComp
