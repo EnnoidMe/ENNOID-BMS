@@ -1,4 +1,4 @@
-update=2019-10-28 12:03:11 PM
+update=2020-02-23 8:32:20 PM
 version=1
 last_client=kicad
 [general]
@@ -32,7 +32,7 @@ ERC_CheckBusToNetConflicts=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=BMS-Master.net
-LastSTEPExportPath=../../../../../Desktop/BMS-Master.step
+LastSTEPExportPath=../../../../ENNOID-PACK/CAD/Penthouse/HV/Master/BMS-Master.step
 LastIDFExportPath=
 LastVRMLExportPath=
 LastSpecctraDSNExportPath=
@@ -61,9 +61,9 @@ dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
 SilkLineWidth=0.12
-SilkTextSizeV=1
-SilkTextSizeH=1
-SilkTextSizeThickness=0.15
+SilkTextSizeV=0.5
+SilkTextSizeH=0.5
+SilkTextSizeThickness=0.09999999999999999
 SilkTextItalic=0
 SilkTextUpright=1
 CopperLineWidth=0.2
@@ -83,7 +83,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0

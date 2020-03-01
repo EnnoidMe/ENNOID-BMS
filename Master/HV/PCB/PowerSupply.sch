@@ -741,15 +741,13 @@ F 4 "BSS138" H 13200 10700 50  0001 C CNN "MPN"
 $EndComp
 Wire Wire Line
 	8650 5800 8650 6400
-Wire Wire Line
-	8650 6400 10250 6400
 $Comp
 L BMS-Master-rescue:Conn_01x02-Connector_Generic-BMS-Master-rescue J13
 U 1 1 5D833BBD
 P 8650 7550
 F 0 "J13" H 8729 7542 50  0000 L CNN
-F 1 "Charger 12V" H 8729 7451 50  0000 L CNN
-F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 8650 7550 50  0001 C CNN
+F 1 "Charger" H 8729 7451 50  0000 L CNN
+F 2 "ENNOID:Pin_1x02-XL" H 8650 7550 50  0001 C CNN
 F 3 "~" H 8650 7550 50  0001 C CNN
 F 4 "282834-2 " H 8650 7550 50  0001 C CNN "MPN"
 	1    8650 7550
@@ -768,9 +766,6 @@ F 3 "" H 8950 7650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8850 7650 8950 7650
-Wire Wire Line
-	10250 7550 10250 6400
-Connection ~ 10250 6400
 $Comp
 L BMS-Master-rescue:R-Device-BMS-Master-rescue R178
 U 1 1 5C6F3B76
@@ -789,20 +784,6 @@ Wire Wire Line
 	14600 9800 14600 9100
 Wire Wire Line
 	13750 9800 14600 9800
-Wire Wire Line
-	9850 7550 10250 7550
-$Comp
-L Diode:B220 D6
-U 1 1 5D83524C
-P 9700 7550
-F 0 "D6" H 9700 7334 50  0000 C CNN
-F 1 "B220" H 9700 7425 50  0000 C CNN
-F 2 "Diode_SMD:D_SMB" H 9700 7375 50  0001 C CNN
-F 3 "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf" H 9700 7550 50  0001 C CNN
-F 4 "N/A" H 9700 7550 50  0001 C CNN "MPN"
-	1    9700 7550
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	8850 7550 9250 7550
 $Comp
@@ -834,9 +815,6 @@ Wire Wire Line
 	9250 7550 9250 8200
 Wire Wire Line
 	9250 8200 9400 8200
-Connection ~ 9250 7550
-Wire Wire Line
-	9250 7550 9550 7550
 $Comp
 L BMS-Master-rescue:R-Device-BMS-Master-rescue R41
 U 1 1 5D862412
@@ -865,7 +843,9 @@ Wire Wire Line
 Wire Wire Line
 	17450 6400 17450 7200
 Wire Wire Line
-	10250 6400 11900 6400
-Wire Wire Line
 	17450 6400 18000 6400
+Wire Wire Line
+	8650 6400 11900 6400
+Text Label 14600 9100 0    50   ~ 0
+ChargeDetect
 $EndSCHEMATC

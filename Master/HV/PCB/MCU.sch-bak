@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
-Sheet 6 7
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -154,13 +154,9 @@ $EndComp
 Wire Wire Line
 	8600 9200 8600 9400
 Text HLabel 8950 10800 0    50   Input ~ 0
-PreChargeEnable
-Wire Wire Line
-	9200 10800 8950 10800
+DischargeNegEnable
 Text HLabel 8950 10700 0    50   Input ~ 0
-DischargeEnable
-Wire Wire Line
-	8950 10700 9200 10700
+DischargePosEnable
 Text HLabel 8950 10200 0    50   Input ~ 0
 PowerEnable
 Wire Wire Line
@@ -1042,8 +1038,17 @@ Wire Wire Line
 	23800 10100 24450 10100
 Text Label 24450 10100 0    50   ~ 0
 SS
-Text HLabel 8950 9500 0    50   Input ~ 0
+Text HLabel 8950 9900 0    50   Input ~ 0
 CoolingEnable
 Wire Wire Line
+	8950 9900 9200 9900
+Text HLabel 8950 9500 0    50   Input ~ 0
+PreChargeEnable
+Wire Wire Line
 	8950 9500 9200 9500
+Wire Wire Line
+	8950 10700 9200 10700
+Wire Wire Line
+	8950 10800 9200 10800
+NoConn ~ 9200 10600
 $EndSCHEMATC

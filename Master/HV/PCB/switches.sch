@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 5 7
+Sheet 7 7
 Title ""
 Date ""
 Rev ""
@@ -17,9 +17,9 @@ $EndDescr
 Text HLabel 3450 4250 0    50   Input ~ 0
 ChargeEnable
 Text HLabel 14550 7150 2    50   Input ~ 0
-Discharge
+DischargePos
 Text HLabel 14550 3550 2    50   Input ~ 0
-Precharge
+DischargeNeg
 Text HLabel 14650 4950 2    50   Input ~ 0
 Charge
 $Comp
@@ -89,8 +89,6 @@ Wire Wire Line
 	5800 6900 5800 7050
 Wire Wire Line
 	3450 5050 5800 5050
-Wire Wire Line
-	5800 6500 5800 5050
 Connection ~ 5800 5050
 $Comp
 L Device:Thermistor_NTC TH1
@@ -207,9 +205,9 @@ Wire Wire Line
 Wire Wire Line
 	8600 7500 11900 7500
 Text HLabel 3450 5050 0    50   Input ~ 0
-DischargeEnable
+DischargePosEnable
 Text HLabel 3450 3750 0    50   Input ~ 0
-PrechargeEnable
+DischargeNegEnable
 $Comp
 L Device:Q_NMOS_GDSD Q4
 U 1 1 5CE173EF
@@ -257,8 +255,6 @@ $EndComp
 Wire Wire Line
 	13600 7300 13500 7300
 Connection ~ 13500 7300
-Wire Wire Line
-	3450 3750 11900 3750
 Wire Wire Line
 	5800 5050 8600 5050
 Wire Wire Line
@@ -396,8 +392,6 @@ Connection ~ 13600 1650
 Wire Wire Line
 	13150 2450 13150 2350
 Wire Wire Line
-	3450 1850 11900 1850
-Wire Wire Line
 	13500 2050 13500 2350
 Wire Wire Line
 	12200 1850 12850 1850
@@ -425,4 +419,123 @@ Wire Wire Line
 	5250 6700 5500 6700
 Wire Wire Line
 	5250 6700 5250 7450
+Connection ~ 13175 9300
+Connection ~ 13625 8600
+Connection ~ 12875 8800
+$Comp
+L Device:Q_NMOS_GDSD Q8
+U 1 1 5E5898FF
+P 13425 8800
+F 0 "Q8" H 13713 8846 50  0000 L CNN
+F 1 "BUK98150-55A" H 13713 8755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 13625 8900 50  0001 C CNN
+F 3 "~" H 13425 8800 50  0001 C CNN
+F 4 "BUK98150-55A/CUF" H 13425 8800 50  0001 C CNN "MPN"
+	1    13425 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L BMS-Master-rescue:GND-power-BMS-Master-rescue #PWR0158
+U 1 1 5E58990C
+P 13175 9400
+F 0 "#PWR0158" H 13175 9150 50  0001 C CNN
+F 1 "GND" H 13180 9227 50  0000 C CNN
+F 2 "" H 13175 9400 50  0001 C CNN
+F 3 "" H 13175 9400 50  0001 C CNN
+	1    13175 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L BMS-Master-rescue:R-Device-BMS-Master-rescue R45
+U 1 1 5E58991B
+P 12075 8800
+F 0 "R45" V 12282 8800 50  0000 C CNN
+F 1 "10" V 12191 8800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 12005 8800 50  0001 C CNN
+F 3 "~" H 12075 8800 50  0001 C CNN
+F 4 "RC0603JR-0710RL" H 12075 8800 50  0001 C CNN "MPN"
+	1    12075 8800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BMS-Master-rescue:R-Device-BMS-Master-rescue R47
+U 1 1 5E58992A
+P 12875 9050
+F 0 "R47" V 13082 9050 50  0000 C CNN
+F 1 "4.7M" V 12991 9050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 12805 9050 50  0001 C CNN
+F 3 "~" H 12875 9050 50  0001 C CNN
+F 4 "RC0603FR-074M7L" H 12875 9050 50  0001 C CNN "MPN"
+	1    12875 9050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13175 9300 13525 9300
+Wire Wire Line
+	12875 8900 12875 8800
+Wire Wire Line
+	13175 9400 13175 9300
+Wire Wire Line
+	12875 9200 12875 9300
+Wire Wire Line
+	13625 8600 14575 8600
+Wire Wire Line
+	13525 8600 13625 8600
+Wire Wire Line
+	12875 9300 13175 9300
+Wire Wire Line
+	12225 8800 12875 8800
+Wire Wire Line
+	13525 9000 13525 9300
+Wire Wire Line
+	12875 8800 13225 8800
+Text HLabel 11775 8800 0    50   Input ~ 0
+PrechargeEnable
+Wire Wire Line
+	11775 8800 11925 8800
+Text HLabel 14575 8600 2    50   Input ~ 0
+Precharge
+Wire Wire Line
+	5800 5050 5800 6500
+Wire Wire Line
+	6800 6900 6800 7050
+$Comp
+L BMS-Master-rescue:GND-power-BMS-Master-rescue #PWR0159
+U 1 1 5E6109CD
+P 6800 7050
+F 0 "#PWR0159" H 6800 6800 50  0001 C CNN
+F 1 "GND" H 6805 6877 50  0000 C CNN
+F 2 "" H 6800 7050 50  0001 C CNN
+F 3 "" H 6800 7050 50  0001 C CNN
+	1    6800 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q9
+U 1 1 5E6109DD
+P 6700 6700
+F 0 "Q9" H 6906 6746 50  0000 L CNN
+F 1 "BSS138" H 6906 6655 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6900 6625 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 6700 6700 50  0001 L CNN
+F 4 "BSS138" H 6700 6700 50  0001 C CNN "MPN"
+	1    6700 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 7450 6400 7450
+Wire Wire Line
+	6400 7450 6400 6700
+Wire Wire Line
+	6400 6700 6500 6700
+Connection ~ 5250 7450
+Wire Wire Line
+	3450 3750 6800 3750
+Wire Wire Line
+	3450 1850 11900 1850
+Wire Wire Line
+	6800 6500 6800 3750
+Connection ~ 6800 3750
+Wire Wire Line
+	6800 3750 11900 3750
 $EndSCHEMATC

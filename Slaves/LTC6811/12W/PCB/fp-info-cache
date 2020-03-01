@@ -1,4 +1,4 @@
-23248385731799
+35848446598059
 ENNOID
 A1101R09C
 
@@ -13,6 +13,20 @@ Common{space}Mode{space}Filters
 0
 4
 4
+ENNOID
+BUZZER
+
+
+0
+2
+2
+ENNOID
+CSM2F-8518-L100J01
+
+
+0
+4
+2
 ENNOID
 DCDC-Conv_muRata_MGJ2
 
@@ -35,12 +49,19 @@ EPM2405SJ
 10
 10
 ENNOID
-FUSE
+EVC500
 
 
 0
-3
 2
+2
+ENNOID
+HM2101NL
+
+
+0
+6
+6
 ENNOID
 HM2102NL
 
@@ -49,12 +70,26 @@ HM2102NL
 12
 12
 ENNOID
+HM2108NL
+
+
+0
+6
+6
+ENNOID
 ISO1050
 
 
 0
 8
 8
+ENNOID
+MAIN_FUSE
+
+
+0
+2
+2
 ENNOID
 Multicomp_MC9A12-1634_2x08x2.54mm_Straight
 http://www.farnell.com/datasheets/1520732.pdf
@@ -77,6 +112,13 @@ Quick_fit_terminal
 2
 1
 ENNOID
+SHV12-1AB5-7BL3K
+SHV12-1AB5-7BL3K
+SHV12-1AB5-7BL3K
+0
+4
+4
+ENNOID
 SOIC-8W_7.5x5.85mm_Pitch1.27mm
 
 SOIC{space}1.27
@@ -90,6 +132,20 @@ SSO{space}Stretched{space}SO{space}SOIC{space}Pitch{space}1.27
 0
 8
 8
+ENNOID
+Symbol_HighVoltage_Type2_CopperTop_Big
+Symbol,{space}HighVoltage,{space}Type2,{space}Copper{space}Top,{space}Big,
+Symbol,{space}HighVoltage,{space}Type2,{space}Copper{space}Top,{space}Big,
+0
+0
+0
+ENNOID
+Symbol_Highvoltage_Type2_CopperTop_Small
+Symbol,{space}Highvoltage,{space}Type{space}2,{space}Copper{space}Top,{space}Small,
+Symbol,{space}Highvoltage,{space}Type{space}2,{space}Copper{space}Top,{space}Small,
+0
+0
+0
 ENNOID
 TDK_Inductor
 Neosid,{space}Inductor,{space}SMs42,{space}Festinduktivitaet,{space}SMD,{space}magneticaly{space}shielded,

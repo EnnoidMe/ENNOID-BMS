@@ -613,8 +613,6 @@ Wire Wire Line
 Wire Wire Line
 	7150 2700 7000 2700
 Wire Wire Line
-	7000 2700 7000 3600
-Wire Wire Line
 	7000 3600 7150 3600
 Text Notes 5225 1250 2    39   ~ 8
 Precharge
@@ -945,4 +943,6 @@ F 3 "" H 9900 2050 50  0001 C CNN
 	1    9900 2050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7000 2700 7000 3600
 $EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
-Sheet 6 7
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -18,7 +18,7 @@ Text HLabel 24450 9900 2    50   Input ~ 0
 TX_USB
 Text HLabel 24450 10000 2    50   Input ~ 0
 RX_USB
-Text HLabel 9100 9300 0    50   Input ~ 0
+Text HLabel 8525 9300 0    50   Input ~ 0
 Safety
 Wire Wire Line
 	16300 11600 16300 11900
@@ -131,11 +131,11 @@ Wire Wire Line
 Wire Wire Line
 	6000 9550 6000 9600
 Wire Wire Line
-	9100 9300 9200 9300
+	8525 9300 9200 9300
 Text HLabel 7200 9950 0    50   BiDi ~ 0
 ChargeDetect
 Wire Wire Line
-	9200 9400 8600 9400
+	9200 9400 8125 9400
 Wire Wire Line
 	7000 9100 9200 9100
 Wire Wire Line
@@ -152,15 +152,11 @@ F 3 "" H 7800 9650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8600 9200 8600 9400
+	8125 9200 8125 9400
 Text HLabel 8950 10800 0    50   Input ~ 0
-PreChargeEnable
-Wire Wire Line
-	9200 10800 8950 10800
+DischargeNegEnable
 Text HLabel 8950 10700 0    50   Input ~ 0
-DischargeEnable
-Wire Wire Line
-	8950 10700 9200 10700
+DischargePosEnable
 Text HLabel 8950 10200 0    50   Input ~ 0
 PowerEnable
 Wire Wire Line
@@ -554,7 +550,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 10300 9200 10300
 Wire Wire Line
-	7800 9200 8600 9200
+	7800 9200 8125 9200
 Wire Wire Line
 	7800 9600 7800 9650
 Wire Wire Line
@@ -1042,8 +1038,17 @@ Wire Wire Line
 	23800 10100 24450 10100
 Text Label 24450 10100 0    50   ~ 0
 SS
-Text HLabel 8950 9500 0    50   Input ~ 0
+Text HLabel 8950 9900 0    50   Input ~ 0
 CoolingEnable
 Wire Wire Line
+	8950 9900 9200 9900
+Text HLabel 8950 9500 0    50   Input ~ 0
+PreChargeEnable
+Wire Wire Line
 	8950 9500 9200 9500
+Wire Wire Line
+	8950 10700 9200 10700
+Wire Wire Line
+	8950 10800 9200 10800
+NoConn ~ 9200 10600
 $EndSCHEMATC

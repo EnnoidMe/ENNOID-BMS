@@ -34,14 +34,12 @@ F 4 "BSS138" H 5700 6700 50  0001 C CNN "MPN"
 	1    5700 6700
 	1    0    0    -1  
 $EndComp
-Text HLabel 3700 6700 0    50   Input ~ 0
+Text HLabel 2850 6700 0    50   Input ~ 0
 Safety
 Wire Wire Line
 	5800 6900 5800 7050
 Wire Wire Line
 	3450 5050 5800 5050
-Wire Wire Line
-	5800 6500 5800 5050
 Connection ~ 5800 5050
 $Comp
 L Device:Thermistor_NTC TH1
@@ -162,8 +160,6 @@ Wire Wire Line
 	13600 7300 13500 7300
 Connection ~ 13500 7300
 Wire Wire Line
-	3450 3750 11900 3750
-Wire Wire Line
 	5800 5050 8600 5050
 Wire Wire Line
 	13500 4950 14650 4950
@@ -243,7 +239,7 @@ CoolingEnable
 Wire Wire Line
 	3450 4250 8900 4250
 Wire Wire Line
-	3700 6700 4050 6700
+	2850 6700 4050 6700
 $Comp
 L power:GND #PWR0116
 U 1 1 5DC38AB9
@@ -448,4 +444,8 @@ $EndComp
 Connection ~ 4050 6700
 Wire Wire Line
 	4050 6700 5500 6700
+Wire Wire Line
+	5800 5050 5800 6500
+Wire Wire Line
+	3450 3750 11900 3750
 $EndSCHEMATC

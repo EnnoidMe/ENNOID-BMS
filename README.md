@@ -10,27 +10,29 @@ The evolution of the BMS can be followed on this thread:
 
 https://endless-sphere.com/forums/viewtopic.php?f=14&t=92952
 
-Related ENNOID project:
-  - [Scalable Battery Pack](https://github.com/EnnoidMe/ENNOID-PACK)
-
 For ordering assembled BMS or battery packs, please visit:
 
 https://www.ennoid.me/battery/bms
+
+and
+
+https://www.ennoid.me/battery/penthouse
 
 ## Features:
 
 - Modular with master/slave topology
 - 12S, 15S & 18S slaves board options
-- Up to 400V operation
+- Master board options: High Voltage (Master-HV) & Low voltage (Master-LV)
 - Up to 500A continuous operation
-- Bolt-on isolated bi-directional current sensor
-- Bolt-on heavy duty contactors & direct 12V outputs for charge, discharge & pre-charge circuits 
-- Isolation between high voltage &  control circuits
+- Integrated bi-directional current sensor
+- 12V drive coil outputs for charge,  discharge & auxiliary circuits
 - Communication between slaves & master through a two-wire daisy chained ISOSPI interface
-- Isolated CAN bus interface
-- Isolated voltage measurement for battery, load & charger
+- Isolated CAN bus interface 
+- Isolated charger detection circuit
+- Voltage measurement for battery pack & load
+- Build-in precharge circuits
 - USB interface for programming and firmware upgrades through an easy to use graphical user interface
-- OLED Display & power button
+- OLED Display, serial output & power button
 - 0V to 5V cell voltage operation
 
 ## Documentation:
