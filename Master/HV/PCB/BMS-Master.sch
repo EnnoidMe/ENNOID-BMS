@@ -679,7 +679,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 2450 10100 2450
 Wire Wire Line
-	8700 2100 10100 2100
+	8700 2100 9175 2100
 Wire Wire Line
 	7150 1950 6800 1950
 Wire Wire Line
@@ -757,8 +757,6 @@ Wire Wire Line
 	7000 3600 7150 3600
 Wire Notes Line width 20
 	650  3000 5100 3000
-Wire Wire Line
-	8700 1750 10100 1750
 Wire Wire Line
 	9900 1650 10100 1650
 $Comp
@@ -1089,8 +1087,8 @@ F1 "switches.sch" 50
 F2 "DischargePosEnable" I L 7150 2050 50 
 F3 "ChargeEnable" I L 7150 1850 50 
 F4 "DischargeNegEnable" I L 7150 2150 50 
-F5 "DischargePos" I R 8700 1750 50 
-F6 "DischargeNeg" I R 8700 2100 50 
+F5 "DischargeNeg" I R 8700 1750 50 
+F6 "DischargePos" I R 8700 2100 50 
 F7 "Charge" I R 8700 2450 50 
 F8 "Safety" I L 7150 2550 50 
 F9 "NTC_Switch" I L 7150 1950 50 
@@ -1104,21 +1102,19 @@ Wire Wire Line
 $Comp
 L BMS-Master-rescue:Conn_01x02-Connector_Generic-BMS-Master-rescue J7
 U 1 1 5E5B3222
-P 8500 2950
-F 0 "J7" H 8579 2942 50  0000 L CNN
-F 1 "E-Stop" H 8579 2851 50  0000 L CNN
-F 2 "ENNOID:Pin_1x02-XL" H 8500 2950 50  0001 C CNN
-F 3 "~" H 8500 2950 50  0001 C CNN
-F 4 "282834-2 " H 8500 2950 50  0001 C CNN "MPN"
-	1    8500 2950
-	1    0    0    -1  
+P 9275 2300
+F 0 "J7" H 9354 2292 50  0000 L CNN
+F 1 "E-Stop" H 9354 2201 50  0000 L CNN
+F 2 "ENNOID:Pin_1x02-XL" H 9275 2300 50  0001 C CNN
+F 3 "~" H 9275 2300 50  0001 C CNN
+F 4 "282834-2 " H 9275 2300 50  0001 C CNN "MPN"
+	1    9275 2300
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7075 2950 7075 2550
+	7075 2550 7075 3475
 Wire Wire Line
-	8300 3050 7075 3050
+	9275 2100 10100 2100
 Wire Wire Line
-	7075 3050 7075 3475
-Wire Wire Line
-	7075 2950 8300 2950
+	8700 1750 10100 1750
 $EndSCHEMATC
