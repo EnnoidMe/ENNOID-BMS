@@ -1,4 +1,4 @@
-update=2020-01-01 8:01:53 AM
+update=2020-03-25 7:48:09 AM
 version=1
 last_client=kicad
 [general]
@@ -32,7 +32,7 @@ ERC_CheckBusToNetConflicts=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=BMS-Master.net
-LastSTEPExportPath=../../../../ENNOID-PACK/CAD/Penthouse-LV/PCB/BMS-Master-LV.step
+LastSTEPExportPath=../../../../../../Desktop/BMS-Master-LV.step
 LastIDFExportPath=
 LastVRMLExportPath=
 LastSpecctraDSNExportPath=

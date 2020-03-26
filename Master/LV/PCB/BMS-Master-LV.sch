@@ -739,7 +739,7 @@ U 1 1 5DC62CE9
 P 3325 1000
 F 0 "J4" H 3404 992 50  0000 L CNN
 F 1 "Power" H 3404 901 50  0000 L CNN
-F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBVA_2,5_2-G_1x02_P7.50mm_Vertical" H 3325 1000 50  0001 C CNN
+F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical" H 3325 1000 50  0001 C CNN
 F 3 "~" H 3325 1000 50  0001 C CNN
 F 4 "30.102 " H 3325 1000 50  0001 C CNN "MPN"
 	1    3325 1000

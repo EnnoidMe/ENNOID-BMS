@@ -1,4 +1,4 @@
-update=2019-11-04 1:42:58 PM
+update=2020-03-25 8:01:02 AM
 version=1
 last_client=kicad
 [general]
@@ -32,7 +32,7 @@ ERC_CheckBusToNetConflicts=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=BMS-Slave.net
-LastSTEPExportPath=
+LastSTEPExportPath=../../../../../../../Google Drive/ENNOID-BMS STEP/LTC6813.step
 LastIDFExportPath=
 LastVRMLExportPath=
 LastSpecctraDSNExportPath=
@@ -83,7 +83,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0

@@ -153,12 +153,8 @@ F 3 "" H 7800 9650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8600 9200 8600 9400
-Text HLabel 8950 10800 0    50   Input ~ 0
-PreChargeEnable
 Wire Wire Line
 	9200 10800 8950 10800
-Text HLabel 8950 10700 0    50   Input ~ 0
-DischargeEnable
 Wire Wire Line
 	8950 10700 9200 10700
 Text HLabel 8950 10200 0    50   Input ~ 0
@@ -1052,4 +1048,8 @@ NoConn ~ 9200 11200
 NoConn ~ 9200 10600
 NoConn ~ 9200 9500
 NoConn ~ 23800 10500
+Text HLabel 8950 10700 0    50   Input ~ 0
+DischargeEnable
+Text HLabel 8950 10800 0    50   Input ~ 0
+PreChargeEnable
 $EndSCHEMATC

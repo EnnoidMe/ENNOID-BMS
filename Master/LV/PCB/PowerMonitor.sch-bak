@@ -496,11 +496,8 @@ Wire Wire Line
 	14350 4450 17200 4450
 Wire Wire Line
 	14350 1525 14350 4450
-Connection ~ 14350 4450
 Wire Wire Line
 	14350 7350 15500 7350
-Wire Wire Line
-	14350 4450 14350 7350
 Wire Wire Line
 	4600 3500 5300 3500
 Text HLabel 4600 3500 0    50   Input ~ 0
@@ -591,4 +588,19 @@ Wire Wire Line
 Connection ~ 12975 1525
 Wire Wire Line
 	12975 1525 14350 1525
+$Comp
+L BMS-Master-LV-rescue:Conn_01x02-Connector_Generic-BMS-Master-rescue-BMS-Master-rescue J9
+U 1 1 5E74FFD4
+P 14150 7250
+F 0 "J9" H 14229 7242 50  0000 L CNN
+F 1 "Charger" H 14229 7151 50  0000 L CNN
+F 2 "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical" H 14150 7250 50  0001 C CNN
+F 3 "~" H 14150 7250 50  0001 C CNN
+F 4 "30.102 " H 14150 7250 50  0001 C CNN "MPN"
+	1    14150 7250
+	-1   0    0    -1  
+$EndComp
+Connection ~ 14350 4450
+Wire Wire Line
+	14350 7250 14350 4450
 $EndSCHEMATC
