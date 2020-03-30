@@ -93,8 +93,6 @@ F 4 "RC1206FR-07470KL" H 6550 6100 50  0001 C CNN "MPN"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4650 6100 5150 6100
-Wire Wire Line
 	6700 6100 6850 6100
 Wire Wire Line
 	7600 3900 7800 3900
@@ -1151,7 +1149,7 @@ U 1 1 5C40D81C
 P 9800 7800
 F 0 "U5" H 9800 8125 50  0000 C CNN
 F 1 "SFH617A-2X009T" H 9800 8034 50  0000 C CNN
-F 2 "Housings_DIP:SMDIP-4_W7.62mm" H 9800 7500 50  0001 C CNN
+F 2 "Housings_DIP:SMDIP-4_W9.53mm_Clearance8mm" H 9800 7500 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 9450 8100 50  0001 C CNN
 F 4 "SFH617A-2X009T" H 9800 7800 50  0001 C CNN "MPN"
 	1    9800 7800
@@ -1249,12 +1247,7 @@ Wire Notes Line
 Wire Notes Line
 	12150 2550 18550 2550
 Wire Wire Line
-	5150 7700 5150 6100
-Wire Wire Line
 	5150 7700 6350 7700
-Connection ~ 5150 6100
-Wire Wire Line
-	5150 6100 5950 6100
 $Comp
 L power:GND #PWR0209
 U 1 1 5C34BA1B
@@ -1635,10 +1628,10 @@ L ENNOID:AMC1301 U1
 U 1 1 5D7A0CF8
 P 9800 9950
 F 0 "U1" H 9800 10625 50  0000 C CNN
-F 1 "AMC1302" H 9800 10534 50  0000 C CNN
+F 1 "AMC1301 or AMC1302" H 9800 10534 50  0000 C CNN
 F 2 "Housings_SOIC:SSO-8_6.8x5.9mm_Pitch1.27mm_Clearance8mm" H 9800 9950 50  0001 C CNN
 F 3 "" H 9800 9950 50  0001 C CNN
-F 4 "AMC1302DWVR" H 9800 9950 50  0001 C CNN "MPN"
+F 4 "AMC1301DWV" H 9800 9950 50  0001 C CNN "MPN"
 	1    9800 9950
 	1    0    0    -1  
 $EndComp
@@ -2367,8 +2360,8 @@ F 4 "RC0603FR-073K3L" H 14750 10050 50  0001 C CNN "MPN"
 	1    14750 10050
 	0    1    1    0   
 $EndComp
-Text Notes 13850 10750 0    50   ~ 0
-Delta Vmax= Vshuntmax*41*(1/3.3+1+3.3)\nVshuntmax=0.05V\nDeltaVmax=0.269V
+Text Notes 14700 11725 0    50   ~ 0
+DeltaVmax= Vshuntmax*Factor*(1/3.3+1+3.3)\nFactor : \n	- AMC1301 = 8.2\n	- AMC1302 = 40\nVshuntmax:\n	- AMC1301 : 0.25V \n	- AMC1302 : 0.05V for AMC1302\nDeltaVmax=0.263V
 $Comp
 L Device:R R15
 U 1 1 5D52D241
@@ -2397,4 +2390,25 @@ $EndComp
 Connection ~ 8800 5900
 Wire Wire Line
 	8800 5900 9200 5900
+$Comp
+L BMS-Master-rescue:Conn_01x02-Connector_Generic-BMS-Master-rescue J?
+U 1 1 5E82887C
+P 4950 7425
+F 0 "J?" H 5029 7417 50  0000 L CNN
+F 1 "Charge" H 5029 7326 50  0000 L CNN
+F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBVA_2,5_2-G_1x02_P7.50mm_Vertical" H 4950 7425 50  0001 C CNN
+F 3 "~" H 4950 7425 50  0001 C CNN
+F 4 "30.102 " H 4950 7425 50  0001 C CNN "MPN"
+	1    4950 7425
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 6100 5150 6100
+Wire Wire Line
+	5150 7425 5150 6100
+Connection ~ 5150 6100
+Wire Wire Line
+	5150 6100 5950 6100
+Wire Wire Line
+	5150 7525 5150 7700
 $EndSCHEMATC
