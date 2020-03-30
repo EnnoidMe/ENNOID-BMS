@@ -93,8 +93,6 @@ F 4 "RC1206FR-07470KL" H 6550 6100 50  0001 C CNN "MPN"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4650 6100 5150 6100
-Wire Wire Line
 	6700 6100 6850 6100
 Wire Wire Line
 	7600 3900 7800 3900
@@ -1249,12 +1247,7 @@ Wire Notes Line
 Wire Notes Line
 	12150 2550 18550 2550
 Wire Wire Line
-	5150 7700 5150 6100
-Wire Wire Line
 	5150 7700 6350 7700
-Connection ~ 5150 6100
-Wire Wire Line
-	5150 6100 5950 6100
 $Comp
 L power:GND #PWR0209
 U 1 1 5C34BA1B
@@ -2397,4 +2390,25 @@ $EndComp
 Connection ~ 8800 5900
 Wire Wire Line
 	8800 5900 9200 5900
+$Comp
+L BMS-Master-rescue:Conn_01x02-Connector_Generic-BMS-Master-rescue J?
+U 1 1 5E82887C
+P 4950 7425
+F 0 "J?" H 5029 7417 50  0000 L CNN
+F 1 "Charge" H 5029 7326 50  0000 L CNN
+F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBVA_2,5_2-G_1x02_P7.50mm_Vertical" H 4950 7425 50  0001 C CNN
+F 3 "~" H 4950 7425 50  0001 C CNN
+F 4 "30.102 " H 4950 7425 50  0001 C CNN "MPN"
+	1    4950 7425
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 6100 5150 6100
+Wire Wire Line
+	5150 7425 5150 6100
+Connection ~ 5150 6100
+Wire Wire Line
+	5150 6100 5950 6100
+Wire Wire Line
+	5150 7525 5150 7700
 $EndSCHEMATC

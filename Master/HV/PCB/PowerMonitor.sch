@@ -2391,10 +2391,10 @@ Connection ~ 8800 5900
 Wire Wire Line
 	8800 5900 9200 5900
 $Comp
-L BMS-Master-rescue:Conn_01x02-Connector_Generic-BMS-Master-rescue J?
+L BMS-Master-rescue:Conn_01x02-Connector_Generic-BMS-Master-rescue J15
 U 1 1 5E82887C
 P 4950 7425
-F 0 "J?" H 5029 7417 50  0000 L CNN
+F 0 "J15" H 5029 7417 50  0000 L CNN
 F 1 "Charge" H 5029 7326 50  0000 L CNN
 F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBVA_2,5_2-G_1x02_P7.50mm_Vertical" H 4950 7425 50  0001 C CNN
 F 3 "~" H 4950 7425 50  0001 C CNN
