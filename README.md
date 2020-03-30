@@ -4,7 +4,9 @@ ENNOID-BMS is a configurable battery management system consisting of a Master bo
 
 ## Block diagram
 
-![alt text](Master/HV/PIC/Wiring.png)
+![alt text](Master/HV/PIC/Wiring-HV.png)
+
+![alt text](Master/LV/PIC/Wiring-LV.png)
 
 The evolution of the BMS can be followed on this thread:
 
@@ -41,7 +43,7 @@ https://www.ennoid.me/battery/penthouse
 
 ## Software:
 
-![alt text](Master/HV/PIC/Tool.png)
+![alt text](PIC/Tool.png)
 
 ENNOID-BMS GUI configuration tool:
 [ENNOID-BMS tool](https://github.com/EnnoidMe/ENNOID-BMS-Tool)
