@@ -6,7 +6,7 @@ ENNOID-BMS is an open-source configurable battery management system consisting o
 
 For ordering assembled BMS or battery packs, please visit:
 
-https://www.ennoid.me/battery/bms-gen-1
+https://www.ennoid.me/bms/gen-1
 
 ## Documentation:
 https://blog.ennoid.me/
